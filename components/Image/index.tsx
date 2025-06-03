@@ -10,7 +10,7 @@ interface CustomImageProps extends ImageProps {
 
 const Index = memo(({className, fallbackSrc, ...props}: CustomImageProps) => {
 
-    const {src, ...rest} = props;
+    const {src, alt, ...rest} = props;
 
     const [imageSrc, setImageSrc] = useState(src)
 
@@ -29,6 +29,7 @@ const Index = memo(({className, fallbackSrc, ...props}: CustomImageProps) => {
         <>
             <Image 
                 src={imageSrc}
+                alt={alt}
                 className={`${className}`}
                 onError={handleError}
                 {...rest}
