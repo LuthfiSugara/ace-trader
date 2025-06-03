@@ -1,0 +1,53 @@
+/* Menu Container */
+.menu {
+  position: fixed;
+  top: 72px;
+  left: 0;
+  width: 100%; /* Menu width */
+  height: 100%;
+  /* background: linear-gradient(180deg, #3b0076, #1e0036); */
+  background-color: #118C8A; /*linear-gradient(180deg, #0C0340, #1e0036); */
+  color: white;
+  z-index: 10;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 2px 0 5px rgba(4, 167, 131, 0.5);
+}
+  
+.menu.open {
+  transform: translateX(0);
+}
+  
+  /* Menu Header */
+.menuHeader {
+  padding: 20px;
+  border-bottom: 1px solid #0fa48d33;
+}
+  
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Menu Items */
+.menuItems {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+/* Menu Icon (always visible) */
+.menuIcon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1100;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+}
+  
