@@ -1,15 +1,11 @@
 'use client'
 
-import useBreakPoint from '@/hooks/useBreakPoint';
-import React, { useRef } from 'react'
 import { Image } from '..';
 
 const Index = () => {
-    const layoutRef = useRef<HTMLDivElement | null>(null);
-    const layoutWidth = useBreakPoint(layoutRef);
 
     return (
-        <div ref={layoutRef} className="pt-[50px] lg:pt-[25px] pb-[200px]" style={{background: 'linear-gradient(180deg, #118C8A 0%, #072B33 80.29%)'}}>
+        <div className="pt-[50px] lg:pt-[25px] pb-[200px]" style={{background: 'linear-gradient(180deg, #118C8A 0%, #072B33 80.29%)'}}>
             <div className={`p-[40px] lg:p-[60px] grid grid-cols-1 md:grid-cols-5 gap-8`}>
                 <div className="md:col-span-3 space-y-[32px] my-auto">
                     <h2 className="text-[40px] lg:text-[56px] leading-[50px] lg:leading-[72px] font-bold text-white">Trade our capital. Keep up to 90% profits</h2>
