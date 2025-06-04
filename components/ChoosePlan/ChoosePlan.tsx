@@ -228,10 +228,7 @@ const ChoosePlan = () => {
                             <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
-                            <div className='flex items-center gap-2'>
-                                <span className='text-[10px] px-2 py-0.5 bg-[#638388] rounded-full text-white'>1</span>
-                                <span className='text-white text-[14px]'>Student, Practitioner, Master</span>
-                            </div>
+                            <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
                             <p className='text-[#BDF6FF]'>10%</p>
                         </div>
                     </div>
@@ -242,10 +239,7 @@ const ChoosePlan = () => {
                             <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
-                            <div className='flex items-center gap-2'>
-                                <span className='text-[10px] px-2 py-0.5 bg-[#638388] rounded-full text-white'>1</span>
-                                <span className='text-white text-[14px]'>Student, Practitioner, Master</span>
-                            </div>
+                            <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
                             <p className='text-[#BDF6FF]'>5%</p>
                         </div>
                     </div>
@@ -256,10 +250,7 @@ const ChoosePlan = () => {
                             <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
-                            <div className='flex items-center gap-2'>
-                                <span className='text-[10px] px-2 py-0.5 bg-[#638388] rounded-full text-white'>1</span>
-                                <span className='text-white text-[14px]'>Student, Practitioner, Master</span>
-                            </div>
+                            <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
                             <p className='text-[#BDF6FF]'>3 days</p>
                         </div>
                     </div>
@@ -270,10 +261,7 @@ const ChoosePlan = () => {
                             <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
-                            <div className='flex items-center gap-2'>
-                                <span className='text-[10px] px-2 py-0.5 bg-[#638388] rounded-full text-white'>1</span>
-                                <span className='text-white text-[14px]'>Student, Practitioner, Master</span>
-                            </div>
+                            <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
                             <p className='text-[#BDF6FF]'>1:100</p>
                         </div>
                     </div>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className="max-w-[1400px] mx-auto px-[40px] lg:px-[60px]">
+      <div className="max-w-[1400px] mx-auto px-8 md:px-[40px] lg:px-[60px]">
         <WhyAceTrader />
         <ChoosePlan />
       </div>
