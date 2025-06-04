@@ -1,12 +1,13 @@
-import { Hero, } from "@/components";
+import { Hero, WhyAceTrader, } from "@/components";
 
 
 export default function Home() {
 
   
   return (
-    <div className="">
+    <div className=" mb-[500px]">
       <Hero />
+      <WhyAceTrader />
     </div>
   );
 }
