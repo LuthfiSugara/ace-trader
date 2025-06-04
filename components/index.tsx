@@ -4,7 +4,8 @@ import ImageExternal from "@/components/ImageExternal/ImageExternal";
 import Hero from "@/components/Hero/Hero";
 import WhyAceTrader from "@/components/WhyAceTrader/WhyAceTrader";
 import Footer from "@/components/Footer/Footer";;
-import ChoosePlan from "@/components/ChoosePlan//ChoosePlan"
+import ChoosePlan from "@/components/ChoosePlan//ChoosePlan";
+import Button from "@/components/Button/Button";
 
 export {
     Image,
@@ -14,4 +15,5 @@ export {
     WhyAceTrader,
     Footer,
     ChoosePlan,
+    Button,
 }
