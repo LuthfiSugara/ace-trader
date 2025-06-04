@@ -8,7 +8,7 @@ interface CustomImageProps extends ImageProps {
     fallbackSrc?: string;
 }
 
-const Index = memo(({className, fallbackSrc, ...props}: CustomImageProps) => {
+const ImageExternal = memo(({className, fallbackSrc, ...props}: CustomImageProps) => {
 
     const {src, alt, ...rest} = props;
 
@@ -51,7 +51,7 @@ const Index = memo(({className, fallbackSrc, ...props}: CustomImageProps) => {
     )
 });
 
-Index.displayName = "Image";
+ImageExternal.displayName = "ImageExternal";
 
-export default Index
+export default ImageExternal
 

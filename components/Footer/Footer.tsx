@@ -2,7 +2,7 @@ import React from 'react'
 import { Image } from '..'
 import Link from 'next/link'
 
-const Index = () => {
+const Footer = () => {
     return (
         <div className='bg-[#031F25] mt-[100px]'>
             <div className="max-w-[1400px] flex flex-col-reverse md:flex-row justify-between gap-12 md:gap-4 px-[40px] py-[60px]">
@@ -48,4 +48,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default Footer

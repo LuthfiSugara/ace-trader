@@ -3,11 +3,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import useDisclosure from '@/hooks/useDisclosure';
-import styles from './index.module.css';
+import styles from './Header.module.css';
 import Image from '@/components/Image';
 import useBreakPoint from '@/hooks/useBreakPoint';
 
-const Index = () => {
+const Header = () => {
 
   const layoutRef = useRef<HTMLDivElement | null>(null);
   const layoutWidth = useBreakPoint(layoutRef);
@@ -83,4 +83,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Header

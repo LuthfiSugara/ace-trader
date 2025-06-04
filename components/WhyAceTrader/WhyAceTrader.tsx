@@ -1,7 +1,7 @@
 import React from 'react'
 import { Image } from '..'
 
-const Index = () => {
+const WhyAceTrader = () => {
     return (
         <div className='max-w-[1400px] mx-auto px-[40px] lg:px-[60px] space-y-8'>
             <p className='text-[30px] lg:text-[40px] font-bold text-white text-center lg:text-start'>Why traders choose Ace Trader?</p>
@@ -32,4 +32,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default WhyAceTrader

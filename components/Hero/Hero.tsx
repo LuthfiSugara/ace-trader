@@ -2,7 +2,7 @@
 
 import { Image } from '..';
 
-const Index = () => {
+const Hero = () => {
 
     return (
         <div className="pt-[50px] lg:pt-[25px] pb-[50px]" style={{background: 'linear-gradient(180deg, #118C8A 0%, #072B33 80.29%)'}}>
@@ -23,4 +23,4 @@ const Index = () => {
     )
 }
 
-export default Index
+export default Hero
