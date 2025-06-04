@@ -5,7 +5,7 @@ export default function Home() {
 
   
   return (
-    <div className=" mb-[500px]">
+    <div>
       <Hero />
       <WhyAceTrader />
     </div>

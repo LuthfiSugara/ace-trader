@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import ImageExternal from "@/components/ImageExternal";
 import Hero from "@/components/Hero";
 import WhyAceTrader from "@/components/WhyAceTrader";
+import Footer from "@/components/Footer";;
 
 export {
     Image,
@@ -10,4 +11,5 @@ export {
     ImageExternal,
     Hero,
     WhyAceTrader,
+    Footer,
 }

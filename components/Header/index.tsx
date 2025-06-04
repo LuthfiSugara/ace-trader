@@ -32,16 +32,15 @@ const Index = () => {
     }
   };
 
-  console.log('width : ', layoutWidth);
 
   return (
     <header className='fixed top-0 left-0 right-0 z-50 shadow' id='navbar' ref={layoutRef} style={{background: isPageScrolled ? '#118C8A' : '#072B334D'}}>
-      <nav className='w-full flex justify-between items-center gap-4 mx-auto'>
-        <div className="w-full flex flex-row justify-between gap-4 items-center px-8 py-5" style={{display: layoutWidth < 950 ? 'none' : 'flex'}}>
+      <nav className='w-full max-w-[1400px] flex justify-between items-center gap-4 mx-auto'>
+        <div className="w-full flex flex-row justify-between gap-4 items-center px-[40px] py-5" style={{display: layoutWidth < 950 ? 'none' : 'flex'}}>
           <Link href="/" className=''>
             <Image src='/images/logo.png' alt='logo' width={100} height={100} className='w-[180px]' />
           </Link>
-          <div className='flex items-center gap-8'>
+          <div className='flex items-center gap-8 lg:pr-8'>
             <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>Home</Link>
             <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>About Us</Link>
             <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>Plans</Link>

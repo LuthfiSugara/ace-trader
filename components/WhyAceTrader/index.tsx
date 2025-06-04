@@ -3,7 +3,7 @@ import { Image } from '..'
 
 const Index = () => {
     return (
-        <div className='px-[20px] lg:px-[60px] space-y-8'>
+        <div className='max-w-[1400px] mx-auto px-[40px] lg:px-[60px] space-y-8'>
             <p className='text-[30px] lg:text-[40px] font-bold text-white text-center lg:text-start'>Why traders choose Ace Trader?</p>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
                 <div className='bg-[#06333D] rounded-xl overflow-hidden'>
