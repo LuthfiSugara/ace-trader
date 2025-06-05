@@ -6,6 +6,7 @@ import WhyAceTrader from "@/components/WhyAceTrader/WhyAceTrader";
 import Footer from "@/components/Footer/Footer";;
 import ChoosePlan from "@/components/ChoosePlan//ChoosePlan";
 import Button from "@/components/Button/Button";
+import WhhatTradersSaying from "@/components/WhatTradersSaying/WhatTradersSaying";
 
 export {
     Image,
@@ -16,4 +17,5 @@ export {
     Footer,
     ChoosePlan,
     Button,
+    WhhatTradersSaying,
 }
