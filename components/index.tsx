@@ -9,6 +9,7 @@ import Button from "@/components/Button/Button";
 import WhhatTradersSaying from "@/components/WhatTradersSaying/WhatTradersSaying";
 import Collapse from "@/components/Collapse/Collapse";
 import Faq from "@/components/Faq/Faq";
+import ContactUs from "./ContactUs/ContactUs";
 
 export {
     Image,
@@ -22,4 +23,5 @@ export {
     WhhatTradersSaying,
     Collapse,
     Faq,
+    ContactUs,
 }

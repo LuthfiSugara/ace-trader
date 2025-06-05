@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const ChoosePlan = () => {
     return (
-        <div className='mt-[100px] space-y-8'>
+        <div className='target-element mt-[100px] space-y-8' id='plans'>
             <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>Choose the plan that fits you!</h2>
 
             <div className='flex flex-wrap gap-[32px] bg-[#06333D] rounded-xl p-[32px]'>

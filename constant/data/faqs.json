@@ -1,12 +1,16 @@
 {
     "faqs": [
         {
-            "title": "title 1",
-            "description": "description 1"
+            "title": "How do you calculate the Daily Loss Limit?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
-            "title": "title 2",
-            "description": "description 2"
+            "title": "Is there a breach for inactivity?",
+            "description": "Yes. We will consider you inactive and your account will be breached if you do not have any trading activity on your account for 30 consecutive days."
+        },
+        {
+            "title": "How do you calculate the Max Drawdown (STATIC)?",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
         }
     ]
 }

@@ -41,12 +41,12 @@ const Header = () => {
             <Image src='/images/logo.png' alt='logo' width={100} height={100} className='w-[180px]' />
           </Link>
           <div className='flex items-center gap-8 lg:pr-8'>
-            <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>Home</Link>
-            <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>About Us</Link>
-            <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>Plans</Link>
-            <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>FAQs</Link>
-            <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium'>Contact Us</Link>
-            <Link href={process.env.APP_URL + '#'} className='text-white text-sm md:text-lg font-medium border border-white py-1 px-6 rounded-full'>Login</Link>
+            <Link href='/' className='text-white text-sm md:text-lg font-medium'>Home</Link>
+            <Link href={'about-us'} className='text-white text-sm md:text-lg font-medium'>About Us</Link>
+            <Link href={process.env.APP_URL + '#plans'} className='text-white text-sm md:text-lg font-medium'>Plans</Link>
+            <Link href={'/faqs'} className='text-white text-sm md:text-lg font-medium'>FAQs</Link>
+            <Link href={process.env.APP_URL + '#contact'} className='text-white text-sm md:text-lg font-medium'>Contact Us</Link>
+            <Link href={'/'} className='text-white text-sm md:text-lg font-medium border border-white py-1 px-6 rounded-full'>Login</Link>
           </div>
         </div>
         <div className="p-[14px]" style={{display: layoutWidth < 950 ? 'block' : 'none'}}>
@@ -68,12 +68,12 @@ const Header = () => {
           <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
             <ul className={styles.menuItems}>
               <div className="flex flex-col gap-4">
-                <Link onClick={onClose} href={process.env.APP_URL + '#'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Home</Link>
-                <Link onClick={onClose} href={process.env.APP_URL + '#'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>About Us</Link>
-                <Link onClick={onClose} href={process.env.APP_URL + '#'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Plans</Link>
-                <Link onClick={onClose} href={process.env.APP_URL + '#'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>FAQs</Link>
-                <Link onClick={onClose} href={process.env.APP_URL + '#'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Contact Us</Link>
-                <Link onClick={onClose} href={process.env.APP_URL + '#'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Login</Link>
+                <Link onClick={onClose} href={'/'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Home</Link>
+                <Link onClick={onClose} href={'about-us'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>About Us</Link>
+                <Link onClick={onClose} href={process.env.APP_URL + '#plans'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Plans</Link>
+                <Link onClick={onClose} href={'faqs'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>FAQs</Link>
+                <Link onClick={onClose} href={process.env.APP_URL + '#contact'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Contact Us</Link>
+                <Link onClick={onClose} href={'/'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Login</Link>
               </div>
             </ul>
           </div>

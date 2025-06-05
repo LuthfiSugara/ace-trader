@@ -1,11 +1,10 @@
-import { ChoosePlan, Hero, WhyAceTrader, } from "@/components";
+import { ChoosePlan, ContactUs, Hero, WhyAceTrader, } from "@/components";
 import EverythingYouNeedToKnow from "@/components/EverythingYouNeedToKnow/EverythingYouNeedToKnow";
 import WhatTradersSaying from "@/components/WhatTradersSaying/WhatTradersSaying";
 
 
 export default function Home() {
 
-  
   return (
     <div>
       <Hero />
@@ -14,6 +13,7 @@ export default function Home() {
         <ChoosePlan />
         <WhatTradersSaying />
         <EverythingYouNeedToKnow />
+        <ContactUs />
       </div>
     </div>
   );
