@@ -1,4 +1,5 @@
 import { ChoosePlan, Hero, WhyAceTrader, } from "@/components";
+import EverythingYouNeedToKnow from "@/components/EverythingYouNeedToKnow/EverythingYouNeedToKnow";
 import WhatTradersSaying from "@/components/WhatTradersSaying/WhatTradersSaying";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
         <WhyAceTrader />
         <ChoosePlan />
         <WhatTradersSaying />
+        <EverythingYouNeedToKnow />
       </div>
     </div>
   );

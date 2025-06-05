@@ -35,3 +35,16 @@ body {
 
 ::-webkit-scrollbar{width:2px;height:2px;}
 ::-webkit-scrollbar-button{width:2px;height:2px;}
+
+.image-wrapper {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.rotating-image {
+  transition: transform 0.5s ease;
+}
+
+.rotated .rotating-image {
+  transform: rotate(180deg);
+}

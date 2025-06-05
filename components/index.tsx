@@ -7,6 +7,8 @@ import Footer from "@/components/Footer/Footer";;
 import ChoosePlan from "@/components/ChoosePlan//ChoosePlan";
 import Button from "@/components/Button/Button";
 import WhhatTradersSaying from "@/components/WhatTradersSaying/WhatTradersSaying";
+import Collapse from "@/components/Collapse/Collapse";
+import Faq from "@/components/Faq/Faq";
 
 export {
     Image,
@@ -18,4 +20,6 @@ export {
     ChoosePlan,
     Button,
     WhhatTradersSaying,
+    Collapse,
+    Faq,
 }
