@@ -12,6 +12,7 @@ import Faq from "@/components/Faq/Faq";
 import ContactUs from "@/components/ContactUs/ContactUs";
 import HeroAboutUs from "@/components/HeroAboutUs/HeroAboutUs";
 import PeopleBehindAceTrader from "@/components/PeopleBehindAceTrader/PeopleBehindAceTrader";
+import ListFaqs from "@/components/ListFaqs/ListFaqs";
 
 export {
     Image,
@@ -28,4 +29,5 @@ export {
     ContactUs,
     HeroAboutUs,
     PeopleBehindAceTrader,
+    ListFaqs,
 }
