@@ -20,7 +20,7 @@ const Faq = ({title, description, className}: FaqProps) => {
         >
             <div className="flex justify-between items-center gap-4 px-[20px] sm:px-[40px] py-[13px]">
                 <p className='font-bold text-lg'>{title}</p>
-                <Image src='/icons/chevron-down.png' alt='collapse' width={1100} height={100} className={`transition-transform duration-500 ${isOpen ? 'rotate-180' : 'rotate-0'} w-[18px] h-[8px]`} />
+                <Image src='/icons/chevron-down.png' alt='collapse' width={100} height={100} className={`transition-transform duration-500 ${isOpen ? 'rotate-180' : 'rotate-0'} w-[18px] h-[8px]`} />
             </div>
             <Collapse show={isOpen} startingHeight={0} className='bg-[#031F25]'>
                 <div className='pxx-[20px] sm:px-[40px] py-[20px]'>
