@@ -28,21 +28,31 @@ const ChoosePlan = () => {
 
     const {isOpen, onClose, onOpen} = useDisclosure(),
     [planInformation, setPlanInformation] = useState<PlansProps>(),
-    [information, setInformation] = useState<string[]>([""]);
+    [information, setInformation] = useState<string[]>([""]),
+    [filter, setFilter] = useState({
+        plans: 'standard',
+        account_balance: 5,
+        product_type: '1-step',
+        platform: 'Ctrader'
+    });
+
+    const plans = ['standard', 'crypto', 'instant'],
+    accountBalance = [5, 10, 25, 50, 100, 250, 450],
+    productType = ['1-step', '2-step'],
+    platform = ['Ctrader', 'dxtrade', 'match-trader'];
+
+    const updateFilter = (key: keyof typeof filter, value: string | number) => {
+        setFilter(prev => ({
+            ...prev,
+            [key]: value
+        }));
+    };
 
     useEffect(() => {
         fetch('/data/info-plan.json')
         .then(res => res.json())
         .then(data => setPlanInformation(data));
     }, []);
-
-    console.log('planInformation : ', planInformation);
-
-
-    // const plans = ['standard', 'crypto', 'instant'],
-    // accountBalance = [5, 10, 25, 50, 100, 250, 450],
-    // productType = ['1-step', '2-step'],
-    // platform = ['ctrader', 'dxtrade', 'match-trader'];
 
     return (
         <div className='target-element mt-[100px] space-y-8' id='plans'>
@@ -52,42 +62,65 @@ const ChoosePlan = () => {
                 <div className='space-y-3'>
                     <p className='text-white font-semibold'>Plan</p>
                     <div className='flex flex-wrap gap-4'>
-                        <Button className='bg-[#05CBE966] text-white border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white'>Standard</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white'>Crypto</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white'>Instant</Button>
+                        {plans.map((plan, index) => {
+                            return (
+                                <Button
+                                    key={index}
+                                    onClick={() => updateFilter('plans', plan)}
+                                    className={`${filter.plans.toLowerCase() == plan.toLowerCase() ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white`}
+                                >
+                                    {plan}
+                                </Button>
+                            )
+                        })}
                     </div>
                 </div>
                 <div className='space-y-3'>
                     <p className='text-white font-semibold'>Account Balance</p>
                     <div className='flex flex-wrap gap-4'>
-                        <Button className='bg-[#05CBE966] text-white border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>5K</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>10K</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>25K</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>50K</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>100K</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>250K</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>450K</Button>
+                        {accountBalance.map((balance, index) => {
+                            return (
+                                <Button 
+                                    key={index} 
+                                    onClick={() => updateFilter('account_balance', balance)}
+                                    className={`${balance === filter.account_balance ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                >
+                                    {balance}K
+                                </Button>   
+                            )
+                        })}
                     </div>
                 </div>
                 <div className='space-y-3'>
                     <p className='text-white font-semibold'>Product Type</p>
                     <div className='flex flex-wrap gap-4'>
-                        <Button className='bg-[#05CBE966] text-white border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>1-Step</Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>2-Step</Button>
+                        {productType.map((type, index) => {
+                            return (
+                                <Button 
+                                    key={index}
+                                    onClick={() => updateFilter('product_type', type)}
+                                    className={`${type === filter.product_type ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                >
+                                    {type}
+                                </Button>
+                            )
+                        })};
                     </div>
                 </div>
                 <div className='space-y-3'>
                     <p className='text-white font-semibold'>Platform</p>
                     <div className='flex flex-wrap gap-4'>
-                        <Button className='bg-[#05CBE966] text-white border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>
-                            <Image src='/icons/Ctrader.png' alt='ctrader' width={100} height={100} className='w-[100px]' />
-                        </Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>
-                            <Image src='/icons/dxtrade.png' alt='dxtrade' width={100} height={100} className='w-[100px]' />
-                        </Button>
-                        <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white'>
-                            <Image src='/icons/match-trader.png' alt='match trader' width={100} height={100} className='w-[100px]' />
-                        </Button>
+                        {platform.map((data, index) => {
+                            return (
+                                <Button 
+                                    key={index}
+                                    onClick={() => updateFilter('platform', data)}
+                                    className={`${data === filter.platform ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                >
+                                    <Image src={`/icons/${data}.png`} alt='ctrader' width={100} height={100} className='w-[100px]' />
+                                </Button>
+                            )
+                        })}
                     </div>
                 </div>
             </div>
