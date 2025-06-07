@@ -26,7 +26,7 @@ const Footer = () => {
                 <div className="flex flex-wrap gap-8 mx-auto md:mx-0">
                     <div className='flex flex-col gap-6'>
                         <p className='text-white font-bold'>Quick Link</p>
-                        <Link href='' className='text-[#3AA7B8]'>FAQ</Link>
+                        <Link href='faqs' className='text-[#3AA7B8]'>FAQ</Link>
                         <Link href='' className='text-[#3AA7B8]'>Trading Guide</Link>
                         <Link href='' className='text-[#3AA7B8]'>Risk Disclosure</Link>
                     </div>

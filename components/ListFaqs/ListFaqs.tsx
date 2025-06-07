@@ -1,76 +1,47 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import Faq from '../Faq/Faq';
-import Dropdown, { FaqProps } from '../Dropdown/Dropdown';
-import axios from 'axios';
+import Faq, { FaqProps } from '../Faq/Faq';
+import Dropdown,{ FaqCategoryProps } from '../Dropdown/Dropdown';
 
 const ListFaqs = () => {
 
-    const [categories, setCategories] = useState([]),
-    [loadingCategories, setLoadingCategories] = useState(true),
-    [idCategory, setIdCategory] = useState(-1),
-    [faqData, setFaqData] = useState([]),
-    [loadingFaqs, setLoadingFaq] = useState(true);
+    const [idCategory, setIdCategory] = useState(-1),
+    [faqs, setFaqs] = useState([]),
+    [categories, setCategories] = useState([]);
 
-    const handleSelect = (option: FaqProps) => {
+    const handleSelect = (option: FaqCategoryProps) => {
         setIdCategory(option.id);
     };
 
-    const fetchCategories = async() => {
-        await axios
-        .get('/api/faq-categories')
-        .then((res) => {
-            setCategories(res.data.categories);
-            setLoadingCategories(false);
-        })
-        .catch((err) => {
-            console.error('Failed to fetch JSON:', err);
-        });
-    }
-
-    const fetchFaqs = async() => {
-        await axios
-        .get('/api/list-faqs')
-        .then((res) => {
-            console.log('res : ', res.data.faqs);
-            setFaqData(res.data.faqs);
-            setLoadingFaq(false);
-        })
-        .catch((err) => {
-            console.error('Failed to fetch JSON:', err);
-        });
-    }
+    useEffect(() => {
+        fetch('/data/faqs.json')
+        .then(res => res.json())
+        .then(data => setFaqs(data.faqs));
+    }, []);
 
     useEffect(() => {
-        fetchCategories();
-        fetchFaqs();
+        fetch('/data/categories.json')
+        .then(res => res.json())
+        .then(data => setCategories(data.categories));
     }, []);
 
     return (
-        <div className='px-8 lg:px-[40px]'>
+        <div className='max-w-[1400px] mx-auto px-8 lg:px-[40px]'>
             <h2 className='text-center text-[30px] lg:text-[40px] font-bold text-white w-full md:w-[75%] mx-auto'>Got questions? Find everything you need to know about our programs, rules, & how to get started.</h2>
 
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6 pt-[100px]'>
                 
-                <Dropdown loading={loadingCategories} options={categories} onSelect={handleSelect} />
+                <Dropdown options={categories} onSelect={handleSelect} />
 
-                {loadingFaqs ? (
-                    <div className="animate-pulse md:col-span-2 bg-[#06333D] rounded-xl space-y-2">
-                        <div className="bg-gray-200 h-10 rounded-lg"></div>
-                        <div className="bg-gray-200 h-10 rounded-lg"></div>
-                        <div className="bg-gray-200 h-10 rounded-lg"></div>
-                        <div className="bg-gray-200 h-10 rounded-lg"></div>
-                    </div>
-
-                ) : (
+                {(
                     <div className='md:col-span-2 bg-[#06333D] rounded-xl h-fit'>
-                        {faqData && faqData.map((faq: {category: number, title: string; description: string}, index: number) => {
+                        {faqs.map((faq: FaqProps, index: number) => {
                             return idCategory != -1 && idCategory === faq.category ? (
-                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqData.length -1 && faqData.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
+                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
                             ) : idCategory === -1 ?(
-                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqData.length -1 && faqData.length > 1 ? 'border-b border-b-[#2F6F78]' : ''}`} />
+                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1 ? 'border-b border-b-[#2F6F78]' : ''}`} />
                             ) : (
                                 null
                             )

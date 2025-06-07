@@ -2,15 +2,15 @@
     "categories": [
         {
             "id": 1,
-            "name": "Category 01"
+            "name": "Trading Rules"
         },
         {
             "id": 2,
-            "name": "Category 02"
+            "name": "Funded Accounts"
         },
         {
             "id": 3,
-            "name": "Category 03"
+            "name": "General"
         }
     ]
 }

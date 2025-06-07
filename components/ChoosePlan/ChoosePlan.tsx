@@ -1,11 +1,69 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Button from '../Button/Button'
-import { Image } from '..'
+import { Dialog, Image } from '..'
 import Link from 'next/link'
+import useDisclosure from '@/hooks/useDisclosure';
+
+interface ButtonInfoProps {
+    onClick: () => void;
+}
+
+interface PlansProps {
+  profit_target: string[];
+  maximum_loss: string[];
+  maximum_daily_loss: string[];
+  minimum_trading_days: string[];
+  leverage: string[];
+}
+
+const ButtonInfo = ({onClick}: ButtonInfoProps) => {
+    return (
+        <Image onClick={onClick} src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px] cursor-pointer' />
+    )
+}
 
 const ChoosePlan = () => {
+
+    const {isOpen, onClose, onOpen} = useDisclosure(),
+    [planInformation, setPlanInformation] = useState<PlansProps>(),
+    [information, setInformation] = useState<string[]>([""]);
+    
+    // const infoPlan = {
+    //     "profit_target": [
+    //         "To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period."
+    //     ],
+    //     "maximum_loss": [
+    //         "The Maximum Loss Limit is the amount your equity or balance can't go below. This rule is set to 10% of the initial account size. For example, if you have a $100.000 account and the Maximum Loss Limit is 10%, your equity or balance can't go below $90.000 at any moment."
+    //     ],
+    //     "maximum_daily_loss": [
+    //         "The Maximum Daily Loss is the amount you are allowed to lose every day.",
+    //         "<br />",
+    //         "For the purpose of this rule, the higher value between equity and balance will be used. This rule is set as a % of the starting equity or balance of every day. The rule states that the equity of the day, which is the result of the currently floating PnL (Profit and Loss) in sum with all closed positions of that day must not hit the Maximum Daily Loss Limit.",
+    //         "<br />",
+    //         "Example:",
+    //         "You have a master account. At the start of day 5, your account balance is $105.000 and your equity is $107.000. The Daily Loss Limit is 5% from the starting equity for this example, this means that your equity on day 5 can't go lower than: Maximum Daily loss = $107.000 starting equity balance * 5% Daily Loss Limit = $5.350 Daily Loss Limit. $107.000 starting equity balance on day 5 - $5.350 Daily Loss Limit= $101.650 If your equity goes below $101.650 at any certain moment of time on day 5 your account will be closed."
+    //     ],
+    //     "minimum_trading_days": [
+    //         "During each stage of our evaluation, there are a minimum of 3 trading days. A day is counted as a trading day if at least one trade is executed. Holding a trade over multiple days will not count as multiple trading days.",
+    //         "<br />",
+    //         "Note:",
+    //         "If you reach the profit target before completing the 3 minimum trading days, it is allowed to execute 0.01 lot trades on the remaining days."
+    //     ],
+    //     "leverage": [
+    //         "Trade with up to 1:100 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:100, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."
+    //     ]
+    // }
+
+    useEffect(() => {
+        fetch('/data/info-plan.json')
+        .then(res => res.json())
+        .then(data => setPlanInformation(data));
+    }, []);
+
+    console.log('planInformation : ', planInformation);
+
 
     // const plans = ['standard', 'crypto', 'instant'],
     // accountBalance = [5, 10, 25, 50, 100, 250, 450],
@@ -92,7 +150,12 @@ const ChoosePlan = () => {
                             <td className='border-b border-b-[#072B33]'>
                                 <div className="flex items-center gap-2 p-[20px]">
                                     <p className='text-white'>Profit Target</p>
-                                    <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                                    <ButtonInfo 
+                                        onClick={() => {
+                                            setInformation(planInformation?.profit_target ?? []);
+                                            onOpen();
+                                        }} 
+                                    />
                                 </div>
                             </td>
                             <td className='border-b border-b-[#072B33]'>
@@ -109,7 +172,12 @@ const ChoosePlan = () => {
                             <td className='border-b border-b-[#072B33]'>
                                 <div className="flex items-center gap-2 p-[20px]">
                                     <p className='text-white'>Maximum Loss</p>
-                                    <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                                    <ButtonInfo 
+                                        onClick={() => {
+                                            setInformation(planInformation?.maximum_loss ?? []);
+                                            onOpen();
+                                        }} 
+                                    />
                                 </div>
                             </td>
                             <td className='border-b border-b-[#072B33]'>
@@ -126,7 +194,12 @@ const ChoosePlan = () => {
                             <td className='border-b border-b-[#072B33]'>
                                 <div className="flex items-center gap-2 p-[20px]">
                                     <p className='text-white'>Maximum Daily Loss</p>
-                                    <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                                    <ButtonInfo 
+                                        onClick={() => {
+                                            setInformation(planInformation?.maximum_daily_loss ?? []);
+                                            onOpen();
+                                        }} 
+                                    />
                                 </div>
                             </td>
                             <td className='border-b border-b-[#072B33]'>
@@ -143,7 +216,12 @@ const ChoosePlan = () => {
                             <td className='border-b border-b-[#072B33]'>
                                 <div className="flex items-center gap-2 p-[20px]">
                                     <p className='text-white'>Minimum Trading Days</p>
-                                    <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                                    <ButtonInfo 
+                                        onClick={() => {
+                                            setInformation(planInformation?.minimum_trading_days ?? []);
+                                            onOpen();
+                                        }} 
+                                    />
                                 </div>
                             </td>
                             <td className='border-b border-b-[#072B33]'>
@@ -160,7 +238,12 @@ const ChoosePlan = () => {
                             <td className='border-b border-b-[#072B33]'>
                                 <div className="flex items-center gap-2 p-[20px]">
                                     <p className='text-white'>Leverage</p>
-                                    <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                                    <ButtonInfo 
+                                        onClick={() => {
+                                            setInformation(planInformation?.leverage ?? []);
+                                            onOpen();
+                                        }} 
+                                    />
                                 </div>
                             </td>
                             <td className='border-b border-b-[#072B33]'>
@@ -204,7 +287,12 @@ const ChoosePlan = () => {
                     <div className='space-y-2 border-b border-b-[#072B33] py-4'>
                         <div className="flex items-center gap-2">
                             <p className='text-[#aeaeae] text-[14px]'>Profit Target</p>
-                            <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                            <ButtonInfo 
+                                onClick={() => {
+                                    setInformation(planInformation?.profit_target ?? []);
+                                    onOpen();
+                                }} 
+                            />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
                             <div className='flex items-center gap-2'>
@@ -232,7 +320,12 @@ const ChoosePlan = () => {
                     <div className='space-y-2 border-b border-b-[#072B33] py-4'>
                         <div className="flex items-center gap-2">
                             <p className='text-[#aeaeae] text-[14px]'>Maximum Loss</p>
-                            <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                            <ButtonInfo 
+                                onClick={() => {
+                                    setInformation(planInformation?.maximum_loss ?? []);
+                                    onOpen();
+                                }} 
+                            />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
                             <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
@@ -243,7 +336,12 @@ const ChoosePlan = () => {
                     <div className='space-y-2 border-b border-b-[#072B33] py-4'>
                         <div className="flex items-center gap-2">
                             <p className='text-[#aeaeae] text-[14px]'>Maximum Daily Loss</p>
-                            <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                            <ButtonInfo 
+                                onClick={() => {
+                                    setInformation(planInformation?.maximum_daily_loss ?? []);
+                                    onOpen();
+                                }} 
+                            />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
                             <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
@@ -254,7 +352,12 @@ const ChoosePlan = () => {
                     <div className='space-y-2 border-b border-b-[#072B33] py-4'>
                         <div className="flex items-center gap-2">
                             <p className='text-[#aeaeae] text-[14px]'>Minimum Trading Days</p>
-                            <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                            <ButtonInfo 
+                                onClick={() => {
+                                    setInformation(planInformation?.minimum_trading_days ?? []);
+                                    onOpen();
+                                }} 
+                            />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
                             <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
@@ -265,7 +368,12 @@ const ChoosePlan = () => {
                     <div className='space-y-2 border-b border-b-[#072B33] py-4'>
                         <div className="flex items-center gap-2">
                             <p className='text-[#aeaeae] text-[14px]'>Leverage</p>
-                            <Image src='/icons/info.png' alt='info' width={100} height={100} className='w-[14px] h-[14px]' />
+                            <ButtonInfo 
+                                onClick={() => {
+                                    setInformation(planInformation?.leverage ?? []);
+                                    onOpen();
+                                }} 
+                            />
                         </div>
                         <div className='flex justify-between items-center gap-4'>
                             <p className='text-white text-[14px]'>Student, Practitioner, Master</p>
@@ -275,6 +383,16 @@ const ChoosePlan = () => {
 
                 </div>
             </div>
+
+            <Dialog
+                isOpen={isOpen} 
+                onClose={onClose} 
+                size='xs'
+            >
+                <div className='bg-[#06333D] p-[8]'>
+                    <div className='text-[#BDF6FF]' dangerouslySetInnerHTML={{ __html: information }}></div>
+                </div>
+            </Dialog>
         </div>
     )
 }

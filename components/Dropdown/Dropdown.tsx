@@ -4,62 +4,55 @@
 import { useState } from 'react';
 import { Button, Image } from '..';
 
-export interface FaqProps {
+export interface FaqCategoryProps {
     id: number;
     name: string;
 }
 
 interface DropdownProps {
-    loading: boolean;
-    options?: Array<FaqProps>;
-    onSelect: (value: FaqProps) => void;
+    options?: Array<FaqCategoryProps>;
+    onSelect: (value: FaqCategoryProps) => void;
 }
 
-const Dropdown = ({loading, options, onSelect}: DropdownProps) => {
+const Dropdown = ({options, onSelect}: DropdownProps) => {
 
     const [open, setOpen] = useState(false);
-    const [selected, setSelected] = useState<FaqProps | null>(null);
+    const [selected, setSelected] = useState<FaqCategoryProps | null>(null);
 
     const toggle = () => setOpen(!open);
-    const handleSelect = (option: FaqProps) => {
+    const handleSelect = (option: FaqCategoryProps) => {
         setSelected(option);
         onSelect(option);
         setOpen(false);
         return option;
     };
 
-    return loading ? (
-        <div className='animate-pulse space-y-2'>
-            <div className="h-10 rounded-lg bg-gray-200"></div>
-            <div className="h-10 rounded-lg bg-gray-200"></div>
-            <div className="h-10 rounded-lg bg-gray-200"></div>
-        </div>
-    ) : (
+    return (
         <div>
             <div className="md:hidden relative">
-            <button
-                onClick={toggle}
-                className={`w-full flex justify-between items-center px-4 py-2 bg-[#06333D] rounded shadow ${selected ? 'text-white' : 'text-[#2F6F78]'}`}
-            >
-                {selected?.name || 'Select a category'}
-                <Image src='/icons/chevron-down.png' alt='collapse' width={100} height={100} className={` transition-transform duration-500 ${open ? 'rotate-180' : 'rotate-0'} w-[18px] h-[8px]`} />
-            </button>
-
-            <ul
-                className={`absolute z-10 mt-2 w-full bg-[#06333D] text-[#2F6F78] rounded shadow transition-all duration-300 overflow-hidden ${
-                open ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
-                }`}
-            >
-                {options && options?.map((option, index) => (
-                <li
-                    key={index}
-                    onClick={() => handleSelect(option)}
-                    className={`px-4 py-2 hover:bg-gray-50 cursor-pointer ${selected?.id === option.id ? 'text-white' : 'text-[#2F6F78]'}`}
+                <button
+                    onClick={toggle}
+                    className={`w-full flex justify-between items-center px-4 py-2 bg-[#06333D] rounded shadow ${selected ? 'text-white' : 'text-[#2F6F78]'}`}
                 >
-                    {option.name}
-                </li>
-                ))}
-            </ul>
+                    {selected?.name || 'Select a category'}
+                    <Image src='/icons/chevron-down.png' alt='collapse' width={100} height={100} className={` transition-transform duration-500 ${open ? 'rotate-180' : 'rotate-0'} w-[18px] h-[8px]`} />
+                </button>
+
+                <ul
+                    className={`absolute z-10 mt-2 w-full bg-[#06333D] text-[#2F6F78] rounded shadow transition-all duration-300 overflow-hidden ${
+                    open ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0 pointer-events-none'
+                    }`}
+                >
+                    {options && options?.map((option, index) => (
+                    <li
+                        key={index}
+                        onClick={() => handleSelect(option)}
+                        className={`px-4 py-2 hover:bg-gray-50 cursor-pointer ${selected?.id === option.id ? 'text-white' : 'text-[#2F6F78]'}`}
+                    >
+                        {option.name}
+                    </li>
+                    ))}
+                </ul>
             </div>
 
             <div className='hidden bg-[#06333D] rounded-xl md:flex flex-col h-fit'>
