@@ -6,6 +6,12 @@ import { Image } from '..'
 import Link from 'next/link'
 
 const ChoosePlan = () => {
+
+    // const plans = ['standard', 'crypto', 'instant'],
+    // accountBalance = [5, 10, 25, 50, 100, 250, 450],
+    // productType = ['1-step', '2-step'],
+    // platform = ['ctrader', 'dxtrade', 'match-trader'];
+
     return (
         <div className='target-element mt-[100px] space-y-8' id='plans'>
             <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>Choose the plan that fits you!</h2>
@@ -14,6 +20,7 @@ const ChoosePlan = () => {
                 <div className='space-y-3'>
                     <p className='text-white font-semibold'>Plan</p>
                     <div className='flex flex-wrap gap-4'>
+                        {}
                         <Button className='bg-[#05CBE966] text-white border border-[#3AA7B8] p-[16px] rounded-[16px] hover:bg-[#05CBE966] hover:text-white'>Standard</Button>
                         <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[16px] rounded-[16px] hover:bg-[#05CBE966] hover:text-white'>Crypto</Button>
                         <Button className='text-[#BDF6FF] border border-[#3AA7B8] p-[16px] rounded-[16px] hover:bg-[#05CBE966] hover:text-white'>Instant</Button>
