@@ -9,6 +9,6 @@ export async function GET() {
     const res = await axios.get(url);
     return NextResponse.json(res.data);
   } catch (err) {
-    return NextResponse.json({ error: 'Failed to fetch' }, { status: 500 });
+    return NextResponse.json({ error: err }, { status: 500 });
   }
 }
