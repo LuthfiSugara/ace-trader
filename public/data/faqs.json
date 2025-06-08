@@ -2,172 +2,55 @@
     "faqs": [
         {
             "category": 1,
-            "title": "What is the difference between a Hard Breach and Soft Breach rule?",
-            "description": [
-                "<p class='mb-2'>● Soft breach means that we will close all trades that have violated the rule. However, you can continue trading in your Assessment or Funded Account.</p>",
-                "<p>● Hard breach means that you violated either the Daily Loss Limit or Max Drawdown rule. Both rules constitute a hard breach. In the event you have a hard breach, you will fail the Assessment or have your Funded Account taken away.</p>"
-            ]
-        },
-        {
-            "category": 1,
-            "title": "How do you calculate the Daily Loss Limit?",
-            "description": [
-                "The Daily Loss Limit is the maximum your account can lose in any given day. Daily Loss Limit is calculated using the previous day balance which resets at 5 PM EST. Daily Stop compounds with the increase in your account."
-            ]
-        },
-        {
-            "category": 1,
-            "title": "How do you calculate the Max Drawdown?",
-            "description": [
-                "Maximum drawdown is the maximum your account can drawdown before you would hard breach your account. When you open the account, your Maximum Drawdown is set at 8% of your starting balance. This 8% is static and does not trail."
-            ]
-        },
-        {
-            "category": 1,
-            "title": "Can I hold positions over the weekend?",
-            "description": [
-                "Positions can be held over the weekend although only Crypto allows weekend trading"
-            ]
-        },
-        {
-            "category": 1,
-            "title": "What is 1 lot equal to on the Trading Platform?",
-            "description": [
-                "<p>● Forex - 1 lot = $100k notional</p>",
-                "<p>● Index - 1 lot = 1 Contracts</p>",
-                "<p class='ml-6'>Exceptions:</p>",
-                "<p class='ml-10'>SPX500: 1 lot = 10 contracts</p>",
-                "<p class='ml-10'>JPN225: 1 lot = 500 contracts</p>",
-                "<p>● Cryptos - 1 lot = 1 coin</p>",
-                "<p>● Silver - 1 lot = 5000 ounces</p>",
-                "<p>● Gold - 1 lot = 100 ounces",
-                "<p>● Oil - 1 lot = 100 barrels"
-            ]
-        },
-        {
-            "category": 1,
-            "title": "Is there a breach for inactivity?",
-            "description": [
-                "Yes. We will consider you inactive and your account will be breached if you do not have any trading activity on your account for 30 consecutive days."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "How Long does it take to receive my funded account?",
-            "description": [
-                "Upon passing your Assessment, you will receive an email with instructions on how to access and complete both your “Know Your Customer” verification and your “Trader Agreement”. Once both are completed and supporting documentation is provided, your Funded Account will be created, funded and issued to you typically within 24-48 business hours. You will receive a confirmation email once this account is being enabled."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "Once I pass the Assessment am I provided with a demo or funded account?",
-            "description": [
-                "<p class='mb-4'>Once you pass the Assessment, we provide you with a funded account, backed by our capital. The capital in your funded Account is notional and may not match the amount of capital on deposit with the Liquidity Provider. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a funded account.</p>",
-                "<p>Use of notional funding does not impact your trading conditions in any way.<p>"
-            ]
-        },
-        {
-            "category": 2,
-            "title": "Do we manipulate the pricing or executions you receive in your Funded Account?",
-            "description": [
-                "No. We do not have any control over pricing from the liquidity provider or on the executions on your trades."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "Who is the counterparty to my trades?",
-            "description": [
-                "For purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by arm’s length third parties. This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or as cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your funded account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "Am I subject to any position limits?",
-            "description": [
-                "The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "What are the rules for the funded account?",
-            "description": [
-                "The rules for the funded account are exactly the same as your Assessment account. However, with a funded account, there is no profit target."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "If I have a hard breach in my funded account and there are gains in the account, do I forfeit those gains?",
-            "description": [
-                "If you have gains in your funded account at the time of a hard breach, you will still receive your portion of those gains.",
-                "<br />",
-                "For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a hard breach we would close the account. Of the $10,000 in gains in your funded account, you would be paid your portion thereof."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "How do I withdraw the gains in my funded account?",
-            "description": [
-                "Traders can request a withdrawal of the gains in their funded account at any time in their trader dashboard, but no more frequently than once per thirty (30) days. So, if you make gain in your funded account, you can request a withdrawal. When you are ready to withdraw the gains from your funded account, click the Withdraw Profits button in your trader dashboard and enter the amount to withdraw. All such gains are distributed via the available outbound payment solutions offered from time to time. Once your withdrawal request is approved, we will pay the monies owed to you. We reserve the right to change the withdrawal methods and options at any time."
-            ]
-        },
-        {
-            "category": 2,
-            "title": "When can I withdraw the gains in my funded account and how does that affect my Maximum Drawdown?",
-            "description": [
-                "Your first withdrawal can be requested at any time, subject to an 80/20 profit split. Thereafter, you can request a withdrawal of the gains in your account every 30 days. When a withdrawal is approved, we will also withdraw our share of the gains. The drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000. In this scenario, you will receive $12,800 and we would retain $3,200. This would also take the balance of the account down to $104,000, and your Maximum Drawdown will remain$92,000. So, you would have $12,000 maximum you could lose on the account before it would violate the Maximum Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Drawdown will still remain at $92,000."
-            ]
-        },
-        {
-            "category": 3,
             "title": "Do I have to use one of your accounts for the Assessment or can I use my own?",
             "description": [
                 "We have risk management software that is synced with the accounts we create. This allows us to analyze your performance in real time for achievements or rule violations. As such, you must use an account that we provide to you."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "What Countries are accepted?",
             "description": [
                 "Subject to compliance with applicable laws and regulations, traders from all countries, excluding OFAC listed countries, can take part in our program, unless otherwise limited at the Company’s discretion."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "What is the minimum age I must be to be part of your program?",
             "description": [
                 "You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an assessment."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "Where do I track the progress of my account?",
             "description": [
                 "Upon purchasing an Assessment, you will receive access to a trader dashboard where you can monitor your Assessment and Funded Accounts. The dashboard is updated every time we calculate metrics, which occurs roughly every 60 seconds. It is your responsibility to monitor your breach levels."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "What Platform can I trade on?",
             "description": [
                 "Our technology is currently integrated with DXtrade, MatchTrader & cTrader platforms via GooeyTrade."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "What products can I trade?",
             "description": [
                 "You can trade any products streamed by the Liquidity Provider into the available platforms, as such products may change from time to time. This includes FX pairs and CFD Indices, Commodities, Metals, and Cryptocurrencies."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "What is the leverage?",
             "description": [
                 "We offer up to 50:1 leverage on Forex and Metals, up to 10:1 leverage on Indices, up to 5:1 leverage on Oil and up to 2:1 leverage on Cryptocurrencies."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "What are the trading hours?",
             "description": [
                 "<p class='mb-4'>Trading hours are generally set by the Liquidity Provider, unless set by our rules. We do not have any control over the trading hours. You can see the trading hours for each product by using the following methods:</p>",
@@ -179,21 +62,21 @@
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "Do your accounts charge commissions?",
             "description": [
                 "Funded accounts receive the same pricing and commissions as charged by our Liquidity Provider to other, self-funded, retail trading accounts."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "Can I use an automated strategy?",
             "description": [
                 "Subject to our policy on Prohibited Trading as described below, you can trade using an automated strategy."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "What is the policy on Prohibited Trading Activity?",
             "description": [
                 "<p class='mb-6'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to:</p>",
@@ -212,31 +95,148 @@
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "Can I trade during News Events?",
             "description": [
                 "Trading within 3 minutes before or after a News Event is prohibited. If the Company determines that trading has, in fact, occurred during the News Event. Any traders identified as having trading during a News Event during the challenge phase are subject to having those trades removed, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "How will I see the charge on my Statement?",
             "description": [
                 "Charges come across in the name of Dashboardanalytix.com."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "How are taxes handled?",
             "description": [
                 "When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains."
             ]
         },
         {
-            "category": 3,
+            "category": 1,
             "title": "How are affiliates credited?",
             "description": [
                 "Affiliates are credited for referrals when a user creates an account using a link or discount code provided by the Affiliate."
+            ]
+        },
+        {
+            "category": 2,
+            "title": "What is the difference between a Hard Breach and Soft Breach rule?",
+            "description": [
+                "<p class='mb-2'>● Soft breach means that we will close all trades that have violated the rule. However, you can continue trading in your Assessment or Funded Account.</p>",
+                "<p>● Hard breach means that you violated either the Daily Loss Limit or Max Drawdown rule. Both rules constitute a hard breach. In the event you have a hard breach, you will fail the Assessment or have your Funded Account taken away.</p>"
+            ]
+        },
+        {
+            "category": 2,
+            "title": "How do you calculate the Daily Loss Limit?",
+            "description": [
+                "The Daily Loss Limit is the maximum your account can lose in any given day. Daily Loss Limit is calculated using the previous day balance which resets at 5 PM EST. Daily Stop compounds with the increase in your account."
+            ]
+        },
+        {
+            "category": 2,
+            "title": "How do you calculate the Max Drawdown?",
+            "description": [
+                "Maximum drawdown is the maximum your account can drawdown before you would hard breach your account. When you open the account, your Maximum Drawdown is set at 8% of your starting balance. This 8% is static and does not trail."
+            ]
+        },
+        {
+            "category": 2,
+            "title": "Can I hold positions over the weekend?",
+            "description": [
+                "Positions can be held over the weekend although only Crypto allows weekend trading"
+            ]
+        },
+        {
+            "category": 2,
+            "title": "What is 1 lot equal to on the Trading Platform?",
+            "description": [
+                "<p>● Forex - 1 lot = $100k notional</p>",
+                "<p>● Index - 1 lot = 1 Contracts</p>",
+                "<p class='ml-6'>Exceptions:</p>",
+                "<p class='ml-10'>SPX500: 1 lot = 10 contracts</p>",
+                "<p class='ml-10'>JPN225: 1 lot = 500 contracts</p>",
+                "<p>● Cryptos - 1 lot = 1 coin</p>",
+                "<p>● Silver - 1 lot = 5000 ounces</p>",
+                "<p>● Gold - 1 lot = 100 ounces",
+                "<p>● Oil - 1 lot = 100 barrels"
+            ]
+        },
+        {
+            "category": 2,
+            "title": "Is there a breach for inactivity?",
+            "description": [
+                "Yes. We will consider you inactive and your account will be breached if you do not have any trading activity on your account for 30 consecutive days."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "How Long does it take to receive my funded account?",
+            "description": [
+                "Upon passing your Assessment, you will receive an email with instructions on how to access and complete both your “Know Your Customer” verification and your “Trader Agreement”. Once both are completed and supporting documentation is provided, your Funded Account will be created, funded and issued to you typically within 24-48 business hours. You will receive a confirmation email once this account is being enabled."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "Once I pass the Assessment am I provided with a demo or funded account?",
+            "description": [
+                "<p class='mb-4'>Once you pass the Assessment, we provide you with a funded account, backed by our capital. The capital in your funded Account is notional and may not match the amount of capital on deposit with the Liquidity Provider. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a funded account.</p>",
+                "<p>Use of notional funding does not impact your trading conditions in any way.<p>"
+            ]
+        },
+        {
+            "category": 3,
+            "title": "Do we manipulate the pricing or executions you receive in your Funded Account?",
+            "description": [
+                "No. We do not have any control over pricing from the liquidity provider or on the executions on your trades."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "Who is the counterparty to my trades?",
+            "description": [
+                "For purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by arm’s length third parties. This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or as cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your funded account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "Am I subject to any position limits?",
+            "description": [
+                "The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "What are the rules for the funded account?",
+            "description": [
+                "The rules for the funded account are exactly the same as your Assessment account. However, with a funded account, there is no profit target."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "If I have a hard breach in my funded account and there are gains in the account, do I forfeit those gains?",
+            "description": [
+                "If you have gains in your funded account at the time of a hard breach, you will still receive your portion of those gains.",
+                "<br />",
+                "For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a hard breach we would close the account. Of the $10,000 in gains in your funded account, you would be paid your portion thereof."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "How do I withdraw the gains in my funded account?",
+            "description": [
+                "Traders can request a withdrawal of the gains in their funded account at any time in their trader dashboard, but no more frequently than once per thirty (30) days. So, if you make gain in your funded account, you can request a withdrawal. When you are ready to withdraw the gains from your funded account, click the Withdraw Profits button in your trader dashboard and enter the amount to withdraw. All such gains are distributed via the available outbound payment solutions offered from time to time. Once your withdrawal request is approved, we will pay the monies owed to you. We reserve the right to change the withdrawal methods and options at any time."
+            ]
+        },
+        {
+            "category": 3,
+            "title": "When can I withdraw the gains in my funded account and how does that affect my Maximum Drawdown?",
+            "description": [
+                "Your first withdrawal can be requested at any time, subject to an 80/20 profit split. Thereafter, you can request a withdrawal of the gains in your account every 30 days. When a withdrawal is approved, we will also withdraw our share of the gains. The drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000. In this scenario, you will receive $12,800 and we would retain $3,200. This would also take the balance of the account down to $104,000, and your Maximum Drawdown will remain$92,000. So, you would have $12,000 maximum you could lose on the account before it would violate the Maximum Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Drawdown will still remain at $92,000."
             ]
         }
     ]

@@ -1,7 +1,7 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button, Image } from '..';
 
 export interface FaqCategoryProps {
@@ -21,11 +21,22 @@ const Dropdown = ({options, onSelect}: DropdownProps) => {
 
     const toggle = () => setOpen(!open);
     const handleSelect = (option: FaqCategoryProps) => {
+        console.log('select : ', option);
         setSelected(option);
         onSelect(option);
         setOpen(false);
         return option;
     };
+
+    useEffect(() => {
+        if(options){
+            const filtered = options
+            .filter((category: FaqCategoryProps) => category.id === 1)
+            .slice(0, 1);
+            
+            setSelected(filtered[0]);
+        }
+    }, [options]);
 
     return (
         <div>

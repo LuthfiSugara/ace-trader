@@ -6,7 +6,7 @@ import Dropdown,{ FaqCategoryProps } from '../Dropdown/Dropdown';
 
 const ListFaqs = () => {
 
-    const [idCategory, setIdCategory] = useState(-1),
+    const [idCategory, setIdCategory] = useState(1),
     [faqs, setFaqs] = useState([]),
     [categories, setCategories] = useState([]);
 
@@ -23,8 +23,12 @@ const ListFaqs = () => {
     useEffect(() => {
         fetch('/data/categories.json')
         .then(res => res.json())
-        .then(data => setCategories(data.categories));
+        .then(data => {
+            setCategories(data.categories)
+        });
     }, []);
+
+    
 
     return (
         <div className='max-w-[1400px] mx-auto px-8 lg:px-[40px]'>
