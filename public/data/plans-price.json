@@ -1,0 +1,556 @@
+{
+    "plans_price": [
+        {
+            "plan": "standard",
+            "account_balance": 5,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$55.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=103"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 10,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$100.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=104"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 25,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$200.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=105"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 50,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=106"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 100,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$900.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=107"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 250,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$2,400.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=108"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 400,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$4,320.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=109"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 5,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$55.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=110"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 10,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$100.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=111"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 25,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$200.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=112"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 50,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=113"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 100,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$900.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=114"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 250,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$2,400.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=115"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 400,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$4,320.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=116"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 5,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$55.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=117"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 10,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$100.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=118"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 25,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$200.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=119"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 50,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=120"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 100,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$900.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=121"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 250,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$2,400.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=122"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 400,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$4,320.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=123"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 5,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$65.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=166"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 10,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$110.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=167"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 25,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$220.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=168"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 50,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$330.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=169"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 100,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$550.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=170"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 250,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$1,350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=171"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 400,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$2,200.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=172"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 5,
+            "product_type": "2-step",
+            "platform": "match-trader",
+            "price": "$65.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=173"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 10,
+            "product_type": "2-step",
+            "platform": "match-trader",
+            "price": "$110.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=174"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 25,
+            "product_type": "2-step",
+            "platform": "match-trader",
+            "price": "$220.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=175"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 50,
+            "product_type": "2-step",
+            "platform": "match-trader",
+            "price": "$330.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=176"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 100,
+            "product_type": "2-step",
+            "platform": "match-trader",
+            "price": "$550.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=177"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 250,
+            "product_type": "2-step",
+            "platform": "match-trader",
+            "price": "$1,350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=178"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 400,
+            "product_type": "2-step",
+            "platform": "match-trader",
+            "price": "$2,200.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=179"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 5,
+            "product_type": "2-step",
+            "platform": "Ctrader",
+            "price": "$65.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=180"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 10,
+            "product_type": "2-step",
+            "platform": "Ctrader",
+            "price": "$110.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=181"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 25,
+            "product_type": "2-step",
+            "platform": "Ctrader",
+            "price": "$220.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=182"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 50,
+            "product_type": "2-step",
+            "platform": "Ctrader",
+            "price": "$330.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=183"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 100,
+            "product_type": "2-step",
+            "platform": "Ctrader",
+            "price": "$550.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=184"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 250,
+            "product_type": "2-step",
+            "platform": "Ctrader",
+            "price": "$1,350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=185"
+        },
+        {
+            "plan": "standard",
+            "account_balance": 400,
+            "product_type": "2-step",
+            "platform": "Ctrader",
+            "price": "$2,200.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=186"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 5,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$55.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=193"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 10,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$110.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=194"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 25,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$275.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=195"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 50,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$525.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=196"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 100,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$1,050.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=197"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 200,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$2,150.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=198"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 5,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$50.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=211"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 10,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$100.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=212"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 25,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$250.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=213"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 50,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$450.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=214"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 100,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$900.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=215"
+        },
+        {
+            "plan": "crypto",
+            "account_balance": 200,
+            "product_type": "2-step",
+            "platform": "dxtrade",
+            "price": "$2,000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=216"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 5,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$2,000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=217"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 10,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$500.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=218"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 25,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$1,350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=219"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 50,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$3000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=220"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 100,
+            "product_type": "1-step",
+            "platform": "dxtrade",
+            "price": "$6000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=221"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 5,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$250.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=222"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 10,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$500.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=223"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 25,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$1,350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=224"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 50,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$3,000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=225"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 100,
+            "product_type": "1-step",
+            "platform": "match-trader",
+            "price": "$6,000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=226"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 5,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$250.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=227"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 10,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$500.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=228"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 25,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$1,350.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=229"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 50,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$3,000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=230"
+        },
+        {
+            "plan": "instant",
+            "account_balance": 100,
+            "product_type": "1-step",
+            "platform": "Ctrader",
+            "price": "$6,000.00",
+            "link_register": "https://ace-traderdashboard.propaccount.com/en/challenges?planid=231"
+        }
+    ]
+}

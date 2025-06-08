@@ -1,0 +1,329 @@
+{
+    "choose_plans" : [
+        {
+            "plan": "standard",
+            "product_type": "1-step",
+            "rule_area": ["Assessment 1", "Funded"],
+            "benefits": [
+                {
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
+                    "data": [
+                        "10%",
+                        "-",
+                        "Funded Account has no limit"
+                    ]
+                },
+                {
+                    "name": "Daily Loss Limit",
+                    "info": ["<p class='mb-5'>The Maximum Daily Loss is the amount you are allowed to lose every day.</p> <p class='mb-5'>For the purpose of this rule, the higher value between equity and balance will be used. This rule is set as a % of the starting equity or balance of every day. The rule states that the equity of the day, which is the result of the currently floating PnL (Profit and Loss) in sum with all closed positions of that day must not hit the Maximum Daily Loss Limit.</p> <p>Example:</p> <p>You have a master account. At the start of day 5, your account balance is $105.000 and your equity is $107.000. The Daily Loss Limit is 5% from the starting equity for this example, this means that your equity on day 5 can't go lower than: Maximum Daily loss = $107.000 starting equity balance * 5% Daily Loss Limit = $5.350 Daily Loss Limit. $107.000 starting equity balance on day 5 - $5.350 Daily Loss Limit= $101.650 If your equity goes below $101.650 at any certain moment of time on day 5 your account will be closed.</p>"],
+                    "data": [
+                        "5%",
+                        "5%",
+                        "Equity-based, Equity bases on prior day balance (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Max Drawdown",
+                    "data": [
+                        "6%",
+                        "6%",
+                        "Equity-based, Equity bases on prior day balance (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Inactivity Period",
+                    "data": [
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
+                    "data": [
+                        "1:50",
+                        "1:50",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Max Time",
+                    "data": [
+                        "-",
+                        "-",
+                        "No Max Time requirements"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "standard",
+            "product_type": "2-step",
+            "rule_area": ["Assessment 1", "Assessment 2", "Funded"],
+            "benefits": [
+                {
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
+                    "data": [
+                        "8%",
+                        "5%",
+                        "-",
+                        "Funded Account has no profit limit"
+                    ]
+                },
+                {
+                    "name": "Daily Loss Limit",
+                    "info": ["<p class='mb-5'>The Maximum Daily Loss is the amount you are allowed to lose every day.</p> <p class='mb-5'>For the purpose of this rule, the higher value between equity and balance will be used. This rule is set as a % of the starting equity or balance of every day. The rule states that the equity of the day, which is the result of the currently floating PnL (Profit and Loss) in sum with all closed positions of that day must not hit the Maximum Daily Loss Limit.</p> <p>Example:</p> <p>You have a master account. At the start of day 5, your account balance is $105.000 and your equity is $107.000. The Daily Loss Limit is 5% from the starting equity for this example, this means that your equity on day 5 can't go lower than: Maximum Daily loss = $107.000 starting equity balance * 5% Daily Loss Limit = $5.350 Daily Loss Limit. $107.000 starting equity balance on day 5 - $5.350 Daily Loss Limit= $101.650 If your equity goes below $101.650 at any certain moment of time on day 5 your account will be closed.</p>"],
+                    "data": [
+                        "5%",
+                        "5%",
+                        "5%",
+                        "Equity-based, Equity bases on prior day balance (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Max Drawdown",
+                    "data": [
+                        "8%",
+                        "8%",
+                        "8%",
+                        "Equity-based, does not trial (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Inactivity Period",
+                    "data": [
+                        "30 Days",
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
+                    "data": [
+                        "1:50",
+                        "1:50",
+                        "1:50",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Max Time",
+                    "data": [
+                        "-",
+                        "-",
+                        "-",
+                        "No Max Time requirements"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "crypto",
+            "product_type": "1-step",
+            "rule_area": ["Assessment 1", "Funded"],
+            "benefits": [
+                {
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
+                    "data": [
+                        "9%",
+                        "N/A",
+                        "Funded Account has no limit"
+                    ]
+                },
+                {
+                    "name": "Max Drawdown",
+                    "data": [
+                        "6%",
+                        "6%",
+                        "Equity-based, does not trail (Breach)"
+                    ]
+                },
+                {
+                    "name": "Inactivity Period",
+                    "data": [
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
+                    "data": [
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Daily Cap Limit",
+                    "data": [
+                        "+/-3%",
+                        "+/-3%",
+                        "See below for calculation"
+                    ]
+                },
+                {
+                    "name": "Profir Share Percentage",
+                    "data": [
+                        "N/A",
+                        "90%",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Max Time",
+                    "data": [
+                        "-",
+                        "-",
+                        "No Max Time requirements"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "crypto",
+            "product_type": "2-step",
+            "rule_area": ["Assessment 1", "Assessment 2", "Funded"],
+            "benefits": [
+                {
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
+                    "data": [
+                        "6%",
+                        "9%",
+                        "N/A",
+                        "Funded Account has no limit"
+                    ]
+                },
+                {
+                    "name": "Max Drawdown",
+                    "data": [
+                        "9%",
+                        "9%",
+                        "9%",
+                        "Equity-based, does not trail (Breach)"
+                    ]
+                },
+                {
+                    "name": "Inactivity Period",
+                    "data": [
+                        "30 Days",
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
+                    "data": [
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Daily Cap Limit",
+                    "data": [
+                        "+/-3%",
+                        "+/-3%",
+                        "+/-3%",
+                        "See below for calculation"
+                    ]
+                },
+                {
+                    "name": "Profir Share Percentage",
+                    "data": [
+                        "N/A",
+                        "N/A",
+                        "90%",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Max Time",
+                    "data": [
+                        "-",
+                        "",
+                        "-",
+                        "No Max Time requirements"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "instant",
+            "product_type": "1-step",
+            "rule_area": ["Instant Funded"],
+            "benefits": [
+                {
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
+                    "data": [
+                        "N/A",
+                        "Instant Funded Account has no profit limit"
+                    ]
+                },
+                {
+                    "name": "Daily Loss Limit",
+                    "data": [
+                        "5%",
+                        "Equity-based, limit set by prior day balance (Hard Breach)"
+                    ]
+                },
+                {
+                    "name": "Max Drawdown",
+                    "data": [
+                        "8%",
+                        "Equity-based, trading account balance high water mark, locks in at starting account balance (Hard Breach), Account locks at starting balance at payout."
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
+                    "data": [
+                        "1:50",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Inactivity Period",
+                    "data": [
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
+                    ]
+                },
+                
+                {
+                    "name": "Flat for Weekend",
+                    "data": [
+                        "Yes",
+                        "All positions close on friday 3:45pm unless Weekend Hold and-on purchased"
+                    ]
+                },
+                {
+                    "name": "Max Time",
+                    "data": [
+                        "-",
+                        "No Max Time requirements"
+                    ]
+                },
+                {
+                    "name": "Profit Split",
+                    "data": [
+                        "80%",
+                        "Can increase to 90% with purchase of add-on"
+                    ]
+                }
+            ]
+        }
+    ]
+}
