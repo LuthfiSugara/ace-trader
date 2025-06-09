@@ -24,6 +24,8 @@ const ChoosePlan = () => {
     [information, setInformation] = useState<string[]>([""]),
     [dataPlans, setDataPlans] = useState<DataPlanProps | null>(null),
     [price, setPrice] = useState<PriceProps | null>(null),
+    [accountBalance, setAccountBalance] = useState<Array<number> | null>([]),
+    [platform, setPlatform] = useState<Array<string> | null>([]),
     [filter, setFilter] = useState({
         plans: 'standard',
         account_balance: 5,
@@ -32,9 +34,8 @@ const ChoosePlan = () => {
     });
 
     const plans = ['standard', 'crypto', 'instant'],
-    accountBalance = [5, 10, 25, 50, 100, 250, 450],
-    productType = ['1-step', '2-step'],
-    platform = ['Ctrader', 'dxtrade', 'match-trader'];
+    productType = ['1-step', '2-step'];
+    // platform = ['Ctrader', 'dxtrade', 'match-trader'];
 
     const updateFilter = (key: keyof typeof filter, value: string | number) => {
         setFilter(prev => ({
@@ -73,24 +74,53 @@ const ChoosePlan = () => {
         fetch('/data/plans-price.json')
         .then(res => res.json())
         .then(data => {
-            const result = data.plans_price.find(
-                (item: PriceProps) => item.plan === filter.plans && item.product_type === filter.product_type && item.account_balance === filter.account_balance && item.platform === filter.platform
-            );
-
             if(filter.plans == 'instant'){
                 const result = data.plans_price.find(
                     (item: PriceProps) => item.plan === filter.plans && item.account_balance === filter.account_balance && item.platform === filter.platform
                 );
 
                 setPrice(result);
+            }else{
+                const result = data.plans_price.find(
+                    (item: PriceProps) => item.plan === filter.plans && item.product_type === filter.product_type && item.account_balance === filter.account_balance && item.platform === filter.platform
+                );
+
+                setPrice(result);
             }
 
-            setPrice(result);
+        });
+    }, [filter])
+
+    const handleBalance = useCallback(() => {
+        fetch('/data/filter-plans.json')
+        .then(res => res.json())
+        .then(data => {
+            if(filter.plans === 'crypto'){
+                updateFilter('platform', 'dxtrade');
+            }
+
+            if(filter.plans != 'instant'){
+                const result = data.filter_plans.find(
+                    (item: DataPlanProps) => item.plan === filter.plans && item.product_type === filter.product_type
+                );
+
+                setAccountBalance(result.balance);
+                setPlatform(result.platform);
+            }else{
+
+                const result = data.filter_plans.find(
+                    (item: DataPlanProps) => item.plan === filter.plans
+                );
+
+                setAccountBalance(result.balance);
+                setPlatform(result.platform);
+            }
         });
     }, [filter])
 
     useEffect(() => {
         handleFilter();
+        handleBalance();
         handlePrice();
     }, [filter, handleFilter, handlePrice]);
 
@@ -107,15 +137,18 @@ const ChoosePlan = () => {
         <div className='target-element mt-[100px] space-y-8' id='plans'>
             <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>Choose the plan that fits you!</h2>
 
-            <div className='flex flex-wrap gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[32px]'>
-                <div className='space-y-3'>
+            <div className='flex flex-col sm:flex-row flex-wrap justify-center sm:justify-start gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[32px]'>
+                <div className='space-y-3 order-2'>
                     <p className='text-white font-semibold'>Plan</p>
                     <div className='flex flex-wrap gap-4'>
                         {plans.map((plan, index) => {
                             return (
                                 <Button
                                     key={index}
-                                    onClick={() => updateFilter('plans', plan)}
+                                    onClick={() => {
+                                        updateFilter('plans', plan);
+                                        updateFilter('account_balance', 5);
+                                    }}
                                     className={`${filter.plans.toLowerCase() == plan.toLowerCase() ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white`}
                                 >
                                     {plan}
@@ -124,10 +157,10 @@ const ChoosePlan = () => {
                         })}
                     </div>
                 </div>
-                <div className='space-y-3'>
+                <div className='space-y-3 order-4'>
                     <p className='text-white font-semibold'>Account Balance</p>
                     <div className='flex flex-wrap gap-4'>
-                        {accountBalance.map((balance, index) => {
+                        {accountBalance && accountBalance.map((balance, index) => {
                             return (
                                 <Button 
                                     key={index} 
@@ -140,26 +173,28 @@ const ChoosePlan = () => {
                         })}
                     </div>
                 </div>
-                <div className='space-y-3'>
-                    <p className='text-white font-semibold'>Product Type</p>
-                    <div className='flex flex-wrap gap-4'>
-                        {productType.map((type, index) => {
-                            return (
-                                <Button 
-                                    key={index}
-                                    onClick={() => updateFilter('product_type', type)}
-                                    className={`${type === filter.product_type ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
-                                >
-                                    {type}
-                                </Button>
-                            )
-                        })};
+                {filter.plans != 'instant' &&
+                    <div className='space-y-3 order-1'>
+                        <p className='text-white font-semibold'>Product Type</p>
+                        <div className='flex flex-wrap gap-4'>
+                            {productType.map((type, index) => {
+                                return (
+                                    <Button 
+                                        key={index}
+                                        onClick={() => updateFilter('product_type', type)}
+                                        className={`${type === filter.product_type ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                    >
+                                        {type}
+                                    </Button>
+                                )
+                            })};
+                        </div>
                     </div>
-                </div>
-                <div className='space-y-3'>
+                }
+                <div className='space-y-3 order-3'>
                     <p className='text-white font-semibold'>Platform</p>
                     <div className='flex flex-wrap gap-4'>
-                        {platform.map((data, index) => {
+                        {platform && platform.map((data, index) => {
                             return (
                                 <Button 
                                     key={index}
