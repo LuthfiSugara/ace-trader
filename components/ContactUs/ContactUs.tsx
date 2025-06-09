@@ -1,19 +1,28 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import { useFormik } from 'formik';
 import * as Yup from "yup";
 import Button from '../Button/Button';
-import { Image } from '..';
+import { Dialog, Image, LottieFile } from '..';
+import { emailSentTemplate, sendEmail } from '@/utils/email/send';
+import useDisclosure from '@/hooks/useDisclosure';
+import EmailSuccess from "@/public/lotties/EmailSent.json";
+import EmailFailed from "@/public/lotties/EmailFailed.json";
 
 const ContactUs = () => {
+
+    const [loadSubmit, setLoadSubmit] = useState(false),
+    [status, setStatus] = useState('');
+
+    const {isOpen, onClose, onOpen} = useDisclosure();
 
     const {
         handleSubmit,
         setFieldValue,
         errors,
         values,
-        // resetForm,
+        resetForm,
         // setErrors,
     } = useFormik({
         initialValues: {
@@ -33,9 +42,30 @@ const ContactUs = () => {
                 message: Yup.string()
                     .required('Message is required!'),
             }),
-        onSubmit: () => {
-            
-        
+        onSubmit: async(values) => {
+            setLoadSubmit(true);
+            const logoImage = window.location.origin + '/images/Logo.png';
+            const d = new Date();
+            const link = process.env.EMAIL as string;
+
+            const dataSent = {
+                subject: 'New Message - ' + values.email,
+                email: values.email,
+                to: values.email,
+                first_name: values.first_name,
+                last_name: values.last_name,
+                message: emailSentTemplate(link, logoImage, values.first_name, values.last_name, values.email, values.message, d.getFullYear())
+            }
+
+            const sender = await sendEmail(dataSent);
+            if(sender.status === 'success'){
+                setStatus('success');
+            }else{
+                setStatus('error');
+            }
+            onOpen();
+
+            setLoadSubmit(false);
         },
     });
 
@@ -98,7 +128,17 @@ const ContactUs = () => {
                     <small className='text-red-500'>{errors.message}</small>
                 </div>
                 <div className='flex justify-center mt-8 mb-8'>
-                    <Button onClick={() => handleSubmit()} className='bg-[#05CBE9] text-[#072B33] text-md py-2 px-10 rounded-full'>Submit</Button>
+                    <Button 
+                        onClick={() => handleSubmit()} 
+                        disabled={loadSubmit}
+                        className={`${loadSubmit ? 'cursor-progress' : ''} bg-[#05CBE9] text-[#072B33] text-md py-2 px-10 rounded-full flex items-center gap-2`}
+                    >   
+                        {loadSubmit ? (
+                            <span className='animate-spin w-6 h-6 border-4 border-solid border-slate-300 border-b-[#0c0340] rounded-full inline-block box-border'></span>
+                        ) : null}
+
+                        Submit
+                    </Button>
                 </div>
             </div>
 
@@ -108,6 +148,40 @@ const ContactUs = () => {
                 </div>
                 <p className='text-[#3AA7B8] text-center md:text-left'> <span className='font-bold'>Ace-Trader</span> is provided by Forest Park FX LTD. Forest Park FX LTD offers fee-based simulated trading assessments for Potential Traders. All funding assessments are provided by Forest Park FX LTD and all assessment fees are paid to Forest Park FX LTD. If you qualify for a Funded Account, you will be required to enter into a Trader Agreement with Forest Park FX LTD. Forest Park FX LTD does not provide any trading education or other services.</p>
             </div>
+
+            <Dialog
+                isOpen={isOpen} 
+                onClose={() => {
+                    onClose();
+                    if(status === 'success'){
+                        resetForm();
+                    }
+                }} 
+                size='sm'
+            >
+                <div className='bg-[#06333D] p-[8]'>
+                    <LottieFile 
+                        animationData={status === 'success' ? EmailSuccess : EmailFailed}
+                        loop={false}
+                        autoplay={true}
+                        className='w-36 mx-auto'
+                    />
+                    <div className='text-center mb-8 space-y-2 text-white'>
+                        {status === 'success' ? (
+                            <>
+                                <p className='text-xl font-bold'>Email sent successfully</p>
+                                <p className='text-md font-medium'>Thank you <span className='font-semibold'>{values.email}</span>, I will check your email as soon as possible.</p>
+                            </>
+                        ): (
+                            <>
+                                <p className='text-xl font-bold'>Failed to send email</p>
+                                <p className='text-md font-medium'>Please try again, or send me email manually to <span className='font-semibold'>support@a-trader.com</span></p>
+                            </>
+                        )}
+                    </div>
+                </div>
+            </Dialog>
+
         </div>
     )
 }

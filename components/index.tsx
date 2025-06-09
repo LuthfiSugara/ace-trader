@@ -14,6 +14,7 @@ import HeroAboutUs from "@/components/HeroAboutUs/HeroAboutUs";
 import PeopleBehindAceTrader from "@/components/PeopleBehindAceTrader/PeopleBehindAceTrader";
 import ListFaqs from "@/components/ListFaqs/ListFaqs";
 import Dialog from "@/components/Dialog/Dialog"
+import LottieFile from "@/components/LottieFile/LottieFile"
 
 export {
     Image,
@@ -32,4 +33,5 @@ export {
     PeopleBehindAceTrader,
     ListFaqs,
     Dialog,
+    LottieFile,
 }
