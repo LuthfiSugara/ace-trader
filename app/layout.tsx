@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ace Trader",
-  description: "",
+  description: "Join Ace Trade and get instant access to funding with zero personal risk. Scale your trading, maximize your profits, and grow without limits.",
 };
 
 export default function RootLayout({
