@@ -137,13 +137,13 @@ const ChoosePlan = () => {
     };
 
     return (
-        <div className='target-element mt-[100px] space-y-8' id='plans'>
+        <div ref={layoutRef} className='target-element mt-[100px] space-y-8' id='plans'>
             <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>Choose the plan that fits you!</h2>
 
-            <div ref={layoutRef} className='flex flex-col flex-wrap justify-center gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[16px]'>
+            <div className='flex flex-col flex-wrap justify-center gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[16px]'>
                 <div className={`${layoutWidth < 950 ? 'flex-col' : 'flex-row'} flex justify-center gap-8`}>
                     <div className='space-y-3'>
-                        <p className='text-white text-start sm:text-center font-semibold'>Plan</p>
+                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'}  font-semibold`}>Plan</p>
                         <div className='flex jjustify-start sm:justify-center flex-wrap gap-4'>
                             {plans.map((plan, index) => {
                                 return (
@@ -162,7 +162,7 @@ const ChoosePlan = () => {
                         </div>
                     </div>
                     <div className='space-y-3'>
-                        <p className='text-white text-start sm:text-center font-semibold'>Account Balance</p>
+                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibol`}>Account Balance</p>
                         <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
                             {accountBalance && accountBalance.map((balance, index) => {
                                 return (
@@ -181,7 +181,7 @@ const ChoosePlan = () => {
                 <div className={`${layoutWidth < 950 ? 'flex-col' : 'flex-row'} flex justify-center gap-8`}>
                     {filter.plans != 'instant' &&
                         <div className='space-y-3'>
-                            <p className='text-white text-start sm:text-center font-semibold'>Product Type</p>
+                            <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibold`}>Product Type</p>
                             <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
                                 {productType.map((type, index) => {
                                     return (
@@ -198,7 +198,7 @@ const ChoosePlan = () => {
                         </div>
                     }
                     <div className='space-y-3'>
-                        <p className='text-white text-start sm:text-center font-semibold'>Platform</p>
+                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibold`}>Platform</p>
                         <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
                             {platform && platform.map((data, index) => {
                                 return (

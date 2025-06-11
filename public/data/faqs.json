@@ -1,6 +1,12 @@
 {
+    "filter_faqs": {
+        "plans": ["standard", "crypto", "instant"],
+        "product_type": ["1-step", "2-step"]
+    },
     "faqs": [
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "Do I have to use one of your accounts for the Assessment or can I use my own?",
             "description": [
@@ -8,6 +14,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "What Countries are accepted?",
             "description": [
@@ -15,6 +23,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "What is the minimum age I must be to be part of your program?",
             "description": [
@@ -22,6 +32,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "Where do I track the progress of my account?",
             "description": [
@@ -29,6 +41,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "What Platform can I trade on?",
             "description": [
@@ -62,6 +76,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "Do your accounts charge commissions?",
             "description": [
@@ -69,6 +85,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "Can I use an automated strategy?",
             "description": [
@@ -76,6 +94,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "What is the policy on Prohibited Trading Activity?",
             "description": [
@@ -95,6 +115,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "Can I trade during News Events?",
             "description": [
@@ -102,6 +124,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "How will I see the charge on my Statement?",
             "description": [
@@ -109,6 +133,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "How are taxes handled?",
             "description": [
@@ -116,6 +142,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 1,
             "title": "How are affiliates credited?",
             "description": [
@@ -123,6 +151,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 2,
             "title": "What is the difference between a Hard Breach and Soft Breach rule?",
             "description": [
@@ -134,10 +164,13 @@
             "category": 2,
             "title": "How do you calculate the Daily Loss Limit?",
             "description": [
-                "The Daily Loss Limit is the maximum your account can lose in any given day. Daily Loss Limit is calculated using the previous day balance which resets at 5 PM EST. Daily Stop compounds with the increase in your account."
+                "<p class='mb-2'>The Daily Loss Limit is the maximum your account can lose in any given day. Daily Loss Limit is calculated using the previous day balance which resets at 5 PM EST. Daily Stop compounds with the increase in your account.</p>",
+                "<p>Example: if your prior day's end of day balance (5pm EST) was $100,000, your account would violate the daily stop loss limit if your equity reached $95,000 during the day. If your floating equity is +$6,000 on a $100,000 account, your new- day (5pm EST) max loss is based on your balance from the previous day ($100,000). So, your daily loss limit would still be $95,000.</p>"
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 2,
             "title": "How do you calculate the Max Drawdown?",
             "description": [
@@ -145,6 +178,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 2,
             "title": "Can I hold positions over the weekend?",
             "description": [
@@ -152,6 +187,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 2,
             "title": "What is 1 lot equal to on the Trading Platform?",
             "description": [
@@ -167,6 +204,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 2,
             "title": "Is there a breach for inactivity?",
             "description": [
@@ -174,6 +213,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "How Long does it take to receive my funded account?",
             "description": [
@@ -181,6 +222,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "Once I pass the Assessment am I provided with a demo or funded account?",
             "description": [
@@ -189,6 +232,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "Do we manipulate the pricing or executions you receive in your Funded Account?",
             "description": [
@@ -196,6 +241,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "Who is the counterparty to my trades?",
             "description": [
@@ -203,6 +250,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "Am I subject to any position limits?",
             "description": [
@@ -210,6 +259,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "What are the rules for the funded account?",
             "description": [
@@ -217,6 +268,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "If I have a hard breach in my funded account and there are gains in the account, do I forfeit those gains?",
             "description": [
@@ -226,6 +279,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "How do I withdraw the gains in my funded account?",
             "description": [
@@ -233,6 +288,8 @@
             ]
         },
         {
+            "plans": "standard",
+            "product_type": "2-step",
             "category": 3,
             "title": "When can I withdraw the gains in my funded account and how does that affect my Maximum Drawdown?",
             "description": [

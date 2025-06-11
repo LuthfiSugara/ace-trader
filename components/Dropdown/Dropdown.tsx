@@ -58,7 +58,7 @@ const Dropdown = ({options, onSelect}: DropdownProps) => {
                     <li
                         key={index}
                         onClick={() => handleSelect(option)}
-                        className={`px-4 py-2 hover:bg-gray-50 cursor-pointer ${selected?.id === option.id ? 'text-white' : 'text-[#2F6F78]'}`}
+                        className={`px-4 py-2 hover:bg-[#3AA7B8] hover:text-white cursor-pointer ${selected?.id === option.id ? 'bg-[#3AA7B8] text-white' : 'text-[#2F6F78]'}`}
                     >
                         {option.name}
                     </li>

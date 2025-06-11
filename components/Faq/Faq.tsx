@@ -4,6 +4,8 @@ import React, { useState } from 'react'
 import { Collapse, Image } from '..';
 
 export interface FaqProps {
+    plans?: string;
+    product_type?: string;
     category?: number;
     title: string;
     description: string[];
