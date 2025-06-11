@@ -1,12 +1,13 @@
 'use client'
 
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Button from '../Button/Button'
 import { Dialog, Image } from '..'
 import Link from 'next/link'
 import useDisclosure from '@/hooks/useDisclosure';
 import { BenefitsProps, DataPlanProps } from '@/types/components/choose-plan.types'
 import { PriceProps } from '@/types/components/price.types'
+import useBreakPoint from '@/hooks/useBreakPoint'
 
 interface ButtonInfoProps {
     onClick: () => void;
@@ -33,9 +34,11 @@ const ChoosePlan = () => {
         platform: 'Ctrader'
     });
 
+    const layoutRef = useRef<HTMLDivElement | null>(null);
+    const layoutWidth = useBreakPoint(layoutRef);
+
     const plans = ['standard', 'crypto', 'instant'],
     productType = ['1-step', '2-step'];
-    // platform = ['Ctrader', 'dxtrade', 'match-trader'];
 
     const updateFilter = (key: keyof typeof filter, value: string | number) => {
         setFilter(prev => ({
@@ -137,74 +140,78 @@ const ChoosePlan = () => {
         <div className='target-element mt-[100px] space-y-8' id='plans'>
             <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>Choose the plan that fits you!</h2>
 
-            <div className='flex flex-col sm:flex-row flex-wrap justify-center sm:justify-start gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[32px]'>
-                <div className='space-y-3 order-2'>
-                    <p className='text-white font-semibold'>Plan</p>
-                    <div className='flex flex-wrap gap-4'>
-                        {plans.map((plan, index) => {
-                            return (
-                                <Button
-                                    key={index}
-                                    onClick={() => {
-                                        updateFilter('plans', plan);
-                                        updateFilter('account_balance', 5);
-                                    }}
-                                    className={`${filter.plans.toLowerCase() == plan.toLowerCase() ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white`}
-                                >
-                                    {plan}
-                                </Button>
-                            )
-                        })}
+            <div ref={layoutRef} className='flex flex-col flex-wrap justify-center gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[16px]'>
+                <div className={`${layoutWidth < 950 ? 'flex-col' : 'flex-row'} flex justify-center gap-8`}>
+                    <div className='space-y-3'>
+                        <p className='text-white text-start sm:text-center font-semibold'>Plan</p>
+                        <div className='flex jjustify-start sm:justify-center flex-wrap gap-4'>
+                            {plans.map((plan, index) => {
+                                return (
+                                    <Button
+                                        key={index}
+                                        onClick={() => {
+                                            updateFilter('plans', plan);
+                                            updateFilter('account_balance', 5);
+                                        }}
+                                        className={`${filter.plans.toLowerCase() == plan.toLowerCase() ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white`}
+                                    >
+                                        {plan}
+                                    </Button>
+                                )
+                            })}
+                        </div>
+                    </div>
+                    <div className='space-y-3'>
+                        <p className='text-white text-start sm:text-center font-semibold'>Account Balance</p>
+                        <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
+                            {accountBalance && accountBalance.map((balance, index) => {
+                                return (
+                                    <Button 
+                                        key={index} 
+                                        onClick={() => updateFilter('account_balance', balance)}
+                                        className={`${balance === filter.account_balance ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                    >
+                                        {balance}K
+                                    </Button>   
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
-                <div className='space-y-3 order-4'>
-                    <p className='text-white font-semibold'>Account Balance</p>
-                    <div className='flex flex-wrap gap-4'>
-                        {accountBalance && accountBalance.map((balance, index) => {
-                            return (
-                                <Button 
-                                    key={index} 
-                                    onClick={() => updateFilter('account_balance', balance)}
-                                    className={`${balance === filter.account_balance ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
-                                >
-                                    {balance}K
-                                </Button>   
-                            )
-                        })}
-                    </div>
-                </div>
-                {filter.plans != 'instant' &&
-                    <div className='space-y-3 order-1'>
-                        <p className='text-white font-semibold'>Product Type</p>
-                        <div className='flex flex-wrap gap-4'>
-                            {productType.map((type, index) => {
+                <div className={`${layoutWidth < 950 ? 'flex-col' : 'flex-row'} flex justify-center gap-8`}>
+                    {filter.plans != 'instant' &&
+                        <div className='space-y-3'>
+                            <p className='text-white text-start sm:text-center font-semibold'>Product Type</p>
+                            <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
+                                {productType.map((type, index) => {
+                                    return (
+                                        <Button 
+                                            key={index}
+                                            onClick={() => updateFilter('product_type', type)}
+                                            className={`${type === filter.product_type ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                        >
+                                            {type}
+                                        </Button>
+                                    )
+                                })};
+                            </div>
+                        </div>
+                    }
+                    <div className='space-y-3'>
+                        <p className='text-white text-start sm:text-center font-semibold'>Platform</p>
+                        <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
+                            {platform && platform.map((data, index) => {
                                 return (
                                     <Button 
                                         key={index}
-                                        onClick={() => updateFilter('product_type', type)}
-                                        className={`${type === filter.product_type ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                        onClick={() => updateFilter('platform', data)}
+                                        className={`${data === filter.platform ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
                                     >
-                                        {type}
+                                        <Image src={`/icons/${data}.png`} alt='ctrader' width={100} height={100} className='w-[100px]' />
                                     </Button>
                                 )
-                            })};
+                            })}
                         </div>
-                    </div>
-                }
-                <div className='space-y-3 order-3'>
-                    <p className='text-white font-semibold'>Platform</p>
-                    <div className='flex flex-wrap gap-4'>
-                        {platform && platform.map((data, index) => {
-                            return (
-                                <Button 
-                                    key={index}
-                                    onClick={() => updateFilter('platform', data)}
-                                    className={`${data === filter.platform ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
-                                >
-                                    <Image src={`/icons/${data}.png`} alt='ctrader' width={100} height={100} className='w-[100px]' />
-                                </Button>
-                            )
-                        })}
                     </div>
                 </div>
             </div>
