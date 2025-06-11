@@ -6,8 +6,19 @@ import Mail from "nodemailer/lib/mailer";
 export async function POST(request: NextRequest){
     const { subject, message } = await request.json();
 
+    // const transport = nodemailer.createTransport({
+    //     service: 'gmail',
+    //     auth: {
+    //         user: process.env.EMAIL,
+    //         pass: process.env.PASSWORD
+    //     }
+    // });
+
+    // SMTP
     const transport = nodemailer.createTransport({
-        service: 'gmail',
+        host: "smtpout.secureserver.net",
+        secure: true,
+        port: 465,
         auth: {
             user: process.env.EMAIL,
             pass: process.env.PASSWORD

@@ -317,7 +317,7 @@ export const RecipientEmail = `
                                                     <p>{{ message }}</p>
 
                                                     <p>Best regards, </p>
-                                                    <p style="font-weight: bold;">Ace Trader </p>
+                                                    <p style="font-weight: bold;">{{ first_name }}</p>
                                                 </div>
                                             </td>
                                         </tr>
