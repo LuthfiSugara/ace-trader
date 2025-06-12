@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { Button, Image } from '..';
 
 export interface FaqCategoryProps {
-    id: number;
+    value: number;
     name: string;
 }
 
@@ -21,7 +21,6 @@ const Dropdown = ({options, onSelect}: DropdownProps) => {
 
     const toggle = () => setOpen(!open);
     const handleSelect = (option: FaqCategoryProps) => {
-        console.log('select : ', option);
         setSelected(option);
         onSelect(option);
         setOpen(false);
@@ -31,7 +30,7 @@ const Dropdown = ({options, onSelect}: DropdownProps) => {
     useEffect(() => {
         if(options){
             const filtered = options
-            .filter((category: FaqCategoryProps) => category.id === 1)
+            .filter((category: FaqCategoryProps) => category.value === 1)
             .slice(0, 1);
             
             setSelected(filtered[0]);
@@ -58,7 +57,7 @@ const Dropdown = ({options, onSelect}: DropdownProps) => {
                     <li
                         key={index}
                         onClick={() => handleSelect(option)}
-                        className={`px-4 py-2 hover:bg-[#3AA7B8] hover:text-white cursor-pointer ${selected?.id === option.id ? 'bg-[#3AA7B8] text-white' : 'text-[#2F6F78]'}`}
+                        className={`px-4 py-2 hover:bg-[#3AA7B8] hover:text-white cursor-pointer ${selected?.value === option.value ? 'bg-[#3AA7B8] text-white' : 'text-[#2F6F78]'}`}
                     >
                         {option.name}
                     </li>
@@ -67,12 +66,12 @@ const Dropdown = ({options, onSelect}: DropdownProps) => {
             </div>
 
             <div className='hidden bg-[#06333D] rounded-xl md:flex flex-col h-fit'>
-                {options && options?.map((category: {id: number, name: string}, index: number) => {
+                {options && options?.map((category: FaqCategoryProps, index: number) => {
                     return (
                         <Button 
                             key={index} 
                             onClick={() => {handleSelect(category)}}
-                            className={`${selected?.id == category.id ? 'text-white' : 'text-[#2F6F78]'} text-lg text-left font-medium border-b border-b-[#072B33] py-3 px-6`}
+                            className={`${selected?.value == category.value ? 'text-white' : 'text-[#2F6F78]'} text-lg text-left font-medium border-b border-b-[#072B33] py-3 px-6`}
                         >
                             <p>{category.name}</p>
                         </Button>

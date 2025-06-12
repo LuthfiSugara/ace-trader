@@ -15,6 +15,7 @@ import PeopleBehindAceTrader from "@/components/PeopleBehindAceTrader/PeopleBehi
 import ListFaqs from "@/components/ListFaqs/ListFaqs";
 import Dialog from "@/components/Dialog/Dialog"
 import LottieFile from "@/components/LottieFile/LottieFile"
+import SelectDropdown from "@/components/SelectDropdown/SelectDropdown";
 
 export {
     Image,
@@ -34,4 +35,5 @@ export {
     ListFaqs,
     Dialog,
     LottieFile,
+    SelectDropdown,
 }

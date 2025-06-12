@@ -119,13 +119,13 @@ const ChoosePlan = () => {
                 setPlatform(result.platform);
             }
         });
-    }, [filter])
+    }, [])
 
     useEffect(() => {
         handleFilter();
         handleBalance();
         handlePrice();
-    }, [filter, handleFilter, handlePrice]);
+    }, [handleFilter, handlePrice]);
 
     const isAllSameExceptLast = (arr: Array<string>): boolean => {
         if (arr.length < 2) return false;
