@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Button from '../Button/Button'
 import { Dialog, Image } from '..'
 import Link from 'next/link'
@@ -55,77 +55,84 @@ const ChoosePlan = () => {
         });
     }, []);
 
-    const handleFilter = useCallback(() => {
+    const handleFilter = (plan: string, product_type: string) => {
         fetch('/data/plans.json')
         .then(res => res.json())
         .then(data => {
             let result = data.choose_plans.find(
-                (item: DataPlanProps) => item.plan === filter.plans && item.product_type === filter.product_type
+                (item: DataPlanProps) => item.plan === plan && item.product_type === product_type
             );
 
-            if(filter.plans == 'instant'){
+            if(plan == 'instant'){
                 result = data.choose_plans.find(
-                    (item: DataPlanProps) => item.plan === filter.plans
+                    (item: DataPlanProps) => item.plan === plan
                 );
             }
 
             setDataPlans(result);
         });
-    }, [filter])
+    }
 
-    const handlePrice = useCallback(() => {
+    const handlePrice = (plan: string, accountBalance: number, productType: string, platform: string) => {
         fetch('/data/plans-price.json')
         .then(res => res.json())
         .then(data => {
             if(filter.plans == 'instant'){
                 const result = data.plans_price.find(
-                    (item: PriceProps) => item.plan === filter.plans && item.account_balance === filter.account_balance && item.platform === filter.platform
+                    (item: PriceProps) => item.plan === plan && item.account_balance === accountBalance && item.platform === platform
                 );
 
                 setPrice(result);
             }else{
                 const result = data.plans_price.find(
-                    (item: PriceProps) => item.plan === filter.plans && item.product_type === filter.product_type && item.account_balance === filter.account_balance && item.platform === filter.platform
+                    (item: PriceProps) => item.plan === plan && item.product_type === productType && item.account_balance === accountBalance && item.platform === platform
                 );
 
                 setPrice(result);
             }
 
         });
-    }, [filter])
+    }
 
-    const handleBalance = useCallback(() => {
+    const handleBalance = (plan: string, product_type: string) => {
         fetch('/data/filter-plans.json')
         .then(res => res.json())
         .then(data => {
-            if(filter.plans === 'crypto'){
-                updateFilter('platform', 'dxtrade');
-            }
 
-            if(filter.plans != 'instant'){
+            if(plan === 'instant'){
                 const result = data.filter_plans.find(
-                    (item: DataPlanProps) => item.plan === filter.plans && item.product_type === filter.product_type
+                    (item: DataPlanProps) => item.plan === plan
                 );
 
                 setAccountBalance(result.balance);
                 setPlatform(result.platform);
             }else{
-
                 const result = data.filter_plans.find(
-                    (item: DataPlanProps) => item.plan === filter.plans
+                    (item: DataPlanProps) => item.plan === plan && item.product_type === product_type
                 );
 
                 setAccountBalance(result.balance);
                 setPlatform(result.platform);
+
+                
             }
         });
-    }, [])
+    }
+
+    const handleState = (plan = filter.plans, accountBalance = filter.account_balance, productType = filter.product_type, platform = filter.platform) => {
+        handleFilter(plan, productType);
+        handleBalance(plan, productType);
+        if(plan === 'crypto'){
+            updateFilter('platform', 'dxtrade');
+            handlePrice(plan, accountBalance, productType, 'dxtrade');
+        }else{
+            handlePrice(plan, accountBalance, productType, platform);
+        }
+    }
 
     useEffect(() => {
-        handleFilter();
-        handleBalance();
-        handlePrice();
-    }, [handleFilter, handlePrice]);
+        handleState();
+    }, []);
 
     const isAllSameExceptLast = (arr: Array<string>): boolean => {
         if (arr.length < 2) return false;
@@ -152,6 +159,12 @@ const ChoosePlan = () => {
                                         onClick={() => {
                                             updateFilter('plans', plan);
                                             updateFilter('account_balance', 5);
+                                            if(plan === 'crypto'){
+                                                updateFilter('platform', 'dxtrade');
+                                            //     handleState(plan, filter.account_balance, filter.product_type, 'dxtrade');
+                                            }
+
+                                            handleState(plan);
                                         }}
                                         className={`${filter.plans.toLowerCase() == plan.toLowerCase() ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white`}
                                     >
@@ -168,7 +181,10 @@ const ChoosePlan = () => {
                                 return (
                                     <Button 
                                         key={index} 
-                                        onClick={() => updateFilter('account_balance', balance)}
+                                        onClick={() => {
+                                            updateFilter('account_balance', balance);
+                                            handleState(filter.plans, balance);
+                                        }}
                                         className={`${balance === filter.account_balance ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
                                     >
                                         {balance}K
@@ -187,7 +203,10 @@ const ChoosePlan = () => {
                                     return (
                                         <Button 
                                             key={index}
-                                            onClick={() => updateFilter('product_type', type)}
+                                            onClick={() => {
+                                                updateFilter('product_type', type);
+                                                handleState(filter.plans, filter.account_balance, type);
+                                            }}
                                             className={`${type === filter.product_type ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
                                         >
                                             {type}
@@ -204,7 +223,10 @@ const ChoosePlan = () => {
                                 return (
                                     <Button 
                                         key={index}
-                                        onClick={() => updateFilter('platform', data)}
+                                        onClick={() => {
+                                            updateFilter('platform', data);
+                                            handleState(filter.plans, filter.account_balance, filter.product_type, data);
+                                        }}
                                         className={`${data === filter.platform ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
                                     >
                                         <Image src={`/icons/${data}.png`} alt='ctrader' width={100} height={100} className='w-[100px]' />

@@ -26,21 +26,22 @@ const Footer = () => {
                 <div className="flex flex-wrap gap-8 mx-auto md:mx-0">
                     <div className='flex flex-col gap-6'>
                         <p className='text-white font-bold'>Quick Link</p>
-                        <Link href='faqs' className='text-[#3AA7B8]'>FAQ</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Trading Guide</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Risk Disclosure</Link>
+                        <Link href='faqs' className='text-[#3AA7B8]'>FAQs</Link>
+                        <Link href={process.env.APP_URL + '#plans'} className='text-[#3AA7B8]'>Plans</Link>
+                        <Link href={process.env.APP_URL + '#contact'} className='text-[#3AA7B8]'>Contact Us</Link>
+                        <Link href={'about-us'} className='text-[#3AA7B8]'>About Us</Link>
                     </div>
                     <div className='flex flex-col gap-6'>
                         <p className='text-white font-bold'>Resources</p>
+                        <Link href='' className='text-[#3AA7B8]'>Terms and Conditions</Link>
+                        <Link href='' className='text-[#3AA7B8]'>Refund Policy</Link>
                         <Link href='' className='text-[#3AA7B8]'>Privacy Policy</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Terms & Condition</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Documentation</Link>
+                        <Link href='' className='text-[#3AA7B8]'>Cookie Policy</Link>
                     </div>
                     <div className='flex flex-col gap-6'>
                         <p className='text-white font-bold'>Contact Us</p>
-                        <Link href='' className='text-[#3AA7B8]'>Email</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Live Chat</Link>
-                        <Link href='' className='text-[#3AA7B8]'>WhatsApp</Link>
+                        <Link href='mailto:support@a-trader.com' className='text-[#3AA7B8]'>Email</Link>
+                        <Link href='#' className='text-[#3AA7B8]'>Live Chat</Link>
                     </div>
                 </div>
             </div>
