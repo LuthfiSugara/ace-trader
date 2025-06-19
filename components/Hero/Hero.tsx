@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="md:col-span-3 space-y-[32px] my-auto">
                     <h2 className="text-[40px] lg:text-[56px] leading-[50px] lg:leading-[72px] font-bold text-white text-center sm:text-start">Trade our capital. Keep up to 90% profits</h2>
                     <p className="text-[#BDF6FF] text-center sm:text-start">Join Ace Trader and get instant access to funding with zero personal risk. Scale your trading, maximize your profits, and grow without limits.</p>
-                    <div className="flex flex-col sm:flex-row gap-4">
+                    <div className="flex flex-col sm:flex-row gap-4"> 
                         <a href="#plans" className="w-full sm:w-auto bg-[#05CBE9] text-[#072B33] text-center py-2 px-4 rounded-full self-center">Start Challenge</a>
                         <a href="about-us" className="w-full sm:w-auto border-[2px] border-white text-center rounded-full py-2 px-4 text-white self-center">Learn More</a>
                     </div>
