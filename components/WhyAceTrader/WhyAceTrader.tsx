@@ -9,22 +9,22 @@ const WhyAceTrader = () => {
                 <div className='bg-[#06333D] rounded-xl overflow-hidden'>
                     <Image src='/images/instant-funding.png' alt='instant funding' width={500} height={500} className='w-full' />
                     <div className='p-6 space-y-3'>
-                        <p className='text-lg md:text-2xl text-white font-bold'>Instant Funding</p>
-                        <p className=' md:text-xl text-[#BDF6FF]'>Start trading within hours. Our process is quick, simple, and transparent. Get funded instantly and focus on growing your profits.</p>
+                        <p className='text-lg md:text-2xl text-white font-bold'>Your Trading, Your Way</p>
+                        <p className=' md:text-xl text-[#BDF6FF]'>Accessible on multiple trading platforms, pick between Assessment, Crypto, or Instant Funding to validate your edge, dive into digital markets, or secure capital in hours—so you can focus entirely on growing your equity.</p>
                     </div>
                 </div>
                 <div className='bg-[#06333D] rounded-xl overflow-hidden'>
                     <Image src='/images/scaling-plan.png' alt='instant funding' width={500} height={500} className='w-full' />
                     <div className='p-6 space-y-3'>
-                        <p className='text-lg md:text-2xl text-white font-bold'>Scaling Plan</p>
-                        <p className=' md:text-xl text-[#BDF6FF]'>Unlock growth potential. Scale up to $500K in capital as you meet your trading goals.</p>
+                        <p className='text-lg md:text-2xl text-white font-bold'>Discipline: Unlocked</p>
+                        <p className=' md:text-xl text-[#BDF6FF]'>Our immersive plan sharpens your consistency, builds emotional resilience under pressure, and forges sustainable routines—because greater discipline drives stronger trading performance.</p>
                     </div>
                 </div>
                 <div className='bg-[#06333D] rounded-xl overflow-hidden'>
                     <Image src='/images/no-risk.png' alt='instant funding' width={500} height={500} className='w-full' />
                     <div className='p-6 space-y-3'>
                         <p className='text-lg md:text-2xl text-white font-bold'>No Risk</p>
-                        <p className=' md:text-xl text-[#BDF6FF]'>Trade without risk to your personal funds. Our system protects your capital while rewarding your performance.</p>
+                        <p className=' md:text-xl text-[#BDF6FF]'>Trade with zero personal risk: our platform safeguards your funds at every step while you pursue your Equity Growth Target and reap the rewards of your performance.</p>
                     </div>
                 </div>
             </div>
