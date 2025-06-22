@@ -33,10 +33,10 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-6'>
                         <p className='text-white font-bold'>Resources</p>
-                        <Link href='' className='text-[#3AA7B8]'>Terms and Conditions</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Refund Policy</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Privacy Policy</Link>
-                        <Link href='' className='text-[#3AA7B8]'>Cookie Policy</Link>
+                        <Link href='/terms-and-conditions' className='text-[#3AA7B8]'>Terms and Conditions</Link>
+                        <Link href='/purchases-and-refunds' className='text-[#3AA7B8]'>Refund Policy</Link>
+                        <Link href='/privacy-and-policy' className='text-[#3AA7B8]'>Privacy Policy</Link>
+                        <Link href='/cookie-policy' className='text-[#3AA7B8]'>Cookie Policy</Link>
                     </div>
                     <div className='flex flex-col gap-6'>
                         <p className='text-white font-bold'>Contact Us</p>
