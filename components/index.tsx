@@ -16,6 +16,8 @@ import ListFaqs from "@/components/ListFaqs/ListFaqs";
 import Dialog from "@/components/Dialog/Dialog"
 import LottieFile from "@/components/LottieFile/LottieFile"
 import SelectDropdown from "@/components/SelectDropdown/SelectDropdown";
+import HeroAffiliate from "@/components/HeroAffiliate/HeroAffiliate";
+import ExploreAffiliate from "@/components/ExploreAffiliate/ExploreAffiliate";
 
 export {
     Image,
@@ -36,4 +38,6 @@ export {
     Dialog,
     LottieFile,
     SelectDropdown,
+    HeroAffiliate,
+    ExploreAffiliate,
 }
