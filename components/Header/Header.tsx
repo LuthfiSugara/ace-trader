@@ -41,12 +41,12 @@ const Header = () => {
             <Image src='/images/logo.png' alt='logo' width={100} height={100} className='w-[180px]' />
           </Link>
           <div className='flex items-center gap-8 lg:pr-8'>
-            /*<Link href='/' className='text-white text-sm md:text-lg font-medium'>Home</Link>*/
+//            <Link href='/' className='text-white text-sm md:text-lg font-medium'>Home</Link>
             <Link href={process.env.APP_URL + '#plans'} className='text-white text-sm md:text-lg font-medium'>Programs</Link>
             <Link href={'/faqs'} className='text-white text-sm md:text-lg font-medium'>FAQs</Link>
             <Link href={'affiliate'} className='text-white text-sm md:text-lg font-medium'>Affiliate</Link>
             <Link href={'about-us'} className='text-white text-sm md:text-lg font-medium'>About Us</Link>            
-            /*<Link href={process.env.APP_URL + '#contact'} className='text-white text-sm md:text-lg font-medium'>Contact Us</Link>*/
+//            <Link href={process.env.APP_URL + '#contact'} className='text-white text-sm md:text-lg font-medium'>Contact Us</Link>
             
             <Link href={'https://dashboard.a-trader.com/en/sign-in'} className='text-white text-sm md:text-lg font-medium border border-white py-1 px-6 rounded-full'>Login</Link>
           </div>
