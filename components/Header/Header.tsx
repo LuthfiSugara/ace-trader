@@ -70,12 +70,12 @@ const Header = () => {
           <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
             <ul className={styles.menuItems}>
               <div className="flex flex-col gap-4">
-                <Link onClick={onClose} href={'/'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Home</Link>
-                <Link onClick={onClose} href={'about-us'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>About Us</Link>
-                <Link onClick={onClose} href={process.env.APP_URL + '#plans'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Plans</Link>
+                {/* <Link onClick={onClose} href={'/'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Home</Link> */}
+                <Link onClick={onClose} href={process.env.APP_URL + '#plans'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Programs</Link>
+                {/* <Link onClick={onClose} href={process.env.APP_URL + '#contact'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Contact Us</Link> */}
                 <Link onClick={onClose} href={'faqs'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>FAQs</Link>
-                <Link onClick={onClose} href={process.env.APP_URL + '#contact'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Contact Us</Link>
                 <Link onClick={onClose} href={'affiliate'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Affiliate</Link>
+                <Link onClick={onClose} href={'about-us'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>About Us</Link>
                 <Link onClick={onClose} href={'https://dashboard.a-trader.com/en/sign-in'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Login</Link>
               </div>
             </ul>
