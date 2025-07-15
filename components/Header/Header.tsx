@@ -6,6 +6,7 @@ import useDisclosure from '@/hooks/useDisclosure';
 import styles from './Header.module.css';
 import Image from '@/components/Image';
 import useBreakPoint from '@/hooks/useBreakPoint';
+import "@/components/Button/Button.css";
 
 const Header = () => {
 
@@ -49,6 +50,11 @@ const Header = () => {
 {/*             <Link href={process.env.APP_URL + '#contact'} className='text-white text-sm md:text-lg font-medium'>Contact Us</Link>  */}
             
             <Link href={'https://dashboard.a-trader.com/en/sign-in'} className='text-white text-sm md:text-lg font-medium border border-white py-1 px-6 rounded-full'>Login</Link>
+            <Link href={'https://dashboard.a-trader.com/en/challenges'} className="btn relative flex cursor-pointer items-center justify-center overflow-hidden rounded-full border-none p-[3px] shadow shadow-[#3baeba]">
+              <span className="btnSpan relative z-[1] w-full rounded-[100px] bg-black px-6 py-2 text-base font-semibold text-[#fff] backdrop-blur-[40px]">
+                Get Funded
+              </span>
+            </Link>
           </div>
         </div>
         <div className="p-[14px]" style={{display: layoutWidth < 950 ? 'block' : 'none'}}>
@@ -79,7 +85,17 @@ const Header = () => {
                 <Link onClick={onClose} href={'https://dashboard.a-trader.com/en/sign-in'} className='text-white text-lg md:text-lg font-medium border-b-[1px] border-[#ffffff33] px-4 py-2'>Login</Link>
               </div>
             </ul>
+            <div className='flex justify-center'>
+              <div className='absolute bottom-30 w-full md:w-[75%] px-[12px]'>
+                <Link href={'https://dashboard.a-trader.com/en/challenges'} className="btn relative flex cursor-pointer items-center justify-center overflow-hidden rounded-full border-none p-[4px] shadow shadow-[#3baeba]">
+                  <span className="btnSpan text-center relative z-[1] w-full rounded-[100px] bg-black px-6 py-2 text-base font-semibold text-[#fff] backdrop-blur-[40px]">
+                    Get Funded
+                  </span>
+                </Link>
+              </div>
+            </div>
           </div>
+
         </div>
       </nav>
     </header>
