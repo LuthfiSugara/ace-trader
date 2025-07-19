@@ -5,17 +5,17 @@
 }
 @property --Color {
   syntax: '<color>';
-  initial-value: #3baeba;
+  initial-value: #b55770;
 }
  
 @keyframes rotate {
   0% {
     --animate-duration: 0deg;
-    --Color: #3baeba;
+    --Color: #b55770;
   }
   100% {
     --animate-duration: 360deg;
-    --Color: #3baeba;
+    --Color: #b55770;
   }
 }
  
@@ -42,7 +42,7 @@
   );
   z-index: 0;
   --animate-duration: 0deg;
-  --Color: #3baeba;
+  --Color: #b55770;
 }
 
 .btn:hover:after,
