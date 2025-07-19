@@ -9,8 +9,11 @@ import { emailSentTemplate, sendEmail } from '@/utils/email/send';
 import useDisclosure from '@/hooks/useDisclosure';
 import EmailSuccess from "@/public/lotties/EmailSent.json";
 import EmailFailed from "@/public/lotties/EmailFailed.json";
+import useTranslation from '@/hooks/useTranslation';
+import parse from 'html-react-parser';
 
 const ContactUs = () => {
+    const { translation } = useTranslation();
 
     const [loadSubmit, setLoadSubmit] = useState(false),
     [status, setStatus] = useState('');
@@ -23,7 +26,6 @@ const ContactUs = () => {
         errors,
         values,
         resetForm,
-        // setErrors,
     } = useFormik({
         initialValues: {
             first_name: "",
@@ -33,14 +35,14 @@ const ContactUs = () => {
         },
             validationSchema: Yup.object({
                 first_name: Yup.string()
-                    .required('First Nme is required!'),
+                    .required(translation('home.contact.form.first.name.required')),
                 last_name: Yup.string()
-                    .required('Last Name is required!'),
+                    .required(translation('home.contact.form.last.name.required')),
                 email: Yup.string()
-                    .required('Email is required!')
-                    .email('Incorrect email format'),
+                    .required(translation('home.contact.form.email.required'))
+                    .email(translation('home.contact.form.email.invalid')),
                 message: Yup.string()
-                    .required('Message is required!'),
+                    .required(translation('home.contact.form.message.required')),
             }),
         onSubmit: async(values) => {
             setLoadSubmit(true);
@@ -71,17 +73,17 @@ const ContactUs = () => {
 
     return (
         <div className='target-element mt-[100px]' id='contact'>
-            <p className='text-[30px] lg:text-[40px] font-bold text-center text-white'>Ready to Trade With Ace Trader?</p>
-            <p className='text-md text-[#BDF6FF] text-center md:w-[50%] mx-auto'>Whether you’re just starting out or scaling your strategy, our funding solutions are designed to help you grow and profit - without unnecessary risk.</p>
+            <p className='text-[30px] lg:text-[40px] font-bold text-center text-white'>{translation('home.contact.title')}</p>
+            <p className='text-md text-[#BDF6FF] text-center md:w-[50%] mx-auto'>{translation('home.contact.description')}</p>
 
             <div className='w-full md:w-[80%] bg-[#06333D] rounded-xl p-[20px] mx-auto mt-[35px] space-y-6'>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                        <label htmlFor="first_name" className='text-white'>First Name<span className='text-[#05CBE9]'>*</span></label>
+                        <label htmlFor="first_name" className='text-white'>{translation('home.contact.form.first.name')}<span className='text-[#05CBE9]'>*</span></label>
                         <input 
                             name='first_name' 
                             type='text'
-                            placeholder='First Name'
+                            placeholder={translation('home.contact.form.first.name')}
                             value={values.first_name}
                             onChange={(e) => setFieldValue('first_name', e.target.value)}
                             className={'w-full outline-1 outline-[#3AA7B8] p-3 rounded-md text-white placeholder:text-[#2F6F78] mt-2'}
@@ -89,11 +91,11 @@ const ContactUs = () => {
                         <small className='text-red-500'>{errors.first_name}</small>
                     </div>
                     <div>
-                        <label htmlFor="last_name" className='text-white'>Last Name<span className='text-[#05CBE9]'>*</span></label>
+                        <label htmlFor="last_name" className='text-white'>{translation('home.contact.form.last.name')}<span className='text-[#05CBE9]'>*</span></label>
                         <input 
                             name='last_name' 
                             type='text'
-                            placeholder='Last Name'
+                            placeholder={translation('home.contact.form.last.name')}
                             value={values.last_name}
                             onChange={(e) => setFieldValue('last_name', e.target.value)}
                             className={'w-full outline-1 outline-[#3AA7B8] p-3 rounded-md text-white placeholder:text-[#2F6F78] mt-2'}
@@ -103,11 +105,11 @@ const ContactUs = () => {
                 </div>
 
                 <div className=''>
-                    <label htmlFor="email" className='text-white'>Email<span className='text-[#05CBE9]'>*</span></label>
+                    <label htmlFor="email" className='text-white'>{translation('home.contact.form.email')}<span className='text-[#05CBE9]'>*</span></label>
                     <input 
                         name='email' 
                         type='email'
-                        placeholder='username@mail.com'
+                        placeholder={translation('home.contact.form.email.placeholder')}
                         value={values.email}
                         onChange={(e) => setFieldValue('email', e.target.value)}
                         className={'w-full outline-1 outline-[#3AA7B8] p-3 rounded-md text-white placeholder:text-[#2F6F78] mt-2'}
@@ -116,12 +118,12 @@ const ContactUs = () => {
                 </div>
 
                 <div className='flex flex-col gap-2'>
-                    <label htmlFor="message" className='text-white'>Your Message<span className='text-[#05CBE9]'>*</span></label>
+                    <label htmlFor="message" className='text-white'>{translation('home.contact.form.message')}<span className='text-[#05CBE9]'>*</span></label>
                     <textarea 
                         rows={8} 
                         name="message" 
                         value={values.message} 
-                        placeholder='Enter your question or message...' 
+                        placeholder={translation('home.contact.form.message.placeholder')}
                         onChange={(e) => setFieldValue('message', e.target.value)}
                         className='outline-1 outline-[#3AA7B8] p-3 rounded-md text-white placeholder:text-[#2F6F78]'
                     ></textarea>
@@ -136,8 +138,7 @@ const ContactUs = () => {
                         {loadSubmit ? (
                             <span className='animate-spin w-6 h-6 border-4 border-solid border-slate-300 border-b-[#0c0340] rounded-full inline-block box-border'></span>
                         ) : null}
-
-                        Submit
+                        {translation('home.contact.form.submit')}
                     </Button>
                 </div>
             </div>
@@ -146,7 +147,7 @@ const ContactUs = () => {
                 <div className='p-2 rounded-xl bg-[#06333D] shrink-0 h-fit'>
                     <Image src='/images/guard.png' alt='' width={100} height={100} className='w-[50px]' />
                 </div>
-                <p className='text-[#3AA7B8] text-center md:text-left'> <span className='font-bold'>Ace-Trader</span> is provided by Forest Park FX LTD. Forest Park FX LTD offers fee-based simulated trading assessments for Potential Traders. All funding assessments are provided by Forest Park FX LTD and all assessment fees are paid to Forest Park FX LTD. If you qualify for a Funded Account, you will be required to enter into a Trader Agreement with Forest Park FX LTD. Forest Park FX LTD does not provide any trading education or other services.</p>
+                <div className='text-[#3AA7B8] text-center md:text-left'>{parse(translation('global.footer.description'))}</div>
             </div>
 
             <Dialog
@@ -169,13 +170,13 @@ const ContactUs = () => {
                     <div className='text-center mb-8 space-y-2 text-white'>
                         {status === 'success' ? (
                             <>
-                                <p className='text-xl font-bold'>Email sent successfully</p>
-                                <p className='text-md font-medium'>Thank you <span className='font-semibold'>{values.email}</span>, I will check your email as soon as possible.</p>
+                                <p className='text-xl font-bold'>{translation('home.contact.form.dialog.message.success')}</p>
+                                <p className='text-md font-medium'>{translation('home.contact.form.dialog.message.success.description.one')} <span className='font-semibold'>{values.email}</span>, {translation('home.contact.form.dialog.message.success.description.two')}</p>
                             </>
                         ): (
                             <>
-                                <p className='text-xl font-bold'>Failed to send email</p>
-                                <p className='text-md font-medium'>Please try again, or send me email manually to <span className='font-semibold'>support@a-trader.com</span></p>
+                                <p className='text-xl font-bold'>{translation('home.contact.form.dialog.message.failed')}</p>
+                                <p className='text-md font-medium'>{translation('home.contact.form.dialog.message.failed.description.one')} <span className='font-semibold'>support@a-trader.com</span></p>
                             </>
                         )}
                     </div>

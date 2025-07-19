@@ -1,3 +1,5 @@
+'use client'
+
 import { ChoosePlan, ContactUs, Hero, WhyAceTrader, } from "@/components";
 import EverythingYouNeedToKnow from "@/components/EverythingYouNeedToKnow/EverythingYouNeedToKnow";
 // import WhatTradersSaying from "@/components/WhatTradersSaying/WhatTradersSaying";

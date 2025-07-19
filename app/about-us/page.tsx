@@ -15,7 +15,7 @@ const Index = () => {
                 <PeopleBehindAceTrader />
                 <WhatWeStandFor />
             </div>
-        </div>
+        </div> 
     )
 }
 

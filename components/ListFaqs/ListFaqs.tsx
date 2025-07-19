@@ -5,8 +5,11 @@ import Faq, { FaqProps } from '../Faq/Faq';
 import Dropdown,{ FaqCategoryProps } from '../Dropdown/Dropdown';
 import Button from '../Button/Button';
 import SelectDropdown, { SelectProps } from '../SelectDropdown/SelectDropdown';
+import useTranslation from '@/hooks/useTranslation';
+import { BaseSelect } from '@/types/components/filter.types';
 
 const ListFaqs = () => {
+    const { translation } = useTranslation();
 
     const [faqs, setFaqs] = useState([]),
     [filterPlans, setFilterPlans] = useState<Array<SelectProps>>([]),
@@ -36,9 +39,9 @@ const ListFaqs = () => {
         updateFilter('product_type', option.value);
     };
 
-    const handleOptionsMap = (datas: Array<string>) => {
+    const handleOptionsMap = (datas: Array<BaseSelect>) => {
         const Arr: Array<SelectProps> = [];
-        datas.map((data: string | number) => {
+        datas.map((data: BaseSelect) => {
             const tmpArr = {value: data, name: data};
             Arr.push(tmpArr);;
         });
@@ -64,11 +67,9 @@ const ListFaqs = () => {
         });
     }, []);
 
-    console.log('filter : ', filter);
-
     return (
         <div className='max-w-[1400px] mx-auto px-8 lg:px-[40px]'>
-            <h2 className='text-center text-[30px] lg:text-[40px] font-bold text-white w-full md:w-[75%] mx-auto'>Got questions? Find everything you need to know about our programs, rules, & how to get started.</h2>
+            <h2 className='text-center text-[30px] lg:text-[40px] font-bold text-white w-full md:w-[75%] mx-auto'>{translation('faq.title')}</h2>
             
             <div className='flex flex-col sm:flex-row flex-wrap gap-4 md:gap-8 justify-center pt-[100px] pb-[20px] md:pb-[50px]'>
                 <div className='space-y-3 hidden md:block'>
