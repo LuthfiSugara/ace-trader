@@ -88,7 +88,7 @@ const Header = () => {
             <div className='flex justify-center'>
               <div className='mt-30 w-full md:w-[75%] px-[12px]'>
                 <Link href={'https://dashboard.a-trader.com/en/challenges'} className="btn relative flex cursor-pointer items-center justify-center overflow-hidden rounded-full border-none p-[3px]" style={{boxShadow: '0px 5px 10px 0px rgba(255,255,255,0.73)'}}>
-                  <span className="btnSpan relative z-[1] w-full rounded-[100px] bg-black px-6 py-2 text-base font-semibold text-[#fff] backdrop-blur-[40px]">
+                  <span className="btnSpan relative z-[1] w-full rounded-[100px] bg-black px-6 py-2 text-base font-semibold text-[#fff] backdrop-blur-[40px] text-center">
                     Get Funded
                   </span>
                 </Link>
