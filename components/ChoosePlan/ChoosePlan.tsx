@@ -7,6 +7,8 @@ import Link from 'next/link'
 import useDisclosure from '@/hooks/useDisclosure';
 import { BenefitsProps, DataPlanProps } from '@/types/components/choose-plan.types'
 import { PriceProps } from '@/types/components/price.types'
+import useBreakPoint from '@/hooks/useBreakPoint'
+import useTranslation from '@/hooks/useTranslation'
 
 interface ButtonInfoProps {
     onClick: () => void;
@@ -19,6 +21,8 @@ const ButtonInfo = ({onClick}: ButtonInfoProps) => {
 }
 
 const ChoosePlan = () => {
+
+    const { translation } = useTranslation();
 
     const {isOpen, onClose, onOpen} = useDisclosure(),
     [information, setInformation] = useState<string[]>([""]),
@@ -119,10 +123,8 @@ const ChoosePlan = () => {
     }, [filter])
 
     useEffect(() => {
-        handleFilter();
-        handleBalance();
-        handlePrice();
-    }, [filter, handleFilter, handlePrice]);
+        handleState();
+    }, [handleState]);
 
     const isAllSameExceptLast = (arr: Array<string>): boolean => {
         if (arr.length < 2) return false;
@@ -134,8 +136,8 @@ const ChoosePlan = () => {
     };
 
     return (
-        <div className='target-element mt-[100px] space-y-8' id='plans'>
-            <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>Choose the plan that fits you!</h2>
+        <div ref={layoutRef} className='target-element mt-[100px] space-y-8' id='plans'>
+            <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>{translation('home.choose.plan.title')}</h2>
 
             <div className='flex flex-col sm:flex-row flex-wrap justify-center sm:justify-start gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[32px]'>
                 <div className='space-y-3 order-2'>

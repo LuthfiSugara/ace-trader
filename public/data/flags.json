@@ -1,0 +1,24 @@
+{
+    "flags": [
+        {
+            "name": "English",
+            "value": "en",
+            "image": "/icons/america.png"
+        },
+        {
+            "name": "Indonesia",
+            "value": "id",
+            "image": "/icons/indonesia.png"
+        },
+        {
+            "name": "日本語",
+            "value": "jpn",
+            "image": "/icons/japan.png"
+        },
+        {
+            "name": "简体中文",
+            "value": "chn",
+            "image": "/icons/china.png"
+        }
+    ]
+}

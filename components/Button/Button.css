@@ -1,0 +1,55 @@
+@property --animate-duration {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+@property --Color {
+  syntax: '<color>';
+  initial-value: #b55770;
+}
+ 
+@keyframes rotate {
+  0% {
+    --animate-duration: 0deg;
+    --Color: #b55770;
+  }
+  100% {
+    --animate-duration: 360deg;
+    --Color: #b55770;
+  }
+}
+ 
+.btn:after,
+.btn:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  border-radius: calc(100px + 3px);
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: conic-gradient(
+    from var(--animate-duration) at 50% 50%,
+    #000 0%,
+    #000 20%,
+    var(--Color) 50%,
+    var(--Color) 66%,
+    #000 100%
+  );
+  z-index: 0;
+  --animate-duration: 0deg;
+  --Color: #b55770;
+}
+
+.btn:hover:after,
+.btn:hover:before {
+  animation: rotate 3s infinite linear;
+}
+ 
+.btn:before {
+  filter: blur(20px);
+}
