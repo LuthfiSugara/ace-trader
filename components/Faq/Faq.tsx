@@ -5,7 +5,9 @@ import { Collapse, Image } from '..';
 
 export interface FaqProps {
     plans?: string;
+    plan_id?: number;
     product_type?: string;
+    product_type_id?: number;
     category?: number;
     title: string;
     description: string[];

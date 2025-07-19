@@ -16,8 +16,8 @@ const ListFaqs = () => {
     [productType, setProductType] = useState<Array<SelectProps>>([]),
     [categories, setCategories] = useState([]),
     [filter, setFilter] = useState({
-        plans: 'standard',
-        product_type: '1-step',
+        plan_id: 1,
+        product_type_id: 1,
         id_category: 1,
     });
 
@@ -33,17 +33,17 @@ const ListFaqs = () => {
     };
 
     const handleSelectPlans = (option: SelectProps) => {
-        updateFilter('plans', option.value);
+        updateFilter('plan_id', option.value);
     };
     const handleSelectProductType = (option: SelectProps) => {
-        updateFilter('product_type', option.value);
+        updateFilter('product_type_id', option.value);
     };
 
     const handleOptionsMap = (datas: Array<BaseSelect>) => {
         const Arr: Array<SelectProps> = [];
         datas.map((data: BaseSelect) => {
-            const tmpArr = {value: data, name: data};
-            Arr.push(tmpArr);;
+            const tmpArr = {value: data.id, name: data.name};
+            Arr.push(tmpArr);
         });
 
         return Arr;
@@ -80,9 +80,9 @@ const ListFaqs = () => {
                                 <Button
                                     key={index}
                                     onClick={() => {
-                                        updateFilter('plans', plan.value);
+                                        updateFilter('plan_id', plan.value);
                                     }}
-                                    className={`${filter.plans.toLowerCase() == plan.value ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
+                                    className={`${filter.plan_id == plan.value ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
                                 >
                                     {plan.name}
                                 </Button>
@@ -93,7 +93,7 @@ const ListFaqs = () => {
 
                 <SelectDropdown options={filterPlans} onSelect={handleSelectPlans} className='md:hidden w-full' />
 
-                {filter.plans != 'instant' &&
+                {filter.plan_id != 3 &&
                     <>
                         <div className='space-y-3 hidden md:block'>
                             <p className={`text-white text-start font-semibold`}>Product Type</p>
@@ -103,9 +103,9 @@ const ListFaqs = () => {
                                         <Button 
                                             key={index}
                                             onClick={() => {
-                                                updateFilter('product_type', type.value);
+                                                updateFilter('product_type_id', type.value);
                                             }}
-                                            className={`${type.value === filter.product_type ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
+                                            className={`${type.value === filter.product_type_id ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
                                         >
                                             {type.name}
                                         </Button>
@@ -127,9 +127,9 @@ const ListFaqs = () => {
                 {(
                     <div className='md:col-span-2 bg-[#06333D] rounded-xl h-fit'>
                         {faqs.map((faq: FaqProps, index: number) => {
-                            return filter.plans != 'instant' && filter.id_category === faq.category && filter.plans === faq.plans && filter.product_type === faq.product_type ? (
+                            return filter.plan_id != 3 && filter.id_category === faq.category && filter.plan_id === faq.plan_id && filter.product_type_id === faq.product_type_id ? (
                                 <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
-                            ) : filter.plans === 'instant' && filter.plans == faq.plans && filter.id_category === faq.category ? (
+                            ) : filter.plan_id === 3 && filter.plan_id == faq.plan_id && filter.id_category === faq.category ? (
                                 <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
                             ) : (
                                 null
