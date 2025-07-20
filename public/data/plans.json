@@ -2,8 +2,19 @@
     "choose_plans" : [
         {
             "plan": "standard",
+            "plan_id": 1,
             "product_type": "1-step",
-            "rule_area": ["Assessment 1", "Funded"],
+            "product_type_id": 1,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
             "benefits": [
                 {
                     "name": "Profit Target",
@@ -60,8 +71,23 @@
         },
         {
             "plan": "standard",
+            "plan_id": 1,
             "product_type": "2-step",
-            "rule_area": ["Assessment 1", "Assessment 2", "Funded"],
+            "product_type_id": 2,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Assessment 2"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
             "benefits": [
                 {
                     "name": "Profit Target",
@@ -124,8 +150,19 @@
         },
         {
             "plan": "crypto",
+            "plan_id": 2,
             "product_type": "1-step",
-            "rule_area": ["Assessment 1", "Funded"],
+            "product_type_id": 1,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
             "benefits": [
                 {
                     "name": "Profit Target",
@@ -189,8 +226,23 @@
         },
         {
             "plan": "crypto",
+            "plan_id": 2,
             "product_type": "2-step",
-            "rule_area": ["Assessment 1", "Assessment 2", "Funded"],
+            "product_type_id": 2,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Assessment 2"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
             "benefits": [
                 {
                     "name": "Profit Target",
@@ -261,8 +313,15 @@
         },
         {
             "plan": "instant",
+            "plan_id": 3,
             "product_type": "1-step",
-            "rule_area": ["Instant Funded"],
+            "product_type_id": 1,
+            "rule_area": [
+                {
+                    "id": 3,
+                    "name": "Instant Funded"
+                }
+            ],
             "benefits": [
                 {
                     "name": "Profit Target",

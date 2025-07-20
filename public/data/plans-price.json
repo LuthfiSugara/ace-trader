@@ -1,6 +1,9 @@
 {
     "plans_price": [
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 5,
             "product_type": "1-step",
@@ -9,6 +12,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=103"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 10,
             "product_type": "1-step",
@@ -17,6 +23,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=104"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 25,
             "product_type": "1-step",
@@ -25,6 +34,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=105"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 50,
             "product_type": "1-step",
@@ -33,6 +45,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=106"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 100,
             "product_type": "1-step",
@@ -41,6 +56,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=107"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 250,
             "product_type": "1-step",
@@ -49,6 +67,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=108"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 400,
             "product_type": "1-step",
@@ -57,6 +78,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=109"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 5,
             "product_type": "1-step",
@@ -65,6 +89,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=110"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 10,
             "product_type": "1-step",
@@ -73,6 +100,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=111"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 25,
             "product_type": "1-step",
@@ -81,6 +111,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=112"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 50,
             "product_type": "1-step",
@@ -89,6 +122,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=113"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 100,
             "product_type": "1-step",
@@ -97,6 +133,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=114"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 250,
             "product_type": "1-step",
@@ -105,6 +144,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=115"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 400,
             "product_type": "1-step",
@@ -113,6 +155,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=116"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 5,
             "product_type": "1-step",
@@ -121,6 +166,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=117"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 10,
             "product_type": "1-step",
@@ -129,6 +177,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=118"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 25,
             "product_type": "1-step",
@@ -137,6 +188,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=119"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 50,
             "product_type": "1-step",
@@ -145,6 +199,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=120"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 100,
             "product_type": "1-step",
@@ -153,6 +210,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=121"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 250,
             "product_type": "1-step",
@@ -161,6 +221,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=122"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 400,
             "product_type": "1-step",
@@ -169,6 +232,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=123"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 5,
             "product_type": "2-step",
@@ -177,6 +243,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=166"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 10,
             "product_type": "2-step",
@@ -185,6 +254,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=167"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 25,
             "product_type": "2-step",
@@ -193,6 +265,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=168"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 50,
             "product_type": "2-step",
@@ -201,6 +276,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=169"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 100,
             "product_type": "2-step",
@@ -209,6 +287,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=170"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 250,
             "product_type": "2-step",
@@ -217,6 +298,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=171"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "standard",
             "account_balance": 400,
             "product_type": "2-step",
@@ -225,6 +309,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=172"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 5,
             "product_type": "2-step",
@@ -233,6 +320,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=173"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 10,
             "product_type": "2-step",
@@ -241,6 +331,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=174"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 25,
             "product_type": "2-step",
@@ -249,6 +342,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=175"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 50,
             "product_type": "2-step",
@@ -257,6 +353,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=176"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 100,
             "product_type": "2-step",
@@ -265,6 +364,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=177"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 250,
             "product_type": "2-step",
@@ -273,6 +375,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=178"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 3,
             "plan": "standard",
             "account_balance": 400,
             "product_type": "2-step",
@@ -281,6 +386,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=179"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 5,
             "product_type": "2-step",
@@ -289,6 +397,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=180"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 10,
             "product_type": "2-step",
@@ -297,6 +408,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=181"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 25,
             "product_type": "2-step",
@@ -305,6 +419,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=182"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 50,
             "product_type": "2-step",
@@ -313,6 +430,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=183"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 100,
             "product_type": "2-step",
@@ -321,6 +441,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=184"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 250,
             "product_type": "2-step",
@@ -329,6 +452,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=185"
         },
         {
+            "plan_id": 1,
+            "product_type_id": 2,
+            "platform_id": 1,
             "plan": "standard",
             "account_balance": 400,
             "product_type": "2-step",
@@ -337,6 +463,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=186"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 5,
             "product_type": "1-step",
@@ -345,6 +474,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=193"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 10,
             "product_type": "1-step",
@@ -353,6 +485,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=194"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 25,
             "product_type": "1-step",
@@ -361,6 +496,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=195"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 50,
             "product_type": "1-step",
@@ -369,6 +507,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=196"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 100,
             "product_type": "1-step",
@@ -377,6 +518,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=197"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 200,
             "product_type": "1-step",
@@ -385,6 +529,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=198"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 5,
             "product_type": "2-step",
@@ -393,6 +540,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=211"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 10,
             "product_type": "2-step",
@@ -401,6 +551,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=212"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 25,
             "product_type": "2-step",
@@ -409,6 +562,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=213"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 50,
             "product_type": "2-step",
@@ -417,6 +573,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=214"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 100,
             "product_type": "2-step",
@@ -425,6 +584,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=215"
         },
         {
+            "plan_id": 2,
+            "product_type_id": 2,
+            "platform_id": 2,
             "plan": "crypto",
             "account_balance": 200,
             "product_type": "2-step",
@@ -433,6 +595,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=216"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "instant",
             "account_balance": 5,
             "product_type": "1-step",
@@ -441,6 +606,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=217"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "instant",
             "account_balance": 10,
             "product_type": "1-step",
@@ -449,6 +617,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=218"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "instant",
             "account_balance": 25,
             "product_type": "1-step",
@@ -457,6 +628,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=219"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "instant",
             "account_balance": 50,
             "product_type": "1-step",
@@ -465,6 +639,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=220"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 2,
             "plan": "instant",
             "account_balance": 100,
             "product_type": "1-step",
@@ -473,6 +650,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=221"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "instant",
             "account_balance": 5,
             "product_type": "1-step",
@@ -481,6 +661,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=222"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "instant",
             "account_balance": 10,
             "product_type": "1-step",
@@ -489,6 +672,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=223"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "instant",
             "account_balance": 25,
             "product_type": "1-step",
@@ -497,6 +683,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=224"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "instant",
             "account_balance": 50,
             "product_type": "1-step",
@@ -505,6 +694,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=225"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 3,
             "plan": "instant",
             "account_balance": 100,
             "product_type": "1-step",
@@ -513,6 +705,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=226"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "instant",
             "account_balance": 5,
             "product_type": "1-step",
@@ -521,6 +716,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=227"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "instant",
             "account_balance": 10,
             "product_type": "1-step",
@@ -529,6 +727,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=228"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "instant",
             "account_balance": 25,
             "product_type": "1-step",
@@ -537,6 +738,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=229"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "instant",
             "account_balance": 50,
             "product_type": "1-step",
@@ -545,6 +749,9 @@
             "link_register": "https://dashboard.a-trader.com/en/challenges?planid=230"
         },
         {
+            "plan_id": 3,
+            "product_type_id": 1,
+            "platform_id": 1,
             "plan": "instant",
             "account_balance": 100,
             "product_type": "1-step",

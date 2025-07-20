@@ -9,7 +9,7 @@ const EverythingYouNeedToKnow = () => {
     const [faqs, setFaqs] = useState([]);
 
     useEffect(() => {
-        fetch('/data/faqs.json')
+        fetch('/data/faqs/faqs_en.json')
         .then(res => res.json())
         .then(data => {
             const filtered = data.faqs

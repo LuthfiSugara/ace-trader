@@ -7,9 +7,12 @@ import Button from '../Button/Button';
 import SelectDropdown, { SelectProps } from '../SelectDropdown/SelectDropdown';
 import useTranslation from '@/hooks/useTranslation';
 import { BaseSelect } from '@/types/components/filter.types';
+import { getCookie } from 'cookies-next';
 
 const ListFaqs = () => {
     const { translation } = useTranslation();
+
+    const lang = getCookie('lang') ?? 'en';
 
     const [faqs, setFaqs] = useState([]),
     [filterPlans, setFilterPlans] = useState<Array<SelectProps>>([]),
@@ -29,7 +32,7 @@ const ListFaqs = () => {
     };
 
     const handleSelect = (option: FaqCategoryProps) => {
-        updateFilter('id_category', option.value);
+        updateFilter('id_category', option.id);
     };
 
     const handleSelectPlans = (option: SelectProps) => {
@@ -50,7 +53,8 @@ const ListFaqs = () => {
     }
 
     useEffect(() => {
-        fetch('/data/faqs.json')
+        const faqFile = `/data/faqs/faqs_${lang}.json`;
+        fetch(faqFile)
         .then(res => res.json())
         .then(data => {
             setFilterPlans(handleOptionsMap(data.filter_faqs.plans));
@@ -128,9 +132,19 @@ const ListFaqs = () => {
                     <div className='md:col-span-2 bg-[#06333D] rounded-xl h-fit'>
                         {faqs.map((faq: FaqProps, index: number) => {
                             return filter.plan_id != 3 && filter.id_category === faq.category && filter.plan_id === faq.plan_id && filter.product_type_id === faq.product_type_id ? (
-                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
+                                <Faq 
+                                    key={index} 
+                                    title={faq.title} 
+                                    description={faq.description} 
+                                    className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} 
+                                />
                             ) : filter.plan_id === 3 && filter.plan_id == faq.plan_id && filter.id_category === faq.category ? (
-                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
+                                <Faq 
+                                    key={index} 
+                                    title={faq.title} 
+                                    description={faq.description} 
+                                    className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} 
+                                />
                             ) : (
                                 null
                             )
