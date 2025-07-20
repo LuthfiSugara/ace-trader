@@ -1,0 +1,16 @@
+{
+    "plans": [
+        {
+            "id": 1,
+            "name": "Standard"
+        },
+        {
+            "id": 2,
+            "name": "Crypto"
+        },
+        {
+            "id": 3,
+            "name": "Instant"
+        }
+    ]
+}

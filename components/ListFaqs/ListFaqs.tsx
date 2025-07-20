@@ -53,18 +53,36 @@ const ListFaqs = () => {
     }
 
     useEffect(() => {
+        const filterPlanFile = `/data/filter/plan/plan_${lang}.json`;
+        fetch(filterPlanFile)
+        .then(res => res.json())
+        .then(data => {
+            setFilterPlans(handleOptionsMap(data.plans));
+        });
+    }, []);
+
+    useEffect(() => {
+        const filterProductTypeFile = `/data/filter/productType/product_type_${lang}.json`;
+        fetch(filterProductTypeFile)
+        .then(res => res.json())
+        .then(data => {
+            setProductType(handleOptionsMap(data.product_type));
+        });
+    }, []);
+
+    useEffect(() => {
         const faqFile = `/data/faqs/faqs_${lang}.json`;
         fetch(faqFile)
         .then(res => res.json())
         .then(data => {
-            setFilterPlans(handleOptionsMap(data.filter_faqs.plans));
-            setProductType(handleOptionsMap(data.filter_faqs.product_type));
             setFaqs(data.faqs);
         });
     }, []);
 
     useEffect(() => {
-        fetch('/data/categories.json')
+        const categoriesFile = `/data/faqs/categories/categories_${lang}.json`;
+        
+        fetch(categoriesFile)
         .then(res => res.json())
         .then(data => {
             setCategories(data.categories)
@@ -77,7 +95,7 @@ const ListFaqs = () => {
             
             <div className='flex flex-col sm:flex-row flex-wrap gap-4 md:gap-8 justify-center pt-[100px] pb-[20px] md:pb-[50px]'>
                 <div className='space-y-3 hidden md:block'>
-                    <p className={`text-white text-start font-semibold`}>Plan</p>
+                    <p className={`text-white text-start font-semibold`}>{translation('global.filter.plan')}</p>
                     <div className='flex justify-start flex-wrap gap-4'>
                         {filterPlans.map((plan, index) => {
                             return (
@@ -100,7 +118,7 @@ const ListFaqs = () => {
                 {filter.plan_id != 3 &&
                     <>
                         <div className='space-y-3 hidden md:block'>
-                            <p className={`text-white text-start font-semibold`}>Product Type</p>
+                            <p className={`text-white text-start font-semibold`}>{translation('global.filter.product.type')}</p>
                             <div className='flex justify-start flex-wrap gap-4'>
                                 {productType.map((type, index) => {
                                     return (

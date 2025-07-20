@@ -1,0 +1,12 @@
+{
+    "product_type": [
+        {
+            "id": 1,
+            "name": "1 Langkah"
+        },
+        {
+            "id": 2,
+            "name": "2 Langkah"
+        }
+    ]
+}

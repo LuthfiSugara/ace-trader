@@ -43,7 +43,7 @@ const Header = () => {
       <nav className='w-full max-w-[1400px] flex justify-between items-center gap-4 mx-auto'>
         <div className="w-full flex flex-row justify-between gap-4 items-center px-[40px] py-5" style={{display: layoutWidth < 1170 ? 'none' : 'flex'}}>
           <Link href="/" className=''>
-            <Image src='/images/logo.png' alt='logo' width={100} height={100} className='w-[180px]' />
+            <Image onClick={onClose} src='/images/logo.png' alt='logo' width={100} height={100} className='w-[180px]' />
           </Link>
           <div className='flex items-center gap-8 lg:pr-8'>
 {/*             <Link href='/' className='text-white text-sm md:text-lg font-medium'>Home</Link> */}
@@ -65,7 +65,7 @@ const Header = () => {
         <div className="p-[14px] w-full" style={{display: layoutWidth < 1170 ? 'block' : 'none'}}>
           <div className="flex gap-4 items-center">
             <Link href="/" className=''>
-              <Image src='/images/logo.png' alt='logo' width={100} height={100} className='w-[180px]' />
+              <Image onClick={onClose} src='/images/logo.png' alt='logo' width={100} height={100} className='w-[180px]' />
             </Link>
             <div className='flex justify-end w-full '>
               <LanguageDropdown />

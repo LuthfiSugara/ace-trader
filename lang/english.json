@@ -6,6 +6,10 @@
     "global.btn.affiliate": "Affiliate",
     "global.btn.about.us": "About Us",
     "global.btn.get.funded": "Get Funded",
+    "global.filter.plan": "Plan",
+    "global.filter.product.type": "Product Type",
+    "global.filter.account.balance": "Account Balance",
+    "global.filter.platform": "Platform",
 
     "global.btn.footer.quick.link": "Quick Link",
     "global.btn.footer.contact.us": "Contact Us",
@@ -31,6 +35,12 @@
     "home.why.trader.no.risk.description": "Trade with zero personal risk: our platform safeguards your funds at every step while you pursue your Equity Growth Target and reap the rewards of your performance.",
 
     "home.choose.plan.title": "Choose the plan that fits you!",
+    "home.choose.plan.account.size": "Account Size",
+    "home.choose.plan.price": "Price",
+    "home.choose.plan.btn.start.trading": "Start Trading",
+
+    "home.faq.title": "Everything you need to know, in one place.",
+    "home.faq.btn.view.more": "View More",
 
     "home.contact.title": "Ready to Trade With Ace Trader?",
     "home.contact.description": "Whether you’re just starting out or scaling your strategy, our funding solutions are designed to help you grow and profit - without unnecessary risk.",

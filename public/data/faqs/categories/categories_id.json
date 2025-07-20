@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Umum"
+        },
+        {
+            "id": 2,
+            "name": "Aturan Trading"
+        },
+        {
+            "id": 3,
+            "name": "Akun yang Didanai"
+        }
+    ]
+}

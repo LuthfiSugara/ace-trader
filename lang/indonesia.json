@@ -6,6 +6,10 @@
     "global.btn.affiliate": "Afiliasi",
     "global.btn.about.us": "Tentang Kami",
     "global.btn.get.funded": "Get Funded",
+    "global.filter.plan": "Rencana",
+    "global.filter.product.type": "Jenis Produk",
+    "global.filter.account.balance": "Saldo Akun",
+    "global.filter.platform": "Platform",
 
     "global.btn.footer.quick.link": "Bantuan",
     "global.btn.footer.contact.us": "Hubungi Kami",
@@ -31,6 +35,12 @@
     "home.why.trader.no.risk.description": "Trading tanpa risiko pribadi: platform kami melindungi dana Anda di setiap langkah saat Anda mengejar Target Pertumbuhan Ekuitas dan meraih imbal hasil dari performa Anda.",
 
     "home.choose.plan.title": "Pilih rencana yang sesuai dengan Anda!",
+    "home.choose.plan.account.size": "Ukuran Akun",
+    "home.choose.plan.price": "Harga",
+    "home.choose.plan.btn.start.trading": "Mulai Trading",
+
+    "home.faq.title": "Semua yang perlu Anda ketahui, dalam satu tempat.",
+    "home.faq.btn.view.more": "Lihat Selengkapnya",
 
     "home.contact.title": "Siap Trading dengan Ace Trader?",
     "home.contact.description": "Baik Anda baru memulai maupun sedang mengembangkan strategi, solusi pendanaan kami dirancang untuk membantu Anda tumbuh dan meraih keuntungan — tanpa risiko yang tidak perlu.",

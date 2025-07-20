@@ -1,0 +1,388 @@
+{
+    "choose_plans" : [
+        {
+            "plan": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
+            "benefits": [
+                {
+                    "name": "Target Keuntungan",
+                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "data": [
+                        "10%",
+                        "-",
+                        "Akun Dana Tidak Memiliki Batasan"
+                    ]
+                },
+                {
+                    "name": "Batas Kerugian Harian",
+                    "info": ["<p class='mb-5'>Kerugian Harian Maksimum adalah jumlah yang boleh Anda rugikan setiap hari.</p><p class='mb-5'>Untuk tujuan aturan ini, nilai yang lebih tinggi antara ekuitas dan saldo akan digunakan. Aturan ini ditetapkan sebagai persentase dari ekuitas atau saldo awal setiap hari. Aturan ini menyatakan bahwa ekuitas harian, yang merupakan hasil dari jumlah floating PnL (Profit dan Loss) saat ini ditambah semua posisi yang telah ditutup pada hari itu, tidak boleh mencapai Batas Kerugian Harian Maksimum.</p><p>Contoh:</p><p>Anda memiliki akun master. Pada awal hari ke-5, saldo akun Anda adalah $105.000 dan ekuitas Anda adalah $107.000. Batas Kerugian Harian adalah 5% dari ekuitas awal untuk contoh ini, yang berarti bahwa ekuitas Anda pada hari ke-5 tidak boleh turun di bawah: Kerugian Harian Maksimum = $107.000 ekuitas awal * 5% Batas Kerugian Harian = $5.350 Batas Kerugian Harian. $107.000 ekuitas awal pada hari ke-5 - $5.350 Batas Kerugian Harian = $101.650 Jika ekuitas Anda turun di bawah $101.650 pada waktu tertentu di hari ke-5, akun Anda akan ditutup.</p>"],
+                    "data": [
+                        "5%",
+                        "5%",
+                        "Berbasis Ekuitas, Ekuitas berdasarkan saldo hari sebelumnya (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Penarikan Maksimum",
+                    "data": [
+                        "6%",
+                        "6%",
+                        "Berbasis Ekuitas, Ekuitas berdasarkan saldo hari sebelumnya (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Periode Tidak Aktif",
+                    "data": [
+                        "30 Hari",
+                        "30 Hari",
+                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "data": [
+                        "1:50",
+                        "1:50",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Waktu Maksimal",
+                    "data": [
+                        "-",
+                        "-",
+                        "Tidak ada persyaratan Waktu Maksimal"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Assessment 2"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
+            "benefits": [
+                {
+                    "name": "Target Keuntungan",
+                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "data": [
+                        "8%",
+                        "5%",
+                        "-",
+                        "Akun Dana Tidak Memiliki Batasan"
+                    ]
+                },
+                {
+                    "name": "Batas Kerugian Harian",
+                    "info": ["<p class='mb-5'>Kerugian Harian Maksimum adalah jumlah yang boleh Anda rugikan setiap hari.</p><p class='mb-5'>Untuk tujuan aturan ini, nilai yang lebih tinggi antara ekuitas dan saldo akan digunakan. Aturan ini ditetapkan sebagai persentase dari ekuitas atau saldo awal setiap hari. Aturan ini menyatakan bahwa ekuitas harian, yang merupakan hasil dari jumlah floating PnL (Profit dan Loss) saat ini ditambah semua posisi yang telah ditutup pada hari itu, tidak boleh mencapai Batas Kerugian Harian Maksimum.</p><p>Contoh:</p><p>Anda memiliki akun master. Pada awal hari ke-5, saldo akun Anda adalah $105.000 dan ekuitas Anda adalah $107.000. Batas Kerugian Harian adalah 5% dari ekuitas awal untuk contoh ini, yang berarti bahwa ekuitas Anda pada hari ke-5 tidak boleh turun di bawah: Kerugian Harian Maksimum = $107.000 ekuitas awal * 5% Batas Kerugian Harian = $5.350 Batas Kerugian Harian. $107.000 ekuitas awal pada hari ke-5 - $5.350 Batas Kerugian Harian = $101.650 Jika ekuitas Anda turun di bawah $101.650 pada waktu tertentu di hari ke-5, akun Anda akan ditutup.</p>"],
+                    "data": [
+                        "5%",
+                        "5%",
+                        "5%",
+                        "Berbasis Ekuitas, Ekuitas berdasarkan saldo hari sebelumnya (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Penarikan Maksimum",
+                    "data": [
+                        "8%",
+                        "8%",
+                        "8%",
+                        "Berdasarkan ekuitas, tidak mengikuti pergerakan (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Periode Tidak Aktif",
+                    "data": [
+                        "30 Hari",
+                        "30 Hari",
+                        "30 Hari",
+                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "data": [
+                        "1:50",
+                        "1:50",
+                        "1:50",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Waktu Maksimal",
+                    "data": [
+                        "-",
+                        "-",
+                        "-",
+                        "Tidak ada persyaratan Waktu Maksimal"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
+            "benefits": [
+                {
+                    "name": "Target Keuntungan",
+                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "data": [
+                        "9%",
+                        "N/A",
+                        "Akun Dana Tidak Memiliki Batasan"
+                    ]
+                },
+                {
+                    "name": "Penarikan Maksimum",
+                    "data": [
+                        "6%",
+                        "6%",
+                        "Berdasarkan ekuitas, tidak mengikuti pergerakan (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Periode Tidak Aktif",
+                    "data": [
+                        "30 Hari",
+                        "30 Hari",
+                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "data": [
+                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
+                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Batas Harian Maksimum",
+                    "data": [
+                        "+/-3%",
+                        "+/-3%",
+                        "Lihat di bawah untuk perhitungannya"
+                    ]
+                },
+                {
+                    "name": "Persentase pembagian keuntungan",
+                    "data": [
+                        "N/A",
+                        "90%",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Waktu Maksimal",
+                    "data": [
+                        "-",
+                        "-",
+                        "Tidak ada persyaratan Waktu Maksimal"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "rule_area": [
+                {
+                    "id": 1,
+                    "name": "Assessment 1"
+                }, 
+                {
+                    "id": 2,
+                    "name": "Assessment 2"
+                },
+                {
+                    "id": 3,
+                    "name": "Funded"
+                }
+            ],
+            "benefits": [
+                {
+                    "name": "Target Keuntungan",
+                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "data": [
+                        "6%",
+                        "9%",
+                        "N/A",
+                        "Akun Dana Tidak Memiliki Batasan"
+                    ]
+                },
+                {
+                    "name": "Penarikan Maksimum",
+                    "data": [
+                        "9%",
+                        "9%",
+                        "9%",
+                        "Berdasarkan ekuitas, tidak mengikuti pergerakan (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Periode Tidak Aktif",
+                    "data": [
+                        "30 Hari",
+                        "30 Hari",
+                        "30 Hari",
+                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "data": [
+                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
+                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
+                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Batas Harian Maksimum",
+                    "data": [
+                        "+/-3%",
+                        "+/-3%",
+                        "+/-3%",
+                        "Lihat di bawah untuk perhitungannya"
+                    ]
+                },
+                {
+                    "name": "Persentase pembagian keuntungan",
+                    "data": [
+                        "N/A",
+                        "N/A",
+                        "90%",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Waktu Maksimal",
+                    "data": [
+                        "-",
+                        "",
+                        "-",
+                        "Tidak ada persyaratan Waktu Maksimal"
+                    ]
+                }
+            ]
+        },
+        {
+            "plan": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "rule_area": [
+                {
+                    "id": 3,
+                    "name": "Instant Funded"
+                }
+            ],
+            "benefits": [
+                {
+                    "name": "Target Keuntungan",
+                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "data": [
+                        "N/A",
+                        "Akun Dana Instan tidak memiliki batas keuntungan"
+                    ]
+                },
+                {
+                    "name": "Batas Kerugian Harian",
+                    "data": [
+                        "5%",
+                        "Berbasis ekuitas, batas ditentukan oleh saldo hari sebelumnya (Pelanggaran Berat)"
+                    ]
+                },
+                {
+                    "name": "Penarikan Maksimum",
+                    "data": [
+                        "8%",
+                        "Berdasarkan ekuitas, saldo tertinggi akun perdagangan akan dikunci pada saldo awal akun (Pelanggaran Berat), akun akan dikunci pada saldo awal saat pembayaran."
+                    ]
+                },
+                {
+                    "name": "Leverage",
+                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "data": [
+                        "1:50",
+                        ""
+                    ]
+                },
+                {
+                    "name": "Periode Tidak Aktif",
+                    "data": [
+                        "30 Hari",
+                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                    ]
+                },
+                
+                {
+                    "name": "Kosongkan posisi untuk akhir pekan",
+                    "data": [
+                        "Ya",
+                        "Semua posisi akan ditutup pada hari Jumat pukul 15:45 kecuali jika add-on Penahanan Akhir Pekan dibeli."
+                    ]
+                },
+                {
+                    "name": "Waktu Maksimal",
+                    "data": [
+                        "-",
+                        "Tidak ada persyaratan Waktu Maksimal"
+                    ]
+                },
+                {
+                    "name": "Pembagian Keuntungan",
+                    "data": [
+                        "80%",
+                        "Dapat ditingkatkan hingga 90% dengan pembelian add-on"
+                    ]
+                }
+            ]
+        }
+    ]
+}
