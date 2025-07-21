@@ -775,9 +775,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-             "title": "Berapa usia minimum untuk mengikuti program Anda?",
+             "title": "Berapa usia minimum untuk bergabung dengan program Anda?",
   "description": [
-    "<p>Anda harus berusia minimal 18 tahun, atau usia legal minimum yang berlaku di negara Anda, untuk membeli sebuah penilaian.</p>"
+    "<p>Anda harus berusia minimal 18 tahun, atau usia legal minimum yang berlaku di negara Anda, untuk membeli penilaian.</p>"
   ]
         },
         {
@@ -786,9 +786,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "プログラムに参加するための最低年齢はいくつですか？",
+            "title": "Di mana saya bisa memantau perkembangan akun saya?",
   "description": [
-    "<p>アセスメントを購入するには、18歳以上、またはお住まいの国で定められた法定最低年齢である必要があります。</p>"
+    "<p>Setelah membeli Penilaian, Anda akan mendapatkan akses ke dasbor trader di mana Anda dapat memantau Akun Penilaian dan Akun Dana Anda. Dasbor diperbarui setiap kali kami menghitung metrik, yang terjadi kira-kira setiap 60 detik. Anda bertanggung jawab untuk memantau tingkat pelanggaran Anda.</p>"
   ]
         },
         {
@@ -797,10 +797,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What Platform can I trade on?",
-            "description": [
-                "<p>All trades will be executed on the DXtrade platform.</p>"
-            ]
+             "title": "Platform apa yang dapat saya gunakan untuk berdagang?",
+  "description": [
+    "<p>Semua perdagangan akan dieksekusi di platform DXtrade.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -808,10 +808,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What products can I trade?",
-            "description": [
-                "<p>You can trade any products streamed by the Liquidity Provider into the available platform.</p>"
-            ]
+            "title": "Produk apa yang dapat saya perdagangkan?",
+  "description": [
+    "<p>Anda dapat memperdagangkan produk apa pun yang disediakan oleh Penyedia Likuiditas ke dalam platform yang tersedia.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -819,10 +819,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What is the leverage? ",
-            "description": [
-                "<p>We allow up to 5:1 leverage on BTC and ETH.  Other cryptocurrencies listed on the platform are at 2:1.</p>"
-            ]
+           "title": "Berapa leverage yang tersedia?",
+  "description": [
+    "<p>Kami menyediakan leverage hingga 5:1 untuk BTC dan ETH. Kripto lainnya yang terdaftar di platform memiliki leverage 2:1.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -830,11 +830,11 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What are the trading hours?",
-            "description": [
-                "<p>Trading hours are set by the cryptocurrency exchange or Liquidity Provider(s) and are generally open 24 hours. We do not have any control over the trading hours.</p>",
-                "<strong class='mt-4'>Please note that holidays can have an impact on available trading hours. </strong>"
-            ]
+            "title": "Apa jam perdagangan?",
+  "description": [
+    "<p>Jam perdagangan ditentukan oleh bursa kripto atau Penyedia Likuiditas dan umumnya buka selama 24 jam. Kami tidak memiliki kendali atas jam perdagangan.</p>",
+    "<strong class='mt-4'>Harap dicatat bahwa hari libur dapat memengaruhi jam perdagangan yang tersedia.</strong>"
+  ]
         },
         {
             "plans": "crypto",
@@ -842,10 +842,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Are commissions charged on the trading activity?",
-            "description": [
-                "<p>Commissions or commission-equivalents may be charged in connection with your trading activity.  <strong>Note</strong> that cryptocurrency trading is subject to a percentage-based commission rate of 0.05% of the total notional trade volume, charged per side (USD amount * 0.0005).</p>"
-            ]
+            "title": "Apakah ada komisi yang dikenakan pada aktivitas perdagangan?",
+  "description": [
+    "<p>Komisi atau setara komisi dapat dikenakan sehubungan dengan aktivitas perdagangan Anda. <strong>Catatan</strong> bahwa perdagangan kripto dikenakan tarif komisi berbasis persentase sebesar 0,05% dari total volume notional perdagangan, dikenakan per sisi (jumlah USD * 0,0005).</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -853,10 +853,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Can I use an Automated Strategies?",
-            "description": [
-                "<p>DXTrade does not support automated strategies.</p>"
-            ]
+            "title": "Bisakah saya menggunakan Strategi Otomatis?",
+  "description": [
+    "<p>DXTrade tidak mendukung strategi otomatis.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -864,22 +864,22 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What is the policy on Prohibited Trading Activity? ",
-            "description": [
-                "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
-                "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider</p>",
-                "<p>● Utilizing non-public and/or insider information</p>",
-                "<p>● Front-running of trades placed elsewhere </p>",
-                "<p>● Trading in any way that jeopardizes the relationship that the Company has with a Liquidity Provider or may result in the canceling of trades </p>",
-                "<p>● Trading in any way that creates regulatory issues for the Liquidity Provider </p>",
-                "<p>● Utilizing any third-party strategy, off-the-shelf strategy or one marketed to pass challenge accounts </p>",
-                "<p>● Utilizing one strategy to pass an assessment and then utilizing a different strategy in a funded account, as determined by the Company at their discretion. </p>",
-                "<p>● Attempting to arbitrage an assessment account with another account with the Company or any third-party company, as determined by the Company in its sole and absolute discretion.</p>",
-                "<p>● If the Company detects that your trading constitutes Prohibited Trading, your participation in the program will be terminated and may include forfeiture of any fees paid to the Company. Additionally, and before any Trader shall receive a funded account, the trading activity of the Trader under these Terms and Conditions shall be reviewed by both the Company and the Liquidity Provider to determine whether such trading activity constitutes Prohibited Trading. In the case of Prohibited Trading, the Trader shall not receive a funded account. </p>",
-                "<p>● Additionally, the Company reserves the right to disallow or block any Trader from participating in the program for any reason, in the Company’s sole and absolute discretion. </p>",
-                "<p class='mt-4'>To view all Prohibited Uses, please review our Terms and Conditions here, </p>",
-                "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
-            ]
+            "title": "Apa kebijakan tentang Aktivitas Perdagangan yang Dilarang?",
+  "description": [
+    "<p class='mb-4'>Anda juga dilarang menggunakan strategi perdagangan apa pun yang secara tegas dilarang oleh Perusahaan atau Penyedia Likuiditas yang digunakannya. Perdagangan yang dilarang (“Perdagangan Terlarang”) termasuk namun tidak terbatas pada:</p>",
+    "<p>● Mengeksploitasi kesalahan atau keterlambatan harga dan/atau platform yang disediakan oleh Penyedia Likuiditas</p>",
+    "<p>● Menggunakan informasi non-publik dan/atau informasi orang dalam</p>",
+    "<p>● Melakukan front-running terhadap perdagangan yang dilakukan di tempat lain</p>",
+    "<p>● Melakukan perdagangan dengan cara yang membahayakan hubungan antara Perusahaan dan Penyedia Likuiditas atau yang dapat menyebabkan pembatalan perdagangan</p>",
+    "<p>● Melakukan perdagangan dengan cara yang menimbulkan masalah regulasi bagi Penyedia Likuiditas</p>",
+    "<p>● Menggunakan strategi pihak ketiga, strategi siap pakai, atau strategi yang dipasarkan untuk lulus akun tantangan</p>",
+    "<p>● Menggunakan satu strategi untuk lulus penilaian lalu menggunakan strategi berbeda di akun yang didanai, sesuai kebijakan Perusahaan</p>",
+    "<p>● Mencoba arbitrase akun penilaian dengan akun lain milik Perusahaan atau pihak ketiga, sesuai kebijakan mutlak Perusahaan</p>",
+    "<p>● Jika Perusahaan mendeteksi bahwa perdagangan Anda tergolong Perdagangan Terlarang, partisipasi Anda dalam program akan dihentikan dan dapat termasuk kehilangan biaya yang telah dibayarkan kepada Perusahaan. Selain itu, sebelum Trader menerima akun yang didanai, aktivitas perdagangan Trader akan ditinjau oleh Perusahaan dan Penyedia Likuiditas untuk menentukan apakah aktivitas tersebut tergolong Perdagangan Terlarang. Jika terbukti, Trader tidak akan menerima akun yang didanai.</p>",
+    "<p>● Selain itu, Perusahaan berhak untuk melarang atau memblokir Trader mana pun dari partisipasi dalam program ini atas alasan apa pun, sesuai kebijakan mutlak Perusahaan.</p>",
+    "<p class='mt-4'>Untuk melihat semua Penggunaan yang Dilarang, silakan tinjau Syarat dan Ketentuan kami di sini,</p>",
+    "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
+  ]
         },
         {
             "plans": "crypto",
@@ -887,10 +887,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Can I trade during News Events? ",
-            "description": [
-                "<p>Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>"
-            ]
+            "title": "Bisakah saya berdagang saat Peristiwa Berita?",
+  "description": [
+    "<p>Membuka posisi dalam waktu 3 menit sebelum atau sesudah Peristiwa Berita dilarang. Trader yang teridentifikasi membuka posisi selama Peristiwa Berita dapat dikenakan penutupan posisi tersebut dan penghapusan P&L yang terkait dari akun mereka, pengurangan leverage akun, atau bahkan pelanggaran akun. Perusahaan memiliki hak sepenuhnya untuk menentukan apa yang dianggap sebagai Peristiwa Berita. Aturan ini dimaksudkan untuk melindungi integritas program kami dan bukan untuk menghukum trader yang secara tidak sengaja berdagang selama peristiwa berita.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -898,10 +898,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "How will I see the charge on my Statement? ",
-            "description": [
-                "<p>Charges come across in the name of dashboardanalytix.com. </p>"
-            ]
+            "title": "Bagaimana saya akan melihat tagihan pada Pernyataan Saya?",
+  "description": [
+    "<p>Biaya akan muncul dengan nama dashboardanalytix.com.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -909,10 +909,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "How are taxes handled? ",
-            "description": [
-                "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains. </p>"
-            ]
+            "title": "Bagaimana pajak ditangani?",
+  "description": [
+    "<p>Saat Anda melakukan trading menggunakan Akun Dana dari perusahaan kami, Anda dianggap sebagai kontraktor independen. Oleh karena itu, Anda bertanggung jawab atas semua pajak atas keuntungan Anda.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -920,10 +920,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "How are affiliates credited? ",
-            "description": [
-                "<p>Affiliates are credited for referrals when a user creates an account using a link or discount code provided by the Affiliate.</p>"
-            ]
+            "title": "Bagaimana afiliasi mendapatkan kredit?",
+  "description": [
+    "<p>Afiliasi akan mendapatkan kredit untuk referensi ketika pengguna membuat akun menggunakan tautan atau kode diskon yang diberikan oleh Afiliasi.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -931,10 +931,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "What constitutes a Breach? ",
-            "description": [
-                "<p>A breach means that you violated the Max Drawdown rule. In the event you have a breach, you will fail the Assessment or have your Funded Account taken away. </p>"
-            ]
+            "title": "Apa yang dimaksud dengan Pelanggaran?",
+  "description": [
+    "<p>Pelanggaran berarti Anda melanggar aturan Max Drawdown. Jika terjadi pelanggaran, Anda akan gagal dalam Penilaian atau Akun Dana Anda akan dicabut.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -942,10 +942,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "How do you calculate the 3% Daily Cap Limit?",
-            "description": [
-                "<p>The Daily Cap Limit is the maximum percentage of your starting balance that your crypto account can move in any given day. The Daily Cap Limit is calculated using the previous day’s equity, which resets at 5 PM EST. In the event that the assets in your account move in excess of 3% of your starting balance from your previous day's equity in either direction, your positions will be closed out and your account will be locked until the start of the new trading day at 5 PM EST.  Example: For a 100k starting balance account, with a 3% Daily Cap. If the account finishes the day, with Equity at 101k, the next day’s limits will be 101k +/- 3k (i.e. 98k - 104k).</p>"
-            ]
+            "title": "Bagaimana cara Anda menghitung Batas Harian 3% (Daily Cap Limit)?",
+  "description": [
+    "<p>Batas Harian (Daily Cap Limit) adalah persentase maksimum dari saldo awal akun kripto Anda yang dapat berubah dalam satu hari. Batas ini dihitung berdasarkan ekuitas hari sebelumnya, yang diatur ulang pada pukul 5 sore EST. Jika aset dalam akun Anda bergerak lebih dari 3% dari saldo awal berdasarkan ekuitas hari sebelumnya (baik naik maupun turun), maka semua posisi Anda akan ditutup dan akun Anda akan dikunci hingga awal hari perdagangan berikutnya pada pukul 5 sore EST. Contoh: Untuk akun dengan saldo awal $100.000 dan batas harian 3%. Jika akun tersebut ditutup di hari itu dengan ekuitas $101.000, maka batas pada hari berikutnya adalah 101k +/- 3k (yaitu 98k - 104k).</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -953,11 +953,11 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "How do you calculate the Maximum Drawdown? ",
-            "description": [
-                "<p>The Maximum Drawdown is initially set at 6% and is static and will therefore remain at the same value for as long as the account will remain active.</p>",
-                "<p class='mt-4'>Example: If your starting balance is $100,000, you can drawdown to $94,000 before you would violate the Maximum Drawdown rule. Then for example let's say you take your account to $102,000 in CLOSED BALANCE, your Maximum Drawdown would remain at $94,000. So, regardless of how high your account goes, your drawdown will remain the same.</p>"
-            ]
+            "title": "Bagaimana cara Anda menghitung Penarikan Maksimum (Maximum Drawdown)?",
+  "description": [
+    "<p>Penarikan Maksimum (Maximum Drawdown) awalnya ditetapkan sebesar 6% dan bersifat statis, sehingga akan tetap pada nilai yang sama selama akun Anda aktif.</p>",
+    "<p class='mt-4'>Contoh: Jika saldo awal Anda adalah $100.000, Anda dapat mengalami penurunan hingga $94.000 sebelum melanggar aturan Penarikan Maksimum. Misalnya, jika Anda meningkatkan saldo akun Anda menjadi $102.000 dalam SALDO TERTUTUP, Penarikan Maksimum Anda tetap $94.000. Jadi, tidak peduli seberapa tinggi saldo akun Anda meningkat, batas penarikan akan tetap sama.</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -965,7 +965,342 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "Can I hold positions over the weekend? ",
+            "title": "Apakah saya dapat menahan posisi selama akhir pekan?",
+  "description": [
+    "<p>Ya.</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "Apakah ada pelanggaran karena tidak aktif?",
+  "description": [
+    "<p>Ya. Kami akan menganggap Anda tidak aktif dan akun Anda akan dianggap melanggar jika tidak ada aktivitas trading selama 30 hari berturut-turut.</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "Berapa lama waktu yang dibutuhkan untuk menerima akun pendanaan saya?",
+  "description": [
+    "<p>Setelah Anda lulus Penilaian, Anda akan menerima email berisi instruksi untuk mengakses dan menyelesaikan verifikasi “Know Your Customer” serta “Perjanjian Trader” Anda. Setelah keduanya selesai, Akun Pendanaan Anda akan dibuat, didanai, dan diterbitkan kepada Anda, biasanya dalam waktu 24-48 jam kerja. Anda akan menerima email konfirmasi setelah akun ini diaktifkan.</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "Setelah saya lulus Penilaian, apakah saya akan mendapatkan akun demo atau akun pendanaan?",
+  "description": [
+    "<p>Setelah Anda lulus Penilaian, kami akan memberikan Anda akun pendanaan yang didukung oleh modal kami. Modal dalam Akun Pendanaan Anda bersifat notional dan mungkin tidak sesuai dengan jumlah modal yang disimpan di Penyedia Likuiditas. Akun Pendanaan dikatakan didanai secara notional ketika dana aktual di dalam akun (misalnya, ekuitas di Akun Pendanaan yang diwakili oleh jumlah modal) berbeda dari ukuran akun nominal (misalnya, ukuran Akun Pendanaan yang menentukan nilai awal akun dan tingkat perdagangan). Dana notional adalah selisih antara ukuran akun nominal dan modal aktual dalam Akun Pendanaan.</p>",
+    "<p class='mt-4'>Penggunaan pendanaan notional tidak memengaruhi kondisi perdagangan Anda dalam bentuk apa pun.</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "Apakah kami memanipulasi harga atau eksekusi yang Anda terima di akun pendanaan Anda?",
+  "description": [
+    "<p>Tidak. Kami tidak memiliki kendali atas harga dari penyedia likuiditas maupun atas eksekusi perdagangan Anda.</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "Siapa pihak lawan dalam perdagangan saya?",
+  "description": [
+    "<p>Untuk tujuan manajemen risiko dan meminimalkan biaya transaksi, kami dapat mengimbangi atau meniadakan risiko pasar dan bertindak sebagai pihak lawan langsung dalam perdagangan tertentu yang dilakukan di Akun Anda. Perdagangan tersebut dieksekusi pada harga yang diberikan oleh Penyedia Likuiditas. Kerangka kerja ini dirancang untuk memastikan Anda menerima eksekusi pasar yang sesungguhnya, sekaligus memungkinkan kami untuk mengelola risiko secara dinamis dengan mengarahkan posisi yang ada atau pesanan di masa depan ke pihak ketiga untuk dieksekusi sebagaimana kami anggap tepat. Kami percaya bahwa eksekusi pasar nyata dan manajemen risiko dinamis seperti ini tidak akan mungkin dilakukan atau seefisien jika perdagangan dilakukan dalam akun simulasi. Terlepas dari apakah kami bertindak sebagai pihak lawan dalam perdagangan Anda, keuntungan atau kerugian di akun pendanaan Anda tidak dihitung secara berbeda. Namun, ketika kami bertindak sebagai pihak lawan dalam perdagangan Anda, terdapat potensi konflik kepentingan karena perdagangan Anda tidak menghasilkan keuntungan atau kerugian bersih bagi kami, sebagaimana perdagangan Anda jika kami bukan pihak lawan langsung.</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "Apakah saya tunduk pada batas posisi tertentu?",
+  "description": [
+    "<p>Posisi maksimum yang dapat Anda buka ditentukan oleh margin yang tersedia. Kami berhak untuk meningkatkan persyaratan margin, mengubah batas rasio leverage, atau membatasi jumlah posisi terbuka yang dapat Anda masuki atau pertahankan di Akun Pendanaan kapan saja, tanpa pemberitahuan sebelumnya, serta menyesuaikan tingkat drawdown di mana perdagangan pada akun pendanaan akan dihentikan sebagai respons terhadap kondisi pasar. Kami atau Penyedia Likuiditas berhak untuk menolak menerima pesanan apa pun.</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "Apa saja aturan untuk akun pendanaan?",
+            "description": [
+                    "<p>Aturan untuk akun pendanaan sama persis dengan akun Penilaian Anda. Namun, pada akun pendanaan, tidak ada target keuntungan.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "Jika saya mengalami pelanggaran di akun pendanaan saya dan terdapat keuntungan, apakah saya kehilangan keuntungan tersebut?",
+            "description": [
+                "<p>Jika Anda memiliki keuntungan di akun pendanaan Anda pada saat terjadi pelanggaran, Anda tetap akan menerima bagian dari keuntungan tersebut.</p>",
+    "<p class='mt-4'>Sebagai contoh, jika Anda memiliki akun sebesar $100.000 dan Anda meningkatkan akun tersebut menjadi $110.000. Jika kemudian terjadi pelanggaran, kami akan menutup akun tersebut. Dari keuntungan sebesar $10.000 di akun pendanaan Anda, Anda akan dibayar sesuai bagian Anda.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "Bagaimana cara menarik keuntungan di akun pendanaan saya?",
+            "description": [
+                    "<p>Trader dapat meminta penarikan keuntungan dari akun pendanaan mereka kapan saja melalui dasbor trader mereka, tetapi tidak lebih sering dari sekali setiap tiga puluh (30) hari. Jadi, jika Anda mendapatkan keuntungan di akun pendanaan Anda, Anda dapat mengajukan penarikan. Saat Anda siap untuk menarik keuntungan dari akun pendanaan Anda, klik tombol Tarik Keuntungan di dasbor trader Anda dan masukkan jumlah yang ingin ditarik. Semua keuntungan tersebut akan didistribusikan melalui solusi pembayaran keluar yang tersedia dari waktu ke waktu. Setelah permintaan penarikan Anda disetujui, kami akan membayar uang yang menjadi hak Anda. Kami berhak mengubah metode dan opsi penarikan kapan saja.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "Kapan saya bisa menarik keuntungan di akun pendanaan saya dan bagaimana hal itu memengaruhi Batas Penarikan Maksimum (Maximum Drawdown)?",
+            "description": [
+                    "<p>Penarikan pertama Anda dapat diminta kapan saja, sesuai dengan pembagian keuntungan yang tercantum dalam Perjanjian Trader. Setelah itu, Anda dapat mengajukan penarikan keuntungan dari akun Anda setiap 30 hari. Saat penarikan disetujui, kami juga akan menarik bagian keuntungan kami. Batas penarikan maksimum tidak akan diatur ulang ketika Anda mengajukan penarikan. Contoh: Anda telah menaikkan akun dari $100.000 menjadi $120.000. Lalu Anda meminta penarikan sebesar $16.000 dengan pembagian keuntungan 90/10. Dalam skenario ini, Anda akan menerima $14.400 dan kami akan mempertahankan $1.600. Ini juga akan membuat saldo akun turun menjadi $104.000, dan Batas Penarikan Maksimum Anda akan tetap $94.000. Jadi, Anda memiliki maksimum $10.000 yang bisa Anda rugikan sebelum melanggar aturan Batas Penarikan Maksimum. Jika Anda menarik seluruh keuntungan dari Akun Pendanaan Anda, Batas Penarikan Maksimum tetap akan berada di $94.000.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Apakah saya harus menggunakan akun dari Anda untuk Assessment atau boleh menggunakan akun saya sendiri?",
+            "description": [
+                    "<p>Kami memiliki perangkat lunak manajemen risiko yang disinkronkan dengan akun yang kami buat. Ini memungkinkan kami untuk menganalisis kinerja Anda secara real-time untuk pencapaian atau pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan untuk Anda.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Negara Mana Saja yang Diterima?",
+            "description": [
+                    "<p>Tergantung pada kepatuhan terhadap hukum dan peraturan yang berlaku, trader dari semua negara, kecuali negara-negara yang terdaftar dalam daftar OFAC, dapat berpartisipasi dalam program kami, kecuali ditentukan lain atas kebijakan Perusahaan.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Berapa usia minimum untuk bergabung dalam program Anda?",
+            "description": [
+                    "<p>Anda harus berusia minimal 18 tahun, atau usia legal minimum yang berlaku di negara Anda, untuk membeli penilaian.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Di mana saya dapat melacak perkembangan akun saya?",
+            "description": [
+                    "<p>Setelah membeli Penilaian, Anda akan mendapatkan akses ke dasbor trader di mana Anda dapat memantau akun Penilaian dan Akun Dana Anda. Dasbor diperbarui setiap kali kami menghitung metrik, yang terjadi kira-kira setiap 60 detik. Anda bertanggung jawab untuk memantau tingkat pelanggaran Anda. </p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Di platform mana saya bisa berdagang?",
+            "description": [
+                    "<p>Semua perdagangan akan dilakukan di platform DXtrade.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Produk apa yang bisa saya perdagangkan?",
+            "description": [
+                    "<p>Anda dapat memperdagangkan produk apa pun yang disediakan oleh Penyedia Likuiditas ke dalam platform yang tersedia.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Berapa leverage yang tersedia?",
+            "description": [
+                    "<p>Kami menyediakan leverage hingga 5:1 untuk BTC dan ETH. Kripto lainnya yang terdaftar di platform memiliki leverage 2:1.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Jam perdagangan berapa?",
+            "description": [
+                "<p>Jam perdagangan ditetapkan oleh bursa kripto atau Penyedia Likuiditas dan umumnya buka 24 jam. Kami tidak memiliki kendali atas jam perdagangan tersebut.</p>",
+                "<strong class='mt-4'>Harap diperhatikan bahwa hari libur dapat memengaruhi jam perdagangan yang tersedia.</strong>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Apakah ada komisi yang dikenakan pada aktivitas perdagangan?",
+            "description": [
+                    "<p>Komisi atau komisi ekuivalen dapat dikenakan sehubungan dengan aktivitas perdagangan Anda. Perlu diketahui bahwa perdagangan kripto dikenakan tarif komisi berbasis persentase sebesar 0,05% dari total volume perdagangan nosional, dikenakan per sisi (jumlah USD * 0,0005).</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Apakah saya bisa menggunakan strategi otomatis?",
+            "description": [
+                    "<p>DXTrade tidak mendukung strategi otomatis.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Apa kebijakan terkait Aktivitas Perdagangan yang Dilarang?",
+            "description": [
+                "<p class='mb-4'>Anda juga dilarang menggunakan strategi perdagangan apa pun yang secara tegas dilarang oleh Perusahaan atau Penyedia Likuiditas yang digunakan. Perdagangan yang dilarang (“Perdagangan Terlarang”) mencakup namun tidak terbatas pada:</p>",
+    "<p>● Mengeksploitasi kesalahan atau keterlambatan harga dan/atau platform yang disediakan oleh Penyedia Likuiditas </p>",
+    "<p>● Menggunakan informasi non-publik dan/atau orang dalam </p>",
+    "<p>● Melakukan front-running terhadap perdagangan yang dilakukan di tempat lain </p>",
+    "<p>● Berdagang dengan cara apa pun yang membahayakan hubungan Perusahaan dengan Penyedia Likuiditas atau dapat menyebabkan pembatalan perdagangan </p>",
+    "<p>● Berdagang dengan cara yang menciptakan masalah regulasi bagi Penyedia Likuiditas </p>",
+    "<p>● Menggunakan strategi pihak ketiga, strategi siap pakai, atau yang dipasarkan untuk melewati akun tantangan </p>",
+    "<p>● Menggunakan satu strategi untuk lulus penilaian dan kemudian menggunakan strategi yang berbeda di akun dana, sesuai dengan kebijakan Perusahaan </p>",
+    "<p>● Mencoba melakukan arbitrase antara akun penilaian dengan akun lain di Perusahaan atau perusahaan pihak ketiga mana pun, sesuai dengan kebijakan mutlak Perusahaan </p>",
+    "<p>● Jika Perusahaan mendeteksi bahwa perdagangan Anda merupakan Perdagangan Terlarang, partisipasi Anda dalam program akan dihentikan dan dapat termasuk kehilangan biaya yang telah dibayarkan kepada Perusahaan. Selain itu, sebelum menerima akun dana, aktivitas perdagangan Anda akan ditinjau oleh Perusahaan dan Penyedia Likuiditas untuk menentukan apakah aktivitas tersebut tergolong Perdagangan Terlarang. Dalam hal ini, Anda tidak akan menerima akun dana. </p>",
+    "<p>● Selain itu, Perusahaan berhak untuk menolak atau memblokir Anda dari program kapan pun, atas kebijakan mutlak Perusahaan. </p>",
+    "<p class='mt-4'>Untuk melihat semua Penggunaan yang Dilarang, silakan tinjau Syarat dan Ketentuan kami di sini, </p>",
+    "<a class='mb-4 text-blue-500' target='_blank' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Apakah saya boleh berdagang selama Peristiwa Berita?",
+            "description": [
+                    "<p>Membuka posisi dalam waktu 3 menit sebelum atau sesudah Peristiwa Berita dilarang. Setiap trader yang teridentifikasi membuka posisi selama Peristiwa Berita akan dikenai penutupan posisi tersebut dan penghapusan P&L yang terkait dari akun mereka, pengurangan leverage pada akun mereka, atau akun mereka dapat dianggap melanggar aturan. Perusahaan memiliki kebijakan penuh dan mutlak dalam menentukan apa yang dianggap sebagai Peristiwa Berita. Aturan ini dimaksudkan untuk melindungi integritas program kami dan bukan untuk menghukum trader yang secara tidak sengaja berdagang saat terjadi peristiwa berita.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Bagaimana saya akan melihat tagihan di Pernyataan Saya?",
+            "description": [
+                    "<p>Tagihan akan muncul dengan nama dashboardanalytix.com.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Bagaimana pajak ditangani?",
+            "description": [
+                    "<p>Saat Anda melakukan perdagangan di Akun Dana untuk perusahaan kami, Anda dianggap sebagai kontraktor independen. Oleh karena itu, Anda bertanggung jawab atas semua pajak atas keuntungan Anda.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "Bagaimana afiliasi mendapatkan kredit?",
+            "description": [
+                    "<p>Afiliasi akan mendapatkan kredit untuk referensi ketika seorang pengguna membuat akun menggunakan tautan atau kode diskon yang disediakan oleh afiliasi.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "Apa yang dimaksud dengan Pelanggaran?",
+            "description": [
+                    "<p>Pelanggaran berarti Anda telah melanggar aturan Max Drawdown. Jika terjadi pelanggaran, Anda akan gagal dalam Penilaian atau akun Dana Anda akan dicabut.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "Bagaimana cara menghitung Batas Harian 3%?",
+            "description": [
+                    "<p>Batas Harian Maksimum (Daily Cap Limit) adalah persentase maksimum dari saldo awal akun kripto Anda yang dapat bergerak dalam satu hari. Batas ini dihitung menggunakan ekuitas hari sebelumnya, yang disetel ulang setiap pukul 5 PM EST. Jika aset dalam akun Anda bergerak lebih dari 3% dari saldo awal Anda berdasarkan ekuitas hari sebelumnya, maka semua posisi Anda akan ditutup dan akun Anda akan dikunci hingga awal hari perdagangan berikutnya pukul 5 PM EST. Contoh: Untuk akun dengan saldo awal $100.000 dan batas harian 3%, jika akun selesai hari itu dengan ekuitas $101.000, maka batas untuk hari berikutnya adalah $101.000 +/- $3.000 (yaitu $98.000 - $104.000).</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "Bagaimana cara menghitung Drawdown Maksimum?",
+            "description": [
+                "<p class='mb-4'>Drawdown Maksimum awalnya ditetapkan sebesar 9% dan bersifat statis, sehingga akan tetap pada nilai yang sama selama akun Anda tetap aktif.</p>",
+                "<p>Contoh: Jika saldo awal Anda adalah $100.000, Anda dapat mengalami penurunan hingga $91.000 sebelum melanggar aturan Drawdown Maksimum. Misalnya, jika saldo tertutup Anda meningkat menjadi $102.000, Drawdown Maksimum Anda tetap $91.000. Jadi, berapa pun peningkatan akun Anda, batas drawdown tetap sama.</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "Apakah saya bisa menahan posisi selama akhir pekan?",
             "description": [
                 "<p>Yes. </p>"
             ]
@@ -973,347 +1308,12 @@
         {
             "plans": "crypto",
             "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 2,
-            "title": "Is there a breach for inactivity? ",
-            "description": [
-                "<p>Yes. We will consider you inactive and your account will be breached if you do not have any trading activity on your account for 30 consecutive days.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "How long does it take to receive my funded account?",
-            "description": [
-                "<p>Upon passing your Assessment, you will receive an email with instructions on how to access and complete both your “Know Your Customer” verification and your “Trader Agreement”. Once both are completed your Funded Account will be created, funded and issued to you typically within 24-48 business hours. You will receive a confirmation email once this account is being enabled.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Once I pass the Assessment am I provided with a demo or funded account? ",
-            "description": [
-                "<p>Once you pass the Assessment, we provide you with a funded account, backed by our capital. The capital in your funded Account is notional and may not match the amount of capital on deposit with the Liquidity Provider. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a Funded Account. </p>",
-                "<p class='mt-4'>Use of notional funding does not impact your trading conditions in any way. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Do we manipulate the pricing or executions you receive in your funded account? ",
-            "description": [
-                "<p>No. We do not have any control over pricing from the liquidity provider or on the executions on your trades.  </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Who is the counterparty to my trades? ",
-            "description": [
-                "<p>For purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Liquidity Provider(s). This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or as cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your funded account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Am I subject to any position limits? ",
-            "description": [
-                "<p>The maximum position that you may open is determined by your available margin.  We reserve the right to increase the margin requirement, amend the leverage ratio limits, or limit the number of open positions you may enter or maintain in a Funded Account at any time, without prior notice, and to revise, in response to market conditions, the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "What are the rules for the funded account? ",
-            "description": [
-                "<p>The rules for the funded account are exactly the same as your Assessment account. However, with a funded account, there is no profit target. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "If I have a breach in my funded account and there are gains in the account, do I forfeit those gains? ",
-            "description": [
-                "<p>If you have gains in your funded account at the time of a breach, you will still receive your portion of those gains. </p>",
-                "<p class='mt-4'>For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a breach we would close the account. Of the $10,000 in gains in your funded account, you would be paid your portion thereof. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "How do I withdraw the gains in my funded account? ",
-            "description": [
-                "<p>Traders can request a withdrawal of the gains in their funded account at any time in their trader dashboard, but no more frequently than once per thirty (30) days. So, if you make gain in your funded account, you can request a withdrawal. When you are ready to withdraw the gains from your funded account, click the Withdraw Profits button in your trader dashboard and enter the amount to withdraw. All such gains are distributed via the available outbound payment solutions offered from time to time. Once your withdrawal request is approved, we will pay the monies owed to you. We reserve the right to change the withdrawal methods and options at any time.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "When can I withdraw the gains in my funded account and how does that affect my Maximum Drawdown? ",
-            "description": [
-                "<p>Your first withdrawal can be requested at any time, subject to the profit split stated in the Trader Agreement. Thereafter, you can request a withdrawal of the gains in your account every 30 days. When a withdrawal is approved, we will also withdraw our share of the gains. The drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000 where the profit split is 90/10. In this scenario, you will receive $14,400 and we would retain $1,600. This would also take the balance of the account down to $104,000, and your Maximum Drawdown will remain$94,000. So, you would have $10,000 maximum you could lose on the account before it would violate the Maximum Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Drawdown will still remain at $94,000. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Do I have to use one of your accounts for the Assessment or can I use my own? ",
-            "description": [
-                "<p>We have risk management software that is synced with the accounts we create. This allows us to analyze your performance in real time for achievements or rule violations. As such, you must use an account that we provide to you. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What Countries are accepted? ",
-            "description": [
-                "<p>Subject to compliance with applicable laws and regulations, traders from all countries, excluding OFAC listed countries, can take part in our program, unless otherwise limited at the Company’s discretion. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What is the minimum age I must be to be part of your program? ",
-            "description": [
-                "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an assessment. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Where do I track the progress of my account? ",
-            "description": [
-                "<p>Upon purchasing an Assessment, you will receive access to a trader dashboard where you can monitor your Assessment and Funded Accounts. The dashboard is updated every time we calculate metrics, which occurs roughly every 60 seconds. It is your responsibility to monitor your breach levels. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What Platform can I trade on? ",
-            "description": [
-                "<p>All trades will be executed on the DXtrade platform.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What products can I trade? ",
-            "description": [
-                "<p>You can trade any products streamed by the Liquidity Provider into the available platform. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What is the leverage? ",
-            "description": [
-                "<p>We allow up to 5:1 leverage on BTC and ETH.  Other cryptocurrencies listed on the platform are at 2:1.  </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What are the trading hours? ",
-            "description": [
-                "<p>Trading hours are set by the cryptocurrency exchange or Liquidity Provider(s) and are generally open 24 hours. We do not have any control over the trading hours.</p>",
-                "<strong class='mt-4'>Please note that holidays can have an impact on available trading hours. </strong>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Are commissions charged on the trading activity? ",
-            "description": [
-                "<p>Commissions or commission-equivalents may be charged in connection with your trading activity.  Note that cryptocurrency trading is subject to a percentage-based commission rate of 0.05% of the total notional trade volume, charged per side (USD amount * 0.0005).</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Can I use an Automated Strategies? ",
-            "description": [
-                "<p>DXTrade does not support automated strategies.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What is the policy on Prohibited Trading Activity? ",
-            "description": [
-                "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
-                "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider </p>",
-                "<p>● Utilizing non-public and/or insider information </p>",
-                "<p>● Front-running of trades placed elsewhere </p>",
-                "<p>● Trading in any way that jeopardizes the relationship that the Company has with a Liquidity Provider or may result in the canceling of trades </p>",
-                "<p>● Trading in any way that creates regulatory issues for the Liquidity Provider </p>",
-                "<p>● Utilizing any third-party strategy, off-the-shelf strategy or one marketed to pass challenge accounts </p>",
-                "<p>● Utilizing one strategy to pass an assessment and then utilizing a different strategy in a funded account, as determined by the Company at their discretion. </p>",
-                "<p>● Attempting to arbitrage an assessment account with another account with the Company or any third-party company, as determined by the Company in its sole and absolute discretion. </p>",
-                "<p>● If the Company detects that your trading constitutes Prohibited Trading, your participation in the program will be terminated and may include forfeiture of any fees paid to the Company. Additionally, and before any Trader shall receive a funded account, the trading activity of the Trader under these Terms and Conditions shall be reviewed by both the Company and the Liquidity Provider to determine whether such trading activity constitutes Prohibited Trading. In the case of Prohibited Trading, the Trader shall not receive a funded account. </p>",
-                "<p>● Additionally, the Company reserves the right to disallow or block any Trader from participating in the program for any reason, in the Company’s sole and absolute discretion. </p>",
-                "<p class='mt-4'>To view all Prohibited Uses, please review our Terms and Conditions here, </p>",
-                "<a class='mb-4 text-blue-500' target='_blank' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Can I trade during News Events? ",
-            "description": [
-                "<p>Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "How will I see the charge on my Statement? ",
-            "description": [
-                "<p>Charges come across in the name of dashboardanalytix.com. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "How are taxes handled? ",
-            "description": [
-                "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "How are affiliates credited? ",
-            "description": [
-                "<p>Affiliates are credited for referrals when a user creates an account using a link or discount code provided by the Affiliate. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
             "product_type": "2-step",
             "product_type_id": 2,
             "category":2,
-            "title": "What constitutes a Breach? ",
+            "title": "Apakah ada pelanggaran karena tidak aktif?",
             "description": [
-                "<p>A breach means that you violated the Max Drawdown rule. In the event you have a breach, you will fail the Assessment or have your Funded Account taken away. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "How do you calculate the 3% Daily Cap Limit?",
-            "description": [
-                "<p>The Daily Cap Limit is the maximum percentage of your starting balance that your crypto account can move in any given day. The Daily Cap Limit is calculated using the previous day’s equity, which resets at 5 PM EST. In the event that the assets in your account move in excess of 3% of your starting balance from your previous day's equity in either direction, your positions will be closed out and your account will be locked until the start of the new trading day at 5 PM EST. Example: For a 100k starting balance account, with a 3% Daily Cap. If the account finishes the day, with Equity at 101k, the next day’s limits will be 101k +/- 3k (i.e. 98k - 104k).</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "How do you calculate the Maximum Drawdown? ",
-            "description": [
-                "<p class='mb-4'>The Maximum Drawdown is initially set at 9% and is static and will therefore remain at the same value for as long as the account will remain active.</p>",
-                "<p>Example: If your starting balance is $100,000, you can drawdown to $91,000 before you would violate the Maximum Drawdown rule. Then for example let's say you take your account to $102,000 in CLOSED BALANCE, your Maximum Drawdown would remain at $91,000. So, regardless of how high your account goes, your drawdown will remain the same.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "Can I hold positions over the weekend? ",
-            "description": [
-                "<p>Yes. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "Is there a breach for inactivity? ",
-            "description": [
-                "<p>Yes. We will consider you inactive and your account will be breached if you do not have any trading activity on your account for 30 consecutive days.</p>"
+                    "<p>Ya. Kami akan menganggap Anda tidak aktif dan akun Anda akan dianggap melanggar jika tidak ada aktivitas perdagangan pada akun Anda selama 30 hari berturut-turut.</p>"
             ]
         },
         {
@@ -1322,9 +1322,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "How long does it take to receive my funded account?",
+            "title": "Berapa lama waktu yang dibutuhkan untuk menerima Akun Dana Saya?",
             "description": [
-                "<p>Upon passing your Assessment, you will receive an email with instructions on how to access and complete both your “Know Your Customer” verification and your “Trader Agreement”. Once both are completed your Funded Account will be created, funded and issued to you typically within 24-48 business hours. You will receive a confirmation email once this account is being enabled.</p>"
+                    "<p>Setelah Anda lulus dari Penilaian, Anda akan menerima email dengan instruksi untuk mengakses dan menyelesaikan proses verifikasi “Kenali Pelanggan Anda” serta “Perjanjian Trader”. Setelah keduanya selesai, Akun Dana Anda akan dibuat, didanai, dan biasanya diterbitkan kepada Anda dalam waktu 24–48 jam kerja. Anda akan menerima email konfirmasi saat akun ini diaktifkan.</p>"
             ]
         },
         {
@@ -1333,10 +1333,10 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Once I pass the Assessment am I provided with a demo or funded account? ",
+            "title": "Setelah saya lulus dari Penilaian, apakah saya mendapatkan akun demo atau akun dana?",
             "description": [
-                "<p>Once you pass the Assessment, we provide you with a funded account, backed by our capital. The capital in your funded Account is notional and may not match the amount of capital on deposit with the Liquidity Provider. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a Funded Account. </p>",
-                "<p class='mt-4'>Use of notional funding does not impact your trading conditions in any way. </p>"
+                "<p>Setelah Anda lulus dari Penilaian, kami akan memberikan Anda akun dana yang didukung oleh modal kami. Modal dalam Akun Dana Anda bersifat nominal dan mungkin tidak sesuai dengan jumlah modal yang disimpan oleh Penyedia Likuiditas. Sebuah Akun Dana dianggap didanai secara nominal ketika dana aktual di dalam akun (yaitu ekuitas dalam Akun Dana yang diwakili oleh jumlah modal) berbeda dari ukuran akun nominal (yaitu ukuran Akun Dana yang menetapkan nilai awal akun dan tingkat perdagangan). Dana nominal adalah selisih antara ukuran akun nominal dan modal aktual dalam Akun Dana.</p>",
+                "<p class='mt-4'>Penggunaan pendanaan nominal tidak memengaruhi ketentuan perdagangan Anda dengan cara apa pun.</p>"
             ]
         },
         {
@@ -1345,9 +1345,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Do we manipulate the pricing or executions you receive in your funded account? ",
+            "title": "Apakah kami memanipulasi harga atau eksekusi yang Anda terima di akun dana Anda?",
             "description": [
-                "<p>No. We do not have any control over pricing from the liquidity provider or on the executions on your trades.  </p>"
+                    "<p>Tidak. Kami tidak memiliki kendali atas harga dari penyedia likuiditas maupun atas eksekusi perdagangan Anda.</p>"
             ]
         },
         {
@@ -1356,9 +1356,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Who is the counterparty to my trades? ",
+            "title": "Siapa pihak lawan dalam perdagangan saya?",
             "description": [
-                "<p>For purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Liquidity Provider(s). This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or as cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your funded account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
+                    "<p>Untuk tujuan mengelola risiko dan meminimalkan biaya transaksi, kami dapat mengimbangi atau meniadakan risiko pasar dan bertindak sebagai pihak lawan langsung terhadap perdagangan tertentu yang dilakukan dalam Akun. Perdagangan semacam itu dieksekusi dengan harga yang disediakan oleh Penyedia Likuiditas. Kerangka kerja ini dimaksudkan untuk memastikan Anda menerima eksekusi pasar nyata atas perdagangan Anda, sambil memungkinkan kami mengelola risiko secara dinamis dengan mengarahkan posisi yang ada atau pesanan di masa depan ke pihak ketiga untuk dieksekusi sesuai dengan kebijakan kami. Kami percaya bahwa eksekusi pasar nyata dan manajemen risiko dinamis semacam ini tidak akan mungkin dilakukan atau seefisien jika perdagangan dilakukan di akun simulasi. Terlepas dari apakah kami bertindak sebagai pihak lawan dalam perdagangan Anda, keuntungan atau kerugian di akun dana Anda tidak dihitung secara berbeda. Namun, ketika kami bertindak sebagai pihak lawan perdagangan Anda, terdapat potensi konflik kepentingan yang melekat karena perdagangan Anda tidak menghasilkan keuntungan atau kerugian bersih bagi kami, sebagaimana yang akan terjadi jika kami bukan pihak lawan langsung.</p>"
             ]
         },
         {
@@ -1367,9 +1367,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Am I subject to any position limits? ",
+            "title": "Apakah saya dikenakan batas posisi?",
             "description": [
-                "<p>The maximum position that you may open is determined by your available margin.  We reserve the right to increase the margin requirement, amend the leverage ratio limits, or limit the number of open positions you may enter or maintain in a Funded Account at any time, without prior notice, and to revise, in response to market conditions, the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order. </p>"
+                    "<p>Posisi maksimum yang dapat Anda buka ditentukan oleh margin yang tersedia. Kami berhak untuk meningkatkan persyaratan margin, mengubah batas rasio leverage, atau membatasi jumlah posisi terbuka yang dapat Anda masuki atau pertahankan dalam Akun Dana kapan saja tanpa pemberitahuan sebelumnya, serta menyesuaikan level drawdown di mana perdagangan di akun dana akan dihentikan sesuai dengan kondisi pasar. Kami atau Penyedia Likuiditas berhak menolak menerima pesanan apa pun.</p>"
             ]
         },
         {
@@ -1378,9 +1378,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "What are the rules for the funded account? ",
+            "title": "Apa saja aturan untuk akun pendanaan?",
             "description": [
-                "<p>The rules for the funded account are exactly the same as your Assessment account. However, with a funded account, there is no profit target. </p>"
+                    "<p>Aturan untuk akun pendanaan sama persis dengan akun Penilaian Anda. Namun, pada akun pendanaan, tidak ada target keuntungan.</p>"
             ]
         },
         {
@@ -1389,10 +1389,10 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "If I have a breach in my funded account and there are gains in the account, do I forfeit those gains? ",
+            "title": "Jika saya mengalami pelanggaran di akun pendanaan saya dan terdapat keuntungan, apakah saya kehilangan keuntungan tersebut?",
             "description": [
-                "<p>If you have gains in your funded account at the time of a breach, you will still receive your portion of those gains. </p>",
-                "<p class='mt-4'>For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a breach we would close the account. Of the $10,000 in gains in your funded account, you would be paid your portion thereof. </p>"
+                "<p>Jika Anda memiliki keuntungan di akun pendanaan Anda pada saat terjadi pelanggaran, Anda tetap akan menerima bagian dari keuntungan tersebut.</p>",
+    "<p class='mt-4'>Sebagai contoh, jika Anda memiliki akun sebesar $100.000 dan Anda meningkatkan akun tersebut menjadi $110.000. Jika kemudian terjadi pelanggaran, kami akan menutup akun tersebut. Dari keuntungan sebesar $10.000 di akun pendanaan Anda, Anda akan dibayar sesuai bagian Anda.</p>"
             ]
         },
         {
@@ -1401,9 +1401,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "How do I withdraw the gains in my funded account? ",
+            "title": "Bagaimana cara menarik keuntungan di akun pendanaan saya?",
             "description": [
-                "<p>Traders can request a withdrawal of the gains in their funded account at any time in their trader dashboard, but no more frequently than once per thirty (30) days. So, if you make gain in your funded account, you can request a withdrawal. When you are ready to withdraw the gains from your funded account, click the Withdraw Profits button in your trader dashboard and enter the amount to withdraw. All such gains are distributed via the available outbound payment solutions offered from time to time. Once your withdrawal request is approved, we will pay the monies owed to you. We reserve the right to change the withdrawal methods and options at any time.</p>"
+                    "<p>Trader dapat meminta penarikan keuntungan dari akun pendanaan mereka kapan saja melalui dasbor trader mereka, tetapi tidak lebih sering dari sekali setiap tiga puluh (30) hari. Jadi, jika Anda mendapatkan keuntungan di akun pendanaan Anda, Anda dapat mengajukan penarikan. Saat Anda siap untuk menarik keuntungan dari akun pendanaan Anda, klik tombol Tarik Keuntungan di dasbor trader Anda dan masukkan jumlah yang ingin ditarik. Semua keuntungan tersebut akan didistribusikan melalui solusi pembayaran keluar yang tersedia dari waktu ke waktu. Setelah permintaan penarikan Anda disetujui, kami akan membayar uang yang menjadi hak Anda. Kami berhak mengubah metode dan opsi penarikan kapan saja.</p>"
             ]
         },
         {
@@ -1412,9 +1412,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "When can I withdraw the gains in my funded account and how does that affect my Maximum Drawdown? ",
+            "title": "Kapan saya bisa menarik keuntungan di akun pendanaan saya dan bagaimana hal itu memengaruhi Batas Penarikan Maksimum (Maximum Drawdown)?",
             "description": [
-                "<p>Your first withdrawal can be requested at any time, subject to the profit split stated in the Trader Agreement. Thereafter, you can request a withdrawal of the gains in your account every 30 days. When a withdrawal is approved, we will also withdraw our share of the gains. The drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000 where the profit split is 90/10. In this scenario, you will receive $14,400 and we would retain $1,600.  This would also take the balance of the account down to $104,000, and your Maximum Drawdown will remain$94,000. So, you would have $10,000 maximum you could lose on the account before it would violate the Maximum Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Drawdown will still remain at $94,000. </p>"
+                "<p>Penarikan pertama Anda dapat diminta kapan saja, sesuai dengan pembagian keuntungan yang tercantum dalam Perjanjian Trader. Setelah itu, Anda dapat meminta penarikan keuntungan dari akun Anda setiap 30 hari. Ketika penarikan disetujui, kami juga akan menarik bagian keuntungan kami. Drawdown maksimum tidak akan di-reset saat Anda meminta penarikan. Contoh: Anda membawa akun dari $100.000 menjadi $120.000. Kemudian Anda meminta penarikan sebesar $16.000 dengan pembagian keuntungan 90/10. Dalam skenario ini, Anda akan menerima $14.400 dan kami akan mempertahankan $1.600. Ini juga akan menurunkan saldo akun menjadi $104.000, dan Drawdown Maksimum Anda akan tetap di $94.000. Jadi, Anda akan memiliki batas kerugian maksimum sebesar $10.000 sebelum melanggar aturan Drawdown Maksimum. Jika Anda menarik seluruh keuntungan dari Akun Dana Anda, Drawdown Maksimum akan tetap di $94.000.</p>"
             ]
         },
         {
@@ -1425,7 +1425,7 @@
             "category":1,
             "title": "Instant What Countries are accepted? ",
             "description": [
-                "<p>Subject to compliance with applicable laws and regulations, traders from all countries, excluding OFAC listed countries, can take part in our program, unless otherwise limited at the Company’s discretion. </p>"
+                    "<p>Tergantung pada kepatuhan terhadap hukum dan peraturan yang berlaku, trader dari semua negara, kecuali negara-negara yang terdaftar dalam daftar OFAC, dapat berpartisipasi dalam program kami, kecuali ditentukan lain atas kebijakan Perusahaan.</p>"
             ]
         },
         {
@@ -1434,7 +1434,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What is the minimum age I must be to be part of your program? ",
+            "title": "Berapa usia minimum untuk bergabung dalam program Anda?",
             "description": [
                 "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an Instant Funding account. </p>"
             ]
@@ -1445,7 +1445,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Where do I track the progress of my account? ",
+            "title": "Di mana saya dapat melacak perkembangan akun saya?",
             "description": [
                 "<p>Upon purchasing an Instant Funding Plan, you will receive access to a trader dashboard where you can monitor your Instant Funded Account. The dashboard is updated in near real time as we calculate your account metrics. It is your responsibility to monitor your breach levels.</p>"
             ]
@@ -1456,7 +1456,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What Platform can I trade on? ",
+            "title": "Di platform mana saya bisa berdagang?",
             "description": [
                 "<p>Our technology is currently integrated with DXtrade, MatchTrader & cTrader.</p>"
             ]
@@ -1478,7 +1478,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What products can I trade? ",
+            "title": "Produk apa yang bisa saya perdagangkan?",
             "description": [
                 "<p>You can trade any products offered by the Broker, as such products may change from time to time. This includes FX pairs and CFD Indices, Metals, and Cryptocurrencies.</p>"
             ]
@@ -1489,7 +1489,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What is the leverage? ",
+            "title": "Berapa leverage yang tersedia?",
             "description": [
                 "<p>We offer up to 50:1 leverage on Forex and Metals, up to 10:1 leverage on Indices, up to 5:1 leverage on Oils and up to 2:1 leverage on Cryptocurrencies.</p>"
             ]
@@ -1500,7 +1500,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What are the trading hours? ",
+            "title": "Jam perdagangan berapa?",
             "description": [
                 "<p>Trading hours are generally set by the Liquidity Provider, unless set by our rules. We do not have any control over the trading hours. You can see the trading hours for each product by using the following methods: </p>",
                 "<p class='mt-4 ml-6'>DXtrade – Right click symbol, select “Instrument Info”</p>",
@@ -1539,7 +1539,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What is the policy on Prohibited Trading Activity? ",
+            "title": "Apa kebijakan terkait Aktivitas Perdagangan yang Dilarang?",
             "description": [
                 "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
                 "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider </p>",
@@ -1563,9 +1563,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Can I trade during News Events? ",
+            "title": "Apakah saya boleh berdagang selama Peristiwa Berita?",
             "description": [
-                "<p>Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>"
+                    "<p>Membuka posisi dalam waktu 3 menit sebelum atau sesudah Peristiwa Berita dilarang. Setiap trader yang teridentifikasi membuka posisi selama Peristiwa Berita akan dikenai penutupan posisi tersebut dan penghapusan P&L yang terkait dari akun mereka, pengurangan leverage pada akun mereka, atau akun mereka dapat dianggap melanggar aturan. Perusahaan memiliki kebijakan penuh dan mutlak dalam menentukan apa yang dianggap sebagai Peristiwa Berita. Aturan ini dimaksudkan untuk melindungi integritas program kami dan bukan untuk menghukum trader yang secara tidak sengaja berdagang saat terjadi peristiwa berita.</p>"
             ]
         },
         {
@@ -1574,7 +1574,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How will I see the charge on my Statement? ",
+            "title": "Bagaimana saya akan melihat tagihan di Pernyataan Saya?",
             "description": [
                 "<p>Charges come across in the name of Dashboardanalytix.com.</p>"
             ]
@@ -1585,7 +1585,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How are taxes handled? ",
+            "title": "Bagaimana pajak ditangani?",
             "description": [
                 "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains.</p>"
             ]
@@ -1596,9 +1596,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How are affiliates credited? ",
+            "title": "Bagaimana afiliasi mendapatkan kredit?",
             "description": [
-                "<p>Affiliates are credited for referrals when a user creates an account using a link or discount code provided by the Affiliate. </p>"
+                    "<p>Afiliasi akan mendapatkan kredit untuk referensi ketika seorang pengguna membuat akun menggunakan tautan atau kode diskon yang disediakan oleh afiliasi.</p>"
             ]
         },
         {
@@ -1641,7 +1641,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "Can I hold positions over the weekend? ",
+            "title": "Apakah saya bisa menahan posisi selama akhir pekan?",
             "description": [
                 "<p>We require all trades to be closed by 3:45 PM EST on the last trading day of the week, typically Friday. However, in cases where markets close early or are not open on a Friday, it is the trader’s responsibility to ensure all trades are closed before the weekend based on the adjusted market schedule. Any trades left open after this time will be automatically closed. Note, this is considered a soft breach, and you will be able to continue trading once the markets reopen.</p>"
             ]
@@ -1671,7 +1671,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "Is there a breach for inactivity? ",
+            "title": "Apakah ada pelanggaran karena tidak aktif?",
             "description": [
                 "<p>Yes. If you do not place a trade at least once every 30 days on your account, we will consider you inactive and your account will be breached. </p>"
             ]
@@ -1739,7 +1739,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Who is the counterparty to my trades? ",
+            "title": "Siapa pihak lawan dalam perdagangan saya?",
             "description": [
                 "<p>For the purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Broker. This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your Funded Account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
             ]
@@ -1750,7 +1750,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Am I subject to any position limits? ",
+            "title": "Apakah saya dikenakan batas posisi?",
             "description": [
                 "<p>The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order.</p>"
             ]
@@ -1773,7 +1773,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "How do I withdraw the gains in my Funded Account? ",
+            "title": "Bagaimana cara menarik keuntungan di akun pendanaan saya?",
             "description": [
                 "<p>Traders can request a withdrawal of the profits in their funded account through their trader dashboard at any time. However, withdrawals are limited to one request every 30 days. <span class='underline underline-offset-4'>The minimum withdrawal amount is the greater of $100 or 1% of the account's starting balance.</span>  When a withdrawal is approved, we will also withdraw our share of the gains, and your max trailing drawdown will lock in at your starting balance. The trailing drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000. In this scenario, you will receive $12,800 and we would retain $3200. This would also take the balance of the account down to $104,000, and your Maximum Trailing Drawdown is locked in at $100,000. So, you would have $4,000 maximum you could lose on the account before it would violate the Maximum Trailing Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Trailing Drawdown will lock in at the starting balance and trigger the Maximum Trailing Drawdown breach rule, resulting in the forfeiture of your Funded Account.</p>"
             ]

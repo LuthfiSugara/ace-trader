@@ -774,10 +774,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What is the minimum age I must be to be part of your program?",
-            "description": [
-                "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an assessment.</p>"
-            ]
+            "title": "プログラムに参加するための最低年齢は何歳ですか？",
+  "description": [
+    "<p>評価を購入するには、18歳以上であるか、またはご自身の国で定められた法的な最低年齢である必要があります。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -785,10 +785,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Where do I track the progress of my account?",
-            "description": [
-                "<p>Upon purchasing an Assessment, you will receive access to a trader dashboard where you can monitor your Assessment and Funded Accounts. The dashboard is updated every time we calculate metrics, which occurs roughly every 60 seconds. It is your responsibility to monitor your breach levels.</p>"
-            ]
+            "title": "アカウントの進捗はどこで確認できますか？",
+  "description": [
+    "<p>評価を購入すると、トレーダーダッシュボードへのアクセスが提供され、そこで評価アカウントおよび資金提供アカウントの進捗を確認できます。ダッシュボードはおおよそ60秒ごとに指標が計算されるたびに更新されます。違反レベルを監視するのはあなたの責任です。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -796,10 +796,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What Platform can I trade on?",
-            "description": [
-                "<p>All trades will be executed on the DXtrade platform.</p>"
-            ]
+           "title": "どのプラットフォームで取引できますか？",
+  "description": [
+    "<p>すべての取引はDXtradeプラットフォームで実行されます。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -807,10 +807,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What products can I trade?",
-            "description": [
-                "<p>You can trade any products streamed by the Liquidity Provider into the available platform.</p>"
-            ]
+            "title": "どのような商品を取引できますか？",
+  "description": [
+    "<p>利用可能なプラットフォームに配信される流動性プロバイダーのすべての商品を取引できます。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -818,10 +818,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What is the leverage? ",
-            "description": [
-                "<p>We allow up to 5:1 leverage on BTC and ETH.  Other cryptocurrencies listed on the platform are at 2:1.</p>"
-            ]
+           "title": "レバレッジはどのくらいですか？",
+  "description": [
+    "<p>BTCとETHには最大5:1のレバレッジを提供しています。他の暗号通貨は2:1のレバレッジとなります。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -829,11 +829,11 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What are the trading hours?",
-            "description": [
-                "<p>Trading hours are set by the cryptocurrency exchange or Liquidity Provider(s) and are generally open 24 hours. We do not have any control over the trading hours.</p>",
-                "<strong class='mt-4'>Please note that holidays can have an impact on available trading hours. </strong>"
-            ]
+            "title": "取引時間はいつですか？",
+  "description": [
+    "<p>取引時間は暗号通貨取引所または流動性プロバイダーによって設定されており、通常は24時間営業です。私たちは取引時間を制御していません。</p>",
+    "<strong class='mt-4'>祝日は取引可能時間に影響を与える場合がありますのでご注意ください。</strong>"
+  ]
         },
         {
             "plans": "crypto",
@@ -841,10 +841,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Are commissions charged on the trading activity?",
-            "description": [
-                "<p>Commissions or commission-equivalents may be charged in connection with your trading activity.  <strong>Note</strong> that cryptocurrency trading is subject to a percentage-based commission rate of 0.05% of the total notional trade volume, charged per side (USD amount * 0.0005).</p>"
-            ]
+            "title": "取引活動に手数料はかかりますか？",
+  "description": [
+    "<p>取引活動に関連して、手数料またはそれに相当するものが課される場合があります。<strong>注意</strong> 暗号通貨の取引には、総名目取引量の0.05%の割合に基づいた手数料が片側ごとに課されます（USD金額 * 0.0005）。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -852,10 +852,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Can I use an Automated Strategies?",
-            "description": [
-                "<p>DXTrade does not support automated strategies.</p>"
-            ]
+            "title": "自動売買戦略は使用できますか？",
+  "description": [
+    "<p>DXTradeは自動売買戦略をサポートしていません。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -863,22 +863,22 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "What is the policy on Prohibited Trading Activity? ",
-            "description": [
-                "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
-                "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider</p>",
-                "<p>● Utilizing non-public and/or insider information</p>",
-                "<p>● Front-running of trades placed elsewhere </p>",
-                "<p>● Trading in any way that jeopardizes the relationship that the Company has with a Liquidity Provider or may result in the canceling of trades </p>",
-                "<p>● Trading in any way that creates regulatory issues for the Liquidity Provider </p>",
-                "<p>● Utilizing any third-party strategy, off-the-shelf strategy or one marketed to pass challenge accounts </p>",
-                "<p>● Utilizing one strategy to pass an assessment and then utilizing a different strategy in a funded account, as determined by the Company at their discretion. </p>",
-                "<p>● Attempting to arbitrage an assessment account with another account with the Company or any third-party company, as determined by the Company in its sole and absolute discretion.</p>",
-                "<p>● If the Company detects that your trading constitutes Prohibited Trading, your participation in the program will be terminated and may include forfeiture of any fees paid to the Company. Additionally, and before any Trader shall receive a funded account, the trading activity of the Trader under these Terms and Conditions shall be reviewed by both the Company and the Liquidity Provider to determine whether such trading activity constitutes Prohibited Trading. In the case of Prohibited Trading, the Trader shall not receive a funded account. </p>",
-                "<p>● Additionally, the Company reserves the right to disallow or block any Trader from participating in the program for any reason, in the Company’s sole and absolute discretion. </p>",
-                "<p class='mt-4'>To view all Prohibited Uses, please review our Terms and Conditions here, </p>",
-                "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
-            ]
+             "title": "禁止されている取引活動に関するポリシーとは？",
+  "description": [
+    "<p class='mb-4'>当社または使用している流動性プロバイダーによって明示的に禁止されている取引戦略の使用も禁止されています。このような禁止取引（「禁止取引」）には、以下が含まれますがこれに限定されません：</p>",
+    "<p>● 流動性プロバイダーが提供する価格またはプラットフォームのエラーや遅延を悪用すること</p>",
+    "<p>● 非公開情報およびインサイダー情報の利用</p>",
+    "<p>● 他所で実行された取引のフロントランニング</p>",
+    "<p>● 流動性プロバイダーとの関係を損なう、または取引の取り消しを引き起こす可能性のある取引</p>",
+    "<p>● 規制上の問題を引き起こす取引</p>",
+    "<p>● チャレンジアカウントに合格することを目的とした、市販の戦略や第三者の戦略の使用</p>",
+    "<p>● 評価に合格するための戦略と、資金提供アカウントで異なる戦略を使用すること（当社の裁量による）</p>",
+    "<p>● 評価アカウントと他のアカウント（当社または第三者）間でアービトラージを試みること（当社の完全な裁量による）</p>",
+    "<p>● 当社があなたの取引が禁止取引であると判断した場合、プログラムへの参加は終了され、支払われた料金が没収される場合があります。さらに、トレーダーが資金提供アカウントを受け取る前に、当社および流動性プロバイダーがその取引活動を審査し、禁止取引に該当するかを判断します。該当する場合、資金提供アカウントは提供されません。</p>",
+    "<p>● また、当社は独自の判断により、いかなる理由でもトレーダーのプログラム参加を拒否または制限する権利を有します。</p>",
+    "<p class='mt-4'>すべての禁止事項をご確認いただくには、以下の利用規約をご参照ください。</p>",
+    "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
+  ]
         },
         {
             "plans": "crypto",
@@ -886,10 +886,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Can I trade during News Events? ",
-            "description": [
-                "<p>Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>"
-            ]
+             "title": "ニュースイベント中に取引できますか？",
+  "description": [
+    "<p>ニュースイベントの3分前または3分後にポジションを開くことは禁止されています。ニュースイベント中にポジションを開いたと確認されたトレーダーは、そのポジションを強制的にクローズされ、関連する損益（P&L）がアカウントから削除される可能性があります。また、アカウントのレバレッジが引き下げられたり、アカウントが違反と見なされたりすることもあります。ニュースイベントとみなすかどうかは、すべて当社の裁量によって決定されます。このルールは、当社のプログラムの健全性を守るために設けられており、意図せずにニュースイベント中に取引してしまったトレーダーを罰するためのものではありません。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -897,10 +897,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "How will I see the charge on my Statement? ",
-            "description": [
-                "<p>Charges come across in the name of dashboardanalytix.com. </p>"
-            ]
+            "title": "明細書にはどのように請求が表示されますか？",
+  "description": [
+    "<p>請求は dashboardanalytix.com の名前で表示されます。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -908,10 +908,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "How are taxes handled? ",
-            "description": [
-                "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains. </p>"
-            ]
+            "title": "税金はどのように処理されますか？",
+  "description": [
+    "<p>当社の資金提供アカウントで取引する場合、あなたは独立請負業者として扱われます。その結果、利益にかかるすべての税金を自分で負担する必要があります。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -919,10 +919,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "How are affiliates credited? ",
-            "description": [
-                "<p>Affiliates are credited for referrals when a user creates an account using a link or discount code provided by the Affiliate.</p>"
-            ]
+            "title": "アフィリエイトにはどのように報酬が与えられますか？",
+  "description": [
+    "<p>アフィリエイトは、ユーザーがアフィリエイトから提供されたリンクまたは割引コードを使用してアカウントを作成したときに報酬を得ます。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -930,10 +930,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "What constitutes a Breach? ",
-            "description": [
-                "<p>A breach means that you violated the Max Drawdown rule. In the event you have a breach, you will fail the Assessment or have your Funded Account taken away. </p>"
-            ]
+            "title": "違反とは何ですか？",
+  "description": [
+    "<p>違反とは、最大ドローダウンルールに違反したことを意味します。違反が発生した場合、アセスメントに失敗するか、資金提供アカウントが取り消されます。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -941,10 +941,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "How do you calculate the 3% Daily Cap Limit?",
-            "description": [
-                "<p>The Daily Cap Limit is the maximum percentage of your starting balance that your crypto account can move in any given day. The Daily Cap Limit is calculated using the previous day’s equity, which resets at 5 PM EST. In the event that the assets in your account move in excess of 3% of your starting balance from your previous day's equity in either direction, your positions will be closed out and your account will be locked until the start of the new trading day at 5 PM EST.  Example: For a 100k starting balance account, with a 3% Daily Cap. If the account finishes the day, with Equity at 101k, the next day’s limits will be 101k +/- 3k (i.e. 98k - 104k).</p>"
-            ]
+            "title": "3%のデイリーキャップ制限はどのように計算されますか？",
+  "description": [
+    "<p>デイリーキャップ制限とは、暗号通貨口座が1日に変動できる開始残高の最大パーセンテージです。デイリーキャップは、前日のエクイティを基に計算され、午後5時（EST）にリセットされます。アカウント内の資産が、前日のエクイティを基に3%以上変動した場合（上昇・下降問わず）、ポジションは強制決済され、アカウントは次の取引日が始まる午後5時（EST）までロックされます。例：開始残高が10万ドルのアカウントで、3%のキャップが適用される場合。当日の終値がエクイティ101kであれば、次の日の制限は101k +/- 3k（つまり98k～104k）となります。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -952,11 +952,11 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "How do you calculate the Maximum Drawdown? ",
-            "description": [
-                "<p>The Maximum Drawdown is initially set at 6% and is static and will therefore remain at the same value for as long as the account will remain active.</p>",
-                "<p class='mt-4'>Example: If your starting balance is $100,000, you can drawdown to $94,000 before you would violate the Maximum Drawdown rule. Then for example let's say you take your account to $102,000 in CLOSED BALANCE, your Maximum Drawdown would remain at $94,000. So, regardless of how high your account goes, your drawdown will remain the same.</p>"
-            ]
+            "title": "最大ドローダウンはどのように計算されますか？",
+  "description": [
+    "<p>最大ドローダウンは初期設定で6%に固定されており、アカウントがアクティブである限り、その値は変わりません。</p>",
+    "<p class='mt-4'>例：開始残高が100,000ドルの場合、最大ドローダウンのルールに違反するのは残高が94,000ドルを下回ったときです。その後、CLOSED BALANCEが102,000ドルまで増加したとしても、最大ドローダウンは94,000ドルのままとなります。つまり、アカウントの残高がどれだけ増えても、ドローダウンの基準は変わりません。</p>"
+  ]
         },
         {
             "plans": "crypto",
@@ -964,7 +964,342 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 2,
-            "title": "Can I hold positions over the weekend? ",
+            "title": "週末にポジションを保有できますか？",
+  "description": [
+    "<p>はい。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "非アクティブによる違反はありますか？",
+  "description": [
+    "<p>はい。30日間連続して取引活動がない場合、非アクティブと見なされ、アカウントは違反となります。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "ファンド付き口座を受け取るまでにどれくらい時間がかかりますか？",
+  "description": [
+    "<p>アセスメントに合格すると、「KYC（顧客確認）」の認証および「トレーダー契約書」の完了方法に関する指示が記載されたメールが送信されます。これらが完了すると、ファンド付き口座は作成され、資金が入金され、通常24～48営業日以内に提供されます。この口座が有効化されると確認メールが送られます。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "アセスメントに合格したら、デモ口座または資金提供口座のどちらが提供されますか？",
+  "description": [
+    "<p>アセスメントに合格すると、当社の資金によって支援される資金提供口座を提供します。資金提供口座の資本は名目上のものであり、流動性プロバイダーに預けられた資本の金額と一致しない場合があります。資金提供口座が名目上の資金であるとは、口座内の実際の資金（つまり、資金額として表される資金提供口座のエクイティ）が、名目口座サイズ（つまり、初期口座価値と取引レベルを確立する資金提供口座のサイズ）と異なる場合を指します。名目資金とは、名目口座サイズと資金提供口座内の実際の資金との差です。</p>",
+    "<p class='mt-4'>名目資金の使用は、取引条件に一切影響を与えません。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "資金提供口座で受け取る価格や執行を操作していますか？",
+  "description": [
+    "<p>いいえ。私たちは流動性プロバイダーからの価格や、お客様の取引執行に対して一切の制御を行っていません。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+           "title": "私の取引の相手方は誰ですか？",
+  "description": [
+    "<p>リスク管理および取引コストの最小化を目的として、当社は市場リスクを相殺または否定し、アカウントで開始された特定の取引において直接のカウンターパーティーとして行動する場合があります。これらの取引は、流動性プロバイダーが提供する価格で執行されます。このフレームワークは、実際の市場執行を保証し、同時に当社が既存のポジションや将来の注文を第三者にルーティングすることで、動的にリスクを管理できるようにするものです。このような実市場執行と動的リスク管理は、シミュレーションアカウントでの取引では実現不可能または非効率であると当社は考えています。当社が取引の相手方であるかどうかにかかわらず、資金提供アカウントでの損益の計算方法は変わりません。ただし、当社が取引のカウンターパーティーとして機能する場合、取引が当社に損益をもたらさないため、利益相反の可能性が内在します。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "ポジション制限はありますか？",
+  "description": [
+    "<p>保有可能な最大ポジション数は、利用可能な証拠金によって決まります。当社は、事前通知なしにいつでも証拠金要件を引き上げたり、レバレッジ比率の上限を変更したり、資金提供アカウントで保有または維持できるポジション数を制限したりする権利を有します。また、市場状況に応じて、取引が停止されるドローダウン水準を見直す権利も留保します。当社または流動性プロバイダーは、いかなる注文も受け付けない権利を有します。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "資金提供アカウントのルールは何ですか？",
+            "description": [
+                    "<p>資金提供アカウントのルールは、評価アカウントとまったく同じです。ただし、資金提供アカウントには利益目標がありません。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "資金提供アカウントで違反が発生し、利益がある場合、その利益は没収されますか？",
+            "description": [
+                "<p>違反時に資金提供アカウントに利益がある場合でも、その利益の一部は引き続き受け取ることができます。</p>",
+    "<p class='mt-4'>例えば、$100,000のアカウントがあり、それを$110,000に増やしたとします。その後、違反が発生した場合、当社はアカウントを閉鎖します。資金提供アカウントにある$10,000の利益のうち、あなたの取り分が支払われます。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "資金提供アカウントの利益をどのように引き出すのですか？",
+            "description": [
+                    "<p>トレーダーは、資金提供アカウントの利益をいつでもトレーダーダッシュボードから出金申請できますが、30日ごとに1回を超えて行うことはできません。つまり、資金提供アカウントで利益が出た場合、出金申請が可能です。利益を引き出す準備ができたら、トレーダーダッシュボードの「利益を引き出す」ボタンをクリックし、出金金額を入力してください。すべての利益は、随時提供される利用可能な送金ソリューションを通じて分配されます。出金申請が承認されると、お支払いが行われます。出金方法およびオプションは、いつでも変更される場合があります。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "資金提供アカウントの利益はいつ引き出せますか？また、それは最大ドローダウンにどのような影響を与えますか？",
+            "description": [
+                    "<p>最初の出金は、トレーダー契約に記載された利益分配に従い、いつでも申請することができます。その後は、30日ごとに利益の出金申請が可能です。出金が承認されると、当社の利益分も同時に引き出されます。出金を申請しても、最大ドローダウンはリセットされません。例：$100,000のアカウントを$120,000に増やしたとします。利益分配が90/10で、$16,000を出金申請した場合、あなたは$14,400を受け取り、当社は$1,600を保持します。この結果、アカウント残高は$104,000となり、最大ドローダウンは$94,000のままとなります。つまり、最大で$10,000まで損失を出すことができますが、それ以上の損失は最大ドローダウン違反となります。資金提供アカウントの利益を全て出金した場合でも、最大ドローダウンは$94,000のままです。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "評価用に自分のアカウントを使えますか？それとも御社のアカウントを使う必要がありますか？",
+            "description": [
+                    "<p>当社では、作成したアカウントと連携するリスク管理ソフトウェアを使用しています。これにより、実績やルール違反をリアルタイムで分析できます。そのため、当社が提供するアカウントを使用する必要があります。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "参加可能な国はどこですか？",
+            "description": [
+                    "<p>適用される法律および規制への準拠を前提として、OFAC（米国財務省外国資産管理局）に掲載されている国を除くすべての国のトレーダーが、当社の裁量による制限がない限り、当社のプログラムに参加できます。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "プログラムに参加するための最低年齢はいくつですか？",
+            "description": [
+                    "<p>評価を購入するには、18歳以上であるか、お住まいの国で定められた法定最低年齢である必要があります。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "アカウントの進捗状況はどこで確認できますか？",
+            "description": [
+                    "<p>評価を購入すると、トレーダーダッシュボードへのアクセスが提供され、そこで評価アカウントおよび資金提供アカウントの状況を監視できます。ダッシュボードは、指標が計算されるたび、約60秒ごとに更新されます。違反レベルを監視するのはご自身の責任です。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "どのプラットフォームで取引できますか？",
+            "description": [
+                    "<p>すべての取引はDXtradeプラットフォームで実行されます。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "どの製品を取引できますか？",
+            "description": [
+                    "<p>利用可能なプラットフォームに配信される流動性プロバイダーの製品はすべて取引できます。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "レバレッジはどのくらいですか？",
+            "description": [
+                    "<p>BTCおよびETHには最大5:1のレバレッジを提供しています。プラットフォームに上場しているその他の暗号通貨には2:1のレバレッジが適用されます。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "取引時間はいつですか？",
+            "description": [
+                "<p>取引時間は暗号通貨取引所または流動性プロバイダーによって設定されており、通常は24時間営業です。当社は取引時間を管理していません。</p>",
+                "<strong class='mt-4'>祝日は取引時間に影響を与える可能性がありますのでご注意ください。</strong>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "取引に手数料はかかりますか？",
+            "description": [
+                    "<p>取引活動に関連して手数料または同等の手数料が発生する場合があります。暗号通貨の取引には、名目取引量の 0.05% の割合に基づいた手数料が片側ごとに課されることにご注意ください（USD 金額 * 0.0005）。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "自動売買戦略は使用できますか？",
+            "description": [
+                    "<p>DXTrade は自動売買戦略をサポートしていません。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "禁止されている取引活動のポリシーとは？",
+            "description": [
+                "<p class='mb-4'>当社または利用している流動性プロバイダーによって明示的に禁止されている取引戦略を使用することは禁止されています。こうした禁止取引（「禁止取引」）には、以下が含まれますがこれに限りません：</p>",
+    "<p>● 流動性プロバイダーが提供する価格またはプラットフォームのエラーや遅延を悪用すること </p>",
+    "<p>● 非公開情報やインサイダー情報を利用すること </p>",
+    "<p>● 他の場所で行われた取引のフロントランニング </p>",
+    "<p>● 流動性プロバイダーとの関係を危険にさらす、または取引のキャンセルを引き起こすような取引 </p>",
+    "<p>● 流動性プロバイダーに対し規制上の問題を引き起こすような取引 </p>",
+    "<p>● 市販の戦略やチャレンジ通過を目的とした第三者戦略の使用 </p>",
+    "<p>● 審査通過時の戦略と資金提供口座で異なる戦略を使うこと（会社の裁量により判断） </p>",
+    "<p>● 審査口座と当社または第三者の別口座との間でアービトラージを試みる行為（会社の裁量により判断） </p>",
+    "<p>● 当社が取引が禁止取引に該当すると判断した場合、プログラム参加は終了され、支払済みの料金が没収されることがあります。また、資金提供口座を受け取る前に、会社および流動性プロバイダーの双方が取引内容を審査します。禁止取引と判断された場合、資金提供口座は付与されません。 </p>",
+    "<p>● さらに、当社は独自の裁量で、いかなる理由でもトレーダーの参加を拒否またはブロックする権利を留保します。 </p>",
+    "<p class='mt-4'>すべての禁止行為の詳細は、当社の利用規約をご覧ください： </p>",
+    "<a class='mb-4 text-blue-500' target='_blank' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "ニュースイベント中に取引できますか？",
+            "description": [
+                    "<p>ニュースイベントの前後3分以内にポジションを開くことは禁止されています。ニュースイベント中にポジションを開いたと判断されたトレーダーには、そのポジションの強制決済、関連する損益の削除、アカウントのレバレッジの引き下げ、またはアカウントの違反処理が行われる可能性があります。どのイベントがニュースイベントに該当するかは、当社の裁量により決定されます。このルールはプログラムの健全性を守るためのものであり、ニュースイベント中に意図せず取引したトレーダーを罰することを目的としていません。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "明細書にはどのように請求が表示されますか？",
+            "description": [
+                    "<p>請求は「dashboardanalytix.com」という名義で表示されます。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "税金の取り扱いはどうなっていますか？",
+            "description": [
+                    "<p>当社の資金提供口座で取引を行う場合、あなたは独立請負業者として扱われます。その結果、利益にかかるすべての税金はご自身の責任となります。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "アフィリエイトにはどのように報酬が与えられますか？",
+            "description": [
+                    "<p>アフィリエイトが提供するリンクまたは割引コードを使用してユーザーがアカウントを作成した場合、そのアフィリエイトに紹介としての報酬が与えられます。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "違反とは何ですか？",
+            "description": [
+                    "<p>違反とは、最大ドローダウンルールに違反したことを意味します。違反があった場合、審査には不合格となり、資金提供アカウントが取り消される可能性があります。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "3%のデイリーキャップ制限はどのように計算されますか？",
+            "description": [
+                    "<p>デイリーキャップ制限は、暗号資産口座が1日に動かせる初期残高の最大パーセンテージです。この制限は、前日のエクイティ（資産価値）を基に計算され、午後5時（EST）にリセットされます。口座内の資産が、前日のエクイティから3%以上上下に動いた場合、そのポジションはすべて決済され、アカウントは次の取引日の午後5時（EST）までロックされます。例：初期残高が$100,000で、3%のキャップがある場合、当日の終了時点でエクイティが$101,000なら、翌日の制限は$101,000 ± $3,000（つまり$98,000 - $104,000）になります。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "最大ドローダウンはどのように計算されますか？",
+            "description": [
+                "<p class='mb-4'>最大ドローダウンは最初に9%に設定されており、アカウントがアクティブである限り、その値は固定されます。</p>",
+                "<p>例：開始時の残高が$100,000の場合、最大ドローダウンルールに違反する前に$91,000まで減少することができます。その後、CLOSED BALANCEが$102,000に増えたとしても、最大ドローダウンは$91,000のままです。つまり、アカウントがどれだけ増えても、ドローダウンの限度は変わりません。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "週末にポジションを保有できますか？",
             "description": [
                 "<p>Yes. </p>"
             ]
@@ -972,347 +1307,12 @@
         {
             "plans": "crypto",
             "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 2,
-            "title": "Is there a breach for inactivity? ",
-            "description": [
-                "<p>Yes. We will consider you inactive and your account will be breached if you do not have any trading activity on your account for 30 consecutive days.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "How long does it take to receive my funded account?",
-            "description": [
-                "<p>Upon passing your Assessment, you will receive an email with instructions on how to access and complete both your “Know Your Customer” verification and your “Trader Agreement”. Once both are completed your Funded Account will be created, funded and issued to you typically within 24-48 business hours. You will receive a confirmation email once this account is being enabled.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Once I pass the Assessment am I provided with a demo or funded account? ",
-            "description": [
-                "<p>Once you pass the Assessment, we provide you with a funded account, backed by our capital. The capital in your funded Account is notional and may not match the amount of capital on deposit with the Liquidity Provider. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a Funded Account. </p>",
-                "<p class='mt-4'>Use of notional funding does not impact your trading conditions in any way. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Do we manipulate the pricing or executions you receive in your funded account? ",
-            "description": [
-                "<p>No. We do not have any control over pricing from the liquidity provider or on the executions on your trades.  </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Who is the counterparty to my trades? ",
-            "description": [
-                "<p>For purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Liquidity Provider(s). This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or as cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your funded account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category": 3,
-            "title": "Am I subject to any position limits? ",
-            "description": [
-                "<p>The maximum position that you may open is determined by your available margin.  We reserve the right to increase the margin requirement, amend the leverage ratio limits, or limit the number of open positions you may enter or maintain in a Funded Account at any time, without prior notice, and to revise, in response to market conditions, the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "What are the rules for the funded account? ",
-            "description": [
-                "<p>The rules for the funded account are exactly the same as your Assessment account. However, with a funded account, there is no profit target. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "If I have a breach in my funded account and there are gains in the account, do I forfeit those gains? ",
-            "description": [
-                "<p>If you have gains in your funded account at the time of a breach, you will still receive your portion of those gains. </p>",
-                "<p class='mt-4'>For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a breach we would close the account. Of the $10,000 in gains in your funded account, you would be paid your portion thereof. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "How do I withdraw the gains in my funded account? ",
-            "description": [
-                "<p>Traders can request a withdrawal of the gains in their funded account at any time in their trader dashboard, but no more frequently than once per thirty (30) days. So, if you make gain in your funded account, you can request a withdrawal. When you are ready to withdraw the gains from your funded account, click the Withdraw Profits button in your trader dashboard and enter the amount to withdraw. All such gains are distributed via the available outbound payment solutions offered from time to time. Once your withdrawal request is approved, we will pay the monies owed to you. We reserve the right to change the withdrawal methods and options at any time.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "1-step",
-            "product_type_id": 1,
-            "category":3,
-            "title": "When can I withdraw the gains in my funded account and how does that affect my Maximum Drawdown? ",
-            "description": [
-                "<p>Your first withdrawal can be requested at any time, subject to the profit split stated in the Trader Agreement. Thereafter, you can request a withdrawal of the gains in your account every 30 days. When a withdrawal is approved, we will also withdraw our share of the gains. The drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000 where the profit split is 90/10. In this scenario, you will receive $14,400 and we would retain $1,600. This would also take the balance of the account down to $104,000, and your Maximum Drawdown will remain$94,000. So, you would have $10,000 maximum you could lose on the account before it would violate the Maximum Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Drawdown will still remain at $94,000. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Do I have to use one of your accounts for the Assessment or can I use my own? ",
-            "description": [
-                "<p>We have risk management software that is synced with the accounts we create. This allows us to analyze your performance in real time for achievements or rule violations. As such, you must use an account that we provide to you. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What Countries are accepted? ",
-            "description": [
-                "<p>Subject to compliance with applicable laws and regulations, traders from all countries, excluding OFAC listed countries, can take part in our program, unless otherwise limited at the Company’s discretion. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What is the minimum age I must be to be part of your program? ",
-            "description": [
-                "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an assessment. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Where do I track the progress of my account? ",
-            "description": [
-                "<p>Upon purchasing an Assessment, you will receive access to a trader dashboard where you can monitor your Assessment and Funded Accounts. The dashboard is updated every time we calculate metrics, which occurs roughly every 60 seconds. It is your responsibility to monitor your breach levels. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What Platform can I trade on? ",
-            "description": [
-                "<p>All trades will be executed on the DXtrade platform.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What products can I trade? ",
-            "description": [
-                "<p>You can trade any products streamed by the Liquidity Provider into the available platform. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What is the leverage? ",
-            "description": [
-                "<p>We allow up to 5:1 leverage on BTC and ETH.  Other cryptocurrencies listed on the platform are at 2:1.  </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What are the trading hours? ",
-            "description": [
-                "<p>Trading hours are set by the cryptocurrency exchange or Liquidity Provider(s) and are generally open 24 hours. We do not have any control over the trading hours.</p>",
-                "<strong class='mt-4'>Please note that holidays can have an impact on available trading hours. </strong>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Are commissions charged on the trading activity? ",
-            "description": [
-                "<p>Commissions or commission-equivalents may be charged in connection with your trading activity.  Note that cryptocurrency trading is subject to a percentage-based commission rate of 0.05% of the total notional trade volume, charged per side (USD amount * 0.0005).</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Can I use an Automated Strategies? ",
-            "description": [
-                "<p>DXTrade does not support automated strategies.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "What is the policy on Prohibited Trading Activity? ",
-            "description": [
-                "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
-                "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider </p>",
-                "<p>● Utilizing non-public and/or insider information </p>",
-                "<p>● Front-running of trades placed elsewhere </p>",
-                "<p>● Trading in any way that jeopardizes the relationship that the Company has with a Liquidity Provider or may result in the canceling of trades </p>",
-                "<p>● Trading in any way that creates regulatory issues for the Liquidity Provider </p>",
-                "<p>● Utilizing any third-party strategy, off-the-shelf strategy or one marketed to pass challenge accounts </p>",
-                "<p>● Utilizing one strategy to pass an assessment and then utilizing a different strategy in a funded account, as determined by the Company at their discretion. </p>",
-                "<p>● Attempting to arbitrage an assessment account with another account with the Company or any third-party company, as determined by the Company in its sole and absolute discretion. </p>",
-                "<p>● If the Company detects that your trading constitutes Prohibited Trading, your participation in the program will be terminated and may include forfeiture of any fees paid to the Company. Additionally, and before any Trader shall receive a funded account, the trading activity of the Trader under these Terms and Conditions shall be reviewed by both the Company and the Liquidity Provider to determine whether such trading activity constitutes Prohibited Trading. In the case of Prohibited Trading, the Trader shall not receive a funded account. </p>",
-                "<p>● Additionally, the Company reserves the right to disallow or block any Trader from participating in the program for any reason, in the Company’s sole and absolute discretion. </p>",
-                "<p class='mt-4'>To view all Prohibited Uses, please review our Terms and Conditions here, </p>",
-                "<a class='mb-4 text-blue-500' target='_blank' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "Can I trade during News Events? ",
-            "description": [
-                "<p>Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "How will I see the charge on my Statement? ",
-            "description": [
-                "<p>Charges come across in the name of dashboardanalytix.com. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "How are taxes handled? ",
-            "description": [
-                "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":1,
-            "title": "How are affiliates credited? ",
-            "description": [
-                "<p>Affiliates are credited for referrals when a user creates an account using a link or discount code provided by the Affiliate. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
             "product_type": "2-step",
             "product_type_id": 2,
             "category":2,
-            "title": "What constitutes a Breach? ",
+            "title": "非アクティブによる違反はありますか？",
             "description": [
-                "<p>A breach means that you violated the Max Drawdown rule. In the event you have a breach, you will fail the Assessment or have your Funded Account taken away. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "How do you calculate the 3% Daily Cap Limit?",
-            "description": [
-                "<p>The Daily Cap Limit is the maximum percentage of your starting balance that your crypto account can move in any given day. The Daily Cap Limit is calculated using the previous day’s equity, which resets at 5 PM EST. In the event that the assets in your account move in excess of 3% of your starting balance from your previous day's equity in either direction, your positions will be closed out and your account will be locked until the start of the new trading day at 5 PM EST. Example: For a 100k starting balance account, with a 3% Daily Cap. If the account finishes the day, with Equity at 101k, the next day’s limits will be 101k +/- 3k (i.e. 98k - 104k).</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "How do you calculate the Maximum Drawdown? ",
-            "description": [
-                "<p class='mb-4'>The Maximum Drawdown is initially set at 9% and is static and will therefore remain at the same value for as long as the account will remain active.</p>",
-                "<p>Example: If your starting balance is $100,000, you can drawdown to $91,000 before you would violate the Maximum Drawdown rule. Then for example let's say you take your account to $102,000 in CLOSED BALANCE, your Maximum Drawdown would remain at $91,000. So, regardless of how high your account goes, your drawdown will remain the same.</p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "Can I hold positions over the weekend? ",
-            "description": [
-                "<p>Yes. </p>"
-            ]
-        },
-        {
-            "plans": "crypto",
-            "plan_id": 2,
-            "product_type": "2-step",
-            "product_type_id": 2,
-            "category":2,
-            "title": "Is there a breach for inactivity? ",
-            "description": [
-                "<p>Yes. We will consider you inactive and your account will be breached if you do not have any trading activity on your account for 30 consecutive days.</p>"
+                    "<p>はい。30日間連続で取引活動がない場合、非アクティブと見なされ、アカウントは違反と見なされます。</p>"
             ]
         },
         {
@@ -1321,9 +1321,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "How long does it take to receive my funded account?",
+            "title": "資金提供アカウントを受け取るまでにどれくらい時間がかかりますか？",
             "description": [
-                "<p>Upon passing your Assessment, you will receive an email with instructions on how to access and complete both your “Know Your Customer” verification and your “Trader Agreement”. Once both are completed your Funded Account will be created, funded and issued to you typically within 24-48 business hours. You will receive a confirmation email once this account is being enabled.</p>"
+                    "<p>アセスメントに合格すると、「本人確認（KYC）」と「トレーダー契約書」にアクセスし完了するための手順が記載されたメールが送信されます。これらが完了すると、資金提供アカウントが作成され、資金が提供され、通常24〜48営業日以内に発行されます。アカウントが有効化されると、確認メールが届きます。</p>"
             ]
         },
         {
@@ -1332,10 +1332,10 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Once I pass the Assessment am I provided with a demo or funded account? ",
+            "title": "アセスメントに合格したら、デモ口座ですか？それとも資金提供口座ですか？",
             "description": [
-                "<p>Once you pass the Assessment, we provide you with a funded account, backed by our capital. The capital in your funded Account is notional and may not match the amount of capital on deposit with the Liquidity Provider. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a Funded Account. </p>",
-                "<p class='mt-4'>Use of notional funding does not impact your trading conditions in any way. </p>"
+                "<p>アセスメントに合格すると、当社の資金で支援された資金提供口座が提供されます。資金提供口座の資本は名目上のものであり、流動性プロバイダーに預けられている実際の資金と一致しない場合があります。資金提供口座は、実際の資金（つまり資金提供口座の資本として表される資産残高）が名目口座サイズ（つまり取引の初期残高とレベルを定義する金額）と異なる場合に名目上資金提供されていると見なされます。名目資金とは、名目口座サイズと実際の資本の差額です。</p>",
+                "<p class='mt-4'>名目資金の使用は、あなたの取引条件に一切影響を与えません。</p>"
             ]
         },
         {
@@ -1344,9 +1344,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Do we manipulate the pricing or executions you receive in your funded account? ",
+            "title": "資金提供口座で受け取る価格や約定を操作していますか？",
             "description": [
-                "<p>No. We do not have any control over pricing from the liquidity provider or on the executions on your trades.  </p>"
+                    "<p>いいえ。当社は流動性プロバイダーからの価格やお客様の取引における約定に関して一切の管理権限を持っていません。</p>"
             ]
         },
         {
@@ -1355,9 +1355,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Who is the counterparty to my trades? ",
+            "title": "あなたの取引の相手方は誰ですか？",
             "description": [
-                "<p>For purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Liquidity Provider(s). This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or as cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your funded account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
+                    "<p>リスク管理および取引コストの最小化を目的として、市場リスクを相殺または回避し、特定の取引に対して当社が直接のカウンターパーティとなる場合があります。これらの取引は流動性プロバイダーから提供される価格で実行されます。この枠組みは、お客様の取引に対して実際の市場約定を提供すると同時に、既存のポジションや今後の注文を第三者にルーティングすることで当社がリスクを動的に管理できるようにするためのものです。このような実際の市場約定と動的リスク管理は、シミュレーション口座での取引では実現不可能、または費用効率が悪くなると当社は考えています。当社が取引の相手方となるかどうかにかかわらず、お客様の資金提供口座での損益の計算方法に違いはありません。ただし、当社が相手方として取引を行う場合、お客様の取引が当社に純損益をもたらさないため、本質的な利益相反の可能性が存在します。</p>"
             ]
         },
         {
@@ -1366,9 +1366,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "Am I subject to any position limits? ",
+            "title": "ポジションの上限はありますか？",
             "description": [
-                "<p>The maximum position that you may open is determined by your available margin.  We reserve the right to increase the margin requirement, amend the leverage ratio limits, or limit the number of open positions you may enter or maintain in a Funded Account at any time, without prior notice, and to revise, in response to market conditions, the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order. </p>"
+                    "<p>開設できる最大ポジションは、利用可能な証拠金によって決まります。市場状況に応じて、当社は予告なく証拠金要件の引き上げ、レバレッジ比率の変更、または資金提供口座で保有または新規で持てるポジション数を制限する権利を有します。また、ドローダウンレベルの見直しにより、取引を停止することもあります。当社または流動性プロバイダーは、注文の受け付けを拒否する権利を留保します。</p>"
             ]
         },
         {
@@ -1377,9 +1377,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "What are the rules for the funded account? ",
+            "title": "資金提供アカウントのルールは何ですか？",
             "description": [
-                "<p>The rules for the funded account are exactly the same as your Assessment account. However, with a funded account, there is no profit target. </p>"
+                    "<p>資金提供アカウントのルールは、評価アカウントとまったく同じです。ただし、資金提供アカウントには利益目標がありません。</p>"
             ]
         },
         {
@@ -1388,10 +1388,10 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "If I have a breach in my funded account and there are gains in the account, do I forfeit those gains? ",
+            "title": "資金提供アカウントで違反が発生し、利益がある場合、その利益は没収されますか？",
             "description": [
-                "<p>If you have gains in your funded account at the time of a breach, you will still receive your portion of those gains. </p>",
-                "<p class='mt-4'>For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a breach we would close the account. Of the $10,000 in gains in your funded account, you would be paid your portion thereof. </p>"
+                "<p>違反時に資金提供アカウントに利益がある場合でも、その利益の一部は引き続き受け取ることができます。</p>",
+    "<p class='mt-4'>例えば、$100,000のアカウントがあり、それを$110,000に増やしたとします。その後、違反が発生した場合、当社はアカウントを閉鎖します。資金提供アカウントにある$10,000の利益のうち、あなたの取り分が支払われます。</p>"
             ]
         },
         {
@@ -1400,9 +1400,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "How do I withdraw the gains in my funded account? ",
+            "title": "資金提供アカウントの利益をどのように引き出すのですか？",
             "description": [
-                "<p>Traders can request a withdrawal of the gains in their funded account at any time in their trader dashboard, but no more frequently than once per thirty (30) days. So, if you make gain in your funded account, you can request a withdrawal. When you are ready to withdraw the gains from your funded account, click the Withdraw Profits button in your trader dashboard and enter the amount to withdraw. All such gains are distributed via the available outbound payment solutions offered from time to time. Once your withdrawal request is approved, we will pay the monies owed to you. We reserve the right to change the withdrawal methods and options at any time.</p>"
+                    "<p>トレーダーは、資金提供アカウントの利益をいつでもトレーダーダッシュボードから出金申請できますが、30日ごとに1回を超えて行うことはできません。つまり、資金提供アカウントで利益が出た場合、出金申請が可能です。利益を引き出す準備ができたら、トレーダーダッシュボードの「利益を引き出す」ボタンをクリックし、出金金額を入力してください。すべての利益は、随時提供される利用可能な送金ソリューションを通じて分配されます。出金申請が承認されると、お支払いが行われます。出金方法およびオプションは、いつでも変更される場合があります。</p>"
             ]
         },
         {
@@ -1411,9 +1411,9 @@
             "product_type": "2-step",
             "product_type_id": 2,
             "category":3,
-            "title": "When can I withdraw the gains in my funded account and how does that affect my Maximum Drawdown? ",
+            "title": "資金提供アカウントの利益はいつ引き出せますか？また、それは最大ドローダウンにどのような影響を与えますか？",
             "description": [
-                "<p>Your first withdrawal can be requested at any time, subject to the profit split stated in the Trader Agreement. Thereafter, you can request a withdrawal of the gains in your account every 30 days. When a withdrawal is approved, we will also withdraw our share of the gains. The drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000 where the profit split is 90/10. In this scenario, you will receive $14,400 and we would retain $1,600.  This would also take the balance of the account down to $104,000, and your Maximum Drawdown will remain$94,000. So, you would have $10,000 maximum you could lose on the account before it would violate the Maximum Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Drawdown will still remain at $94,000. </p>"
+                "<p>初回の出金は、トレーダー契約に記載された利益分配に従って、いつでもリクエスト可能です。その後は、30日ごとに利益の出金をリクエストできます。出金が承認されると、当社も利益の分配分を引き出します。出金をリクエストしても、ドローダウンの上限はリセットされません。例：あなたの口座が$100,000から$120,000に増加したとします。その後、$16,000の出金をリクエストし、利益分配が90/10だった場合、あなたは$14,400を受け取り、当社は$1,600を保持します。この結果、口座残高は$104,000に減少し、最大ドローダウンは$94,000のままとなります。つまり、口座がルール違反とならないためには、最大で$10,000までしか損失が許されません。資金提供口座の利益を全額出金しても、最大ドローダウンは$94,000のままです。</p>"
             ]
         },
         {
@@ -1424,7 +1424,7 @@
             "category":1,
             "title": "Instant What Countries are accepted? ",
             "description": [
-                "<p>Subject to compliance with applicable laws and regulations, traders from all countries, excluding OFAC listed countries, can take part in our program, unless otherwise limited at the Company’s discretion. </p>"
+                    "<p>適用される法律および規制への準拠を前提として、OFAC（米国財務省外国資産管理局）に掲載されている国を除くすべての国のトレーダーが、当社の裁量による制限がない限り、当社のプログラムに参加できます。</p>"
             ]
         },
         {
@@ -1433,7 +1433,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What is the minimum age I must be to be part of your program? ",
+            "title": "プログラムに参加するための最低年齢はいくつですか？",
             "description": [
                 "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an Instant Funding account. </p>"
             ]
@@ -1444,7 +1444,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Where do I track the progress of my account? ",
+            "title": "アカウントの進捗状況はどこで確認できますか？",
             "description": [
                 "<p>Upon purchasing an Instant Funding Plan, you will receive access to a trader dashboard where you can monitor your Instant Funded Account. The dashboard is updated in near real time as we calculate your account metrics. It is your responsibility to monitor your breach levels.</p>"
             ]
@@ -1455,7 +1455,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What Platform can I trade on? ",
+            "title": "どのプラットフォームで取引できますか？",
             "description": [
                 "<p>Our technology is currently integrated with DXtrade, MatchTrader & cTrader.</p>"
             ]
@@ -1477,7 +1477,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What products can I trade? ",
+            "title": "どの製品を取引できますか？",
             "description": [
                 "<p>You can trade any products offered by the Broker, as such products may change from time to time. This includes FX pairs and CFD Indices, Metals, and Cryptocurrencies.</p>"
             ]
@@ -1488,7 +1488,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What is the leverage? ",
+            "title": "レバレッジはどのくらいですか？",
             "description": [
                 "<p>We offer up to 50:1 leverage on Forex and Metals, up to 10:1 leverage on Indices, up to 5:1 leverage on Oils and up to 2:1 leverage on Cryptocurrencies.</p>"
             ]
@@ -1499,7 +1499,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What are the trading hours? ",
+            "title": "取引時間はいつですか？",
             "description": [
                 "<p>Trading hours are generally set by the Liquidity Provider, unless set by our rules. We do not have any control over the trading hours. You can see the trading hours for each product by using the following methods: </p>",
                 "<p class='mt-4 ml-6'>DXtrade – Right click symbol, select “Instrument Info”</p>",
@@ -1538,7 +1538,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "What is the policy on Prohibited Trading Activity? ",
+            "title": "禁止されている取引活動のポリシーとは？",
             "description": [
                 "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
                 "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider </p>",
@@ -1562,9 +1562,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Can I trade during News Events? ",
+            "title": "ニュースイベント中に取引できますか？",
             "description": [
-                "<p>Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>"
+                    "<p>ニュースイベントの前後3分以内にポジションを開くことは禁止されています。ニュースイベント中にポジションを開いたと判断されたトレーダーには、そのポジションの強制決済、関連する損益の削除、アカウントのレバレッジの引き下げ、またはアカウントの違反処理が行われる可能性があります。どのイベントがニュースイベントに該当するかは、当社の裁量により決定されます。このルールはプログラムの健全性を守るためのものであり、ニュースイベント中に意図せず取引したトレーダーを罰することを目的としていません。</p>"
             ]
         },
         {
@@ -1573,7 +1573,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How will I see the charge on my Statement? ",
+            "title": "明細書にはどのように請求が表示されますか？",
             "description": [
                 "<p>Charges come across in the name of Dashboardanalytix.com.</p>"
             ]
@@ -1584,7 +1584,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How are taxes handled? ",
+            "title": "税金の取り扱いはどうなっていますか？",
             "description": [
                 "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains.</p>"
             ]
@@ -1595,9 +1595,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How are affiliates credited? ",
+            "title": "アフィリエイトにはどのように報酬が与えられますか？",
             "description": [
-                "<p>Affiliates are credited for referrals when a user creates an account using a link or discount code provided by the Affiliate. </p>"
+                    "<p>アフィリエイトが提供するリンクまたは割引コードを使用してユーザーがアカウントを作成した場合、そのアフィリエイトに紹介としての報酬が与えられます。</p>"
             ]
         },
         {
@@ -1640,7 +1640,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "Can I hold positions over the weekend? ",
+            "title": "週末にポジションを保有できますか？",
             "description": [
                 "<p>We require all trades to be closed by 3:45 PM EST on the last trading day of the week, typically Friday. However, in cases where markets close early or are not open on a Friday, it is the trader’s responsibility to ensure all trades are closed before the weekend based on the adjusted market schedule. Any trades left open after this time will be automatically closed. Note, this is considered a soft breach, and you will be able to continue trading once the markets reopen.</p>"
             ]
@@ -1670,7 +1670,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "Is there a breach for inactivity? ",
+            "title": "非アクティブによる違反はありますか？",
             "description": [
                 "<p>Yes. If you do not place a trade at least once every 30 days on your account, we will consider you inactive and your account will be breached. </p>"
             ]
@@ -1738,7 +1738,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Who is the counterparty to my trades? ",
+            "title": "あなたの取引の相手方は誰ですか？",
             "description": [
                 "<p>For the purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Broker. This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your Funded Account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
             ]
@@ -1749,7 +1749,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Am I subject to any position limits? ",
+            "title": "ポジションの上限はありますか？",
             "description": [
                 "<p>The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order.</p>"
             ]
@@ -1772,7 +1772,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "How do I withdraw the gains in my Funded Account? ",
+            "title": "資金提供アカウントの利益をどのように引き出すのですか？",
             "description": [
                 "<p>Traders can request a withdrawal of the profits in their funded account through their trader dashboard at any time. However, withdrawals are limited to one request every 30 days. <span class='underline underline-offset-4'>The minimum withdrawal amount is the greater of $100 or 1% of the account's starting balance.</span>  When a withdrawal is approved, we will also withdraw our share of the gains, and your max trailing drawdown will lock in at your starting balance. The trailing drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000. In this scenario, you will receive $12,800 and we would retain $3200. This would also take the balance of the account down to $104,000, and your Maximum Trailing Drawdown is locked in at $100,000. So, you would have $4,000 maximum you could lose on the account before it would violate the Maximum Trailing Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Trailing Drawdown will lock in at the starting balance and trigger the Maximum Trailing Drawdown breach rule, resulting in the forfeiture of your Funded Account.</p>"
             ]

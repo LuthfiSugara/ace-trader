@@ -81,7 +81,8 @@ const ChoosePlan = () => {
     }, []);
 
     const handleFilter = (plan_id: number, product_type_id: number) => {
-        fetch('/data/plans.json')
+        const filterProductTypeFile = `/data/plans/plans_${lang}.json`;
+        fetch(filterProductTypeFile)
         .then(res => res.json())
         .then(data => {
             let result = data.choose_plans.find(
