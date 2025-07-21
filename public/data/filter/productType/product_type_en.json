@@ -1,0 +1,12 @@
+{
+    "product_type": [
+        {
+            "id": 1,
+            "name": "1-Step"
+        },
+        {
+            "id": 2,
+            "name": "2-Step"
+        }
+    ]
+}

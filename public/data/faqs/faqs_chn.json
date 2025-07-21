@@ -1,0 +1,1781 @@
+{
+    "filter_faqs": {
+        "plans": [
+            {
+                "id": 1,
+                "name":"standard"
+            }, 
+            {
+                "id": 2,
+                "name": "crypto"
+            },
+            {
+                "id": 3,
+                "name": "instant"
+            }
+        ],
+        "product_type": [
+            {
+                "id": 1,
+                "name": "1-step"
+            }, 
+            {
+                "id": 2,
+                "name": "2-step"
+            }
+        ]
+    },
+    "faqs": [
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "评估时我必须使用你们的账户吗？还是可以使用我自己的账户？",
+            "description": [
+                "<p>我们拥有与所创建账户同步的风险管理软件。这使我们能够实时分析您的表现，无论是成就还是违规行为。因此，您必须使用我们为您提供的账户。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "W接受哪些国家？",
+            "description": [
+                "<p>在遵守适用法律法规的前提下，除被列入 OFAC 名单的国家外，所有国家的交易者均可参与我们的项目，除非公司自行决定另有限制。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "参与你们的项目的最低年龄是多少？",
+            "description": [
+                "<p>您必须年满18岁，或达到您所在国家/地区适用的法定最低年龄，方可购买评估项目。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我在哪里可以查看我的账户进度？",
+            "description": [
+                "<p>购买评估后，您将获得访问交易员仪表板的权限，可以在其中监控您的评估进度和实盘账户。该仪表板在我们每次计算指标时更新，大约每60秒更新一次。您有责任自行监控违规水平。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以在哪个平台上进行交易？",
+            "description": [
+                "<p>我们的技术目前通过 GooeyTrade 集成至 DXtrade、MatchTrader 和 cTrader 平台。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以交易哪些产品？",
+            "description": [
+                "<p>您可以交易由流动性提供商在可用平台上提供的任何产品，这些产品可能会不时变更。包括外汇货币对、CFD指数、大宗商品、贵金属和加密货币。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "杠杆是多少？",
+            "description": [
+                "<p>我们提供的杠杆比例为：外汇和贵金属最高 50:1，指数最高 10:1，原油最高 5:1，加密货币最高 2:1。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "交易时间是什么时候？",
+            "description": [
+                "<p>除非我们的规则另有规定，交易时间通常由流动性提供商设定，我们无法控制交易时间。您可以通过以下方式查看各个产品的交易时间：</p>",
+                "<p class='ml-6 mt-4'>DXtrade – 右键点击交易品种，选择“合约信息”</p>",
+                "<p class='ml-6'>MatchTrader – 点击交易品种展开，选择“信息”</p>",
+                "<p class='ml-6'>cTrader – 进入品种窗口，向下滚动查看所选品种的“市场时间”</p>",
+                "<strong class='mt-4'>请注意，节假日可能会影响可用的交易时间。</strong>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+             "title": "你们的账户会收取佣金吗？",
+            "description": [
+                "<p>实盘账户与流动性提供商对其他自筹资金的零售交易账户收取的价格和佣金相同。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以使用自动化策略吗？",
+            "description": [
+                "<p>在遵守下文所述的禁止交易政策的前提下，您可以使用自动化策略进行交易。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "禁止交易行为的政策是什么？",
+            "description": [
+                "<p>您不得使用本公司或其流动性提供商明确禁止的任何交易策略。此类被禁止的交易行为（“禁止交易”）包括但不限于：</p>",
+                "<p>● 利用流动性提供商提供的价格和/或平台中的错误或延迟</p>",
+                "<p>● 使用非公开信息和/或内幕信息</p>",
+                "<p>● 抢先于其他交易进行交易（抢跑交易）</p>",
+                "<p>● 以可能危及本公司与流动性提供商之间关系，或导致交易被取消的方式进行交易</p>",
+                "<p>● 以可能导致流动性提供商面临监管问题的方式进行交易</p>",
+                "<p>● 使用第三方策略、现成策略或被营销用于通过挑战账户的策略</p>",
+                "<p>● 使用一种策略通过评估，然后在实盘账户中使用另一种策略（由公司全权决定）</p>",
+                "<p>● 尝试通过与本公司或第三方公司的其他账户进行套利操作（由公司全权决定）</p>",
+                "<p>● 如果公司发现您的交易行为属于禁止交易，您将被终止参与计划，并可能会被没收已支付的费用。此外，在交易者获得实盘账户之前，公司的工作人员及流动性提供商将审查其交易行为是否属于禁止交易。若属实，交易者将无法获得实盘账户。</p>",
+                "<p>● 此外，公司保留在任何情况下拒绝或禁止任何交易者参与计划的绝对权利。</p>",
+                "<p class='mt-4'>要查看所有禁止用途，请在此处查阅我们的条款和条件：</p>",
+                "<a class='mb-4 text-blue-500' target='_blank' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以在新闻事件期间进行交易吗？",
+            "description": [
+                "<p>禁止在新闻事件前后3分钟内进行交易。如果公司认定确实在新闻事件期间进行了交易，任何被识别出在挑战阶段于新闻事件期间进行交易的交易者，其交易可能被取消、账户杠杆被降低，或账户被视为违规。是否构成新闻事件，由公司全权裁定。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我的账单上会如何显示这笔费用？",
+            "description": [
+                "<p>费用将以 dashboardanalytix.com 的名称显示。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "税务如何处理？",
+            "description": [
+                "<p>在我们公司使用实盘账户进行交易时，您将被视为独立承包商。因此，您需要自行承担所有收益的相关税费。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "description": [
+                "<p>当用户使用联盟成员提供的链接或折扣码创建账户时，该联盟成员将获得推荐奖励。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "严重违规（Hard Breach）和轻微违规（Soft Breach）规则有什么区别？",
+            "description": [
+                "<p>● 轻微违规表示我们将关闭所有违反规则的交易。但您仍然可以继续在评估账户或实盘账户中交易。</p>",
+                "<p>● 严重违规表示您违反了每日亏损限制或最大回撤限制。这两个规则都属于严重违规。如果发生严重违规，您将未能通过评估，或实盘账户将被取消。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "如何计算每日亏损限额？",
+            "description": [
+                "<p>每日亏损限额是指账户在任意一天内可承受的最大亏损金额。该限额根据前一日的账户余额计算，并在每天美国东部时间下午5点重置。随着账户余额的增加，每日止损限额也会相应增长。</p>",
+                "<p>示例：如果您前一日（美国东部时间下午5点）的账户余额为 $100,000，当日内若账户权益跌至 $95,000，则视为触及每日止损限额。如果在 $100,000 的账户中浮动盈利为 +$5,000，那么新的一天（下午5点 EST 开始）最大亏损仍将以前一日的余额 $100,000 为基准。因此，您的每日亏损限额仍为 $95,000。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "如何计算最大回撤？",
+            "description": [
+                "<p class='mb-4'>最大回撤最初设定为6%，是静态的（基于已平仓余额），因此在账户保持激活状态期间，该值将保持不变。</p>",
+                "<p>示例：如果您的起始余额为 $100,000，则最多可以回撤至 $94,000，否则将违反最大回撤规则。比如您将账户提升到 $102,000（已平仓余额），那么您的最大回撤仍然锁定在 $94,000。不论您的账户余额增长到多少，最大回撤值保持不变（注意：您仍可能违反每日回撤限制）。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "我可以在周末持仓吗？",
+            "description": [
+                "<p>可以在周末持仓，但只有加密货币允许周末交易。</p>"
+            ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "在交易平台上1手等于多少？",
+  "description": [
+    "<p>● 外汇：1手 = 10万美元名义价值</p>",
+    "<p>● 指数：1手 = 1份合约</p>",
+    "<p class='ml-4'>例外情况：</p>",
+    "<p class='ml-4'>SPX500：1手 = 10份合约</p>",
+    "<p class='ml-4'>JPN225：1手 = 500份合约</p>",
+    "<p>● 加密货币：1手 = 1枚币</p>",
+    "<p>● 白银：1手 = 5000盎司</p>",
+    "<p>● 黄金：1手 = 100盎司</p>",
+    "<p>● 原油：1手 = 100桶</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "是否因不活跃而违规？",
+  "description": [
+    "<p>是的。如果您的账户在连续30天内没有任何交易活动，我们将视为不活跃，您的账户将被视为违规。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "获得实盘账户需要多长时间？",
+  "description": [
+    "<p>在您通过评估后，您将收到一封电子邮件，内含完成“了解您的客户”（KYC）验证和“交易员协议”的相关指引。一旦两项流程完成并提交了相关支持文件，您的实盘账户将会在24至48个工作小时内创建、注资并发放给您。账户启用后，您将收到确认邮件。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "通过评估后，我获得的是模拟账户还是实盘账户？",
+  "description": [
+    "<p>一旦您通过评估，我们将为您提供一个由我们资金支持的实盘账户。该账户中的资金为名义资金，可能与存放在流动性提供商处的实际资金不完全一致。当账户中的实际资金（即账户的权益）与名义账户规模（即设定初始账户价值和交易等级的账户规模）不一致时，该账户被视为名义资金账户。名义资金指的是账户名义规模与实际资金之间的差额。</p>",
+    "<p class='mt-4'>使用名义资金不会以任何方式影响您的交易条件。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "我们会操控您在实盘账户中接收到的价格或执行情况吗？",
+  "description": [
+    "<p>不会。我们无法控制来自流动性提供商的价格，也无法控制您的交易执行。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "谁是我交易的对手方？",
+  "description": [
+    "<p>为了管理风险并降低交易成本，我们可能会对账户中发起的某些交易进行对冲或风险抵消，并作为这些交易的直接对手方。这些交易的价格由独立第三方提供。该机制旨在确保您获得真实的市场执行，同时也使我们能够动态地管理风险，在我们认为合适的情况下将现有头寸或未来订单路由给第三方执行。我们认为，如果在模拟账户中执行这些交易，将无法实现这种真实市场执行和高效的风险管理。无论我们是否作为您的交易对手方，您在实盘账户中的盈亏计算方式不会发生变化。然而，当我们作为交易对手方时，由于该交易不会对我们产生净收益或净亏损，因此会存在潜在的利益冲突。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "我是否受到持仓限制？",
+  "description": [
+    "<p>您可开仓的最大持仓量由可用保证金决定。我们保留随时提高保证金要求、限制您在实盘账户中可开设或维持的持仓数量的权利，并根据市场情况调整实盘账户中停止交易的回撤水平。我们或流动性提供商有权拒绝接受任何订单。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "实盘账户有哪些规则？",
+  "description": [
+    "<p>实盘账户的规则与您的评估账户完全相同。但实盘账户没有盈利目标。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "如果我在实盘账户中发生重大违规并且账户中有盈利，我是否会失去这些盈利？",
+  "description": [
+    "<p>如果您在发生重大违规时实盘账户中有盈利，您仍然可以获得您应得的那部分盈利。</p>",
+    "<p class='mt-4'>例如，如果您拥有一个$100,000的账户并将其增长到$110,000。如果之后发生重大违规，我们将关闭该账户。在实盘账户中$10,000的盈利中，您将获得属于您的那一部分。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "如何提取我实盘账户中的盈利？",
+  "description": [
+    "<p>交易者可以随时通过交易者仪表板申请提取实盘账户中的盈利，但频率不得超过每三十（30）天一次。因此，如果您的实盘账户有盈利，您可以申请提现。当您准备好提取盈利时，请点击交易者仪表板中的“Withdraw Profits”按钮，并输入要提取的金额。所有此类盈利将通过不时提供的可用出账支付解决方案进行分发。一旦您的提现请求被批准，我们将支付应付款项。我们保留随时更改提现方式和选项的权利。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "我什么时候可以提取实盘账户中的盈利？这对最大回撤有何影响？",
+  "description": [
+    "<p>您可以随时申请首次提现，但需遵循80/20的利润分成规则。此后，您每30天可申请一次盈利提现。当提现申请获得批准后，我们也会提取我们所占的利润份额。请求提现时，最大回撤不会重置。示例：您将账户从$100,000提升到$120,000，然后申请提现$16,000。在此情况下，您将获得$12,800，我们保留$3,200。这将使账户余额降至$104,000，而最大回撤仍为$94,000。因此，您最多可以亏损$10,000，超过该值就会违反最大回撤规则。如果您将实盘账户中的全部盈利提取，最大回撤仍为$94,000。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "我是否必须使用你们的账户进行评估，还是可以使用我自己的账户？",
+  "description": [
+    "我们拥有与我们创建的账户同步的风险管理软件。这使我们能够实时分析您的表现，以识别成就或规则违规。因此，您必须使用我们提供的账户。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "接受哪些国家的交易者？",
+  "description": [
+    "在遵守适用法律和法规的前提下，除被列入OFAC名单的国家外，所有国家的交易者均可参与我们的项目，除非公司自行决定另有限制。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "参与你们的项目的最低年龄是多少？",
+  "description": [
+    "您必须年满18岁，或达到您所在国家/地区适用的法定最低年龄，才能购买评估。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "我在哪里可以查看我的账户进度？",
+  "description": [
+    "购买评估后，您将获得访问交易员仪表板的权限，可以在其中监控您的评估进度和实盘账户。该仪表板在我们每次计算指标时更新，大约每60秒更新一次。您有责任自行监控违规水平。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "我可以在哪个平台进行交易？",
+  "description": [
+    "我们的技术目前通过 GooeyTrade 集成于 DXtrade、MatchTrader 和 cTrader 平台。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "我可以交易哪些产品？",
+  "description": [
+    "您可以交易由流动性提供商传输到可用平台上的任何产品，这些产品可能会不时发生变化。这包括外汇对、差价合约指数、大宗商品、贵金属和加密货币。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "杠杆比例是多少？",
+  "description": [
+    "我们提供的杠杆比例为：外汇和金属最高50:1，指数最高10:1，原油最高5:1，加密货币最高2:1。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "交易时间是什么时候？",
+  "description": [
+    "<p class='mb-4'>交易时间通常由流动性提供商设定，除非由我们的规则另行规定。我们无法控制交易时间。您可以通过以下方式查看每个产品的交易时间：</p>",
+    "<nr />",
+    "<p class='ml-6'>DXtrade – 右键点击符号，选择“Instrument Info”</p>",
+    "<p class='ml-6'>MatchTrader – 点击符号展开，选择“Info”</p>",
+    "<p class='ml-6'>cTrader – 导航到符号窗口，向下滚动查看所选符号的“Market Hours”</p>",
+    "<p class='mt-4'>请注意，节假日可能会影响可用的交易时间。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "您的账户是否收取佣金？",
+  "description": [
+    "实盘账户的定价和佣金与我们的流动性提供商对其他自筹资金的零售交易账户收取的费用相同。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "我可以使用自动化策略吗？",
+  "description": [
+    "在遵守下方所述的禁止交易政策的前提下，您可以使用自动化策略进行交易。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "禁止交易活动的政策是什么？",
+  "description": [
+    "<p class='mb-6'>您也被禁止使用公司或其使用的流动性提供商明确定义为禁止的任何交易策略。此类禁止交易（“禁止交易”）包括但不限于：</p>",
+    "<p class='mb-2'>• 利用流动性提供商提供的价格或平台中的错误或延迟</p>",
+    "<p class='mb-2'>• 使用非公开和/或内幕信息</p>",
+    "<p class='mb-2'>• 进行其他平台交易的抢先交易（Front-running）</p>",
+    "<p class='mb-2'>• 以任何方式进行交易，危及公司与流动性提供商的关系或可能导致交易被取消</p>",
+    "<p class='mb-2'>• 以任何方式进行交易，导致流动性提供商出现合规问题</p>",
+    "<p class='mb-2'>• 使用第三方策略、现成策略或被宣传为可通过挑战账户的策略</p>",
+    "<p class='mb-2'>• 使用一种策略通过评估，而在实际账户中使用不同策略，由公司与 Forest Park FX LTD 协商后自行决定</p>",
+    "<p class='mb-2'>• 试图使用公司或任何第三方的另一个账户对评估账户进行套利，由公司全权决定</p>",
+    "<p class='mb-4'>如果我们发现您的交易构成禁止交易，您将被终止参与计划，并可能会失去已支付的任何费用。此外，在您获得资金账户之前，我们将根据条款和条件审核您的交易行为以判断是否构成禁止交易。如属实，将不予发放资金账户。</p>",
+    "<p class='mb-4'>此外，我们保留出于任何原因拒绝或阻止您参与该计划的权利，完全由我们自行决定。</p>",
+    "<p class='mb-4'>如需查看所有禁止用途，请查看我们的条款与条件，</p>",
+    "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/?v=34f435c6b599'>https://dashboardanalytix.com/client-terms-and-policies/?v=34f435c6b599</a>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "我可以在新闻事件期间进行交易吗？",
+  "description": [
+    "禁止在新闻事件前后3分钟内进行交易。如果公司认定在新闻事件期间确实发生了交易，则在挑战阶段被发现进行此类交易的交易员，可能会被取消这些交易、降低账户杠杆，或直接判定账户违反规定。公司对什么构成新闻事件拥有唯一且绝对的决定权。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "我如何在账单上看到费用？",
+  "description": [
+    "费用将以 Dashboardanalytix.com 的名义显示。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "税务如何处理？",
+  "description": [
+    "在为我们公司交易实盘账户时，您将被视为独立承包商。因此，您需要自行负责您盈利部分的所有税务。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 1,
+            "title": "如何为联盟成员记入佣金？",
+  "description": [
+    "当用户使用联盟成员提供的链接或折扣码创建账户时，联盟成员将获得推荐佣金。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 2,
+            "title": "什么是严重违规（Hard Breach）和轻微违规（Soft Breach）规则的区别？",
+  "description": [
+    "<p class='mb-2'>● 轻微违规表示我们会关闭所有违反规则的交易。但您仍然可以继续在您的评估账户或实盘账户中进行交易。</p>",
+    "<p>● 严重违规表示您违反了每日亏损限制或最大回撤规则。这两项规则都构成严重违规。如果发生严重违规，您将未通过评估，或者实盘账户将被终止。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 2,
+            "title": "如何计算每日亏损限制？",
+  "description": [
+    "<p class='mb-2'>每日亏损限制是您的账户在任何一天内可承受的最大亏损金额。每日亏损限制是根据前一日的账户余额计算的，并在美东时间下午5点重置。随着账户的增长，止损值也会相应增加。</p>",
+    "<p>例如：如果您前一日的账户收盘余额为$100,000（美东时间下午5点），那么当天若账户权益降至$95,000，您就违反了每日止损限制。如果在一个$100,000的账户中浮动权益为+$6,000，那么新的一天（美东时间下午5点）最大亏损将依然基于前一天的余额（$100,000）来计算。因此，您的每日亏损限制仍为$95,000。</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 2,
+            "title": "如何计算最大回撤？",
+  "description": [
+    "最大回撤是指您的账户在发生严重违规（hard breach）前允许的最大亏损额度。当您开设账户时，最大回撤被设定为初始余额的8%。这个8%是固定的，不会随账户余额变化（非跟踪式）。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 2,
+             "title": "我可以在周末持仓吗？",
+  "description": [
+    "可以在周末持有仓位，但只有加密货币允许在周末交易。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 2,
+            "title": "在交易平台上1手等于多少？",
+  "description": [
+    "<p>● 外汇 - 1手 = $100,000 名义金额</p>",
+    "<p>● 指数 - 1手 = 1 合约</p>",
+    "<p class='ml-6'>例外：</p>",
+    "<p class='ml-10'>SPX500: 1手 = 10 合约</p>",
+    "<p class='ml-10'>JPN225: 1手 = 500 合约</p>",
+    "<p>● 加密货币 - 1手 = 1 枚币</p>",
+    "<p>● 白银 - 1手 = 5000 盎司</p>",
+    "<p>● 黄金 - 1手 = 100 盎司</p>",
+    "<p>● 原油 - 1手 = 100 桶</p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 2,
+            "title": "不活跃会导致违规吗？",
+  "description": [
+    "是的。如果您的账户连续30天没有任何交易活动，我们将视为不活跃，并视为违规。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "收到我的实盘账户需要多长时间？",
+  "description": [
+    "通过评估后，您将收到一封电子邮件，其中包含如何完成“了解您的客户”（KYC）验证和“交易员协议”的说明。一旦两者都完成并提交了支持文件，您的实盘账户通常将在24至48个工作小时内创建、注资并发放。一旦账户启用，您将收到确认邮件。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "通过评估后，我会获得模拟账户还是实盘账户？",
+  "description": [
+    "<p class='mb-4'>通过评估后，我们将为您提供一个由我们资金支持的实盘账户。该账户中的资金是名义上的，可能与流动性提供商账户中的实际存款金额不一致。当账户中的实际资金（即账户中的权益）与名义账户规模（即设定初始账户价值和交易级别的账户大小）不一致时，该实盘账户就被视为名义资金账户。名义资金是名义账户规模与实际资金之间的差额。</p>",
+    "<p>使用名义资金不会以任何方式影响您的交易条件。<p>"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "我们是否操控您在实盘账户中获得的价格或执行？",
+  "description": [
+    "不会。我们无法控制流动性提供商的定价，也无法控制您交易的执行。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "谁是我交易的对手方？",
+  "description": [
+    "为了管理风险和降低交易成本，我们可能会对冲或抵消市场风险，并作为账户中某些交易的直接对手方。这些交易是以独立第三方提供的价格执行的。该框架旨在确保您获得真实的市场执行，同时使我们能够通过将现有仓位或未来订单路由至第三方来动态管理风险。我们认为，如果交易是在模拟账户中执行，则无法实现这种真实市场执行和动态风险管理。无论我们是否作为您的交易对手方，您在实盘账户中的盈亏计算方式都不会有所不同。然而，当我们作为您的交易对手方时，存在潜在的利益冲突，因为此时您的交易不会对我们造成实际的盈亏影响，而如果我们不是对手方则可能会产生盈亏。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "我是否受到持仓限制？",
+  "description": [
+    "您可以开的最大仓位由您可用的保证金决定。我们保留在任何时间增加保证金要求、限制您在实盘账户中可以开立或维持的持仓数量，并根据市场状况调整停止交易的回撤水平的权利。我们或流动性提供商有权拒绝接受任何订单。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "实盘账户的规则是什么？",
+  "description": [
+    "实盘账户的规则与您的评估账户完全相同。但在实盘账户中，没有盈利目标。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "如果我在实盘账户中发生严重违规并且账户中有盈利，我会失去这些盈利吗？",
+  "description": [
+    "如果您在实盘账户中发生严重违规时账户有盈利，您仍将获得属于您的那部分收益。",
+    "<br />",
+    "例如，如果您有一个 $100,000 的账户并将其增长到 $110,000。如果随后发生严重违规，我们将关闭该账户。在您实盘账户中的 $10,000 盈利中，您将获得属于您的那一部分。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "我如何提取实盘账户中的盈利？",
+  "description": [
+    "交易者可以随时通过交易员仪表板申请提取实盘账户中的盈利，但频率不得超过每三十（30）天一次。因此，如果您的实盘账户有盈利，您可以申请提现。当您准备好从实盘账户中提取盈利时，请点击交易员仪表板中的“Withdraw Profits”按钮并输入要提取的金额。所有此类盈利将通过不时提供的出账支付解决方案进行分发。一旦您的提现申请获得批准，我们将支付您应得的金额。我们保留随时更改提现方式和选项的权利。"
+  ]
+        },
+        {
+            "plans": "standard",
+            "plan_id": 1,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category": 3,
+            "title": "我什么时候可以提取实盘账户中的盈利？这对最大回撤有什么影响？",
+  "description": [
+    "您可以随时申请第一次提现，前提是按照 80/20 的利润分成进行。之后，您可以每 30 天申请一次盈利提现。提现获批后，我们也会提取我们应得的那部分利润。申请提现时，最大回撤不会重置。举例：您将账户从 $100,000 增长到 $120,000，然后申请提现 $16,000。在这种情况下，您将收到 $12,800，我们保留 $3,200。这也会使账户余额降至 $104,000，而您的最大回撤仍为 $92,000。因此，您最多可以亏损 $12,000，超过此金额将违反最大回撤规则。如果您提取了所有盈利，最大回撤仍保持在 $92,000 不变。"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我必须使用你们提供的账户进行评估，还是可以使用我自己的账户？",
+  "description": [
+    "<p>我们拥有与我们创建的账户同步的风险管理软件。这使我们能够实时分析您的表现，包括成就或规则违规。因此，您必须使用我们提供的账户。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "接受哪些国家的交易者？",
+  "description": [
+    "<p>在遵守相关法律法规的前提下，来自所有国家（不包括OFAC列出的国家）的交易者都可以参与我们的项目，除非公司自行决定另有限制。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "参与您们的项目的最低年龄是多少？",
+  "description": [
+    "<p>您必须年满18岁，或符合您所在国家的法定最低年龄，才能购买评估账户。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我在哪里可以查看我的账户进度？",
+  "description": [
+    "<p>在购买评估账户后，您将获得访问交易员仪表板的权限，您可以在其中监控您的评估账户和实盘账户。仪表板会在我们每次计算指标时更新，约每60秒一次。您有责任监控您的违规水平。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以在哪个平台上进行交易？",
+  "description": [
+    "<p>所有交易将在DXtrade平台上执行。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以交易哪些产品？",
+  "description": [
+    "<p>您可以交易由流动性提供商推送到可用平台上的任何产品。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "杠杆是多少？",
+  "description": [
+    "<p>我们对BTC和ETH提供最高5:1的杠杆。平台上列出的其他加密货币为2:1。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "交易时间是什么时候？",
+  "description": [
+    "<p>交易时间由加密货币交易所或流动性提供商设定，通常为全天24小时开放。我们无法控制交易时间。</p>",
+    "<strong class='mt-4'>请注意，假期可能会影响可用的交易时间。</strong>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "交易活动是否收取佣金？",
+  "description": [
+    "<p>在您的交易活动中可能会收取佣金或等效佣金。<strong>注意</strong>，加密货币交易按总名义交易量的0.05%按每一方收取百分比佣金（美元金额 * 0.0005）。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以使用自动化策略吗？",
+  "description": [
+    "<p>DXTrade 不支持自动化策略。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "关于禁止交易行为的政策是什么？",
+  "description": [
+    "<p class='mb-4'>您也被禁止使用公司或其流动性提供商明确禁止的任何交易策略。此类被禁止的交易行为（“禁止交易”）包括但不限于：</p>",
+    "<p>● 利用流动性提供商所提供的定价和/或平台中的错误或延迟</p>",
+    "<p>● 使用非公开和/或内幕信息</p>",
+    "<p>● 抢先交易（Front-running）其他地方的订单</p>",
+    "<p>● 以可能损害公司与流动性提供商关系的方式进行交易，或可能导致交易被取消</p>",
+    "<p>● 以可能对流动性提供商造成监管问题的方式进行交易</p>",
+    "<p>● 使用第三方策略、市售策略或为通过挑战账户而宣传的策略</p>",
+    "<p>● 通过评估使用一种策略，通过后却在实盘账户中使用不同策略（由公司自行决定）</p>",
+    "<p>● 试图使用其他账户（无论是公司还是第三方的账户）对评估账户进行套利（由公司全权决定）</p>",
+    "<p>● 如果公司发现您的交易属于禁止交易行为，您将被终止参与计划，并可能会被没收已支付的任何费用。此外，在交易者获得实盘账户之前，公司和流动性提供商将会审查交易者的交易行为，以确定是否属于禁止交易。若属于，您将不会获得实盘账户。</p>",
+    "<p>● 此外，公司保留在任何理由下，自行决定禁止或阻止您参与本计划的权利。</p>",
+    "<p class='mt-4'>欲查看所有被禁止的用途，请查看我们的条款与条件：</p>",
+    "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我可以在新闻事件期间进行交易吗？",
+  "description": [
+    "<p>禁止在新闻事件发生前后3分钟内开仓。任何被发现于新闻事件期间开仓的交易者，其该笔交易可能会被强制平仓，并将相关盈亏从账户中移除，账户杠杆可能会被降低，甚至账户可能被判定为违规。公司拥有完全的自主权来判定什么构成“新闻事件”。本规则旨在维护我们项目的公平性，并非为了惩罚那些无意中在新闻事件期间进行交易的交易者。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "我如何在账单明细中看到扣费？",
+  "description": [
+    "<p>费用将以 dashboardanalytix.com 的名称显示。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+             "title": "如何处理税务？",
+  "description": [
+    "<p>在为我们公司交易资助账户时，您被视为独立承包商。因此，您需自行承担所有收益相关的税费。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 1,
+            "title": "联盟用户如何获得奖励？",
+  "description": [
+    "<p>当用户使用联盟用户提供的链接或折扣码创建账户时，联盟用户将获得推荐奖励。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "什么构成违规？",
+  "description": [
+    "<p>违规意味着您违反了最大回撤规则。如果发生违规，您将未通过评估或您的资助账户将被取消。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "如何计算 3% 每日上限限制？",
+  "description": [
+    "<p>每日上限限制是指您的加密账户在一天内相对于初始余额最大可波动的百分比。此限制基于前一日的账户权益计算，并在美国东部时间下午5点重置。如果您的账户资产在任一方向上相对于前一日权益超过初始余额的3%，您的仓位将被强制平仓，账户也将被锁定，直到下一个交易日美国东部时间下午5点。示例：若起始余额为10万美元，且每日上限为3%，当日结束时账户权益为101k，则次日的限制区间为101k +/- 3k（即98k - 104k）。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+            "title": "如何计算最大回撤？",
+  "description": [
+    "<p>最大回撤初始设定为6%，且为固定值，因此只要账户仍处于活跃状态，该值将保持不变。</p>",
+    "<p class='mt-4'>示例：如果您的起始余额是 $100,000，则在跌至 $94,000 前不会违反最大回撤规则。假设您的账户 CLOSED BALANCE 增长到 $102,000，最大回撤仍将保持在 $94,000。因此，无论账户增长到多高，最大回撤值始终保持不变。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+           "title": "我可以在周末持仓吗？",
+  "description": [
+    "<p>可以。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 2,
+             "title": "不活跃是否会被视为违规？",
+  "description": [
+    "<p>是的。如果您的账户连续30天没有任何交易活动，我们将视为不活跃，并认定为违规。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+             "title": "收到我的实盘账户需要多长时间？",
+  "description": [
+    "<p>在您通过评估后，您将收到一封电子邮件，其中包含访问并完成“了解您的客户”（KYC）验证和“交易者协议”的说明。一旦两者完成，您的实盘账户将会被创建、注资并通常在24至48个工作小时内发放给您。账户启用后，您将收到确认邮件。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "通过评估后，我会获得模拟账户还是实盘账户？",
+  "description": [
+    "<p>一旦您通过评估，我们将为您提供一个由我们资本支持的实盘账户。您实盘账户中的资金为名义资金，可能与流动性提供商账户中的实际资金不一致。当账户中的实际资金（即实盘账户中的权益）与名义账户规模（即确定初始账户价值和交易级别的资金规模）不一致时，该账户即被视为名义资金账户。名义资金是指名义账户规模与实盘账户中实际资金之间的差额。</p>",
+    "<p class='mt-4'>使用名义资金不会以任何方式影响您的交易条件。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "我们是否操控您在实盘账户中收到的价格或订单执行？",
+  "description": [
+    "<p>不会。我们对来自流动性提供商的价格或您的交易执行没有任何控制权。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+            "title": "谁是我交易的对手方？",
+  "description": [
+    "<p>为了管理风险并最小化交易成本，我们可能会对冲或消除市场风险，并在某些由账户发起的交易中作为直接对手方。这些交易按照流动性提供商提供的价格执行。该框架旨在确保您获得真实的市场执行，同时允许我们通过将现有持仓或未来订单转发给第三方进行执行，从而动态管理风险。我们认为，如果交易是在模拟账户中执行，这种真实市场执行和动态风险管理是不可能或不具成本效益的。无论我们是否作为您的交易对手方，您实盘账户中的盈亏计算方式不会改变。然而，当我们作为交易对手方时，由于您的交易不会对我们造成净收益或损失，因此存在潜在的利益冲突。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category": 3,
+             "title": "我是否受任何持仓限制？",
+  "description": [
+    "<p>您可以开立的最大持仓数量由您可用的保证金决定。我们保留在任何时间内，无需事先通知，增加保证金要求、修改杠杆比例限制或限制您在实盘账户中可以持有的开仓数量的权利；同时也保留根据市场情况调整导致实盘账户交易暂停的回撤水平的权利。我们或流动性提供商保留拒绝接受任何订单的权利。</p>"
+  ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "实盘账户的规则是什么？",
+            "description": [
+                    "<p>实盘账户的规则与您的评估账户完全相同。但在实盘账户中，没有盈利目标。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "如果我在实盘账户中发生违规且账户中有盈利，我会失去这些盈利吗？",
+            "description": [
+                "<p>如果在您实盘账户发生违规时仍有盈利，您仍将获得您应得的部分收益。</p>",
+    "<p class='mt-4'>例如，如果您的账户是$100,000，并将其增长到$110,000。若随后发生违规行为，我们将关闭该账户。在实盘账户中$10,000的盈利中，您将获得属于您的部分。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "如何提取我在实盘账户中的收益？",
+            "description": [
+                    "<p>交易者可以随时在交易者仪表板中申请提取其实盘账户中的收益，但申请频率不得超过每三十（30）天一次。因此，如果您在实盘账户中获得了收益，您可以申请提款。当您准备好提取实盘账户中的收益时，请点击交易者仪表板中的“提取利润”按钮，并输入要提取的金额。所有此类收益将通过不时提供的可用出站支付解决方案进行分发。一旦您的提款申请获批，我们将向您支付应得的金额。我们保留随时更改提款方式和选项的权利。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "我什么时候可以提取实盘账户的收益？这将如何影响最大回撤？",
+            "description": [
+                    "<p>您可以在任何时间申请第一次收益提款，前提是遵循《交易者协议》中所述的利润分成比例。之后，您可以每30天申请一次账户收益的提款。提款申请获批后，我们也会提取我们应得的利润份额。提款不会重置最大回撤。示例：您将账户从$100,000做到了$120,000。然后您申请提款$16,000，利润分成比例为90/10。在此情况下，您将收到$14,400，我们将保留$1,600。这样，账户余额将降至$104,000，而您的最大回撤仍为$94,000。因此，您最多可以承受$10,000的损失而不会违反最大回撤规则。如果您提取了实盘账户的全部收益，最大回撤仍将保持在$94,000不变。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "我必须使用你们提供的账户进行评估，还是可以使用我自己的账户？",
+            "description": [
+                    "<p>我们拥有与我们创建的账户同步的风险管理软件。这使我们能够实时分析您的表现，包括达成成就或违反规则的情况。因此，您必须使用我们提供的账户。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "哪些国家可以参与？",
+            "description": [
+                    "<p>在遵守适用法律和法规的前提下，除OFAC列出的国家外，所有国家的交易者都可以参与我们的计划，除非公司有其他限制。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "加入你们的项目需要满足的最低年龄是多少？",
+            "description": [
+                    "<p>您必须年满18岁，或您所在国家规定的法定最低年龄，才能购买评估。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "我在哪里可以查看账户的进展？",
+            "description": [
+                    "<p>购买评估后，您将获得访问交易员仪表板的权限，您可以在其中监控您的评估账户和实盘账户。每次我们计算指标时（大约每60秒一次），仪表板会自动更新。您有责任自行监控违规级别。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "我可以在哪个平台上进行交易？",
+            "description": [
+                    "<p>所有交易都将在 DXtrade 平台上执行。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "我可以交易哪些产品？",
+            "description": [
+                    "<p>您可以交易由流动性提供商传送到可用平台上的任何产品。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "杠杆是多少？",
+            "description": [
+                    "<p>我们为 BTC 和 ETH 提供最高 5:1 的杠杆。平台上列出的其他加密货币杠杆为 2:1。</p>"
+
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "交易时间是什么时候？",
+            "description": [
+                "<p>交易时间由加密货币交易所或流动性提供商设定，通常为全天 24 小时开放。我们无法控制交易时间。</p>",
+                "<strong class='mt-4'>请注意，节假日可能会影响可用的交易时间。</strong>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "交易活动是否收取佣金？",
+            "description": [
+                    "<p>您的交易活动可能会收取佣金或等值费用。请注意，加密货币交易按总名义交易量的 0.05% 收取按边计费的百分比佣金（美元金额 * 0.0005）。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "我可以使用自动化策略吗？",
+            "description": [
+                    "<p>DXTrade 不支持自动化策略。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "禁止交易行为的政策是什么？",
+            "description": [
+                "<p class='mb-4'>您不得使用公司或其流动性提供商明确禁止的任何交易策略。此类禁止交易（“禁止交易”）包括但不限于：</p>",
+    "<p>● 利用流动性提供商提供的价格或平台中的错误或延迟 </p>",
+    "<p>● 使用非公开和/或内幕信息 </p>",
+    "<p>● 在其他地方下单前抢先交易（Front-running） </p>",
+    "<p>● 以危及公司与流动性提供商关系或可能导致交易被取消的方式进行交易 </p>",
+    "<p>● 以引起流动性提供商监管问题的方式进行交易 </p>",
+    "<p>● 使用任何第三方策略、现成策略或旨在通过挑战账户的策略 </p>",
+    "<p>● 使用一种策略通过评估，然后在资金账户中使用不同策略（由公司自行决定） </p>",
+    "<p>● 尝试通过公司或第三方公司的另一个账户与评估账户进行套利（由公司全权决定） </p>",
+    "<p>● 如果公司发现您的交易构成禁止交易，您将被取消参与资格，所支付的费用也可能被没收。此外，在您获得资金账户之前，公司和流动性提供商将对您的交易活动进行审查。如发现禁止交易，您将无法获得资金账户。</p>",
+    "<p>● 此外，公司保留出于任何原因自行拒绝或禁止您参与本计划的权利。</p>",
+    "<p class='mt-4'>查看所有禁止使用条款，请访问我们的使用条款： </p>",
+    "<a class='mb-4 text-blue-500' target='_blank' href='https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396'>https://dashboardanalytix.com/client-terms-and-policies/?v=3acf83834396</a>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "我可以在新闻事件期间进行交易吗？",
+            "description": [
+                    "<p>在新闻事件发生前或后3分钟内开仓是被禁止的。任何被发现于新闻事件期间开仓的交易者，其相关仓位将被平仓，利润与亏损（P&L）将从账户中移除，账户杠杆可能会被降低，或账户将被视为违反规则。公司拥有全权和绝对的自由裁量权来判断何为“新闻事件”。此规则旨在保护我们项目的完整性，而非惩罚那些在新闻事件期间无意中交易的用户。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "我如何在账单中看到收费信息？",
+            "description": [
+                    "<p>费用将以 dashboardanalytix.com 的名义显示。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "税务是如何处理的？",
+            "description": [
+                    "<p>在为我们公司操作资金账户时，您将被视为独立承包商。因此，您需自行负责处理所有收益相关的税务。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":1,
+            "title": "联盟推广如何获得奖励？",
+            "description": [
+                    "<p>当用户使用联盟推广者提供的链接或折扣码创建账户时，该联盟推广者将获得推荐奖励。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "什么是违规？",
+            "description": [
+                    "<p>违规意味着您违反了最大回撤规则。如果发生违规，您将未通过评估，或您的实盘账户将被取消。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "如何计算3%的每日上限？",
+            "description": [
+                    "<p>每日上限是您的加密账户在任何一天中可波动的初始余额的最大百分比。该上限基于前一日的权益计算，并在每天美国东部时间下午5点重置。如果账户中的资产相较于前一日权益在任一方向上波动超过3%，则所有持仓将被平仓，账户也将被锁定，直到下一个交易日的下午5点（EST）开始。示例：如果账户的初始余额为$100,000，设定的每日上限为3%，且账户在当日结束时的权益为$101,000，则次日的限制范围为$101,000 ± $3,000（即$98,000 - $104,000）。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "如何计算最大回撤？",
+            "description": [
+                "<p class='mb-4'>最大回撤最初设定为9%，该数值是固定的，并将在账户保持活跃期间保持不变。</p>",
+                "<p>示例：如果您的初始余额为$100,000，您可以最多回撤至$91,000，超过该值将违反最大回撤规则。即使您的已平仓余额增加到$102,000，最大回撤仍然保持在$91,000。因此，无论您的账户增长到多高，回撤限制始终保持不变。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "我可以在周末持仓吗？",
+            "description": [
+                "<p>可以。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":2,
+            "title": "不活跃会导致违规吗？",
+            "description": [
+                    "<p>会的。如果您的账户在连续30天内没有任何交易活动，我们将视为不活跃，并判定您的账户已违规。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "获得我的实盘账户需要多长时间？",
+            "description": [
+                    "<p>通过评估后，您将收到一封包含访问并完成“了解您的客户”验证和“交易者协议”说明的电子邮件。一旦您完成这两个步骤，您的实盘账户将被创建、注资并在通常24至48个工作小时内发放。账户启用后，您将收到确认电子邮件。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "通过评估后，我获得的是模拟账户还是实盘账户？",
+            "description": [
+                 "<p>一旦您通过评估，我们将为您提供一个由我们资金支持的实盘账户。该账户中的资金为名义资金，可能与流动性提供商实际存入的资金不一致。所谓名义资金账户，是指账户中实际资金（即由资本代表的账户权益）与名义账户规模（即设定账户初始价值和交易级别的金额）之间存在差异。名义资金是名义账户规模与实际资金之间的差值。</p>",
+                "<p class='mt-4'>使用名义资金不会以任何方式影响您的交易条件。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "我们是否操控您在实盘账户中收到的价格或交易执行？",
+            "description": [
+                    "<p>不会。我们无法控制来自流动性提供商的定价，也无法控制您交易的执行情况。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "谁是我交易的对手方？",
+            "description": [
+                    "<p>为了管理风险和最小化交易成本，我们可能会对冲或抵消市场风险，并作为账户中某些交易的直接对手方。这些交易以流动性提供商提供的价格执行。此机制旨在确保您获得真实市场执行，同时允许我们通过将现有头寸或未来订单动态路由至第三方来进行风险管理。我们认为，如果交易是在模拟账户中执行的，将无法实现或难以实现如此真实的市场执行和动态风险管理。无论我们是否是您交易的对手方，您的实盘账户中的盈亏计算方式都不会改变。然而，当我们是您交易的对手方时，会存在潜在的利益冲突，因为与我们不是对手方时相比，您的交易不会对我们产生净收益或损失。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "我是否受到持仓限制？",
+            "description": [
+                    "<p>您可开仓的最大持仓量由您的可用保证金决定。我们保留在任何时候提高保证金要求、修改杠杆比例限制，或限制您在实盘账户中可以开立或维持的持仓数量的权利，恕不另行通知。同时，我们也会根据市场情况调整导致账户交易暂停的回撤水平。我们或流动性提供商有权拒绝接受任何订单。</p>"
+
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "实盘账户的规则是什么？",
+            "description": [
+                    "<p>实盘账户的规则与您的评估账户完全相同。但在实盘账户中，没有盈利目标。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "如果我在实盘账户中发生违规且账户中有盈利，我会失去这些盈利吗？",
+            "description": [
+                "<p>如果在您实盘账户发生违规时仍有盈利，您仍将获得您应得的部分收益。</p>",
+    "<p class='mt-4'>例如，如果您的账户是$100,000，并将其增长到$110,000。若随后发生违规行为，我们将关闭该账户。在实盘账户中$10,000的盈利中，您将获得属于您的部分。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "如何提取我在实盘账户中的收益？",
+            "description": [
+                    "<p>交易者可以随时在交易者仪表板中申请提取其实盘账户中的收益，但申请频率不得超过每三十（30）天一次。因此，如果您在实盘账户中获得了收益，您可以申请提款。当您准备好提取实盘账户中的收益时，请点击交易者仪表板中的“提取利润”按钮，并输入要提取的金额。所有此类收益将通过不时提供的可用出站支付解决方案进行分发。一旦您的提款申请获批，我们将向您支付应得的金额。我们保留随时更改提款方式和选项的权利。</p>"
+            ]
+        },
+        {
+            "plans": "crypto",
+            "plan_id": 2,
+            "product_type": "2-step",
+            "product_type_id": 2,
+            "category":3,
+            "title": "我什么时候可以提取实盘账户的收益？这将如何影响最大回撤？",
+            "description": [
+                "<p>您可以随时申请首次提款，前提是遵守交易者协议中规定的利润分成。此后，您可以每 30 天申请一次账户收益的提款。当提款获批时，我们也会提取我们应得的收益份额。提款时，最大回撤不会重置。例如：您的账户从 $100,000 增长至 $120,000。您随后申请提款 $16,000，利润分成为 90/10。在这种情况下，您将收到 $14,400，我们将保留 $1,600。这将使账户余额变为 $104,000，而您的最大回撤仍为 $94,000。因此，您最多只能承受 $10,000 的亏损，否则将违反最大回撤规则。如果您将资金账户中的全部收益取出，最大回撤仍保持在 $94,000 不变。</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "Instant What Countries are accepted? ",
+            "description": [
+                    "<p>在遵守适用法律和法规的前提下，除OFAC列出的国家外，所有国家的交易者都可以参与我们的计划，除非公司有其他限制。</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "加入你们的项目需要满足的最低年龄是多少？",
+            "description": [
+                "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an Instant Funding account. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "我在哪里可以查看账户的进展？",
+            "description": [
+                "<p>Upon purchasing an Instant Funding Plan, you will receive access to a trader dashboard where you can monitor your Instant Funded Account. The dashboard is updated in near real time as we calculate your account metrics. It is your responsibility to monitor your breach levels.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "我可以在哪个平台上进行交易？",
+            "description": [
+                "<p>Our technology is currently integrated with DXtrade, MatchTrader & cTrader.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "How many Instant Funded Accounts may I have active at one time?",
+            "description": [
+                "<p>A maximum of $100,000 in active Instant Funding plans per person is permitted. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "我可以交易哪些产品？",
+            "description": [
+                "<p>You can trade any products offered by the Broker, as such products may change from time to time. This includes FX pairs and CFD Indices, Metals, and Cryptocurrencies.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "杠杆是多少？",
+            "description": [
+                "<p>We offer up to 50:1 leverage on Forex and Metals, up to 10:1 leverage on Indices, up to 5:1 leverage on Oils and up to 2:1 leverage on Cryptocurrencies.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "交易时间是什么时候？",
+            "description": [
+                "<p>Trading hours are generally set by the Liquidity Provider, unless set by our rules. We do not have any control over the trading hours. You can see the trading hours for each product by using the following methods: </p>",
+                "<p class='mt-4 ml-6'>DXtrade – Right click symbol, select “Instrument Info”</p>",
+                "<p class='ml-6'>MatchTrader – Click symbol to expand, select “Info”</p>",
+                "<p class='mb-4 ml-6'>cTrader – Navigate to Symbol Window, scroll down to see “Market Hours” for selected symbol</p>",
+                "<p class='mb-4 ml-6'>cTrader – Navigate to Symbol Window, scroll down to see “Market Hours” for selected symbol</p>",
+                "<strong class='mb-4'>Please note that holidays can have an impact on available trading hours. </strong>",
+                "<p>Additionally, pursuant to the no holding trades over the weekend rule, we will attempt to close all open trades at 3:45pm EST on Fridays.  Traders are responsible for ensuring all open positions are closed (unless Weekend Hold add-on has been purchased)</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "Do your accounts charge commissions? ",
+            "description": [
+                "<p>Instant Funded Accounts receive the same pricing and commissions as charged by our Liquidity Provider to other, self-funded, retail trading accounts. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "Can I use an Automated Strategy? ",
+            "description": [
+                "<p>Subject to our policy on Prohibited Trading as described below, you can trade using an automated strategy.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "禁止交易行为的政策是什么？",
+            "description": [
+                "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
+                "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider </p>",
+                "<p>● Utilizing non-public and/or insider information </p>",
+                "<p>● Front running of trades placed elsewhere </p>",
+                "<p>● Trading in any way that jeopardizes the relationship that the Company has with a Liquidity Provider or may result in the canceling of trades </p>",
+                "<p>● Trading in any way that creates regulatory issues for the Liquidity Provider </p>",
+                "<p>● Utilizing any third-party strategy, off-the-shelf strategy or one marketed to pass challenge accounts </p>",
+                "<p>● Attempting to arbitrage a funded account with another account with the Company or any third-party company, as determined by the Company in its sole and absolute discretion.</p>",
+                "<p>●Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>",
+                "<p>●No Gambling Permitted: When participating in trading on both Challenge and Instant Funded Accounts, traders are expected to adhere to responsible risk management practices. This includes carefully considering the risks associated with position size, trade duration, and hedging strategies. Taking excessive risks, such as utilizing maximum leverage to open large positions with the hope of reaching profit targets through a single price movement, is strictly prohibited.  Please refer to the Terms and Conditions for the full Prohibition of Gambling Practices language.</p>",
+                "<p>● If the Company detects that your trading constitutes Prohibited Trading, your participation in the program will be terminated and may include forfeiture of any fees paid to the Company. Additionally, and before any Trader shall receive a funded account, the trading activity of the Trader under these Terms and Conditions shall be reviewed by both the Company and the Liquidity Provider to determine whether such trading activity constitutes Prohibited Trading. In the case of Prohibited Trading, the Trader shall not receive a funded account. </p>",
+                "<p>● Additionally, the Company reserves the right to disallow or block any Trader from participating in the program for any reason, in the Company’s sole and absolute discretion.</p>",
+                "<p class='mt-4'>To view all Prohibited Uses, please review our Terms and Conditions here,</p>",
+                "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/'>https://dashboardanalytix.com/client-terms-and-policies/</a>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "我可以在新闻事件期间进行交易吗？",
+            "description": [
+                    "<p>在新闻事件发生前或后3分钟内开仓是被禁止的。任何被发现于新闻事件期间开仓的交易者，其相关仓位将被平仓，利润与亏损（P&L）将从账户中移除，账户杠杆可能会被降低，或账户将被视为违反规则。公司拥有全权和绝对的自由裁量权来判断何为“新闻事件”。此规则旨在保护我们项目的完整性，而非惩罚那些在新闻事件期间无意中交易的用户。</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "我如何在账单中看到收费信息？",
+            "description": [
+                "<p>Charges come across in the name of Dashboardanalytix.com.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "税务是如何处理的？",
+            "description": [
+                "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":1,
+            "title": "联盟推广如何获得奖励？",
+            "description": [
+                    "<p>当用户使用联盟推广者提供的链接或折扣码创建账户时，该联盟推广者将获得推荐奖励。</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":2,
+            "title": "What is the difference between a Hard Breach and Soft Breach rule? ",
+            "description": [
+                "<p>• Soft breach means that we will close all trades that have violated the rule. However, you can continue trading in your Instant Funded Account.</p>",
+                "<p>• Hard breach means that you violated the Daily Loss Limit or Max Drawdown rule, or Inactivity rule. These rules constitute a hard breach. In the event you have a hard breach, you will have your Funded Account taken away. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":2,
+            "title": "How do you calculate the Daily Loss Limit? ",
+            "description": [
+                "<p>The Daily Loss Limit is the maximum amount your account can lose on any given day. The Daily Loss Limit is calculated using the previous day balance which resets at 5 PM EST. The Daily Loss Limit compounds with the increase in your account. Example: if your prior day's end of day balance (5pm EST) was $100,000, your account would violate the daily stop loss limit if your equity reached $95,000 during the day. If your floating equity is +$5,000 on a $100,000 account, your new- day (5pm EST) max loss is based on your balance from the previous day ($100,000). So, your daily loss limit would still be $95,000.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":2,
+            "title": "How do you calculate the Maximum Trailing Drawdown? ",
+            "description": [
+                "<p>The Maximum Trailing Drawdown is initially set at 8% and trails (using CLOSED BALANCE - NOT equity) your account until you have achieved a 5% return in your account. Once you have achieved a 5% return, the Maximum Trailing Drawdown no longer trails and is permanently locked in at your starting balance. Example: If your starting balance is $100,000, you can drawdown to $92,000 before you would violate the Maximum Trailing Drawdown rule. Then for example let's say you take your account to $102,000 in CLOSED BALANCE. This is your new high-water mark, which would mean your new Maximum Trailing Drawdown would be $94,000. Next, let's say you take your account to $106,000 in CLOSED BALANCE, which would be your new high-water mark. At this point your Maximum Trailing Drawdown would be locked in at your starting balance of $100,000. So, regardless of how high your account goes, you would only breach this rule if your account drew back down to $100,000 (note, you could still violate the daily drawdown). For example, if you take your account to $170,000, as long as you do not drawdown more than 5% in any given day, you would only breach if your account equity reaches $100,000.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":2,
+            "title": "我可以在周末持仓吗？",
+            "description": [
+                "<p>We require all trades to be closed by 3:45 PM EST on the last trading day of the week, typically Friday. However, in cases where markets close early or are not open on a Friday, it is the trader’s responsibility to ensure all trades are closed before the weekend based on the adjusted market schedule. Any trades left open after this time will be automatically closed. Note, this is considered a soft breach, and you will be able to continue trading once the markets reopen.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":2,
+            "title": "What is 1 lot equal to on the Trading Platform?",
+            "description": [
+                "<p>● Forex - 1 lot = $100k notional </p>",
+                "<p>● Index: 1 lot = 1 Contract  </p>",
+                "<p class='mt-4 ml-6'>Exceptions</p>",
+                "<p class='ml-8'>SPX500: 1 lot = 10 contracts </p>",
+                "<p class='ml-8'>JPN225: 1 lot = 500 contracts </p>",
+                "<p class='ml-8'>● Cryptos: 1 lot = 1 coin  </p>",
+                "<p class='ml-8'>● Silver: 1 lot = 5000 ounces  </p>",
+                "<p class='ml-8'>● Gold: 1 lot = 100 ounces  </p>",
+                "<p class='ml-8'>● Oil: 1 lot = 100 barrels  </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":2,
+            "title": "不活跃会导致违规吗？",
+            "description": [
+                "<p>Yes. If you do not place a trade at least once every 30 days on your account, we will consider you inactive and your account will be breached. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "What is the Instant Funding Plan?  ",
+            "description": [
+                "<p>The Instant Funding Plan allows traders to start with a fully funded account without needing to complete an assessment phase.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "How Long does it take to receive my Instant Funded Account? ",
+            "description": [
+                "<p class='mb-4'>Upon completion of payment, we provide you with an Instant Funding account, backed by our capital. You will receive an email with instructions on how to access this account on the platform you chose at checkout.</p>",
+                "<p class='mb-4'>The capital in your Funded Account is notional and may not match the amount of capital on deposit with the Broker. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a Funded Account. </p>",
+                "<p class='mb-4'>Use of notional funding does not change the trading level or that the account may trade in any manner differently than if notional funds were not used. In particular, the same conditions and rules applicable to a soft breach, hard breach, Daily Loss Limit, Max Trailing Drawdown and position limits apply.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "Do I need to complete KYC or sign a trader contract to start trading in an Instant Funding Plan?  ",
+            "description": [
+                "<p>A Trading contract and KYC are both required, however, to start trading using our Instant Funding Plan, these steps won’t need to be completed until you request a withdrawal. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "What happens if I do not pass KYC?  ",
+            "description": [
+                "<p>If you do not pass the KYC process when requesting a withdrawal, the withdrawal will be rejected, and your account will be closed. We encourage you to ensure you can meet KYC requirements before opting for the Instant Funding Plan. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "Do we manipulate the pricing or executions you receive in your Instant Funded Account? ",
+            "description": [
+                "<p>No. We operate at an arm's length with the Broker. All market pricing and trade executions are provided by the Broker and are not changed or modified by us. Additionally, we do not markup transaction costs established by the Broker through adjusting bid-offer spreads, markups/markdowns, commission charges or swaps. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "谁是我交易的对手方？",
+            "description": [
+                "<p>For the purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Broker. This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your Funded Account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "我是否受到持仓限制？",
+            "description": [
+                "<p>The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order.</p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "If I have a hard breach in my Funded Account and there are gains in the account, do I forfeit those gains? ",
+            "description": [
+                "<p class='mb-4'>If you have gains in your Funded Account at the time of a hard breach, you will still receive your portion of those gains. </p>",
+                "<p>For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a hard breach we would close the account. Of the $10,000 in gains in your Funded Account, you would be paid your portion thereof. </p>"
+            ]
+        },
+        {
+            "plans": "instant",
+            "plan_id": 3,
+            "product_type": "1-step",
+            "product_type_id": 1,
+            "category":3,
+            "title": "如何提取我在实盘账户中的收益？",
+            "description": [
+                "<p>Traders can request a withdrawal of the profits in their funded account through their trader dashboard at any time. However, withdrawals are limited to one request every 30 days. <span class='underline underline-offset-4'>The minimum withdrawal amount is the greater of $100 or 1% of the account's starting balance.</span>  When a withdrawal is approved, we will also withdraw our share of the gains, and your max trailing drawdown will lock in at your starting balance. The trailing drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000. In this scenario, you will receive $12,800 and we would retain $3200. This would also take the balance of the account down to $104,000, and your Maximum Trailing Drawdown is locked in at $100,000. So, you would have $4,000 maximum you could lose on the account before it would violate the Maximum Trailing Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Trailing Drawdown will lock in at the starting balance and trigger the Maximum Trailing Drawdown breach rule, resulting in the forfeiture of your Funded Account.</p>"
+            ]
+        }
+    ]
+}

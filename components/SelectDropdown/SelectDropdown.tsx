@@ -65,13 +65,13 @@ const SelectDropdown = ({options, onSelect, className}: DropdownProps) => {
                     }`}
                 >
                     {options && options?.map((option, index) => (
-                    <li
-                        key={index}
-                        onClick={() => handleSelect(option)}
-                        className={`px-4 py-2 capitalize hover:bg-[#3AA7B8] hover:text-white cursor-pointer ${selected?.value === option.value ? 'bg-[#3AA7B8] text-white' : 'text-[#2F6F78]'}`}
-                    >
-                        {option.name}
-                    </li>
+                        <li
+                            key={index}
+                            onClick={() => handleSelect(option)}
+                            className={`px-4 py-2 capitalize hover:bg-[#3AA7B8] hover:text-white cursor-pointer ${selected?.value === option.value ? 'bg-[#3AA7B8] text-white' : 'text-[#2F6F78]'}`}
+                        >
+                            {option.name}
+                        </li>
                     ))}
                 </ul>
             </div>

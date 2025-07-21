@@ -39,10 +39,10 @@
 
 /* Menu Icon (always visible) */
 .menuIcon {
-  position: fixed;
+  /* position: fixed;
   top: 20px;
   right: 20px;
-  z-index: 1100;
+  z-index: 1100; */
   background: none;
   border: none;
   color: white;

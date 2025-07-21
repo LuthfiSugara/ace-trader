@@ -18,6 +18,7 @@ import LottieFile from "@/components/LottieFile/LottieFile"
 import SelectDropdown from "@/components/SelectDropdown/SelectDropdown";
 import HeroAffiliate from "@/components/HeroAffiliate/HeroAffiliate";
 import ExploreAffiliate from "@/components/ExploreAffiliate/ExploreAffiliate";
+import LanguageDropdown from "@/components/LanguageDropdown/LanguageDropdown";
 
 export {
     Image,
@@ -40,4 +41,5 @@ export {
     SelectDropdown,
     HeroAffiliate,
     ExploreAffiliate,
+    LanguageDropdown,
 }

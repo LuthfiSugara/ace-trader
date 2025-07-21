@@ -5,16 +5,22 @@ import Faq, { FaqProps } from '../Faq/Faq';
 import Dropdown,{ FaqCategoryProps } from '../Dropdown/Dropdown';
 import Button from '../Button/Button';
 import SelectDropdown, { SelectProps } from '../SelectDropdown/SelectDropdown';
+import useTranslation from '@/hooks/useTranslation';
+import { BaseSelect } from '@/types/components/filter.types';
+import { getCookie } from 'cookies-next';
 
 const ListFaqs = () => {
+    const { translation } = useTranslation();
+
+    const lang = getCookie('lang') ?? 'en';
 
     const [faqs, setFaqs] = useState([]),
     [filterPlans, setFilterPlans] = useState<Array<SelectProps>>([]),
     [productType, setProductType] = useState<Array<SelectProps>>([]),
     [categories, setCategories] = useState([]),
     [filter, setFilter] = useState({
-        plans: 'standard',
-        product_type: '1-step',
+        plan_id: 1,
+        product_type_id: 1,
         id_category: 1,
     });
 
@@ -26,62 +32,79 @@ const ListFaqs = () => {
     };
 
     const handleSelect = (option: FaqCategoryProps) => {
-        updateFilter('id_category', option.value);
+        updateFilter('id_category', option.id);
     };
 
     const handleSelectPlans = (option: SelectProps) => {
-        updateFilter('plans', option.value);
+        updateFilter('plan_id', option.value);
     };
     const handleSelectProductType = (option: SelectProps) => {
-        updateFilter('product_type', option.value);
+        updateFilter('product_type_id', option.value);
     };
 
-    const handleOptionsMap = (datas: Array<string>) => {
+    const handleOptionsMap = (datas: Array<BaseSelect>) => {
         const Arr: Array<SelectProps> = [];
-        datas.map((data: string | number) => {
-            const tmpArr = {value: data, name: data};
-            Arr.push(tmpArr);;
+        datas.map((data: BaseSelect) => {
+            const tmpArr = {value: data.id, name: data.name};
+            Arr.push(tmpArr);
         });
 
         return Arr;
     }
 
     useEffect(() => {
-        fetch('/data/faqs.json')
+        const filterPlanFile = `/data/filter/plan/plan_${lang}.json`;
+        fetch(filterPlanFile)
         .then(res => res.json())
         .then(data => {
-            setFilterPlans(handleOptionsMap(data.filter_faqs.plans));
-            setProductType(handleOptionsMap(data.filter_faqs.product_type));
+            setFilterPlans(handleOptionsMap(data.plans));
+        });
+    }, []);
+
+    useEffect(() => {
+        const filterProductTypeFile = `/data/filter/productType/product_type_${lang}.json`;
+        fetch(filterProductTypeFile)
+        .then(res => res.json())
+        .then(data => {
+            setProductType(handleOptionsMap(data.product_type));
+        });
+    }, []);
+
+    useEffect(() => {
+        const faqFile = `/data/faqs/faqs_${lang}.json`;
+        fetch(faqFile)
+        .then(res => res.json())
+        .then(data => {
             setFaqs(data.faqs);
         });
     }, []);
 
     useEffect(() => {
-        fetch('/data/categories.json')
+        const categoriesFile = `/data/faqs/categories/categories_${lang}.json`;
+        
+        fetch(categoriesFile)
         .then(res => res.json())
         .then(data => {
             setCategories(data.categories)
         });
     }, []);
 
-    console.log('filter : ', filter);
-
     return (
         <div className='max-w-[1400px] mx-auto px-8 lg:px-[40px]'>
-            <h2 className='text-center text-[30px] lg:text-[40px] font-bold text-white w-full md:w-[75%] mx-auto'>Got questions? Find everything you need to know about our programs, rules, & how to get started.</h2>
+            <h2 className='text-center text-[30px] lg:text-[40px] font-bold text-white w-full md:w-[75%] mx-auto'>{translation('faq.title')}</h2>
             
             <div className='flex flex-col sm:flex-row flex-wrap gap-4 md:gap-8 justify-center pt-[100px] pb-[20px] md:pb-[50px]'>
                 <div className='space-y-3 hidden md:block'>
-                    <p className={`text-white text-start font-semibold`}>Plan</p>
+                    <p className={`text-white text-start font-semibold`}>{translation('global.filter.plan')}</p>
                     <div className='flex justify-start flex-wrap gap-4'>
                         {filterPlans.map((plan, index) => {
                             return (
                                 <Button
                                     key={index}
                                     onClick={() => {
-                                        updateFilter('plans', plan.value);
+                                        updateFilter('plan_id', plan.value);
                                     }}
-                                    className={`${filter.plans.toLowerCase() == plan.value ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
+                                    className={`${filter.plan_id == plan.value ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
                                 >
                                     {plan.name}
                                 </Button>
@@ -92,19 +115,19 @@ const ListFaqs = () => {
 
                 <SelectDropdown options={filterPlans} onSelect={handleSelectPlans} className='md:hidden w-full' />
 
-                {filter.plans != 'instant' &&
+                {filter.plan_id != 3 &&
                     <>
                         <div className='space-y-3 hidden md:block'>
-                            <p className={`text-white text-start font-semibold`}>Product Type</p>
+                            <p className={`text-white text-start font-semibold`}>{translation('global.filter.product.type')}</p>
                             <div className='flex justify-start flex-wrap gap-4'>
                                 {productType.map((type, index) => {
                                     return (
                                         <Button 
                                             key={index}
                                             onClick={() => {
-                                                updateFilter('product_type', type.value);
+                                                updateFilter('product_type_id', type.value);
                                             }}
-                                            className={`${type.value === filter.product_type ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
+                                            className={`${type.value === filter.product_type_id ? 'bg-[#06333D] text-[#BDF6FF] border-[#072B33]' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#06333D] hover:text-white hover:border-[#072B33]`}
                                         >
                                             {type.name}
                                         </Button>
@@ -126,10 +149,20 @@ const ListFaqs = () => {
                 {(
                     <div className='md:col-span-2 bg-[#06333D] rounded-xl h-fit'>
                         {faqs.map((faq: FaqProps, index: number) => {
-                            return filter.plans != 'instant' && filter.id_category === faq.category && filter.plans === faq.plans && filter.product_type === faq.product_type ? (
-                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
-                            ) : filter.plans === 'instant' && filter.plans == faq.plans && filter.id_category === faq.category ? (
-                                <Faq key={index} title={faq.title} description={faq.description} className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} />
+                            return filter.plan_id != 3 && filter.id_category === faq.category && filter.plan_id === faq.plan_id && filter.product_type_id === faq.product_type_id ? (
+                                <Faq 
+                                    key={index} 
+                                    title={faq.title} 
+                                    description={faq.description} 
+                                    className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} 
+                                />
+                            ) : filter.plan_id === 3 && filter.plan_id == faq.plan_id && filter.id_category === faq.category ? (
+                                <Faq 
+                                    key={index} 
+                                    title={faq.title} 
+                                    description={faq.description} 
+                                    className={`${index != faqs.length -1 && faqs.length > 1  ? 'border-b border-b-[#2F6F78]' : ''}`} 
+                                />
                             ) : (
                                 null
                             )

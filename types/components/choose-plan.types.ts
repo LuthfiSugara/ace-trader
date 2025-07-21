@@ -12,7 +12,14 @@ export interface BenefitsProps {
 
 export interface DataPlanProps {
     plan: string;
+    plan_id: number;
     product_type: string;
-    rule_area:Array<string>;
+    product_type_id: number;
+    rule_area:Array<RuleArea>;
     benefits: Array<BenefitsProps>;
+}
+
+export interface RuleArea {
+    id: number;
+    name: string;
 }

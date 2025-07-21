@@ -8,6 +8,9 @@ import useDisclosure from '@/hooks/useDisclosure';
 import { BenefitsProps, DataPlanProps } from '@/types/components/choose-plan.types'
 import { PriceProps } from '@/types/components/price.types'
 import useBreakPoint from '@/hooks/useBreakPoint'
+import useTranslation from '@/hooks/useTranslation'
+import { BaseSelect } from '@/types/components/filter.types'
+import { getCookie } from 'cookies-next'
 
 interface ButtonInfoProps {
     onClick: () => void;
@@ -20,25 +23,28 @@ const ButtonInfo = ({onClick}: ButtonInfoProps) => {
 }
 
 const ChoosePlan = () => {
+    const lang = getCookie('lang') ?? 'en';
 
-    const {isOpen, onClose, onOpen} = useDisclosure(),
-    [information, setInformation] = useState<string[]>([""]),
+    const { translation } = useTranslation();
+
+    const {isOpen, onClose, onOpen} = useDisclosure();
+
+    const [information, setInformation] = useState<string[]>([""]),
+    [filterPlans, setFilterPlans] = useState<Array<BaseSelect>>([]),
+    [filterProductType, setFilterProductType] = useState<Array<BaseSelect>>([]),
     [dataPlans, setDataPlans] = useState<DataPlanProps | null>(null),
     [price, setPrice] = useState<PriceProps | null>(null),
     [accountBalance, setAccountBalance] = useState<Array<number> | null>([]),
-    [platform, setPlatform] = useState<Array<string> | null>([]),
+    [platform, setPlatform] = useState<Array<BaseSelect> | null>([]),
     [filter, setFilter] = useState({
-        plans: 'standard',
+        plan_id: 1,
         account_balance: 5,
-        product_type: '1-step',
-        platform: 'Ctrader'
+        product_type_id: 1,
+        platform_id: 1
     });
 
     const layoutRef = useRef<HTMLDivElement | null>(null);
     const layoutWidth = useBreakPoint(layoutRef);
-
-    const plans = ['standard', 'crypto', 'instant'],
-    productType = ['1-step', '2-step'];
 
     const updateFilter = (key: keyof typeof filter, value: string | number) => {
         setFilter(prev => ({
@@ -48,24 +54,44 @@ const ChoosePlan = () => {
     };
 
     useEffect(() => {
-        fetch('/data/plans.json')
+        const filterPlanFile = `/data/filter/plan/plan_${lang}.json`;
+        fetch(filterPlanFile)
+        .then(res => res.json())
+        .then(data => {
+            setFilterPlans(data.plans);
+        });
+    }, []);
+
+    useEffect(() => {
+        const filterProductTypeFile = `/data/filter/productType/product_type_${lang}.json`;
+        fetch(filterProductTypeFile)
+        .then(res => res.json())
+        .then(data => {
+            setFilterProductType(data.product_type);
+        });
+    }, []);
+
+    useEffect(() => {
+        const filterProductTypeFile = `/data/plans/plans_${lang}.json`;
+        fetch(filterProductTypeFile)
         .then(res => res.json())
         .then(data => {
             setDataPlans(data.choose_plans[0]);
         });
     }, []);
 
-    const handleFilter = (plan: string, product_type: string) => {
-        fetch('/data/plans.json')
+    const handleFilter = (plan_id: number, product_type_id: number) => {
+        const filterProductTypeFile = `/data/plans/plans_${lang}.json`;
+        fetch(filterProductTypeFile)
         .then(res => res.json())
         .then(data => {
             let result = data.choose_plans.find(
-                (item: DataPlanProps) => item.plan === plan && item.product_type === product_type
+                (item: DataPlanProps) => item.plan_id === plan_id && item.product_type_id === product_type_id
             );
 
-            if(plan == 'instant'){
+            if(plan_id === 3){
                 result = data.choose_plans.find(
-                    (item: DataPlanProps) => item.plan === plan
+                    (item: DataPlanProps) => item.plan_id === plan_id
                 );
             }
 
@@ -73,19 +99,19 @@ const ChoosePlan = () => {
         });
     }
 
-    const handlePrice = (plan: string, accountBalance: number, productType: string, platform: string) => {
+    const handlePrice = (plan_id: number, accountBalance: number, product_type_id: number, platform_id: number) => {
         fetch('/data/plans-price.json')
         .then(res => res.json())
         .then(data => {
-            if(filter.plans == 'instant'){
+            if(filter.plan_id === 3){
                 const result = data.plans_price.find(
-                    (item: PriceProps) => item.plan === plan && item.account_balance === accountBalance && item.platform === platform
+                    (item: PriceProps) => item.plan_id === plan_id && item.account_balance === accountBalance && item.platform_id === platform_id
                 );
 
                 setPrice(result);
             }else{
                 const result = data.plans_price.find(
-                    (item: PriceProps) => item.plan === plan && item.product_type === productType && item.account_balance === accountBalance && item.platform === platform
+                    (item: PriceProps) => item.plan_id === plan_id && item.product_type_id === product_type_id && item.account_balance === accountBalance && item.platform_id === platform_id
                 );
 
                 setPrice(result);
@@ -94,21 +120,21 @@ const ChoosePlan = () => {
         });
     }
 
-    const handleBalance = (plan: string, product_type: string) => {
+    const handleBalance = (plan_id: number, product_type_id: number) => {
         fetch('/data/filter-plans.json')
         .then(res => res.json())
         .then(data => {
 
-            if(plan === 'instant'){
+            if(plan_id === 3){
                 const result = data.filter_plans.find(
-                    (item: DataPlanProps) => item.plan === plan
+                    (item: DataPlanProps) => item.plan_id === plan_id
                 );
 
                 setAccountBalance(result.balance);
                 setPlatform(result.platform);
             }else{
                 const result = data.filter_plans.find(
-                    (item: DataPlanProps) => item.plan === plan && item.product_type === product_type
+                    (item: DataPlanProps) => item.plan_id === plan_id && item.product_type_id === product_type_id
                 );
 
                 setAccountBalance(result.balance);
@@ -119,14 +145,14 @@ const ChoosePlan = () => {
         });
     }
 
-    const handleState = (plan = filter.plans, accountBalance = filter.account_balance, productType = filter.product_type, platform = filter.platform) => {
-        handleFilter(plan, productType);
-        handleBalance(plan, productType);
-        if(plan === 'crypto'){
-            updateFilter('platform', 'dxtrade');
-            handlePrice(plan, accountBalance, productType, 'dxtrade');
+    const handleState = (plan_id = filter.plan_id, accountBalance = filter.account_balance, product_type_id = filter.product_type_id, platform_id = filter.platform_id) => {
+        handleFilter(plan_id, product_type_id);
+        handleBalance(plan_id, product_type_id);
+        if(plan_id === 2){
+            updateFilter('platform_id', 2);
+            handlePrice(plan_id, accountBalance, product_type_id, 2);
         }else{
-            handlePrice(plan, accountBalance, productType, platform);
+            handlePrice(plan_id, accountBalance, product_type_id, platform_id);
         }
     }
 
@@ -145,37 +171,36 @@ const ChoosePlan = () => {
 
     return (
         <div ref={layoutRef} className='target-element mt-[100px] space-y-8' id='plans'>
-            <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>Choose the plan that fits you!</h2>
+            <h2 className='text-[30px] lg:text-[40px] text-white font-bold text-center'>{translation('home.choose.plan.title')}</h2>
 
             <div className='flex flex-col flex-wrap justify-center gap-[32px] bg-[#06333D] rounded-xl p-[16px] md:p-[16px]'>
                 <div className={`${layoutWidth < 950 ? 'flex-col' : 'flex-row'} flex justify-center gap-8`}>
                     <div className='space-y-3'>
-                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'}  font-semibold`}>Plan</p>
+                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'}  font-semibold`}>{translation('global.filter.plan')}</p>
                         <div className='flex jjustify-start sm:justify-center flex-wrap gap-4'>
-                            {plans.map((plan, index) => {
+                            {filterPlans.map((plan, index) => {
                                 return (
                                     <Button
                                         key={index}
                                         onClick={() => {
-                                            updateFilter('plans', plan);
+                                            updateFilter('plan_id', plan.id);
                                             updateFilter('account_balance', 5);
-                                            if(plan === 'crypto'){
-                                                updateFilter('platform', 'dxtrade');
-                                            //     handleState(plan, filter.account_balance, filter.product_type, 'dxtrade');
+                                            if(plan.id === 2){
+                                                updateFilter('platform_id', 2);
                                             }
 
-                                            handleState(plan);
+                                            handleState(plan.id);
                                         }}
-                                        className={`${filter.plans.toLowerCase() == plan.toLowerCase() ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white`}
+                                        className={`${filter.plan_id == plan.id ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-xl hover:bg-[#05CBE966] hover:text-white`}
                                     >
-                                        {plan}
+                                        {plan.name}
                                     </Button>
                                 )
                             })}
                         </div>
                     </div>
                     <div className='space-y-3'>
-                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibol`}>Account Balance</p>
+                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibol`}>{translation('global.filter.account.balance')}</p>
                         <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
                             {accountBalance && accountBalance.map((balance, index) => {
                                 return (
@@ -183,7 +208,7 @@ const ChoosePlan = () => {
                                         key={index} 
                                         onClick={() => {
                                             updateFilter('account_balance', balance);
-                                            handleState(filter.plans, balance);
+                                            handleState(filter.plan_id, balance);
                                         }}
                                         className={`${balance === filter.account_balance ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
                                     >
@@ -195,21 +220,21 @@ const ChoosePlan = () => {
                     </div>
                 </div>
                 <div className={`${layoutWidth < 950 ? 'flex-col' : 'flex-row'} flex justify-center gap-8`}>
-                    {filter.plans != 'instant' &&
+                    {filter.plan_id != 3 &&
                         <div className='space-y-3'>
-                            <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibold`}>Product Type</p>
+                            <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibold`}>{translation('global.filter.product.type')}</p>
                             <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
-                                {productType.map((type, index) => {
+                                {filterProductType.map((type, index) => {
                                     return (
                                         <Button 
                                             key={index}
                                             onClick={() => {
-                                                updateFilter('product_type', type);
-                                                handleState(filter.plans, filter.account_balance, type);
+                                                updateFilter('product_type_id', type.id);
+                                                handleState(filter.plan_id, filter.account_balance, type.id);
                                             }}
-                                            className={`${type === filter.product_type ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                            className={`${type.id === filter.product_type_id ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'}  capitalize border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
                                         >
-                                            {type}
+                                            {type.name}
                                         </Button>
                                     )
                                 })};
@@ -217,19 +242,19 @@ const ChoosePlan = () => {
                         </div>
                     }
                     <div className='space-y-3'>
-                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibold`}>Platform</p>
+                        <p className={`text-white text-start ${layoutWidth > 950 ? 'sm:text-start' : 'sm:text-center'} font-semibold`}>{translation('global.filter.platform')}</p>
                         <div className='flex justify-start sm:justify-center flex-wrap gap-4'>
                             {platform && platform.map((data, index) => {
                                 return (
                                     <Button 
                                         key={index}
                                         onClick={() => {
-                                            updateFilter('platform', data);
-                                            handleState(filter.plans, filter.account_balance, filter.product_type, data);
+                                            updateFilter('platform_id', data.id);
+                                            handleState(filter.plan_id, filter.account_balance, filter.product_type_id, data.id);
                                         }}
-                                        className={`${data === filter.platform ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
+                                        className={`${data.id === filter.platform_id ? 'bg-[#05CBE966] text-white' : 'text-[#BDF6FF]'} border border-[#3AA7B8] p-[8px] md:p-[12px] rounded-[12px] hover:bg-[#05CBE966] hover:text-white`}
                                     >
-                                        <Image src={`/icons/${data}.png`} alt='ctrader' width={100} height={100} className='w-[100px]' />
+                                        <Image src={`/icons/${data.name}.png`} alt='ctrader' width={100} height={100} className='w-[100px]' />
                                     </Button>
                                 )
                             })}
@@ -258,7 +283,7 @@ const ChoosePlan = () => {
                             {dataPlans?.rule_area.map((rule, index) => {
                                 return (
                                     <td key={index} className='border-b border-b-[#072B33] py-2'>
-                                        <p className='w-fit mx-auto py-[4px] px-[10px] text-white font-semibold text-[18px] xl:text-[20px] text-center'>{rule}</p>
+                                        <p className='w-fit mx-auto py-[4px] px-[10px] text-white font-semibold text-[18px] xl:text-[20px] text-center'>{rule.name}</p>
                                     </td>
 
                                 )
@@ -300,16 +325,16 @@ const ChoosePlan = () => {
                 <div className='flex justify-center items-center gap-32 p-[40px]'>
                     <div className="flex gap-12">
                         <div className='flex items-center gap-4'>
-                            <p className='text-white text-[16px] self-center'>Account size:</p>
+                            <p className='text-white text-[16px] self-center'>{translation('home.choose.plan.account.size')} :</p>
                             <p className='font-bold text-[24px] text-[#05CBE9]'>${price?.account_balance}K</p>
                         </div>
                         <div className='flex items-center gap-4'>
-                            <p className='text-white text-[16px] self-center'>Price:</p>
+                            <p className='text-white text-[16px] self-center'>{translation('home.choose.plan.price')}:</p>
                             <p className='font-bold text-[24px] text-[#05CBE9]'>{price?.price}</p>
                         </div>
                     </div>
                     <div>
-                        <Link href={price?.link_register ?? ''} target='_blank' className='bg-[#05CBE9] py-[12px] px-[32px] rounded-full'>Start Trading</Link>
+                        <Link href={price?.link_register ?? ''} target='_blank' className='bg-[#05CBE9] py-[12px] px-[32px] rounded-full'>{translation('home.choose.plan.btn.start.trading')}</Link>
                     </div>
                 </div>
             </div>
@@ -342,7 +367,7 @@ const ChoosePlan = () => {
                                             <div key={index} className='flex justify-between items-center gap-4'>
                                                 <div className='flex items-center gap-2'>
                                                     <span className='text-[10px] px-2 py-0.5 bg-[#638388] rounded-full text-white'>{index + 1}</span>
-                                                    <span className='text-white text-[14px]'>{data}</span>
+                                                    <span className='text-white text-[14px]'>{data.name}</span>
                                                 </div>
                                                 <p className='text-[#BDF6FF]' dangerouslySetInnerHTML={{ __html: benefit.data[index] }}></p>
                                             </div>
