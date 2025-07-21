@@ -17,7 +17,7 @@ interface DropdownProps {
 }
 
 const LanguageDropdown = ({className}: DropdownProps) => {
-    let lang = getCookie('lang') ?? 'en';
+    const lang = getCookie('lang') ?? 'en';
 
     const { setLanguage } = useTranslation();
 
