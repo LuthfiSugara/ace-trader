@@ -50,7 +50,7 @@ const Header = () => {
             <Link href={process.env.APP_URL + '#plans'} className='text-white text-sm md:text-lg font-medium'>{translation('global.btn.programs')}</Link>
             <Link href={'/faqs'} className='text-white text-sm md:text-lg font-medium'>{translation('global.btn.faq')}</Link>
             <Link href={'affiliate'} className='text-white text-sm md:text-lg font-medium'>{translation('global.btn.affiliate')}</Link>
-            <Link href={'about-us'} className='text-white text-sm md:text-lg font-medium'>{translation('global.btn.aboutus')}</Link>            
+            <Link href={'about-us'} className='text-white text-sm md:text-lg font-medium'>{translation('global.btn.about.us')}</Link>            
 {/*             <Link href={process.env.APP_URL + '#contact'} className='text-white text-sm md:text-lg font-medium'>Contact Us</Link>  */}
             
             <Link href={'https://dashboard.a-trader.com/en/sign-in'} className='text-white text-sm md:text-lg font-medium border border-white py-1 px-6 rounded-full'>{translation('global.btn.login')}</Link>
