@@ -79,7 +79,7 @@ const ExploreAffiliate = () => {
                 <p className='text-[#BDF6FF] text-center'>{translation('affiliate.explore.community.join.description')}</p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <Link href={'https://dashboard.a-trader.com/en/sign-in'} className='text-white border border-white py-2 px-4 rounded-full'>{translation('affiliate.btn.login')}</Link>
-                    <Link href={'https://dashboard.a-trader.com/en/sign-in'} className='text-[#072B33] bg-[#05CBE9] py-2 px-4 rounded-full'>{translation('affiliate.btn.signup')}</Link>
+                    <Link href={'https://dashboard.a-trader.com/en/sign-up'} className='text-[#072B33] bg-[#05CBE9] py-2 px-4 rounded-full'>{translation('affiliate.btn.signup')}</Link>
                 </div>
             </div>
 
