@@ -1422,7 +1422,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Instant What Countries are accepted? ",
+            "title": "インスタントに参加できる国はどこですか？",
             "description": [
                     "<p>適用される法律および規制への準拠を前提として、OFAC（米国財務省外国資産管理局）に掲載されている国を除くすべての国のトレーダーが、当社の裁量による制限がない限り、当社のプログラムに参加できます。</p>"
             ]
@@ -1435,7 +1435,7 @@
             "category":1,
             "title": "プログラムに参加するための最低年齢はいくつですか？",
             "description": [
-                "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an Instant Funding account. </p>"
+                "<p>インスタントファンディングアカウントを購入するには、18歳以上、またはお住まいの国で定められた法定最低年齢である必要があります。</p>"
             ]
         },
         {
@@ -1446,7 +1446,7 @@
             "category":1,
             "title": "アカウントの進捗状況はどこで確認できますか？",
             "description": [
-                "<p>Upon purchasing an Instant Funding Plan, you will receive access to a trader dashboard where you can monitor your Instant Funded Account. The dashboard is updated in near real time as we calculate your account metrics. It is your responsibility to monitor your breach levels.</p>"
+                "<p>インスタントファンディングプランを購入すると、インスタント資金提供アカウントを監視できるトレーダーダッシュボードにアクセスできます。アカウントの指標が計算されるたびに、ダッシュボードはほぼリアルタイムで更新されます。違反レベルの監視はご自身の責任となります。</p>"
             ]
         },
         {
@@ -1457,7 +1457,7 @@
             "category":1,
             "title": "どのプラットフォームで取引できますか？",
             "description": [
-                "<p>Our technology is currently integrated with DXtrade, MatchTrader & cTrader.</p>"
+                "<p>当社の技術は現在、DXtrade、MatchTrader、およびcTraderと統合されています。</p>"
             ]
         },
         {
@@ -1466,9 +1466,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How many Instant Funded Accounts may I have active at one time?",
+            "title": "同時にアクティブにできるインスタントファンディングアカウントはいくつありますか？",
             "description": [
-                "<p>A maximum of $100,000 in active Instant Funding plans per person is permitted. </p>"
+                    "<p>1人あたり最大で $100,000 相当のインスタントファンディングプランが許可されています。</p>"
             ]
         },
         {
@@ -1479,7 +1479,7 @@
             "category":1,
             "title": "どの製品を取引できますか？",
             "description": [
-                "<p>You can trade any products offered by the Broker, as such products may change from time to time. This includes FX pairs and CFD Indices, Metals, and Cryptocurrencies.</p>"
+                "<p>取扱商品はブローカーが提供するすべての商品であり、内容は随時変更される可能性があります。これにはFXペア、CFD指数、貴金属、暗号通貨が含まれます。</p>"
             ]
         },
         {
@@ -1490,7 +1490,7 @@
             "category":1,
             "title": "レバレッジはどのくらいですか？",
             "description": [
-                "<p>We offer up to 50:1 leverage on Forex and Metals, up to 10:1 leverage on Indices, up to 5:1 leverage on Oils and up to 2:1 leverage on Cryptocurrencies.</p>"
+                "<p>当社は、FXおよび金属に最大50:1、株価指数に最大10:1、原油に最大5:1、暗号通貨に最大2:1のレバレッジを提供しています。</p>"
             ]
         },
         {
@@ -1501,13 +1501,13 @@
             "category":1,
             "title": "取引時間はいつですか？",
             "description": [
-                "<p>Trading hours are generally set by the Liquidity Provider, unless set by our rules. We do not have any control over the trading hours. You can see the trading hours for each product by using the following methods: </p>",
-                "<p class='mt-4 ml-6'>DXtrade – Right click symbol, select “Instrument Info”</p>",
-                "<p class='ml-6'>MatchTrader – Click symbol to expand, select “Info”</p>",
-                "<p class='mb-4 ml-6'>cTrader – Navigate to Symbol Window, scroll down to see “Market Hours” for selected symbol</p>",
-                "<p class='mb-4 ml-6'>cTrader – Navigate to Symbol Window, scroll down to see “Market Hours” for selected symbol</p>",
-                "<strong class='mb-4'>Please note that holidays can have an impact on available trading hours. </strong>",
-                "<p>Additionally, pursuant to the no holding trades over the weekend rule, we will attempt to close all open trades at 3:45pm EST on Fridays.  Traders are responsible for ensuring all open positions are closed (unless Weekend Hold add-on has been purchased)</p>"
+                "<p>取引時間は通常、流動性プロバイダーによって設定されますが、当社のルールによって定められる場合もあります。当社は取引時間を管理していません。各商品の取引時間は以下の方法で確認できます：</p>",
+    "<p class='mt-4 ml-6'>DXtrade – シンボルを右クリックし、「Instrument Info」を選択</p>",
+    "<p class='ml-6'>MatchTrader – シンボルをクリックして展開し、「Info」を選択</p>",
+    "<p class='mb-4 ml-6'>cTrader – シンボルウィンドウへ移動し、スクロールダウンして選択したシンボルの「Market Hours」を確認</p>",
+    "<p class='mb-4 ml-6'>cTrader – シンボルウィンドウへ移動し、スクロールダウンして選択したシンボルの「Market Hours」を確認</p>",
+    "<strong class='mb-4'>休日は取引時間に影響を与える可能性がありますのでご注意ください。</strong>",
+    "<p>また、「週末にポジションを保有しない」というルールに従い、当社は金曜日の午後3時45分（EST）にすべての未決済取引をクローズするよう努めます。すべてのオープンポジションがクローズされていることを確認するのはトレーダーの責任です（Weekend Holdアドオンを購入している場合を除く）。</p>"
             ]
         },
         {
@@ -1516,9 +1516,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Do your accounts charge commissions? ",
+            "title": "御社のアカウントでは手数料がかかりますか？",
             "description": [
-                "<p>Instant Funded Accounts receive the same pricing and commissions as charged by our Liquidity Provider to other, self-funded, retail trading accounts. </p>"
+                    "<p>インスタントファンドアカウントでは、当社の流動性プロバイダーが他の自己資金によるリテールトレーディングアカウントに対して請求するのと同じ価格と手数料が適用されます。</p>"
             ]
         },
         {
@@ -1527,9 +1527,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Can I use an Automated Strategy? ",
+            "title": "自動売買戦略は使用できますか？",
             "description": [
-                "<p>Subject to our policy on Prohibited Trading as described below, you can trade using an automated strategy.</p>"
+                    "<p>以下に記載されている禁止取引ポリシーに従う限り、自動売買戦略を使用して取引することができます。</p>"
             ]
         },
         {
@@ -1540,20 +1540,20 @@
             "category":1,
             "title": "禁止されている取引活動のポリシーとは？",
             "description": [
-                "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
-                "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider </p>",
-                "<p>● Utilizing non-public and/or insider information </p>",
-                "<p>● Front running of trades placed elsewhere </p>",
-                "<p>● Trading in any way that jeopardizes the relationship that the Company has with a Liquidity Provider or may result in the canceling of trades </p>",
-                "<p>● Trading in any way that creates regulatory issues for the Liquidity Provider </p>",
-                "<p>● Utilizing any third-party strategy, off-the-shelf strategy or one marketed to pass challenge accounts </p>",
-                "<p>● Attempting to arbitrage a funded account with another account with the Company or any third-party company, as determined by the Company in its sole and absolute discretion.</p>",
-                "<p>●Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>",
-                "<p>●No Gambling Permitted: When participating in trading on both Challenge and Instant Funded Accounts, traders are expected to adhere to responsible risk management practices. This includes carefully considering the risks associated with position size, trade duration, and hedging strategies. Taking excessive risks, such as utilizing maximum leverage to open large positions with the hope of reaching profit targets through a single price movement, is strictly prohibited.  Please refer to the Terms and Conditions for the full Prohibition of Gambling Practices language.</p>",
-                "<p>● If the Company detects that your trading constitutes Prohibited Trading, your participation in the program will be terminated and may include forfeiture of any fees paid to the Company. Additionally, and before any Trader shall receive a funded account, the trading activity of the Trader under these Terms and Conditions shall be reviewed by both the Company and the Liquidity Provider to determine whether such trading activity constitutes Prohibited Trading. In the case of Prohibited Trading, the Trader shall not receive a funded account. </p>",
-                "<p>● Additionally, the Company reserves the right to disallow or block any Trader from participating in the program for any reason, in the Company’s sole and absolute discretion.</p>",
-                "<p class='mt-4'>To view all Prohibited Uses, please review our Terms and Conditions here,</p>",
-                "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/'>https://dashboardanalytix.com/client-terms-and-policies/</a>"
+                "<p class='mb-4'>会社またはその流動性プロバイダーによって明示的に禁止されている取引戦略の使用は禁止されています。このような禁止取引（“禁止取引”）には以下が含まれますが、それに限定されません：</p>",
+    "<p>● 流動性プロバイダーによって提供される価格やプラットフォームのエラーや遅延を悪用すること</p>",
+    "<p>● 非公開情報やインサイダー情報を使用すること</p>",
+    "<p>● 他所で行われた取引に対するフロントランニング</p>",
+    "<p>● 会社と流動性プロバイダーとの関係を危うくするような取引、または取引の取り消しにつながるような行為</p>",
+    "<p>● 流動性プロバイダーに対して規制上の問題を引き起こす可能性のある取引</p>",
+    "<p>● 市販の戦略や第三者によるチャレンジ通過用戦略の使用</p>",
+    "<p>● 同社または第三者の別のアカウントとの間でアービトラージを試みる行為（同社の裁量により判断されます）</p>",
+    "<p>● ニュースイベントの3分前後にポジションを開くことは禁止されています。ニュースイベント中にポジションを開いたトレーダーは、該当ポジションの強制決済、損益の削除、レバレッジの引き下げ、またはアカウントの違反措置が取られる場合があります。何がニュースイベントに該当するかの判断はすべて会社の裁量によります。このルールはプログラムの健全性を保つためのものであり、意図せずニュースを通じて取引したトレーダーを罰することが目的ではありません。</p>",
+    "<p>● ギャンブル行為は禁止：チャレンジおよびインスタントファンドアカウントで取引する際には、リスク管理に配慮した責任ある取引が求められます。ポジションサイズ、取引時間、ヘッジ戦略のリスクを慎重に評価し、一回の値動きで利益目標を狙って最大レバレッジでポジションを取るような行為は禁止されています。詳細は利用規約をご確認ください。</p>",
+    "<p>● 取引が禁止取引に該当すると会社が判断した場合、プログラムへの参加は終了となり、支払済み料金の没収を含むことがあります。また、トレーダーが資金提供アカウントを受け取る前に、その取引履歴は会社および流動性プロバイダーによって審査され、禁止取引に該当する場合は資金提供アカウントは発行されません。</p>",
+    "<p>● さらに、会社は自らの絶対的な裁量により、いかなる理由であってもトレーダーの参加を拒否または禁止する権利を有します。</p>",
+    "<p class='mt-4'>すべての禁止使用を確認するには、こちらの利用規約をご覧ください：</p>",
+    "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/'>https://dashboardanalytix.com/client-terms-and-policies/</a>"
             ]
         },
         {
@@ -1575,7 +1575,7 @@
             "category":1,
             "title": "明細書にはどのように請求が表示されますか？",
             "description": [
-                "<p>Charges come across in the name of Dashboardanalytix.com.</p>"
+                "<p>請求は Dashboardanalytix.com の名前で表示されます。</p>"
             ]
         },
         {
@@ -1586,7 +1586,7 @@
             "category":1,
             "title": "税金の取り扱いはどうなっていますか？",
             "description": [
-                "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains.</p>"
+                "<p>当社の資金提供アカウントで取引を行う場合、あなたは独立請負業者として扱われます。その結果、利益にかかるすべての税金はあなたの責任となります。</p>"
             ]
         },
         {
@@ -1606,10 +1606,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "What is the difference between a Hard Breach and Soft Breach rule? ",
+            "title":"ハードブリーチとソフトブリーチの違いは何ですか？",
             "description": [
-                "<p>• Soft breach means that we will close all trades that have violated the rule. However, you can continue trading in your Instant Funded Account.</p>",
-                "<p>• Hard breach means that you violated the Daily Loss Limit or Max Drawdown rule, or Inactivity rule. These rules constitute a hard breach. In the event you have a hard breach, you will have your Funded Account taken away. </p>"
+                "<p>• ソフトブリーチとは、ルールに違反したすべての取引を閉じることを意味します。ただし、インスタントファンドアカウントでの取引は継続できます。</p>",
+    "<p>• ハードブリーチとは、デイリー損失制限、最大ドローダウン、または非アクティブルールのいずれかに違反したことを意味します。これらはハードブリーチとみなされ、違反が発生した場合、ファンドアカウントは剥奪されます。</p>"
             ]
         },
         {
@@ -1618,9 +1618,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "How do you calculate the Daily Loss Limit? ",
+            "title": "デイリー損失制限はどのように計算されますか？",
             "description": [
-                "<p>The Daily Loss Limit is the maximum amount your account can lose on any given day. The Daily Loss Limit is calculated using the previous day balance which resets at 5 PM EST. The Daily Loss Limit compounds with the increase in your account. Example: if your prior day's end of day balance (5pm EST) was $100,000, your account would violate the daily stop loss limit if your equity reached $95,000 during the day. If your floating equity is +$5,000 on a $100,000 account, your new- day (5pm EST) max loss is based on your balance from the previous day ($100,000). So, your daily loss limit would still be $95,000.</p>"
+                    "<p>デイリー損失制限とは、1日にアカウントが損失できる最大金額のことです。この制限は前日の残高に基づいて計算され、毎日午後5時（EST）にリセットされます。アカウントの増加に伴って損失制限も増加します。例：前日の終了時点の残高が$100,000であれば、当日のエクイティが$95,000に達した時点で損失制限を超えたことになります。仮にエクイティが$5,000プラスであっても、当日の損失制限は前日の残高（$100,000）を基準とし、損失制限は$95,000のままです。</p>"
             ]
         },
         {
@@ -1629,9 +1629,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "How do you calculate the Maximum Trailing Drawdown? ",
+            "title": "最大トレーリングドローダウンはどのように計算されますか？",
             "description": [
-                "<p>The Maximum Trailing Drawdown is initially set at 8% and trails (using CLOSED BALANCE - NOT equity) your account until you have achieved a 5% return in your account. Once you have achieved a 5% return, the Maximum Trailing Drawdown no longer trails and is permanently locked in at your starting balance. Example: If your starting balance is $100,000, you can drawdown to $92,000 before you would violate the Maximum Trailing Drawdown rule. Then for example let's say you take your account to $102,000 in CLOSED BALANCE. This is your new high-water mark, which would mean your new Maximum Trailing Drawdown would be $94,000. Next, let's say you take your account to $106,000 in CLOSED BALANCE, which would be your new high-water mark. At this point your Maximum Trailing Drawdown would be locked in at your starting balance of $100,000. So, regardless of how high your account goes, you would only breach this rule if your account drew back down to $100,000 (note, you could still violate the daily drawdown). For example, if you take your account to $170,000, as long as you do not drawdown more than 5% in any given day, you would only breach if your account equity reaches $100,000.</p>"
+                    "<p>最大トレーリングドローダウンは最初に8%に設定され、アカウントが5%のリターンを達成するまで（エクイティではなくCLOSED BALANCEを使用して）追従します。5%のリターンを達成すると、それ以降トレーリングは停止し、初期残高で固定されます。例：初期残高が$100,000の場合、$92,000までドローダウンすることができます。その後、CLOSED BALANCEが$102,000になった場合、これが新たな高水準となり、新しい最大トレーリングドローダウンは$94,000になります。さらにCLOSED BALANCEが$106,000に達すると、ドローダウンは$100,000に固定されます。つまり、アカウントがどれだけ成長しても、アカウント残高が$100,000に下がらない限り、ルールに違反することはありません（ただし、日次ドローダウンには引き続き注意が必要です）。たとえば、アカウントが$170,000に達しても、1日で5%以上下落しない限り、アカウントエクイティが$100,000に下がるまでは違反にはなりません。</p>"
             ]
         },
         {
@@ -1642,7 +1642,7 @@
             "category":2,
             "title": "週末にポジションを保有できますか？",
             "description": [
-                "<p>We require all trades to be closed by 3:45 PM EST on the last trading day of the week, typically Friday. However, in cases where markets close early or are not open on a Friday, it is the trader’s responsibility to ensure all trades are closed before the weekend based on the adjusted market schedule. Any trades left open after this time will be automatically closed. Note, this is considered a soft breach, and you will be able to continue trading once the markets reopen.</p>"
+                    "<p>すべての取引は、通常は金曜日である週の最終取引日の午後3時45分（EST）までにクローズする必要があります。ただし、市場が早期にクローズする場合や、金曜日に開いていない場合には、トレーダー自身の責任で、調整された市場スケジュールに基づき週末前にすべての取引をクローズする必要があります。この時間を過ぎてオープンポジションがある場合、それらは自動的にクローズされます。なお、これはソフトブリーチ（軽度の違反）と見なされ、市場が再開され次第、取引を継続することができます。</p>"
             ]
         },
         {
@@ -1651,17 +1651,17 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "What is 1 lot equal to on the Trading Platform?",
+            "title": "取引プラットフォームでの1ロットの定義は？",
             "description": [
-                "<p>● Forex - 1 lot = $100k notional </p>",
-                "<p>● Index: 1 lot = 1 Contract  </p>",
-                "<p class='mt-4 ml-6'>Exceptions</p>",
-                "<p class='ml-8'>SPX500: 1 lot = 10 contracts </p>",
-                "<p class='ml-8'>JPN225: 1 lot = 500 contracts </p>",
-                "<p class='ml-8'>● Cryptos: 1 lot = 1 coin  </p>",
-                "<p class='ml-8'>● Silver: 1 lot = 5000 ounces  </p>",
-                "<p class='ml-8'>● Gold: 1 lot = 100 ounces  </p>",
-                "<p class='ml-8'>● Oil: 1 lot = 100 barrels  </p>"
+                "<p>● 外国為替 - 1ロット = 名目金額10万ドル</p>",
+    "<p>● 指数：1ロット = 1契約</p>",
+    "<p class='mt-4 ml-6'>例外</p>",
+    "<p class='ml-8'>SPX500：1ロット = 10契約</p>",
+    "<p class='ml-8'>JPN225：1ロット = 500契約</p>",
+    "<p class='ml-8'>● 暗号資産：1ロット = 1コイン</p>",
+    "<p class='ml-8'>● 銀：1ロット = 5000オンス</p>",
+    "<p class='ml-8'>● 金：1ロット = 100オンス</p>",
+    "<p class='ml-8'>● 原油：1ロット = 100バレル</p>"
             ]
         },
         {
@@ -1672,7 +1672,7 @@
             "category":2,
             "title": "非アクティブによる違反はありますか？",
             "description": [
-                "<p>Yes. If you do not place a trade at least once every 30 days on your account, we will consider you inactive and your account will be breached. </p>"
+                "<p>はい。アカウントで30日以内に1回でも取引を行わなかった場合、非アクティブと見なされ、アカウントは違反と見なされます。</p>"
             ]
         },
         {
@@ -1681,9 +1681,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "What is the Instant Funding Plan?  ",
+            "title": "インスタント資金提供プランとは？",
             "description": [
-                "<p>The Instant Funding Plan allows traders to start with a fully funded account without needing to complete an assessment phase.</p>"
+                    "<p>インスタント資金提供プランでは、トレーダーは審査フェーズを完了することなく、完全に資金提供されたアカウントで取引を開始できます。</p>"
             ]
         },
         {
@@ -1692,11 +1692,11 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "How Long does it take to receive my Instant Funded Account? ",
+            "title": "インスタント資金提供アカウントを受け取るまでの時間はどれくらいですか？",
             "description": [
-                "<p class='mb-4'>Upon completion of payment, we provide you with an Instant Funding account, backed by our capital. You will receive an email with instructions on how to access this account on the platform you chose at checkout.</p>",
-                "<p class='mb-4'>The capital in your Funded Account is notional and may not match the amount of capital on deposit with the Broker. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a Funded Account. </p>",
-                "<p class='mb-4'>Use of notional funding does not change the trading level or that the account may trade in any manner differently than if notional funds were not used. In particular, the same conditions and rules applicable to a soft breach, hard breach, Daily Loss Limit, Max Trailing Drawdown and position limits apply.</p>"
+                "<p class='mb-4'>お支払い完了後、当社の資本で裏付けられたインスタント資金提供アカウントを提供します。チェックアウト時に選択したプラットフォームでこのアカウントにアクセスする方法についての案内メールが届きます。</p>",
+    "<p class='mb-4'>資金提供アカウントの資本は名目上のものであり、ブローカーに預けられている実際の資金額とは一致しない場合があります。アカウント内の実際の資金（つまり、資金額によって表されるアカウントのエクイティ）が名目アカウントサイズ（つまり、初期口座価値と取引レベルを定めるアカウントサイズ）と異なる場合、アカウントは名目上資金提供されているとみなされます。名目資金とは、名目アカウントサイズと実際の資金の差を指します。</p>",
+    "<p class='mb-4'>名目資金の使用は、取引レベルやアカウントの取引方法を変更するものではありません。特に、ソフトブリーチ、ハードブリーチ、1日の損失制限、最大トレーリングドローダウン、ポジション制限に適用される条件とルールは同じです。</p>"
             ]
         },
         {
@@ -1705,9 +1705,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Do I need to complete KYC or sign a trader contract to start trading in an Instant Funding Plan?  ",
+            "title": "インスタント資金提供プランで取引を開始するには、KYCやトレーダー契約を完了する必要がありますか？",
             "description": [
-                "<p>A Trading contract and KYC are both required, however, to start trading using our Instant Funding Plan, these steps won’t need to be completed until you request a withdrawal. </p>"
+                    "<p>取引契約とKYCは両方とも必要ですが、インスタント資金提供プランで取引を開始するには、これらの手続きは出金をリクエストする時点まで完了する必要はありません。</p>"
             ]
         },
         {
@@ -1716,9 +1716,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "What happens if I do not pass KYC?  ",
+            "title": "KYCに通過しなかった場合はどうなりますか？",
             "description": [
-                "<p>If you do not pass the KYC process when requesting a withdrawal, the withdrawal will be rejected, and your account will be closed. We encourage you to ensure you can meet KYC requirements before opting for the Instant Funding Plan. </p>"
+                    "<p>出金をリクエストする際にKYCプロセスに通過しなかった場合、出金は拒否され、アカウントは閉鎖されます。インスタント資金提供プランを選択する前に、KYC要件を満たすことができるかどうかをご確認ください。</p>"
             ]
         },
         {
@@ -1727,9 +1727,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Do we manipulate the pricing or executions you receive in your Instant Funded Account? ",
+            "title": "インスタント資金提供アカウントでの価格や執行を操作していますか？",
             "description": [
-                "<p>No. We operate at an arm's length with the Broker. All market pricing and trade executions are provided by the Broker and are not changed or modified by us. Additionally, we do not markup transaction costs established by the Broker through adjusting bid-offer spreads, markups/markdowns, commission charges or swaps. </p>"
+                    "<p>いいえ。当社はブローカーとは独立して運営しています。すべての市場価格および取引執行はブローカーによって提供されており、当社が変更・修正することはありません。また、ビッド・オファースプレッド、マークアップ/マークダウン、手数料、スワップの調整によってブローカーが定めた取引コストを上乗せすることもありません。</p>"
             ]
         },
         {
@@ -1740,7 +1740,7 @@
             "category":3,
             "title": "あなたの取引の相手方は誰ですか？",
             "description": [
-                "<p>For the purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Broker. This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your Funded Account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
+                    "<p>リスク管理と取引コストの最小化を目的として、当社は市場リスクを相殺または打ち消し、アカウント内で開始された特定の取引に対して直接のカウンターパーティーとして行動することがあります。これらの取引はブローカーが提供する価格で実行されます。このフレームワークは、実際の市場での取引執行を提供することを目的としており、同時に、当社が既存のポジションや将来の注文を第三者に適切にルーティングすることでリスクを動的に管理できるようにします。このような実市場の執行および動的なリスク管理は、シミュレーションアカウントで取引が実行されていた場合には実現不可能か、コストが高すぎると考えています。当社があなたの取引のカウンターパーティーであるかどうかにかかわらず、あなたの資金提供口座における損益の計算方法は変わりません。ただし、当社がカウンターパーティーである場合、あなたの取引が当社に損益をもたらさないため、固有の利益相反が生じる可能性があります。</p>"
             ]
         },
         {
@@ -1751,7 +1751,7 @@
             "category":3,
             "title": "ポジションの上限はありますか？",
             "description": [
-                "<p>The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order.</p>"
+                    "<p>開くことができる最大ポジションは、利用可能な証拠金によって決まります。私たちは、証拠金要件を引き上げる権利、ファンドアカウントで保有または新規に開くことができるポジション数をいつでも制限する権利、および市場状況に応じてファンドアカウントでの取引が停止されるドローダウンレベルを見直す権利を留保します。私たちまたは流動性プロバイダーは、あらゆる注文を拒否する権利を有します。</p>"
             ]
         },
         {
@@ -1760,10 +1760,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "If I have a hard breach in my Funded Account and there are gains in the account, do I forfeit those gains? ",
+            "title": "資金提供口座で重大な違反が発生し、その時点で利益があった場合、その利益は失われますか？",
             "description": [
-                "<p class='mb-4'>If you have gains in your Funded Account at the time of a hard breach, you will still receive your portion of those gains. </p>",
-                "<p>For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a hard breach we would close the account. Of the $10,000 in gains in your Funded Account, you would be paid your portion thereof. </p>"
+                "<p class='mb-4'>資金提供口座で重大な違反があった場合でも、その時点で口座に利益があれば、その利益の分配分を受け取ることができます。</p>",
+    "<p>例えば、$100,000 の口座があり、それを $110,000 に増やしたとします。その後に重大な違反が発生した場合、口座は閉鎖されます。その $10,000 の利益のうち、あなたの分配分が支払われます。</p>"
             ]
         },
         {
@@ -1774,7 +1774,7 @@
             "category":3,
             "title": "資金提供アカウントの利益をどのように引き出すのですか？",
             "description": [
-                "<p>Traders can request a withdrawal of the profits in their funded account through their trader dashboard at any time. However, withdrawals are limited to one request every 30 days. <span class='underline underline-offset-4'>The minimum withdrawal amount is the greater of $100 or 1% of the account's starting balance.</span>  When a withdrawal is approved, we will also withdraw our share of the gains, and your max trailing drawdown will lock in at your starting balance. The trailing drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000. In this scenario, you will receive $12,800 and we would retain $3200. This would also take the balance of the account down to $104,000, and your Maximum Trailing Drawdown is locked in at $100,000. So, you would have $4,000 maximum you could lose on the account before it would violate the Maximum Trailing Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Trailing Drawdown will lock in at the starting balance and trigger the Maximum Trailing Drawdown breach rule, resulting in the forfeiture of your Funded Account.</p>"
+                    "<p>トレーダーは、いつでもトレーダーダッシュボードを通じて資金提供口座の利益の引き出しをリクエストできます。ただし、引き出しは30日ごとに1回までに制限されています。<span class='underline underline-offset-4'>最低引き出し額は、$100 または口座の開始残高の1%のいずれか高い方です。</span> 引き出しが承認されると、当社も利益の取り分を引き出し、最大トレーリングドローダウンは開始残高でロックされます。引き出しをリクエストしてもトレーリングドローダウンはリセットされません。例：$100,000の口座を$120,000まで増やしたとします。その後、$16,000の引き出しをリクエストします。この場合、あなたは$12,800を受け取り、当社は$3,200を保持します。これにより口座残高は$104,000になり、最大トレーリングドローダウンは$100,000でロックされます。つまり、口座が$100,000を下回るとトレーリングドローダウン違反となります。資金提供口座の利益を全額引き出すと、トレーリングドローダウンは開始残高でロックされ、違反ルールが発動し、資金提供口座が没収されます。</p>"
             ]
         }
     ]

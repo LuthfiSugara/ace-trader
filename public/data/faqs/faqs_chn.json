@@ -1422,7 +1422,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Instant What Countries are accepted? ",
+            "title": "即时账户接受哪些国家的用户？",
             "description": [
                     "<p>在遵守适用法律和法规的前提下，除OFAC列出的国家外，所有国家的交易者都可以参与我们的计划，除非公司有其他限制。</p>"
             ]
@@ -1435,7 +1435,7 @@
             "category":1,
             "title": "加入你们的项目需要满足的最低年龄是多少？",
             "description": [
-                "<p>You must be at least 18 years of age, or the applicable minimum legal age in your country, to purchase an Instant Funding account. </p>"
+                "<p>您必须年满18岁，或达到您所在国家规定的法定最低年龄，才可购买即时资金账户。</p>"
             ]
         },
         {
@@ -1446,7 +1446,7 @@
             "category":1,
             "title": "我在哪里可以查看账户的进展？",
             "description": [
-                "<p>Upon purchasing an Instant Funding Plan, you will receive access to a trader dashboard where you can monitor your Instant Funded Account. The dashboard is updated in near real time as we calculate your account metrics. It is your responsibility to monitor your breach levels.</p>"
+                "<p>购买即时资金计划后，您将获得交易员仪表板的访问权限，可用于监控您的即时资金账户。当我们计算您的账户指标时，仪表板几乎实时更新。您有责任监控自己的违规水平。</p>"
             ]
         },
         {
@@ -1457,7 +1457,7 @@
             "category":1,
             "title": "我可以在哪个平台上进行交易？",
             "description": [
-                "<p>Our technology is currently integrated with DXtrade, MatchTrader & cTrader.</p>"
+                "<p>我们的技术目前已集成到 DXtrade、MatchTrader 和 cTrader。</p>"
             ]
         },
         {
@@ -1466,9 +1466,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "How many Instant Funded Accounts may I have active at one time?",
+            "title": "我最多可以同时拥有多少个即时资金账户？",
             "description": [
-                "<p>A maximum of $100,000 in active Instant Funding plans per person is permitted. </p>"
+                    "<p>每人最多可拥有价值 $100,000 的活跃即时资金计划。</p>"
             ]
         },
         {
@@ -1479,7 +1479,7 @@
             "category":1,
             "title": "我可以交易哪些产品？",
             "description": [
-                "<p>You can trade any products offered by the Broker, as such products may change from time to time. This includes FX pairs and CFD Indices, Metals, and Cryptocurrencies.</p>"
+                "<p>您可以交易经纪商提供的任何产品，这些产品可能会不时更改。包括外汇对、指数差价合约、贵金属和加密货币。</p>"
             ]
         },
         {
@@ -1490,7 +1490,7 @@
             "category":1,
             "title": "杠杆是多少？",
             "description": [
-                "<p>We offer up to 50:1 leverage on Forex and Metals, up to 10:1 leverage on Indices, up to 5:1 leverage on Oils and up to 2:1 leverage on Cryptocurrencies.</p>"
+                "<p>我们提供的杠杆比例为：外汇和贵金属最高50:1，指数最高10:1，原油最高5:1，加密货币最高2:1。</p>"
             ]
         },
         {
@@ -1501,13 +1501,13 @@
             "category":1,
             "title": "交易时间是什么时候？",
             "description": [
-                "<p>Trading hours are generally set by the Liquidity Provider, unless set by our rules. We do not have any control over the trading hours. You can see the trading hours for each product by using the following methods: </p>",
-                "<p class='mt-4 ml-6'>DXtrade – Right click symbol, select “Instrument Info”</p>",
-                "<p class='ml-6'>MatchTrader – Click symbol to expand, select “Info”</p>",
-                "<p class='mb-4 ml-6'>cTrader – Navigate to Symbol Window, scroll down to see “Market Hours” for selected symbol</p>",
-                "<p class='mb-4 ml-6'>cTrader – Navigate to Symbol Window, scroll down to see “Market Hours” for selected symbol</p>",
-                "<strong class='mb-4'>Please note that holidays can have an impact on available trading hours. </strong>",
-                "<p>Additionally, pursuant to the no holding trades over the weekend rule, we will attempt to close all open trades at 3:45pm EST on Fridays.  Traders are responsible for ensuring all open positions are closed (unless Weekend Hold add-on has been purchased)</p>"
+                "<p>交易时间通常由流动性提供商设定，除非由我们的规则另行规定。我们无法控制交易时间。您可以通过以下方式查看每种产品的交易时间：</p>",
+    "<p class='mt-4 ml-6'>DXtrade – 右键点击交易品种，选择“Instrument Info”</p>",
+    "<p class='ml-6'>MatchTrader – 点击交易品种展开，选择“Info”</p>",
+    "<p class='mb-4 ml-6'>cTrader – 导航至品种窗口，向下滚动查看所选品种的“Market Hours”</p>",
+    "<p class='mb-4 ml-6'>cTrader – 导航至品种窗口，向下滚动查看所选品种的“Market Hours”</p>",
+    "<strong class='mb-4'>请注意，节假日可能会影响可用交易时间。</strong>",
+    "<p>此外，根据“禁止在周末持仓”的规则，我们将尝试在每周五美东时间下午3:45关闭所有未平仓头寸。交易者有责任确保所有持仓已关闭（除非已购买Weekend Hold附加服务）。</p>"
             ]
         },
         {
@@ -1516,9 +1516,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Do your accounts charge commissions? ",
+            "title": "您的账户是否收取佣金？",
             "description": [
-                "<p>Instant Funded Accounts receive the same pricing and commissions as charged by our Liquidity Provider to other, self-funded, retail trading accounts. </p>"
+                    "<p>即时资金账户享有与我们的流动性提供商对其他自筹资金的零售交易账户相同的定价和佣金。</p>"
             ]
         },
         {
@@ -1527,9 +1527,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":1,
-            "title": "Can I use an Automated Strategy? ",
+            "title": "我可以使用自动交易策略吗？",
             "description": [
-                "<p>Subject to our policy on Prohibited Trading as described below, you can trade using an automated strategy.</p>"
+                    "<p>在遵守下方所述的禁止交易政策的前提下，您可以使用自动化策略进行交易。</p>"
             ]
         },
         {
@@ -1540,20 +1540,20 @@
             "category":1,
             "title": "禁止交易行为的政策是什么？",
             "description": [
-                "<p class='mb-4'>You are also prohibited from using any trading strategy that is expressly prohibited by the Company or the Liquidity Providers it uses. Such prohibited trading (“Prohibited Trading”) shall include, but not be limited to: </p>",
-                "<p>● Exploiting errors or latency in the pricing and/or platform(s) provided by the Liquidity Provider </p>",
-                "<p>● Utilizing non-public and/or insider information </p>",
-                "<p>● Front running of trades placed elsewhere </p>",
-                "<p>● Trading in any way that jeopardizes the relationship that the Company has with a Liquidity Provider or may result in the canceling of trades </p>",
-                "<p>● Trading in any way that creates regulatory issues for the Liquidity Provider </p>",
-                "<p>● Utilizing any third-party strategy, off-the-shelf strategy or one marketed to pass challenge accounts </p>",
-                "<p>● Attempting to arbitrage a funded account with another account with the Company or any third-party company, as determined by the Company in its sole and absolute discretion.</p>",
-                "<p>●Opening a position within 3 minutes before or after a News Event is prohibited. Any traders identified as having opened a position during a News Event are subject to having that position closed and the associated P&L removed from their account, having the leverage on their account reduced or having their account breached altogether. The Company has sole and absolute discretion in determining what constitutes a News Event.  This rule is intended to protect the integrity of our program and is not meant to penalize traders who inadvertently trade through a news event.</p>",
-                "<p>●No Gambling Permitted: When participating in trading on both Challenge and Instant Funded Accounts, traders are expected to adhere to responsible risk management practices. This includes carefully considering the risks associated with position size, trade duration, and hedging strategies. Taking excessive risks, such as utilizing maximum leverage to open large positions with the hope of reaching profit targets through a single price movement, is strictly prohibited.  Please refer to the Terms and Conditions for the full Prohibition of Gambling Practices language.</p>",
-                "<p>● If the Company detects that your trading constitutes Prohibited Trading, your participation in the program will be terminated and may include forfeiture of any fees paid to the Company. Additionally, and before any Trader shall receive a funded account, the trading activity of the Trader under these Terms and Conditions shall be reviewed by both the Company and the Liquidity Provider to determine whether such trading activity constitutes Prohibited Trading. In the case of Prohibited Trading, the Trader shall not receive a funded account. </p>",
-                "<p>● Additionally, the Company reserves the right to disallow or block any Trader from participating in the program for any reason, in the Company’s sole and absolute discretion.</p>",
-                "<p class='mt-4'>To view all Prohibited Uses, please review our Terms and Conditions here,</p>",
-                "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/'>https://dashboardanalytix.com/client-terms-and-policies/</a>"
+                "<p class='mb-4'>您也不得使用公司或其流动性提供商明令禁止的任何交易策略。此类禁止交易（“禁止交易”）包括但不限于：</p>",
+    "<p>● 利用流动性提供商所提供的定价或平台中的错误或延迟</p>",
+    "<p>● 使用非公开信息和/或内幕信息</p>",
+    "<p>● 对其他地方下的交易进行抢跑</p>",
+    "<p>● 以可能危及公司与流动性提供商关系或导致交易被取消的方式进行交易</p>",
+    "<p>● 以可能为流动性提供商带来监管问题的方式进行交易</p>",
+    "<p>● 使用第三方策略、现成策略或用于通过挑战账户的策略</p>",
+    "<p>● 公司自行决定，试图用一个资金账户与公司或第三方的其他账户进行套利交易</p>",
+    "<p>● 禁止在新闻事件发生前后3分钟内开仓。如发现交易者在新闻事件期间开仓，将会导致该仓位被平仓、相关盈亏被移除、降低账户杠杆或账户被认定为违反规则。公司拥有完全的决定权来判定何为新闻事件。此规则旨在保护我们项目的完整性，而非惩罚无意中在新闻事件期间交易的交易者。</p>",
+    "<p>● 禁止赌博行为：在挑战和即时资金账户中参与交易时，交易者需遵循负责任的风险管理实践。这包括对持仓规模、交易时长和对冲策略的风险做出充分考虑。严禁采取极端风险行为，如使用最大杠杆试图通过一次价格波动实现盈利目标。请参阅我们的条款与条件了解更多关于禁止赌博行为的规定。</p>",
+    "<p>● 如果公司发现您的交易行为属于禁止交易，您将被终止参与计划，且可能会失去已支付的任何费用。此外，在交易者获得资金账户之前，公司和流动性提供商将审查其交易行为，以判断是否属于禁止交易。如属禁止交易，交易者将不会获得资金账户。</p>",
+    "<p>● 此外，公司保留在其完全酌情权下，因任何原因拒绝或阻止任何交易者参与该计划的权利。</p>",
+    "<p class='mt-4'>如需查看所有禁止使用条款，请参阅我们的条款与条件：</p>",
+    "<a target='_blank' class='text-blue-500 mb-4' href='https://dashboardanalytix.com/client-terms-and-policies/'>https://dashboardanalytix.com/client-terms-and-policies/</a>"
             ]
         },
         {
@@ -1575,7 +1575,7 @@
             "category":1,
             "title": "我如何在账单中看到收费信息？",
             "description": [
-                "<p>Charges come across in the name of Dashboardanalytix.com.</p>"
+                "<p>费用将以 Dashboardanalytix.com 的名称显示。</p>"
             ]
         },
         {
@@ -1586,7 +1586,7 @@
             "category":1,
             "title": "税务是如何处理的？",
             "description": [
-                "<p>When trading a Funded Account for our firm, you are treated as an independent contractor. As a result, you are responsible for any and all taxes on your gains.</p>"
+                "<p>在为我们公司交易的资金账户中，您将被视为独立承包商。因此，您需自行负责您所有收益的相关税务。</p>"
             ]
         },
         {
@@ -1606,10 +1606,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "What is the difference between a Hard Breach and Soft Breach rule? ",
+            "title":"什么是重大违规（Hard Breach）和轻微违规（Soft Breach）规则之间的区别？",
             "description": [
-                "<p>• Soft breach means that we will close all trades that have violated the rule. However, you can continue trading in your Instant Funded Account.</p>",
-                "<p>• Hard breach means that you violated the Daily Loss Limit or Max Drawdown rule, or Inactivity rule. These rules constitute a hard breach. In the event you have a hard breach, you will have your Funded Account taken away. </p>"
+                "<p>• 轻微违规表示我们会关闭所有违反规则的交易，但您仍可以继续在即时资金账户中进行交易。</p>",
+    "<p>• 重大违规表示您违反了每日亏损限制、最大回撤规则或账户不活跃规则。这些属于重大违规行为。一旦发生重大违规，您的资金账户将被终止。</p>"
             ]
         },
         {
@@ -1618,9 +1618,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "How do you calculate the Daily Loss Limit? ",
+            "title": "如何计算每日亏损限制？",
             "description": [
-                "<p>The Daily Loss Limit is the maximum amount your account can lose on any given day. The Daily Loss Limit is calculated using the previous day balance which resets at 5 PM EST. The Daily Loss Limit compounds with the increase in your account. Example: if your prior day's end of day balance (5pm EST) was $100,000, your account would violate the daily stop loss limit if your equity reached $95,000 during the day. If your floating equity is +$5,000 on a $100,000 account, your new- day (5pm EST) max loss is based on your balance from the previous day ($100,000). So, your daily loss limit would still be $95,000.</p>"
+                    "<p>每日亏损限制是指您的账户在单个交易日内所能承受的最大亏损金额。该限制是根据前一天的账户余额计算的，并在美东时间下午5点重置。随着账户余额的增加，每日亏损限制也会相应增加。例如：如果您前一天（美东时间下午5点）的账户余额为$100,000，那么当天如果您的权益降至$95,000，就会触发每日止损限制。如果您浮动权益为+$5,000，那么每日亏损仍然基于前一天的余额（$100,000），所以每日亏损限制仍为$95,000。</p>"
             ]
         },
         {
@@ -1629,9 +1629,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "How do you calculate the Maximum Trailing Drawdown? ",
+            "title": "如何计算最大跟踪回撤？",
             "description": [
-                "<p>The Maximum Trailing Drawdown is initially set at 8% and trails (using CLOSED BALANCE - NOT equity) your account until you have achieved a 5% return in your account. Once you have achieved a 5% return, the Maximum Trailing Drawdown no longer trails and is permanently locked in at your starting balance. Example: If your starting balance is $100,000, you can drawdown to $92,000 before you would violate the Maximum Trailing Drawdown rule. Then for example let's say you take your account to $102,000 in CLOSED BALANCE. This is your new high-water mark, which would mean your new Maximum Trailing Drawdown would be $94,000. Next, let's say you take your account to $106,000 in CLOSED BALANCE, which would be your new high-water mark. At this point your Maximum Trailing Drawdown would be locked in at your starting balance of $100,000. So, regardless of how high your account goes, you would only breach this rule if your account drew back down to $100,000 (note, you could still violate the daily drawdown). For example, if you take your account to $170,000, as long as you do not drawdown more than 5% in any given day, you would only breach if your account equity reaches $100,000.</p>"
+                    "<p>最大跟踪回撤最初设置为8%，并会随着您的账户变化而跟踪（使用已结算余额 CLOSED BALANCE，而不是浮动权益）。当您的账户收益达到5%后，跟踪将停止，并永久锁定在您的初始余额。示例：如果您的起始余额是$100,000，那么在跌至$92,000之前，您不会违反最大跟踪回撤规则。接着，如果您的账户达到$102,000（CLOSED BALANCE），则您的新高点为$102,000，对应的最大跟踪回撤将提升到$94,000。然后，如果账户达到$106,000（CLOSED BALANCE），最大跟踪回撤将被永久锁定为$100,000。也就是说，无论账户涨到多高，只有当它回撤至$100,000时才会违反此规则（注意，您仍可能违反每日回撤限制）。例如，您的账户涨至$170,000，只要您每日下跌不超过5%，您仅在权益降至$100,000时才会被判定违规。</p>"
             ]
         },
         {
@@ -1642,7 +1642,7 @@
             "category":2,
             "title": "我可以在周末持仓吗？",
             "description": [
-                "<p>We require all trades to be closed by 3:45 PM EST on the last trading day of the week, typically Friday. However, in cases where markets close early or are not open on a Friday, it is the trader’s responsibility to ensure all trades are closed before the weekend based on the adjusted market schedule. Any trades left open after this time will be automatically closed. Note, this is considered a soft breach, and you will be able to continue trading once the markets reopen.</p>"
+                    "<p>我们要求所有交易必须在每周最后一个交易日（通常为周五）美国东部时间下午3:45之前关闭。但是，在市场提前休市或周五不开市的情况下，交易者有责任根据调整后的市场时间表在周末前关闭所有交易。任何在此时间之后仍未平仓的订单将被自动关闭。请注意，这被视为轻微违规（soft breach），市场重新开放后您仍可继续交易。</p>"
             ]
         },
         {
@@ -1651,17 +1651,17 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":2,
-            "title": "What is 1 lot equal to on the Trading Platform?",
+            "title": "交易平台中的1手等于多少？",
             "description": [
-                "<p>● Forex - 1 lot = $100k notional </p>",
-                "<p>● Index: 1 lot = 1 Contract  </p>",
-                "<p class='mt-4 ml-6'>Exceptions</p>",
-                "<p class='ml-8'>SPX500: 1 lot = 10 contracts </p>",
-                "<p class='ml-8'>JPN225: 1 lot = 500 contracts </p>",
-                "<p class='ml-8'>● Cryptos: 1 lot = 1 coin  </p>",
-                "<p class='ml-8'>● Silver: 1 lot = 5000 ounces  </p>",
-                "<p class='ml-8'>● Gold: 1 lot = 100 ounces  </p>",
-                "<p class='ml-8'>● Oil: 1 lot = 100 barrels  </p>"
+                 "<p>● 外汇 - 1手 = 名义金额10万美元</p>",
+    "<p>● 指数：1手 = 1份合约</p>",
+    "<p class='mt-4 ml-6'>例外</p>",
+    "<p class='ml-8'>SPX500：1手 = 10份合约</p>",
+    "<p class='ml-8'>JPN225：1手 = 500份合约</p>",
+    "<p class='ml-8'>● 加密货币：1手 = 1枚币</p>",
+    "<p class='ml-8'>● 白银：1手 = 5000盎司</p>",
+    "<p class='ml-8'>● 黄金：1手 = 100盎司</p>",
+    "<p class='ml-8'>● 原油：1手 = 100桶</p>"
             ]
         },
         {
@@ -1672,7 +1672,7 @@
             "category":2,
             "title": "不活跃会导致违规吗？",
             "description": [
-                "<p>Yes. If you do not place a trade at least once every 30 days on your account, we will consider you inactive and your account will be breached. </p>"
+                "<p>是的。如果您在账户中每30天内未进行至少一次交易，我们将视您为非活跃用户，并判定您的账户已违规。</p>"
             ]
         },
         {
@@ -1681,9 +1681,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "What is the Instant Funding Plan?  ",
+            "title": "什么是即时资金计划？",
             "description": [
-                "<p>The Instant Funding Plan allows traders to start with a fully funded account without needing to complete an assessment phase.</p>"
+                    "<p>即时资金计划允许交易者在无需完成评估阶段的情况下，直接开始使用全额资金账户进行交易。</p>"
             ]
         },
         {
@@ -1692,11 +1692,11 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "How Long does it take to receive my Instant Funded Account? ",
+            "title": "多久可以收到我的即时资金账户？",
             "description": [
-                "<p class='mb-4'>Upon completion of payment, we provide you with an Instant Funding account, backed by our capital. You will receive an email with instructions on how to access this account on the platform you chose at checkout.</p>",
-                "<p class='mb-4'>The capital in your Funded Account is notional and may not match the amount of capital on deposit with the Broker. A Funded Account is notionally funded when actual funds in the account (i.e., the equity in a Funded Account represented by the amount of capital) differs from the nominal account size (i.e., the size of the Funded Account that establishes the initial account value and level of trading). Notional funds are the difference between nominal account size and actual capital in a Funded Account. </p>",
-                "<p class='mb-4'>Use of notional funding does not change the trading level or that the account may trade in any manner differently than if notional funds were not used. In particular, the same conditions and rules applicable to a soft breach, hard breach, Daily Loss Limit, Max Trailing Drawdown and position limits apply.</p>"
+                "<p class='mb-4'>在完成付款后，我们会为您提供一个由我们资金支持的即时资金账户。您将收到一封电子邮件，说明如何在您结账时选择的平台上访问此账户。</p>",
+    "<p class='mb-4'>您资金账户中的资金为名义资金，可能与经纪人实际存入的资金金额不一致。当账户中的实际资金（即由资本金额表示的资金账户权益）与名义账户规模（即设定初始账户价值和交易水平的账户大小）不同时，账户即被视为名义资金账户。名义资金是指名义账户规模与资金账户实际资本之间的差额。</p>",
+    "<p class='mb-4'>使用名义资金不会改变账户的交易水平，也不会以任何不同于非名义资金账户的方式进行交易。特别是，软性违规、严重违规、每日亏损限制、最大追踪回撤和头寸限制的相关规则和条件依然适用。</p>"
             ]
         },
         {
@@ -1705,9 +1705,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Do I need to complete KYC or sign a trader contract to start trading in an Instant Funding Plan?  ",
+            "title": "我是否需要完成 KYC 或签署交易员合同才能开始即时资金计划交易？",
             "description": [
-                "<p>A Trading contract and KYC are both required, however, to start trading using our Instant Funding Plan, these steps won’t need to be completed until you request a withdrawal. </p>"
+                    "<p>交易合同和 KYC 都是必需的，但在开始使用我们的即时资金计划进行交易时，您无需在开始阶段完成这些步骤，直到您申请提现时才需要完成。</p>"
             ]
         },
         {
@@ -1716,9 +1716,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "What happens if I do not pass KYC?  ",
+            "title": "如果我未通过 KYC，会发生什么？",
             "description": [
-                "<p>If you do not pass the KYC process when requesting a withdrawal, the withdrawal will be rejected, and your account will be closed. We encourage you to ensure you can meet KYC requirements before opting for the Instant Funding Plan. </p>"
+                    "<p>如果您在申请提现时未通过 KYC 认证，提现请求将被拒绝，您的账户也将被关闭。我们建议您在选择即时资金计划前，确保自己能够满足 KYC 要求。</p>"
             ]
         },
         {
@@ -1727,9 +1727,9 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "Do we manipulate the pricing or executions you receive in your Instant Funded Account? ",
+            "title": "我们是否操纵您在即时资金账户中获得的定价或交易执行？",
             "description": [
-                "<p>No. We operate at an arm's length with the Broker. All market pricing and trade executions are provided by the Broker and are not changed or modified by us. Additionally, we do not markup transaction costs established by the Broker through adjusting bid-offer spreads, markups/markdowns, commission charges or swaps. </p>"
+                    "<p>不会。我们与经纪商之间保持独立运营。所有市场定价和交易执行均由经纪商提供，我们不会更改或修改。此外，我们不会通过调整买卖价差、加点/减点、佣金或掉期费用来增加经纪商设定的交易成本。</p>"
             ]
         },
         {
@@ -1740,7 +1740,7 @@
             "category":3,
             "title": "谁是我交易的对手方？",
             "description": [
-                "<p>For the purposes of managing risk and minimizing transaction costs, we may offset or negate market risk and act as the direct counterparty to certain trades initiated in the Account. Such trades are executed at prices provided by the Broker. This framework is intended to ensure you receive real market execution on your trades, while simultaneously allowing us to manage risk dynamically by routing existing positions or future orders to third parties for execution as we deem appropriate. We believe that such real market execution and dynamic risk management would not be possible or cost-effective if trades were executed in simulated accounts. Regardless of whether we act as counterparty to your trades, the gain or loss on your Funded Account is not calculated differently. However, when we act as the counterparty to your trades, there is an inherent potential conflict of interest because your trades do not result in net gain or loss to us, as your trades would if we were not the direct counterparty. </p>"
+                    "<p>为了管理风险和降低交易成本，我们可能会对冲或抵消市场风险，并在某些由账户发起的交易中充当直接交易对手方。这些交易按照经纪商提供的价格执行。该机制旨在确保您在交易中获得真实的市场执行，同时允许我们通过将现有仓位或未来订单动态地路由至第三方进行执行，从而动态管理风险。我们认为，如果交易是在模拟账户中执行，这种真实市场执行和动态风险管理将无法实现或成本过高。无论我们是否作为您的交易对手，您在资金账户上的盈亏计算方式不会改变。然而，当我们作为交易对手方时，因您的交易不会对我们造成盈亏，所以会存在潜在的利益冲突。</p>"
             ]
         },
         {
@@ -1751,7 +1751,7 @@
             "category":3,
             "title": "我是否受到持仓限制？",
             "description": [
-                "<p>The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order.</p>"
+                    "<p>您可以开设的最大持仓由您的可用保证金决定。我们保留随时提高保证金要求、限制您在资金账户中可以开设或维持的持仓数量的权利，并有权根据市场状况调整在达到特定回撤水平时终止交易的规则。我们或流动性提供商有权拒绝接受任何订单。</p>"
             ]
         },
         {
@@ -1760,10 +1760,10 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category":3,
-            "title": "If I have a hard breach in my Funded Account and there are gains in the account, do I forfeit those gains? ",
+            "title": "如果我的资金账户发生重大违规且账户中有盈利，我是否会失去这些盈利？",
             "description": [
-                "<p class='mb-4'>If you have gains in your Funded Account at the time of a hard breach, you will still receive your portion of those gains. </p>",
-                "<p>For example, if you have a $100,000 account and you grow that account to $110,000. Should you then have a hard breach we would close the account. Of the $10,000 in gains in your Funded Account, you would be paid your portion thereof. </p>"
+                "<p class='mb-4'>如果您在发生重大违规时资金账户中有盈利，您仍将获得您应得的那部分盈利。</p>",
+    "<p>例如，您的账户起始金额为 $100,000，并将其增长到 $110,000。如果此时发生重大违规，我们将关闭该账户。在资金账户的 $10,000 盈利中，您将获得属于您应得的那一部分。</p>"
             ]
         },
         {
@@ -1774,7 +1774,7 @@
             "category":3,
             "title": "如何提取我在实盘账户中的收益？",
             "description": [
-                "<p>Traders can request a withdrawal of the profits in their funded account through their trader dashboard at any time. However, withdrawals are limited to one request every 30 days. <span class='underline underline-offset-4'>The minimum withdrawal amount is the greater of $100 or 1% of the account's starting balance.</span>  When a withdrawal is approved, we will also withdraw our share of the gains, and your max trailing drawdown will lock in at your starting balance. The trailing drawdown does not reset when you request a withdrawal. Example: You have taken an account from $100,000 to $120,000. You then request a withdrawal of $16,000. In this scenario, you will receive $12,800 and we would retain $3200. This would also take the balance of the account down to $104,000, and your Maximum Trailing Drawdown is locked in at $100,000. So, you would have $4,000 maximum you could lose on the account before it would violate the Maximum Trailing Drawdown rule. If you take a full withdrawal of the gains in your Funded Account, the Maximum Trailing Drawdown will lock in at the starting balance and trigger the Maximum Trailing Drawdown breach rule, resulting in the forfeiture of your Funded Account.</p>"
+                    "<p>交易者可以随时通过其交易员仪表板申请提取其资金账户中的利润。但提款限制为每30天只能申请一次。<span class='underline underline-offset-4'>最低提款金额为100美元或账户起始余额的1%，以较高者为准。</span> 当提款被批准时，我们也会提取我们应得的利润份额，您的最大跟踪回撤将锁定在起始余额。请求提款时，跟踪回撤不会重置。示例：如果您将账户从 $100,000 增长到 $120,000，然后申请提款 $16,000。在这种情况下，您将收到 $12,800，我们将保留 $3,200。这也会将账户余额降至 $104,000，您的最大跟踪回撤将锁定在 $100,000。因此，您最多只能亏损 $4,000，否则将违反最大跟踪回撤规则。如果您提取资金账户中的全部利润，则最大跟踪回撤将锁定在起始余额，并触发最大跟踪回撤违规规则，从而导致您的资金账户被取消。</p>"
             ]
         }
     ]

@@ -8,11 +8,11 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "评估1"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": " 已出资"
                 }
             ],
             "benefits": [
@@ -77,15 +77,15 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "评估1"
                 }, 
                 {
                     "id": 2,
-                    "name": "Assessment 2"
+                    "name": "评估2"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": " 已出资"
                 }
             ],
             "benefits": [
@@ -156,11 +156,11 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "评估1"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": " 已出资"
                 }
             ],
             "benefits": [
@@ -232,15 +232,15 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "评估1"
                 }, 
                 {
                     "id": 2,
-                    "name": "Assessment 2"
+                    "name": "评估2"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": " 已出资"
                 }
             ],
             "benefits": [
@@ -319,7 +319,7 @@
             "rule_area": [
                 {
                     "id": 3,
-                    "name": "Instant Funded"
+                    "name": "即时出资"
                 }
             ],
             "benefits": [

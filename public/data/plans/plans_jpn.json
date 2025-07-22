@@ -8,11 +8,11 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "アセスメント1"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": "資金提供済み"
                 }
             ],
             "benefits": [
@@ -77,15 +77,15 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "アセスメント1"
                 }, 
                 {
                     "id": 2,
-                    "name": "Assessment 2"
+                    "name": "評価2"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": "資金提供済み"
                 }
             ],
             "benefits": [
@@ -156,11 +156,11 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "アセスメント1"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": "資金提供済み"
                 }
             ],
             "benefits": [
@@ -232,15 +232,15 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "Assessment 1"
+                    "name": "アセスメント1"
                 }, 
                 {
                     "id": 2,
-                    "name": "Assessment 2"
+                    "name": "評価2"
                 },
                 {
                     "id": 3,
-                    "name": "Funded"
+                    "name": "資金提供済み"
                 }
             ],
             "benefits": [
@@ -319,7 +319,7 @@
             "rule_area": [
                 {
                     "id": 3,
-                    "name": "Instant Funded"
+                    "name": "即時資金提供済み "
                 }
             ],
             "benefits": [

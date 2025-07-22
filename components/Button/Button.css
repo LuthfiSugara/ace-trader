@@ -5,7 +5,7 @@
 }
 @property --Color {
   syntax: '<color>';
-  initial-value: #b55770;
+  /* initial-value: #b55770; */
 }
  
 @keyframes rotate {
@@ -34,11 +34,11 @@
   background-position: 0px 0px;
   background-image: conic-gradient(
     from var(--animate-duration) at 50% 50%,
-    #000 0%,
-    #000 20%,
+    #fff 0%,
+    #fff 20%,
     var(--Color) 50%,
     var(--Color) 66%,
-    #000 100%
+    #fff 100%
   );
   z-index: 0;
   --animate-duration: 0deg;

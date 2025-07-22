@@ -297,12 +297,12 @@ const ChoosePlan = () => {
                                     <td className='border-b border-b-[#072B33]'>
                                         <div className="flex items-center gap-2 p-[20px]">
                                             <p className='text-white'>{benefit.name}</p>
-                                            <ButtonInfo 
+                                            {benefit.info && <ButtonInfo 
                                                 onClick={() => {
                                                     setInformation(benefit.info ?? []);
                                                     onOpen();
                                                 }} 
-                                            />
+                                            />}
                                         </div>
                                     </td>
                                     {benefit.data.map((data, index: number) => {
