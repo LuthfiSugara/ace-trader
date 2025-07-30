@@ -341,9 +341,9 @@ const ChoosePlan = () => {
 
             <div className='lg:hidden bg-[#06333D] rounded-xl py-[32px] px-[24px]'>
                 <p className='text-center font-bold text-[38px] text-[#05CBE9]'>{price?.price}</p>
-                <p className='text-[#05CBE9] text-[16px] font-medium text-center mb-6'>for {price?.account_balance}k Account</p>
+                <p className='text-[#05CBE9] text-[16px] font-medium text-center mb-6'>{translation('home.choose.plan.account.size')} {price?.account_balance}K</p>
                 <Link href={price?.link_register ?? ''} target="_blank">
-                    <p className='bg-[#05CBE9] text-[#072B33] text-center w-full py-[4px] rounded-xl'>Start Trading</p>
+                    <p className='bg-[#05CBE9] text-[#072B33] text-center w-full py-[4px] rounded-xl'>{translation('home.choose.plan.btn.start.trading')}</p>
                 </Link>
                 
                 <div className='py-[40px]'>
@@ -376,7 +376,7 @@ const ChoosePlan = () => {
                                 ) : (
                                     <div className='flex justify-between items-center gap-4'>
                                         <div className='flex items-center gap-2'>
-                                            <span className='text-white text-[14px]'>{dataPlans.rule_area.join(', ')}</span>
+                                            <span className='text-white text-[14px]'>{dataPlans.rule_area.map(item => item.name).join(', ')}</span>
                                         </div>
                                         <p className='text-[#BDF6FF]' dangerouslySetInnerHTML={{ __html: benefit.data[0] }}></p>
                                     </div>
