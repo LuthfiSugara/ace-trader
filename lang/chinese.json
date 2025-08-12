@@ -203,5 +203,104 @@
         "<p className='text-2xl font-bold'>完整协议</p><p>本协议包含公司与交易者之间关于使用服务的完整协议，并取代公司与交易者之间先前所有的书面或口头的理解、协议或陈述。</p><p className='text-2xl font-bold'>联系信息：</p><p>根据本协议允许或要求的任何通知或通信必须以书面形式进行，并在亲手送达、通过预付邮资的挂号或认证邮件发送（要求回执），或通过电子邮件发送至下列各方（或任何一方通过书面形式另行通知对方的其他地址）时，视为已充分送达：</p>",
 
         "<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-24'><div className='space-y-1'><p>如联系<strong>Forest Park FX LTD</strong></p><p>Forest Park FX LTD</p><p>41 South Street</p><p>英格兰奥克姆，LE15 6BG</p><a href='mailto:support@propaccount.com' className='underline'>support@propaccount.com</a></div><div className='space-y-1'><p>如联系<strong>Prop Account</strong></p><p>Prop Account LC</p><p>卡西亚法院2206套房</p><p>市场街72号</p><p>卡马纳湾，邮政信箱32302</p><p>开曼群岛 大开曼 KY1-1209</p><a href='mailto:support@propaccount.com' className='underline'>support@propaccount.com</a></div><div className='space-y-1'><p>如联系<strong>Prop Account LLC</strong></p><p>Prop Account LLC</p><p>破声公园道6800号，150套房</p><p>佛罗里达州博卡拉顿，33487</p><a href='mailto:support@propaccount.com' className='underline'>support@propaccount.com</a></div><div className='space-y-1'><p>如联系<strong>CRM Solutions</strong></p><p>CRM Solutions</p><p>卡西亚法院2206套房</p><p>卡马纳湾，邮政信箱32302</p><p>开曼群岛 大开曼 KY1-1209</p><a href='mailto:support@propaccount.com'>support@propaccount.com</a></div></div><p className='mt-12 md:mt-24'>生效日期：<strong>2024年11月25日</strong></p>"
+    ],
+
+
+
+    "refund.policy.title": "退款政策",
+    "refund.policy.content": [
+        "<p>在我们确认您购买的某个方案付款成功后，您将收到一封包含登录信息的电子邮件，用于访问您在我们平台上的账户。一旦该信息已发送至您的邮箱，将不予退款。在某些特殊情况下，如果账户中未进行任何交易，我们将提供退款。如需协助，请联系支持团队：support@propaccount.com</p><p className='text-2xl font-bold'>争议政策</p><p>客户如果恶意争议付款或通过银行申请退款，将被永久禁止使用本平台。如有任何疑问，请联系支持团队。</p><p className='text-2xl font-bold'>接受本政策</p><p>了解本退款政策是您的责任。通过订购我们的任何产品，即表示您已阅读并完全接受本退款政策的条款。如果您不同意或无法接受该条款，请不要下订单。</p><p><strong>联系我们：</strong> 如对本退款政策有任何问题或意见，请发送电子邮件至 <u>support@propaccount.com</u>，邮件标题注明：Refund Policy</p>"
+    ],
+
+
+
+    "privacy.and.policy.title": "隐私政策",
+    "privacy.and.policy.content": [
+        "<strong>隐私政策</strong><div><p>Prop Account 集团公司（“Prop Account，d/b/a Dashboard Analytix, Forest Park FX LTD, Prop Account LLC, Prop Account Cayman, LLC, CRM Solutions LLC，以下简称“我们”）是负责您个人数据的数据控制者，并且是我们的网站（“网站”）、桌面应用程序、Prop Account 集团服务（各“服务”）及其上所有信息的唯一所有者。我们通过多种方式收集用户信息（详见本隐私政策）。如您需要帮助查看本政策，请使用本政策末尾的联系信息与我们联系。</p><p>本隐私政策适用于您访问本网站、创建帐户或使用我们的应用或服务（以下统称“您”）时我们收集的个人数据。本政策说明了我们收集哪些个人数据、为何收集、如何使用、如何存储以及如何共享信息。</p><p>本政策中“个人数据”或“个人信息”指能够识别您身份的所有相关信息。</p><strong>更新</strong><p>我们可随时自行更新本隐私政策，并将新版发布于我们的网站。请您不时查看本网站，以确保所做的任何更改符合您的需求。如法律要求，我们将就重大变化通知您。</p><strong>我们收集的个人数据</strong><p><u>我们根据您与我们交互的方式及使用我们的网站和服务的情况，通过多种途径收集信息，包括：</u></p><ul className='list-disc ml-6'><li>当您直接向我们提供信息时，例如注册账户、订阅通讯、下订单／购买或通过电话、电子邮件或其他方式与我们联系。</li><li>当您与我们的网站、广告和电子邮件互动时，通过服务器日志和其他类似技术自动收集的数据。</li><li>来自其他来源的信息，包括我们的关联公司、商业合作伙伴、服务提供商及其他第三方或公共渠道。例如，如果您提交工作申请或成为员工，我们可能会进行背景调查。</li></ul></div><p>以下内容示例说明我们在各种场景下收集信息的类型及其用途。</p>",
+
+        "<div className='overflow-scroll'><table className='w-full'><thead><tr className='border'><th className='text-start p-4 border-r'>上下文</th><th className='text-start p-4 border-r'>个人信息类型</th><th className='text-start p-4'>收集和使用个人信息的主要目的</th></tr></thead> <tbody><tr className='border'><td className='text-start p-4 font-bold border-r'>账户注册和资料管理</td><td className='text-start p-4 border-r'>当您创建账户时，我们会收集您的姓名和联系方式，包括用户名。我们还会收集您在登录账户期间执行的操作相关信息。</td><td className='text-start p-4 border-r'>我们有合法权益为用户提供与账户相关的功能。账户可用于快捷结账、保存偏好设置和交易历史。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>应用程序接口（API）服务</td><td className='text-start p-4 border-r'>在您使用我们的API服务时，我们会收集各种个人数据，例如姓名、地址、IP地址。</td><td className='text-start p-4 border-r'>我们有合法权益提供API服务，包括支持服务。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>客户信息</td><td className='text-start p-4 font-bold border-r'>我们可能会收集客户及其员工的姓名和联系方式，以便与其互动。</td><td className='text-start p-4 font-bold border-r'>我们有合法权益与客户联系，并就项目、服务和账单等正常业务管理进行沟通。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>您对我们网站的使用</td><td className='text-start p-4 border-r'>我们可能使用技术来监测您与我们网站的互动方式。这可能包括您点击的链接或在在线表单中输入的信息。其中一些技术可能使用“cookies”。Cookies是网站在您浏览网页时发送到计算机硬盘上的小块信息。我们还会追踪您的IP地址、引导您访问我们网站的网站，以及您用于访问我们网站的设备相关数据。</td><td className='text-start p-4 border-r'>我们有合法权益确保我们的网站高效运行。我们还会使用这些信息了解您如何与我们的网站互动，以改进网站并了解您的偏好。最后，我们使用这些信息来帮助检测和防止欺诈行为。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>网站上的技术用于定向广告</td><td className='text-start p-4 border-r'>我们可能允许第三方在我们的网站上放置技术（例如cookie或像素），从而可以跟踪您的行为。第三方还可能在一段时间内跨越其他网站收集数据，并使用这些数据向您投放符合您兴趣的广告，包括与我们产品或服务相关的广告。</td><td className='text-start p-4 border-r'>我们不会使用网站上的cookies参与基于行为的广告。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>人口统计信息</td><td className='text-start p-4 border-r'>我们可能会收集您的个人信息，例如年龄或所在位置。</td><td className='text-start p-4 border-r'>我们有合法权益了解用户情况并提供个性化服务。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>距离信息</td><td className='text-start p-4 border-r'>当您使用我们的应用程序之一时，我们可能会通过您设备中的 GPS、Wi-Fi 和/或蜂窝技术收集您的位置信息。</td><td className='text-start p-4 border-r'>我们有合法利益了解用户并提供个性化服务。在某些情况下，我们的使用也基于您同意提供地理位置信息。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>客户服务和反馈</td><td className='text-start p-4 border-r'>如果您向我们提供反馈或联系支持，我们将收集您的姓名、电子邮件地址以及您发送给我们的任何其他内容，以便回复您。</td><td className='text-start p-4 border-r'>我们有合法利益接收并处理您的反馈或问题。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>邮件列表</td><td className='text-start p-4 border-r'>当您注册我们的电子邮件列表时，我们会收集您的电子邮件地址或邮寄地址。</td><td className='text-start p-4 border-r'>我们会向同意接收此类信息的个人分享我们的产品和服务信息，我们也有合法利益分享这些信息。</td></tr><tr className='border'><td className='text-start p-4 font-bold border-r'>下订单</td><td className='text-start p-4 border-r'>当您下订单时，我们可能会收集您的姓名、账单地址、收货地址、电子邮件地址、电话号码和信用卡号码。</td><td className='text-start p-4 border-r'>我们使用您的信息履行向您提供产品或服务的合同。</td></tr></tbody></table></div>",
+
+        "<strong>Cookies和其他技术</strong><div><p>我们使用浏览器Cookies（放置在您设备上的小型文本文件）来管理我们的网站。请参阅我们在《条款和条件》中包含的《Cookies政策》。</p><p>公司的网站可能会使用Cookies。Cookies是由一串文本和数字组成的小型数据文件，为您的计算机分配唯一标识符。它们从您的计算机收集信息，使您的计算机能够与公司“对话”，并为您提供更便捷和个性化的使用体验。如果您不希望公司在您的计算机上使用Cookies，您必须调整浏览器设置以禁用它们。但请注意，禁用Cookies可能会阻止您完全访问公司网站的所有功能。如果您需要禁用Cookies的帮助，请联系您的浏览器提供商。</p></div>",
+
+        "<strong>日志文件</strong><p>与大多数网站一样，我们使用网络服务器日志文件。我们的日志文件记录包括互联网协议（IP）地址（有关更多详细信息，请参阅下方“设备信息”部分）、浏览器类型、互联网服务提供商、来源页面、退出页面、平台类型以及日期/时间戳。我们使用网络服务器日志文件来管理网站、为网站规划提供总体流量信息，并确保遵守我们的服务条款协议。</p>",
+
+        "<strong>设备信息</strong><p>我们会收集您用于与我们服务交互的设备的以下信息：设备的IP地址（我们也可以由此推断您连接的国家）、设备类型、操作系统、应用程序和浏览器版本。我们收集这些信息是为了防止垃圾信息和滥用我们的服务。在某些司法管辖区，IP地址可能被视为个人数据，并将根据本隐私政策进行处理。</p>",
+
+        "<strong>我们从第三方接收的数据</strong><p>当您使用互联网服务凭据登录账户时，该服务会将您的用户名和与您使用的凭据相关联的电子邮件地址发送给我们。我们既不控制，也不对第三方提供您的信息和/或处理您的个人数据的方式负责。</p>",
+
+        "<strong>用户账户删除</strong><div><p>您可以选择不使用我们的网站和/或应用程序，并可在个人资料设置中请求我们删除您的账户。在您的账户30天内无任何活动的情况下，将会被删除。</p><p>请注意，如果您已请求删除账户，我们将删除您随后提供的个人数据。但某些数据（如电子邮件地址、用户ID和某些个人数据）将被保留，因为它们已整合到我们的系统中。这些数据必须保留，以维护平台完整性，并用于数据治理协议，包括审计和安全目的。</p></div>",
+
+        "<strong>市场营销</strong><p>我们可能会向您发送有关我们产品或服务的营销电子邮件，这些产品或服务与您订阅的类似，包括我们认为您可能感兴趣的活动和其他促销信息，除非您已告知我们您不希望以这种方式接收信息。我们仅在您提供个人数据时已给予同意的情况下，才会通过电子邮件向您发送其他促销信息。用户可随时通过点击电子邮件中的“取消订阅”来停止接收营销信息。</p>",
+
+        "<strong>与服务相关的公告</strong><p>在极少数情况下，我们可能需要发送与服务相关的公告。例如，如果我们的服务长时间中断或发布了主要功能升级，我们可能会向所有用户发送电子邮件。</p>",
+
+        "<strong>客户服务</strong><p>当您提交支持请求时，我们会使用您的联系信息、设备信息、服务器日志、问题描述以及任何其他支持材料（视频、截图等）来帮助解决问题。</p>",
+
+        "<strong>API</strong><p>如果您使用我们的API（应用程序编程接口）服务，我们可能会处理您的个人数据，以便提供和支持这些服务。</p><strong>流程和协议</strong><p>我们将根据需要处理您的个人数据，用于包括以下内容在内的特定流程和协议：</p>",
+
+        "<ul className='list-disc ml-6'><li>当我们被要求回应您的询问、评论或投诉时；</li><li>为管理我们的服务，以便更好地了解访问者如何与网站和应用程序互动，并确保以对您和您的计算机/设备最有效的方式呈现它们；</li><li>开发和改进我们的应用程序和服务；</li><li>在我们的关联企业之间共享个人数据，用于行政目的、提供订阅服务，以及与我们的销售和营销活动相关（除非如上所述，我们需要您的同意）；</li><li>向您发送与您订阅的产品或服务类似的产品或服务的信息（除非您在向我们提供电子邮件地址时拒绝或选择不接收这些电子邮件，或者您已告知我们您不希望以这种方式接收通信）；</li><li>我们可能会匿名化和汇总我们收集的数据，并将这些数据用于我们自己的内部业务目的，包括与我们的业务合作伙伴、关联企业、代理商和其他第三方共享，用于商业、统计和市场研究目的。例如，使这些方能够分析人群之间的模式，并对人口统计、兴趣和行为进行研究；</li><li>用于内部业务/技术运营，包括故障排除、数据分析、测试、研究、统计和调查目的，以及作为我们保持网站、网络和信息系统安全工作的一部分；</li><li>为(a)遵守法律义务，(b)回应监管机构和执法机构的要求，(c)执行我们的使用条款或内部规定，(d)保护我们的运营或任何关联企业的运营，(e)保护我们的权利、安全或财产，以及/或关联企业、您或他人的权利、安全或财产，(f)执行或维护法律权利，或防止损害。这意味着，如果我们确定此类披露是遵守法律所必需的，我们可以将您的信息存储并披露给执法机构、国家或政府机构。这包括对法院命令或传票的回应，以及其他司法或监管程序。</li></ul>",
+
+        "<strong>第三方网站</strong> <strong>链接到其他网站</strong> 我们可自行决定从我们的网站添加指向其他网站的链接（网络链接）。这些网站可能由具有独立隐私政策的第三方运营。因此，我们对这些链接网站的内容、活动或隐私政策不承担任何责任或义务。我们建议您阅读您访问的每个网站的隐私政策。",
+
+        "<div><strong>美国数据主体权利和信息</strong><p>某些司法辖区赋予您针对我们收集和使用您的个人信息的特定权利。<u>要行使其中一项权利，请参阅下文“行使数据主体权利”部分。</u></p><p>请注意，下文所述的权利并非全部是绝对的，也并非在所有情况下适用。在某些情况下，我们可能会因法律允许或要求，或因无法充分验证您的身份，而限制或拒绝您的请求。我们不会因个人依据适用法律行使其隐私权而进行歧视。</p><p>您可能拥有以下权利：</p><ul className='list-disc ml-6'><li>有权要求我们向您披露有关我们收集和使用您个人信息的特定信息。有关收集和披露的消费者个人信息类别的列表载于“我们收集的个人数据”部分，可能披露个人信息的第三方类别的列表载于“我们何时会共享个人信息”部分。请联系我们以行使数据可携权。此外，我们不会为了金钱出售您的个人信息。</li><li>有权要求删除或修改我们从您处收集的个人信息。</li><li>我们不从事基于在线跟踪的定向广告（例如 Cookie）。</li></ul></div>",
+
+        "<div><strong>加利福尼亚州“Shine the Light”法案。</strong><p>如果您想了解更多关于我们与第三方或关联公司共享的个人信息类别（如有），以及这些第三方用于直接营销的相关情况，请使用以下<strong>联系方式</strong>部分中的信息向我们提交书面请求。</p></div>",
+
+        "<div><strong>加利福尼亚州“Shine the Light”法案。</strong><p>如果您想了解更多关于我们与第三方或关联公司共享的个人信息类别（如有），以及这些第三方用于直接营销的相关情况，请使用以下<strong>联系方式</strong>部分中的信息向我们提交书面请求。</p></div>",
+
+        "<div><strong>个人数据披露表</strong><p><u>下表描述了我们为商业目的收集和披露的个人信息类别。请注意，除下文所述的接收方外，我们可能会将收集的任何类别的个人数据披露给</u> 政府机构，以遵守法律或防止非法活动。如隐私政策其他部分所述，我们不会使用 Cookie 或类似的跟踪技术用于定向广告目的。</p></div>",
+
+        "<div className='overflow-scroll'><table className='w-full overflow-scroll'><thead><tr class='border'><td class='font-bold border p-3' rowSpan='2'>个人信息类别</td><td class='font-bold p-3' colSpan='2'>接收方类别</td></tr><tr class='border'><td class='font-bold p-3 border'>为商业目的的披露</td><td class='font-bold p-3'>跨情境行为广告的共享</td></tr></thead><tbody><tr class='border'><td class='font-bold border-r p-3'>标识符 – 这可能包括真实姓名、别名、邮政地址、唯一个人标识符、在线标识符、电子邮件地址、账户名称或其他类似标识符。</td><td class='border-r p-3'>附属公司或子公司数据分析提供商互联网服务提供商操作系统和平台其他服务提供商支付处理方和金融机构专业服务机构（可能包括审计师和律师事务所）</td><td class='p-3'>广告网络</td></tr><tr class='border'><td class='font-bold border-r p-3'>政府颁发的身份证明 – 这可能包括社会安全号码、驾驶执照号码、州颁发的身份证号码、护照号码。</td><td class='border-r p-3'>附属公司或子公司操作系统和平台其他服务提供商专业服务机构（可能包括审计师和律师事务所）</td><td class='p-3'></td></tr><tr className='border'><td className='font-bold border-r p-3'>财务信息 – 可能包括银行账号、信用卡号、借记卡号及其他财务信息。</td><td className='border-r p-3'>关联公司或子公司操作系统和平台其他服务提供商支付处理方和金融机构可能包括审计师和律师事务所的专业服务机构</td><td className='p-3'></td></tr><tr className='border'><td className='font-bold border-r p-3'>商业信息 – 可能包括购买、获得或考虑的产品或服务的信息，或其他购买或消费历史或趋势。</td><td className='border-r p-3'>关联公司或子公司数据分析提供商互联网服务提供商操作系统和平台其他服务提供商支付处理方和金融机构可能包括审计师和律师事务所的专业服务机构社交网络</td><td className='p-3'></td></tr><tr className='border'><td className='font-bold border-r p-3'>互联网或其他电子网络活动信息 – 可能包括浏览记录、搜索记录，以及有关个人与互联网网站、应用程序或广告互动的信息。</td><td className='border-r p-3'>关联公司或子公司数据分析提供商互联网服务提供商操作系统和平台其他服务提供商可能包括审计师和律师事务所的专业服务机构</td><td className='p-3'></td></tr><tr className='border'><td className='font-bold border-r p-3'>专业或与就业相关的信息</td><td className='border-r p-3'>关联公司或子公司操作系统和平台其他服务提供商可能包括审计师和律师事务所的专业服务机构</td><td className='p-3'></td></tr></tbody></table></div>",
+
+        "<div><strong>国际用户</strong><p>受欧洲和英国（“UK”）数据保护法约束的个人，可能对我们持有的其个人数据享有数据主体权利（详见下文）。这些权利本身可能会受到限制和/或约束。</p><p>如果您位于欧洲经济区（EEA）或英国，请通过<u>support@propaccount.com</u>联系我们以行使您的权利。</p></div>",
+
+        "<div><strong>国际用户</strong><p>受欧洲和英国（“UK”）数据保护法约束的个人，可能对我们持有的其个人数据享有数据主体权利（详见下文）。这些权利本身可能会受到限制和/或约束。</p><p>如果您位于欧洲经济区（EEA）或英国，请通过<u>support@propaccount.com</u>联系我们以行使您的权利。</p></div>",
+
+        "<div><strong>国际用户</strong><p>受欧洲和英国（“UK”）数据保护法约束的个人，可能对我们持有的其个人数据享有数据主体权利（详见下文）。这些权利本身可能会受到限制和/或约束。</p><p>如果您位于欧洲经济区（EEA）或英国，请通过<u>support@propaccount.com</u>联系我们以行使您的权利。</p></div>",
+
+        "<div><strong>反对</strong><p>您可以：</p><ul className='list-disc ml-6'><li>随时要求我们停止处理您的个人数据，如果法律要求，我们将照办；</li><li>随时反对我们为直接营销目的处理您的数据。这可以通过点击我们营销邮件中的“取消订阅”按钮来完成；</li><li>拒绝通过电子邮件接收服务通知（例如，当您订阅的用户发布图表、想法等时）。这可以在用户设置中调整。</li></ul></div>",
+
+        "<div><strong>撤回同意</strong><p>如果我们依赖您的同意来处理您的个人数据，您有权随时撤回该同意。这不会影响在收到您撤回同意的通知之前我们处理您数据的合法性。我们强调，如果有其他合法依据可用，我们通常不会依赖您的同意来处理您的个人数据。如果我们依赖您的同意，我们会在当时明确告知您。</p></div>",
+
+        "<div><strong>查看和更正数据</strong><p>您有权更正不准确的个人数据，或在不完整时进行补充。为此，每位用户可以在个人资料部分查看、管理和/或更新其个人数据。</p><p>如果我们将您的个人数据分享给他人，我们会在可能的情况下通知他们任何已进行的更正。如有要求，并且在可能且合法的情况下，我们还会通知您我们与谁共享了您的个人数据，以便您在需要时可以直接联系他们。</p></div>",
+
+        "<div><strong>删除数据</strong><p>您有权拒绝使用我们的服务，并在特定情况下要求我们删除或移除您的个人数据。如果我们将您的数据分享给他人，我们会在可能的情况下通知他们这些更改。如有要求，并且在可能且合法的情况下，我们还会通知您我们与谁共享了您的个人数据，以便您在需要时可以直接联系他们。</p><p>更多详情请参阅“用户账户删除”部分。</p></div>",
+
+        "<div><strong>数据可携性</strong><p>您有权从我们这里获取您的个人数据，这些数据是您同意提供给我们的，或因我们与您的合同需要而提供给我们的。我们将以结构化、通用且机器可读取的格式向您提供您的个人数据。您可以在其他地方再次使用这些数据，如果您愿意的话。</p></div>",
+
+        "<div><strong>向数据保护机构投诉</strong><p>如果您对我们的隐私做法有疑虑，包括我们如何处理或持有您的个人数据，您可以向任何有权受理此类问题的欧盟成员国数据保护机构举报（您可以在此处找到欧盟数据保护机构的联系信息），或向英国数据保护事务的监管机构——信息专员办公室（ICO）投诉。如果您希望行使上述任何权利，请联系我们。请注意，我们可能需要向您索取更多信息以核实您的身份，然后才能回应您的请求。</p></div>",
+
+        "<div><strong>国际数据传输</strong><p>通过服务收集的信息将存储在位于美国、欧盟和其他地区的服务器上，并提供给我们的服务供应商和关联企业，用于上述目的。这是为了让您能够浏览和使用我们的服务所必需的，您向我们提交个人数据即表示您同意将您的信息转移、存储和处理于您居住国以外的国家。数据可能会传输给支持我们业务运营的服务供应商和关联公司（如上所述）。</p><p>请注意，相关国家可能不会提供与您所在国家相同的个人数据保护法律标准。如果我们将您的个人数据传输到您所在国家以外，我们将采取必要措施，确保您的信息在处理地点获得足够水平的安全保护，并继续保障您的权利。</p><p>如果您想获取我们所实施的保护措施的更多信息，请联系我们。</p></div>",
+
+        "<div><strong>行使数据主体权利</strong><p><u>如果您居住在允许您根据适用法律行使某些权利的司法辖区</u>，您可以按照下方“联系信息”部分所述与我们联系，以行使上述权利。如果您不同意我们拒绝您的请求，您可以在联系时将主题标注为“申诉”以对我们的决定提出异议。</p><p>请注意，根据法律要求，我们将要求您证明您的身份。我们可能通过电话或电子邮件验证您的身份。根据您的请求，我们会要求您提供例如您的姓名、您最后一次向我们购买的商品或您最后一次购买的日期等信息。我们还可能要求您提供一份签署的声明以确认您的身份。在收到请求后，我们将尽合理努力提供、更正或删除我们档案中有关您的个人信息。</p><p>在某些情况下，您可以指定授权代理人代表您提交行使特定隐私权的请求。如果您是代表他人提交请求的授权代理人，您必须附上一份填写完整的授权代理人指定表的副本，以表明您有权代表他人行事。</p></div>",
+
+        "<div><strong>联系信息</strong><p>如果您对个人数据处理有任何问题或建议，请通过此处（链接）的联系表单、电子邮件（<u>support@propaccount.com</u>）或以下地址联系我们：</p><strong>致 Forest Park FX LTD：</strong><p>Forest Park FX LTD</p><p>41 South Street</p><p>Oakham, England, LE15 6BG</p></div>",
+
+        "<div><strong>致 Prop Account LC：</strong><strong>Prop Account LC</strong><p>Suite 2206 Cassia Court</p><p>72 Market Street</p><p>Camana Bay, P.O. Box 32302</p><p>大开曼 KY1-1209，开曼群岛</p></div>",
+
+        "<div><strong>致 Prop Account LLC</strong><p>Prop Account LLC</p><p>6800 Broken Sound Parkway, Suite 150</p><p>Boca Raton, FL 33487</p><p>生效日期：2024年4月23日</p><p>最后更新：2024年4月23日</p></div>",
+
+        "<div><strong>致 CRM Solutions：</strong><p>CRM Solutions</p><p>Suite 2206 Cassia Court</p><p>72 Market Street</p><p>Camana Bay, P.O. Box 32302</p><p>开曼群岛 大开曼 KY1-1209</p><p><u>support@propaccount.com</u></p></div>"
+    ],
+
+    "cookie.policy.title": "Cookie 政策",
+    "cookie.policy.content": [
+        "<p>Prop Account集团（“Prop Account，d/b/a Dashboard Analytix，Forest Park FX LTD，Prop Account LLC，Prop Account Cayman, LLC”，“我们”或“我方”）在您（“您”或“交易员”）访问我们的平台以使用我们提供的服务（“服务”）时会使用Cookies。</p><p>浏览器Cookie是一小段存储在您设备上的数据，用于帮助网站和移动应用记住有关您的信息。其他技术，包括网络信标、网页存储以及与您的设备相关的标识符，也可能用于类似目的。在本政策中，我们将这些技术统称为“cookies”。</p><p>我们的隐私政策解释了在您使用我们的服务时，我们如何收集和使用您的信息。本政策将进一步说明我们如何使用cookies以及您相关的选择。</p>",
+
+        "<strong>我们如何使用Cookies</strong><p>与大多数在线服务提供商一样，我们使用Cookies（包括第三方Cookies）有多种原因，例如保护您的账户和数据、帮助我们了解哪些功能最受欢迎、统计页面访问者数量、了解您如何与我们发送的网页内容和电子邮件互动、改善用户体验、保障服务安全、提供相关广告，以及总体上为您提供更好、更直观、更令人满意的体验。我们使用的Cookies通常属于以下类别之一。</p>",
+
+        "<div className='overflow-scroll'><table className='w-full'><thead><tr className='border bg-[#118C8A]'><td className='p-3 border-r'>Cookie类别</td><td className='p-3'>我们使用这些Cookie的原因</td></tr></thead><tbody><tr className='border'><td className='p-3 border-r'>必要</td><td className='p-3'><p>也称为“必需”Cookie。我们使用这些Cookie来运行我们的网站，以及识别和防止安全风险。</p><p>例如，我们可能会使用这些Cookie来存储您的会话信息，以防止他人在没有您的用户名和密码的情况下更改您的密码，或记住您的Cookie偏好设置。</p><p>在我们的一些网站和特定司法辖区，我们还可能使用某些会话Cookie来了解您在单次浏览会话中如何使用我们的网站。这些特定的会话Cookie会很快过期——最长不超过24小时——与它们相关的任何数据届时都会匿名化。由于它们是必要的，它们可能会在您访问网站的那一刻起就处于活动状态。不过，如果您愿意，您可以将其禁用——请参见下方的“您的选择”部分。</p></td></tr><tr className='border'><td className='p-3 border-r'>偏好</td><td className='p-3'><p>我们使用这些Cookie来记住您的设置和偏好，并提升您在我们网站上的体验。</p></td></tr><tr className='border'><td className='p-3 border-r'>性能与分析</td><td className='p-3'><p>我们使用这些Cookie收集您如何使用我们网站的信息，监控网站性能，并提升我们的网站性能、服务及您的体验。</p><p>例如，我们可以利用这些Cookie了解哪些功能最受用户欢迎，哪些功能可能需要调整。</p></td></tr><tr className='border'><td className='p-3 border-r'>营销</td><td className='p-3'><p>我们使用这些Cookie来投放广告，使其对消费者更相关且有意义，并跟踪我们广告活动的效果，无论是在我们的服务上还是在其他网站或移动应用上。我们的第三方广告合作伙伴可能会使用这些Cookie来构建您的兴趣档案，并在其他网站上投放相关广告。</p></td></tr></tbody></table></div>",
+
+        "<p><strong className='text-3xl'>分析和广告服务</strong></p><strong>由其他方提供</strong><p>我们可能允许其他公司在我们的服务中使用Cookie。这些公司可能会收集您随时间使用我们服务的信息，并将其与其他服务和公司的类似信息结合起来。此信息可能被用于分析和跟踪数据、确定某些内容的受欢迎程度以及更好地了解您的在线活动等。</p><p>此外，包括我们的关联公司在内的一些公司可能会使用在我们的服务上收集的信息来防止欺诈或其他未经授权或非法的活动，并衡量和优化广告的效果，代表我们或其他公司在第三方网站和应用上投放更相关的广告。</p>",
+
+        "<strong>由我们提供</strong> <p>我们可能会收集您在使用我们提供的 Cookie 的第三方服务上的活动信息。我们使用这些信息来改进我们的广告服务，包括衡量广告表现并向您展示更相关的广告。</p>",
+
+        "<strong>您的选择</strong> <p>除了我们在网站上提供的设置外，您还可以在浏览器或设备上调整您的 Cookie 设置。有关每个可能选项的更多信息，请参阅下文。</p>",
+
+        "<strong>浏览器设置</strong> <p>您的浏览器可能提供拒绝部分或全部非必要浏览器 Cookie 的选项。您也可能能够从浏览器中删除 Cookie。有关如何管理浏览器 Cookie 的更多信息，请遵循浏览器提供的说明。</p>",
+
+        "<strong>设备标识符设置</strong> <p>您的设备操作系统可能允许您选择退出使用某些设备标识符进行基于兴趣的广告。您应参考您的移动设备制造商提供的说明；此信息通常可在设备的“设置”功能中找到。</p>",
+
+        "<strong>网站设置</strong> <p>您也可以通过调整我们网站上的设置来自定义可设置的Cookie。</p>"
     ]
 }

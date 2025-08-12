@@ -6,7 +6,6 @@ import parse from 'html-react-parser';
 
 const Index = () => {
     const { translation } = useTranslation();
-    
 
     return (
         <div className='text-white'>
