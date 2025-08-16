@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /_next/
+Allow: /_next/static/
+Allow: /_next/image/
+Allow: /public/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.ico$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /internal/
+Disallow: /drafts/
+
+User-agent: AdsBot-Google
+Allow: /
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+Sitemap: https://a-trader.com/sitemap.xml
