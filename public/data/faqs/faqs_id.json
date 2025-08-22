@@ -34,7 +34,7 @@
             "category": 1,
             "title": "Apakah saya harus menggunakan salah satu akun Anda untuk Assessment, atau boleh menggunakan akun saya sendiri?",
             "description": [
-                "<p>Kami memiliki perangkat lunak manajemen risiko yang tersinkronisasi dengan akun yang kami buat. Hal ini memungkinkan kami untuk menganalisis performa Anda secara real-time, baik untuk pencapaian maupun pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan.</p>"
+                "<p>Kami memiliki perangkat lunak manajemen risiko yang tersinkronisasi dengan akun yang kami buat. Hal ini memungkinkan kami untuk menganalisis performa Anda secara realtime, baik untuk pencapaian maupun pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan.</p>"
             ]
         },
         {
@@ -45,7 +45,7 @@
             "category": 1,
             "title": "Negara mana saja yang diterima?",
             "description": [
-                "<p>Dengan tunduk pada kepatuhan terhadap hukum dan peraturan yang berlaku, trader dari semua negara — kecuali negara-negara yang terdaftar dalam daftar OFAC — dapat berpartisipasi dalam program kami, kecuali dibatasi oleh kebijakan Perusahaan.</p>"
+                "<p>Dengan tunduk pada kepatuhan terhadap hukum dan peraturan yang berlaku, trader dari semua negara kecuali negara-negara yang terdaftar dalam daftar OFAC dapat berpartisipasi dalam program kami, kecuali dibatasi oleh kebijakan Perusahaan.</p>"
             ]
         },
         {
@@ -98,7 +98,7 @@
             "product_type": "1-step",
             "product_type_id": 1,
             "category": 1,
-            "title": "Berapa besar leverage-nya?",
+            "title": "Berapa besar leverage nya?",
             "description": [
                 "<p>Kami menawarkan leverage hingga 50:1 untuk Forex dan Logam, hingga 10:1 untuk Indeks, hingga 5:1 untuk Minyak, dan hingga 2:1 untuk Kripto.</p>"
             ]
@@ -393,7 +393,7 @@
             "category": 1,
             "title": "Apakah saya harus menggunakan salah satu akun Anda untuk Penilaian atau bisa menggunakan akun saya sendiri?",
   "description": [
-    "Kami memiliki perangkat lunak manajemen risiko yang terhubung dengan akun yang kami buat. Ini memungkinkan kami menganalisis kinerja Anda secara real-time untuk pencapaian atau pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan."
+    "Kami memiliki perangkat lunak manajemen risiko yang terhubung dengan akun yang kami buat. Ini memungkinkan kami menganalisis kinerja Anda secara realtime untuk pencapaian atau pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan."
   ]
         },
         {
@@ -587,7 +587,7 @@
             "category": 2,
             "title": "Bagaimana cara menghitung Batas Kerugian Harian?",
   "description": [
-    "<p class='mb-2'>Batas Kerugian Harian adalah jumlah maksimum yang dapat hilang dari akun Anda dalam satu hari. Batas Kerugian Harian dihitung berdasarkan saldo hari sebelumnya yang di-reset pada pukul 5 sore EST. Daily Stop akan bertambah seiring dengan peningkatan saldo akun Anda.</p>",
+    "<p class='mb-2'>Batas Kerugian Harian adalah jumlah maksimum yang dapat hilang dari akun Anda dalam satu hari. Batas Kerugian Harian dihitung berdasarkan saldo hari sebelumnya yang direset pada pukul 5 sore EST. Daily Stop akan bertambah seiring dengan peningkatan saldo akun Anda.</p>",
     "<p>Contoh: jika saldo akhir hari Anda sebelumnya (pukul 5 sore EST) adalah $100.000, maka akun Anda akan melanggar batas kerugian harian jika ekuitas Anda turun menjadi $95.000 pada hari tersebut. Jika ekuitas mengambang Anda adalah +$6.000 pada akun $100.000, maka batas kerugian maksimum Anda untuk hari berikutnya (pukul 5 sore EST) masih akan didasarkan pada saldo hari sebelumnya ($100.000). Jadi, batas kerugian harian Anda tetap $95.000.</p>"
   ]
         },
@@ -652,7 +652,7 @@
             "category": 3,
             "title": "Berapa lama waktu yang dibutuhkan untuk menerima akun yang didanai saya?",
   "description": [
-    "Setelah Anda lulus Assessment, Anda akan menerima email dengan instruksi tentang cara mengakses dan menyelesaikan verifikasi “Kenali Pelanggan Anda” dan “Perjanjian Trader”. Setelah keduanya selesai dan dokumen pendukung diserahkan, akun yang didanai Anda akan dibuat, didanai, dan biasanya diberikan kepada Anda dalam waktu 24–48 jam kerja. Anda akan menerima email konfirmasi setelah akun ini diaktifkan."
+    "Setelah Anda lulus Assessment, Anda akan menerima email dengan instruksi tentang cara mengakses dan menyelesaikan verifikasi “Kenali Pelanggan Anda” dan “Perjanjian Trader”. Setelah keduanya selesai dan dokumen pendukung diserahkan, akun yang didanai Anda akan dibuat, didanai, dan biasanya diberikan kepada Anda dalam waktu 24-48 jam kerja. Anda akan menerima email konfirmasi setelah akun ini diaktifkan."
   ]
         },
         {
@@ -755,7 +755,7 @@
             "category": 1,
             "title": "Apakah saya harus menggunakan salah satu akun Anda untuk Penilaian atau bisa menggunakan akun saya sendiri?",
   "description": [
-    "<p>Kami memiliki perangkat lunak manajemen risiko yang disinkronkan dengan akun yang kami buat. Ini memungkinkan kami untuk menganalisis kinerja Anda secara real-time untuk pencapaian atau pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan untuk Anda.</p>"
+    "<p>Kami memiliki perangkat lunak manajemen risiko yang disinkronkan dengan akun yang kami buat. Ini memungkinkan kami untuk menganalisis kinerja Anda secara realtime untuk pencapaian atau pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan untuk Anda.</p>"
   ]
         },
         {
@@ -1090,7 +1090,7 @@
             "category":1,
             "title": "Apakah saya harus menggunakan akun dari Anda untuk Assessment atau boleh menggunakan akun saya sendiri?",
             "description": [
-                    "<p>Kami memiliki perangkat lunak manajemen risiko yang disinkronkan dengan akun yang kami buat. Ini memungkinkan kami untuk menganalisis kinerja Anda secara real-time untuk pencapaian atau pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan untuk Anda.</p>"
+                    "<p>Kami memiliki perangkat lunak manajemen risiko yang disinkronkan dengan akun yang kami buat. Ini memungkinkan kami untuk menganalisis kinerja Anda secara realtime untuk pencapaian atau pelanggaran aturan. Oleh karena itu, Anda harus menggunakan akun yang kami sediakan untuk Anda.</p>"
             ]
         },
         {
@@ -1414,7 +1414,7 @@
             "category":3,
             "title": "Kapan saya bisa menarik keuntungan di akun pendanaan saya dan bagaimana hal itu memengaruhi Batas Penarikan Maksimum (Maximum Drawdown)?",
             "description": [
-                "<p>Penarikan pertama Anda dapat diminta kapan saja, sesuai dengan pembagian keuntungan yang tercantum dalam Perjanjian Trader. Setelah itu, Anda dapat meminta penarikan keuntungan dari akun Anda setiap 30 hari. Ketika penarikan disetujui, kami juga akan menarik bagian keuntungan kami. Drawdown maksimum tidak akan di-reset saat Anda meminta penarikan. Contoh: Anda membawa akun dari $100.000 menjadi $120.000. Kemudian Anda meminta penarikan sebesar $16.000 dengan pembagian keuntungan 90/10. Dalam skenario ini, Anda akan menerima $14.400 dan kami akan mempertahankan $1.600. Ini juga akan menurunkan saldo akun menjadi $104.000, dan Drawdown Maksimum Anda akan tetap di $94.000. Jadi, Anda akan memiliki batas kerugian maksimum sebesar $10.000 sebelum melanggar aturan Drawdown Maksimum. Jika Anda menarik seluruh keuntungan dari Akun Dana Anda, Drawdown Maksimum akan tetap di $94.000.</p>"
+                "<p>Penarikan pertama Anda dapat diminta kapan saja, sesuai dengan pembagian keuntungan yang tercantum dalam Perjanjian Trader. Setelah itu, Anda dapat meminta penarikan keuntungan dari akun Anda setiap 30 hari. Ketika penarikan disetujui, kami juga akan menarik bagian keuntungan kami. Drawdown maksimum tidak akan direset saat Anda meminta penarikan. Contoh: Anda membawa akun dari $100.000 menjadi $120.000. Kemudian Anda meminta penarikan sebesar $16.000 dengan pembagian keuntungan 90/10. Dalam skenario ini, Anda akan menerima $14.400 dan kami akan mempertahankan $1.600. Ini juga akan menurunkan saldo akun menjadi $104.000, dan Drawdown Maksimum Anda akan tetap di $94.000. Jadi, Anda akan memiliki batas kerugian maksimum sebesar $10.000 sebelum melanggar aturan Drawdown Maksimum. Jika Anda menarik seluruh keuntungan dari Akun Dana Anda, Drawdown Maksimum akan tetap di $94.000.</p>"
             ]
         },
         {

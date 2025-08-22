@@ -17,42 +17,42 @@
             ],
             "benefits": [
                 {
-                    "name": "Target Keuntungan",
-                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "10%",
                         "-",
-                        "Akun Dana Tidak Memiliki Batasan"
+                        "Funded Account has no limit"
                     ]
                 },
                 {
-                    "name": "Batas Kerugian Harian",
-                    "info": ["<p class='mb-5'>Kerugian Harian Maksimum adalah jumlah yang boleh Anda rugikan setiap hari.</p><p class='mb-5'>Untuk tujuan aturan ini, nilai yang lebih tinggi antara ekuitas dan saldo akan digunakan. Aturan ini ditetapkan sebagai persentase dari ekuitas atau saldo awal setiap hari. Aturan ini menyatakan bahwa ekuitas harian, yang merupakan hasil dari jumlah floating PnL (Profit dan Loss) saat ini ditambah semua posisi yang telah ditutup pada hari itu, tidak boleh mencapai Batas Kerugian Harian Maksimum.</p><p>Contoh:</p><p>Anda memiliki akun master. Pada awal hari ke-5, saldo akun Anda adalah $105.000 dan ekuitas Anda adalah $107.000. Batas Kerugian Harian adalah 5% dari ekuitas awal untuk contoh ini, yang berarti bahwa ekuitas Anda pada hari ke-5 tidak boleh turun di bawah: Kerugian Harian Maksimum = $107.000 ekuitas awal * 5% Batas Kerugian Harian = $5.350 Batas Kerugian Harian. $107.000 ekuitas awal pada hari ke-5 - $5.350 Batas Kerugian Harian = $101.650 Jika ekuitas Anda turun di bawah $101.650 pada waktu tertentu di hari ke-5, akun Anda akan ditutup.</p>"],
+                    "name": "Daily Loss Limit",
+                    "info": ["<p class='mb-5'>The Maximum Daily Loss is the amount you are allowed to lose every day.</p> <p class='mb-5'>For the purpose of this rule, the higher value between equity and balance will be used. This rule is set as a % of the starting equity or balance of every day. The rule states that the equity of the day, which is the result of the currently floating PnL (Profit and Loss) in sum with all closed positions of that day must not hit the Maximum Daily Loss Limit.</p> <p>Example:</p> <p>You have a master account. At the start of day 5, your account balance is $105.000 and your equity is $107.000. The Daily Loss Limit is 5% from the starting equity for this example, this means that your equity on day 5 can't go lower than: Maximum Daily loss = $107.000 starting equity balance * 5% Daily Loss Limit = $5.350 Daily Loss Limit. $107.000 starting equity balance on day 5 - $5.350 Daily Loss Limit= $101.650 If your equity goes below $101.650 at any certain moment of time on day 5 your account will be closed.</p>"],
                     "data": [
                         "5%",
                         "5%",
-                        "Berbasis Ekuitas, Ekuitas berdasarkan saldo hari sebelumnya (Pelanggaran Berat)"
+                        "Equity-based, Equity base on prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "Penarikan Maksimum",
+                    "name": "Max Drawdown",
                     "data": [
                         "6%",
                         "6%",
-                        "Berbasis Ekuitas, Ekuitas berdasarkan saldo hari sebelumnya (Pelanggaran Berat)"
+                        "Equity-based, Equity base on prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "Periode Tidak Aktif",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30 Hari",
-                        "30 Hari",
-                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
                     "name": "Leverage",
-                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
                         "1:50",
                         "1:50",
@@ -60,11 +60,11 @@
                     ]
                 },
                 {
-                    "name": "Waktu Maksimal",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "-",
-                        "Tidak ada persyaratan Waktu Maksimal"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -90,46 +90,46 @@
             ],
             "benefits": [
                 {
-                    "name": "Target Keuntungan",
-                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "8%",
                         "5%",
                         "-",
-                        "Akun Dana Tidak Memiliki Batasan"
+                        "Funded Account has no profit limit"
                     ]
                 },
                 {
-                    "name": "Batas Kerugian Harian",
-                    "info": ["<p class='mb-5'>Kerugian Harian Maksimum adalah jumlah yang boleh Anda rugikan setiap hari.</p><p class='mb-5'>Untuk tujuan aturan ini, nilai yang lebih tinggi antara ekuitas dan saldo akan digunakan. Aturan ini ditetapkan sebagai persentase dari ekuitas atau saldo awal setiap hari. Aturan ini menyatakan bahwa ekuitas harian, yang merupakan hasil dari jumlah floating PnL (Profit dan Loss) saat ini ditambah semua posisi yang telah ditutup pada hari itu, tidak boleh mencapai Batas Kerugian Harian Maksimum.</p><p>Contoh:</p><p>Anda memiliki akun master. Pada awal hari ke-5, saldo akun Anda adalah $105.000 dan ekuitas Anda adalah $107.000. Batas Kerugian Harian adalah 5% dari ekuitas awal untuk contoh ini, yang berarti bahwa ekuitas Anda pada hari ke-5 tidak boleh turun di bawah: Kerugian Harian Maksimum = $107.000 ekuitas awal * 5% Batas Kerugian Harian = $5.350 Batas Kerugian Harian. $107.000 ekuitas awal pada hari ke-5 - $5.350 Batas Kerugian Harian = $101.650 Jika ekuitas Anda turun di bawah $101.650 pada waktu tertentu di hari ke-5, akun Anda akan ditutup.</p>"],
+                    "name": "Daily Loss Limit",
+                    "info": ["<p class='mb-5'>The Maximum Daily Loss is the amount you are allowed to lose every day.</p> <p class='mb-5'>For the purpose of this rule, the higher value between equity and balance will be used. This rule is set as a % of the starting equity or balance of every day. The rule states that the equity of the day, which is the result of the currently floating PnL (Profit and Loss) in sum with all closed positions of that day must not hit the Maximum Daily Loss Limit.</p> <p>Example:</p> <p>You have a master account. At the start of day 5, your account balance is $105.000 and your equity is $107.000. The Daily Loss Limit is 5% from the starting equity for this example, this means that your equity on day 5 can't go lower than: Maximum Daily loss = $107.000 starting equity balance * 5% Daily Loss Limit = $5.350 Daily Loss Limit. $107.000 starting equity balance on day 5 - $5.350 Daily Loss Limit= $101.650 If your equity goes below $101.650 at any certain moment of time on day 5 your account will be closed.</p>"],
                     "data": [
                         "5%",
                         "5%",
                         "5%",
-                        "Berbasis Ekuitas, Ekuitas berdasarkan saldo hari sebelumnya (Pelanggaran Berat)"
+                        "Equity-based, Equity base on prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "Penarikan Maksimum",
+                    "name": "Max Drawdown",
                     "data": [
                         "8%",
                         "8%",
                         "8%",
-                        "Berdasarkan ekuitas, tidak mengikuti pergerakan (Pelanggaran Berat)"
+                        "Equity-based, does not trial (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "Periode Tidak Aktif",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30 Hari",
-                        "30 Hari",
-                        "30 Hari",
-                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                        "30 Days",
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
                     "name": "Leverage",
-                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
                         "1:50",
                         "1:50",
@@ -138,12 +138,12 @@
                     ]
                 },
                 {
-                    "name": "Waktu Maksimal",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "-",
                         "-",
-                        "Tidak ada persyaratan Waktu Maksimal"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -165,49 +165,49 @@
             ],
             "benefits": [
                 {
-                    "name": "Target Keuntungan",
-                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "9%",
                         "N/A",
-                        "Akun Dana Tidak Memiliki Batasan"
+                        "Funded Account has no limit"
                     ]
                 },
                 {
-                    "name": "Penarikan Maksimum",
+                    "name": "Max Drawdown",
                     "data": [
                         "6%",
                         "6%",
-                        "Berdasarkan ekuitas, tidak mengikuti pergerakan (Pelanggaran Berat)"
+                        "Equity-based, does not trail (Breach)"
                     ]
                 },
                 {
-                    "name": "Periode Tidak Aktif",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30 Hari",
-                        "30 Hari",
-                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
                     "name": "Leverage",
-                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
-                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
-                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
                         ""
                     ]
                 },
                 {
-                    "name": "Batas Harian Maksimum",
+                    "name": "Daily Cap Limit",
                     "data": [
                         "+/-3%",
                         "+/-3%",
-                        "Lihat di bawah untuk perhitungannya"
+                        "See below for calculation"
                     ]
                 },
                 {
-                    "name": "Persentase pembagian keuntungan",
+                    "name": "Profit Share Percentage",
                     "data": [
                         "N/A",
                         "90%",
@@ -215,11 +215,11 @@
                     ]
                 },
                 {
-                    "name": "Waktu Maksimal",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "-",
-                        "Tidak ada persyaratan Waktu Maksimal"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -245,54 +245,54 @@
             ],
             "benefits": [
                 {
-                    "name": "Target Keuntungan",
-                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "6%",
                         "9%",
                         "N/A",
-                        "Akun Dana Tidak Memiliki Batasan"
+                        "Funded Account has no limit"
                     ]
                 },
                 {
-                    "name": "Penarikan Maksimum",
+                    "name": "Max Drawdown",
                     "data": [
                         "9%",
                         "9%",
                         "9%",
-                        "Berdasarkan ekuitas, tidak mengikuti pergerakan (Pelanggaran Berat)"
+                        "Equity-based, does not trail (Breach)"
                     ]
                 },
                 {
-                    "name": "Periode Tidak Aktif",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30 Hari",
-                        "30 Hari",
-                        "30 Hari",
-                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                        "30 Days",
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
                     "name": "Leverage",
-                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
-                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
-                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
-                        "5:1 untuk BTC, ETH dan 2:1 untuk lainnya",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
                         ""
                     ]
                 },
                 {
-                    "name": "Batas Harian Maksimum",
+                    "name": "Daily Cap Limit",
                     "data": [
                         "+/-3%",
                         "+/-3%",
                         "+/-3%",
-                        "Lihat di bawah untuk perhitungannya"
+                        "See below for calculation"
                     ]
                 },
                 {
-                    "name": "Persentase pembagian keuntungan",
+                    "name": "Profit Share Percentage",
                     "data": [
                         "N/A",
                         "N/A",
@@ -301,12 +301,12 @@
                     ]
                 },
                 {
-                    "name": "Waktu Maksimal",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "",
                         "-",
-                        "Tidak ada persyaratan Waktu Maksimal"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -324,62 +324,62 @@
             ],
             "benefits": [
                 {
-                    "name": "Target Keuntungan",
-                    "info": ["<p>Untuk membuktikan kemampuan trading Anda, Anda harus mencapai target keuntungan setelah menutup semua posisi tanpa melanggar aturan trading apa pun dalam periode trading yang telah ditentukan.</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "N/A",
-                        "Akun Dana Instan tidak memiliki batas keuntungan"
+                        "Instant Funded Account has no profit limit"
                     ]
                 },
                 {
-                    "name": "Batas Kerugian Harian",
+                    "name": "Daily Loss Limit",
                     "data": [
                         "5%",
-                        "Berbasis ekuitas, batas ditentukan oleh saldo hari sebelumnya (Pelanggaran Berat)"
+                        "Equity-based, limit set by prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "Penarikan Maksimum",
+                    "name": "Max Drawdown",
                     "data": [
                         "8%",
-                        "Berdasarkan ekuitas, saldo tertinggi akun perdagangan akan dikunci pada saldo awal akun (Pelanggaran Berat), akun akan dikunci pada saldo awal saat pembayaran."
+                        "Equity-based, trading account balance high water mark, locks in at starting account balance (Hard Breach), Account locks at starting balance at payout."
                     ]
                 },
                 {
                     "name": "Leverage",
-                    "info": ["Perdagangkan dengan leverage hingga 1:50 dengan RAW Spreads. Leverage yang berbeda diterapkan untuk jenis instrumen keuangan yang berbeda. FX 1:50, Indeks 1:20, Logam 1:30, Energi 1:10 & Kripto 1:2."],
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
                         "1:50",
                         ""
                     ]
                 },
                 {
-                    "name": "Periode Tidak Aktif",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30 Hari",
-                        "Harus melakukan perdagangan (Pelanggaran Berat)"
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 
                 {
-                    "name": "Kosongkan posisi untuk akhir pekan",
+                    "name": "Flat for Weekend",
                     "data": [
-                        "Ya",
-                        "Semua posisi akan ditutup pada hari Jumat pukul 15:45 kecuali jika add-on Penahanan Akhir Pekan dibeli."
+                        "Yes",
+                        "All positions close on friday 3:45pm unless Weekend Hold and-on purchased"
                     ]
                 },
                 {
-                    "name": "Waktu Maksimal",
+                    "name": "Max Time",
                     "data": [
                         "-",
-                        "Tidak ada persyaratan Waktu Maksimal"
+                        "No Max Time requirements"
                     ]
                 },
                 {
-                    "name": "Pembagian Keuntungan",
+                    "name": "Profit Split",
                     "data": [
                         "80%",
-                        "Dapat ditingkatkan hingga 90% dengan pembelian add-on"
+                        "Can increase to 90% with purchase of add-on"
                     ]
                 }
             ]

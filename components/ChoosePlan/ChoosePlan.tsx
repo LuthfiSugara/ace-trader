@@ -237,7 +237,7 @@ const ChoosePlan = () => {
                                             {type.name}
                                         </Button>
                                     )
-                                })};
+                                })}
                             </div>
                         </div>
                     }

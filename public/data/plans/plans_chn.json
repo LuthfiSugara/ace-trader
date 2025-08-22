@@ -8,51 +8,51 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "评估1"
+                    "name": "Assessment 1"
                 },
                 {
                     "id": 3,
-                    "name": " 已出资"
+                    "name": "Funded"
                 }
             ],
             "benefits": [
                 {
-                    "name": "盈利目标",
-                    "info": ["<p>为了证明你的交易技能，你必须在规定的交易周期内，在不违反任何交易规则的前提下，关闭所有持仓并达到盈利目标。</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "10%",
                         "-",
-                        "实盘账户没有限制"
+                        "Funded Account has no limit"
                     ]
                 },
                 {
                     "name": "Daily Loss Limit",
-                    "info": ["<p class='mb-5'>每日最大亏损是您每天允许亏损的金额。</p><p class='mb-5'>根据此规则，将使用余额和净值之间的较高值。该规则设定为每日起始净值或余额的一定百分比。规则规定，当天的净值（即当前浮动盈亏加上当天所有已平仓头寸之和）不得触及每日最大亏损限额。</p><p>示例：</p><p>您有一个主账户。在第5天开始时，账户余额为$105,000，净值为$107,000。每日最大亏损限额为起始净值的5%。这意味着在第5天，您的净值不能低于：每日最大亏损 = $107,00(起始净值)× 5% = $5,350 每日最大亏损限额。$107,000 - $5,350 = $101,650 如果第5天您的净值在任意时刻低于$101,650，您的账户将被关闭。</p>"],
+                    "info": ["<p class='mb-5'>The Maximum Daily Loss is the amount you are allowed to lose every day.</p> <p class='mb-5'>For the purpose of this rule, the higher value between equity and balance will be used. This rule is set as a % of the starting equity or balance of every day. The rule states that the equity of the day, which is the result of the currently floating PnL (Profit and Loss) in sum with all closed positions of that day must not hit the Maximum Daily Loss Limit.</p> <p>Example:</p> <p>You have a master account. At the start of day 5, your account balance is $105.000 and your equity is $107.000. The Daily Loss Limit is 5% from the starting equity for this example, this means that your equity on day 5 can't go lower than: Maximum Daily loss = $107.000 starting equity balance * 5% Daily Loss Limit = $5.350 Daily Loss Limit. $107.000 starting equity balance on day 5 - $5.350 Daily Loss Limit= $101.650 If your equity goes below $101.650 at any certain moment of time on day 5 your account will be closed.</p>"],
                     "data": [
                         "5%",
                         "5%",
-                        "基于净值，净值以前一日余额为基础（严重违规）"
+                        "Equity-based, Equity base on prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "最大回撤",
+                    "name": "Max Drawdown",
                     "data": [
                         "6%",
                         "6%",
-                        "基于净值，净值以前一日余额为基础（严重违规）"
+                        "Equity-based, Equity base on prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "非活跃期",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30天",
-                        "30天",
-                        "必须进行交易（严重违规）"
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "杠杆",
-                    "info": ["使用RAW点差进行交易，杠杆最高可达1:50。不同类型的金融工具适用不同的杠杆比例。外汇 1:50，指数 1:20，金属 1:30，能源 1:10，加密货币 1:2。"],
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
                         "1:50",
                         "1:50",
@@ -60,11 +60,11 @@
                     ]
                 },
                 {
-                    "name": "最长时间",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "-",
-                        "无最长时间要求"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -77,59 +77,59 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "评估1"
+                    "name": "Assessment 1"
                 }, 
                 {
                     "id": 2,
-                    "name": "评估2"
+                    "name": "Assessment 2"
                 },
                 {
                     "id": 3,
-                    "name": " 已出资"
+                    "name": "Funded"
                 }
             ],
             "benefits": [
                 {
-                    "name": "盈利目标",
-                    "info": ["<p>为了证明你的交易技能，你必须在规定的交易周期内，在不违反任何交易规则的前提下，关闭所有持仓并达到盈利目标。</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "8%",
                         "5%",
                         "-",
-                        "实盘账户没有限制"
+                        "Funded Account has no profit limit"
                     ]
                 },
                 {
                     "name": "Daily Loss Limit",
-                    "info": ["<p class='mb-5'>每日最大亏损是您每天允许亏损的金额。</p><p class='mb-5'>根据此规则，将使用余额和净值之间的较高值。该规则设定为每日起始净值或余额的一定百分比。规则规定，当天的净值（即当前浮动盈亏加上当天所有已平仓头寸之和）不得触及每日最大亏损限额。</p><p>示例：</p><p>您有一个主账户。在第5天开始时，账户余额为$105,000，净值为$107,000。每日最大亏损限额为起始净值的5%。这意味着在第5天，您的净值不能低于：每日最大亏损 = $107,000（起始净值） × 5% = $5,350 每日最大亏损限额。$107,000 - $5,350 = $101,650 如果第5天您的净值在任意时刻低于$101,650，您的账户将被关闭。</p>"],
+                    "info": ["<p class='mb-5'>The Maximum Daily Loss is the amount you are allowed to lose every day.</p> <p class='mb-5'>For the purpose of this rule, the higher value between equity and balance will be used. This rule is set as a % of the starting equity or balance of every day. The rule states that the equity of the day, which is the result of the currently floating PnL (Profit and Loss) in sum with all closed positions of that day must not hit the Maximum Daily Loss Limit.</p> <p>Example:</p> <p>You have a master account. At the start of day 5, your account balance is $105.000 and your equity is $107.000. The Daily Loss Limit is 5% from the starting equity for this example, this means that your equity on day 5 can't go lower than: Maximum Daily loss = $107.000 starting equity balance * 5% Daily Loss Limit = $5.350 Daily Loss Limit. $107.000 starting equity balance on day 5 - $5.350 Daily Loss Limit= $101.650 If your equity goes below $101.650 at any certain moment of time on day 5 your account will be closed.</p>"],
                     "data": [
                         "5%",
                         "5%",
                         "5%",
-                        "基于净值，净值以前一日余额为基础（严重违规）"
+                        "Equity-based, Equity base on prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "最大回撤",
+                    "name": "Max Drawdown",
                     "data": [
                         "8%",
                         "8%",
                         "8%",
-                        "基于权益，不追踪浮动（重大违规）"
+                        "Equity-based, does not trial (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "非活跃期",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30天",
-                        "30天",
-                        "30天",
-                        "必须进行交易（严重违规）"
+                        "30 Days",
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "杠杆",
-                    "info": ["使用RAW点差进行交易，杠杆最高可达1:50。不同类型的金融工具适用不同的杠杆比例。外汇 1:50，指数 1:20，金属 1:30，能源 1:10，加密货币 1:2。"],
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
                         "1:50",
                         "1:50",
@@ -138,12 +138,12 @@
                     ]
                 },
                 {
-                    "name": "最长时间",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "-",
                         "-",
-                        "无最长时间要求"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -156,70 +156,70 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "评估1"
+                    "name": "Assessment 1"
                 },
                 {
                     "id": 3,
-                    "name": " 已出资"
+                    "name": "Funded"
                 }
             ],
             "benefits": [
                 {
-                    "name": "盈利目标",
-                    "info": ["<p>为了证明你的交易技能，你必须在规定的交易周期内，在不违反任何交易规则的前提下，关闭所有持仓并达到盈利目标。</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "9%",
-                        "不适用",
-                        "实盘账户没有限制"
+                        "N/A",
+                        "Funded Account has no limit"
                     ]
                 },
                 {
-                    "name": "最大回撤",
+                    "name": "Max Drawdown",
                     "data": [
                         "6%",
                         "6%",
-                        "基于权益，不追踪浮动（重大违规）"
+                        "Equity-based, does not trail (Breach)"
                     ]
                 },
                 {
-                    "name": "非活跃期",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30天",
-                        "30天",
-                        "必须进行交易（严重违规）"
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "杠杆",
-                    "info": ["使用RAW点差进行交易，杠杆最高可达1:50。不同类型的金融工具适用不同的杠杆比例。外汇 1:50，指数 1:20，金属 1:30，能源 1:10，加密货币 1:2。"],
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
-                        "BTC 杠杆为 5:1，ETH 为 2:1，其它为 2:1",
-                        "BTC 杠杆为 5:1，ETH 为 2:1，其它为 2:1",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
                         ""
                     ]
                 },
                 {
-                    "name": "每日上限限制",
+                    "name": "Daily Cap Limit",
                     "data": [
                         "+/-3%",
                         "+/-3%",
-                        "请参见下方计算方式"
+                        "See below for calculation"
                     ]
                 },
                 {
-                    "name": "利润分成比例",
+                    "name": "Profit Share Percentage",
                     "data": [
-                        "不适用",
+                        "N/A",
                         "90%",
                         ""
                     ]
                 },
                 {
-                    "name": "最长时间",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "-",
-                        "无最长时间要求"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -232,81 +232,81 @@
             "rule_area": [
                 {
                     "id": 1,
-                    "name": "评估1"
+                    "name": "Assessment 1"
                 }, 
                 {
                     "id": 2,
-                    "name": "评估2"
+                    "name": "Assessment 2"
                 },
                 {
                     "id": 3,
-                    "name": " 已出资"
+                    "name": "Funded"
                 }
             ],
             "benefits": [
                 {
-                    "name": "盈利目标",
-                    "info": ["<p>为了证明你的交易技能，你必须在规定的交易周期内，在不违反任何交易规则的前提下，关闭所有持仓并达到盈利目标。</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
                         "6%",
                         "9%",
-                        "不适用",
-                        "实盘账户没有限制"
+                        "N/A",
+                        "Funded Account has no limit"
                     ]
                 },
                 {
-                    "name": "最大回撤",
+                    "name": "Max Drawdown",
                     "data": [
                         "9%",
                         "9%",
                         "9%",
-                        "基于权益，不追踪浮动（重大违规）"
+                        "Equity-based, does not trail (Breach)"
                     ]
                 },
                 {
-                    "name": "非活跃期",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30天",
-                        "30天",
-                        "30天",
-                        "必须进行交易（严重违规）"
+                        "30 Days",
+                        "30 Days",
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "杠杆",
-                    "info": ["使用RAW点差进行交易，杠杆最高可达1:50。不同类型的金融工具适用不同的杠杆比例。外汇 1:50，指数 1:20，金属 1:30，能源 1:10，加密货币 1:2。"],
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
-                        "BTC 杠杆为 5:1，ETH 为 2:1，其它为 2:1",
-                        "BTC 杠杆为 5:1，ETH 为 2:1，其它为 2:1",
-                        "BTC 杠杆为 5:1，ETH 为 2:1，其它为 2:1",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
+                        "5:1 for BTC, ETH 2:1 for others",
                         ""
                     ]
                 },
                 {
-                    "name": "每日上限限制",
+                    "name": "Daily Cap Limit",
                     "data": [
                         "+/-3%",
                         "+/-3%",
                         "+/-3%",
-                        "请参见下方计算方式"
+                        "See below for calculation"
                     ]
                 },
                 {
-                    "name": "利润分成比例",
+                    "name": "Profit Share Percentage",
                     "data": [
-                        "不适用",
-                        "不适用",
+                        "N/A",
+                        "N/A",
                         "90%",
                         ""
                     ]
                 },
                 {
-                    "name": "最长时间",
+                    "name": "Max Time",
                     "data": [
                         "-",
                         "",
                         "-",
-                        "无最长时间要求"
+                        "No Max Time requirements"
                     ]
                 }
             ]
@@ -319,67 +319,67 @@
             "rule_area": [
                 {
                     "id": 3,
-                    "name": "即时出资"
+                    "name": "Instant Funded"
                 }
             ],
             "benefits": [
                 {
-                    "name": "盈利目标",
-                    "info": ["<p>为了证明你的交易技能，你必须在规定的交易周期内，在不违反任何交易规则的前提下，关闭所有持仓并达到盈利目标。</p>"],
+                    "name": "Profit Target",
+                    "info": ["<p>To prove your trading skills, you have to reach the profit target after closing all your trades without violating any trading rules within the given trading period.</p>"],
                     "data": [
-                        "不适用",
-                        "即时实盘账户没有利润限制"
+                        "N/A",
+                        "Instant Funded Account has no profit limit"
                     ]
                 },
                 {
                     "name": "Daily Loss Limit",
                     "data": [
                         "5%",
-                        "以净值为基础，限制由前一日余额设定（严重违规）"
+                        "Equity-based, limit set by prior day balance (Hard Breach)"
                     ]
                 },
                 {
-                    "name": "最大回撤",
+                    "name": "Max Drawdown",
                     "data": [
                         "8%",
-                        "基于净值，交易账户的高水位余额将在起始账户余额锁定（严重违规），账户将在付款时锁定在起始余额。"
+                        "Equity-based, trading account balance high water mark, locks in at starting account balance (Hard Breach), Account locks at starting balance at payout."
                     ]
                 },
                 {
-                    "name": "杠杆",
-                    "info": ["使用RAW点差进行交易，杠杆最高可达1:50。不同类型的金融工具适用不同的杠杆比例。外汇 1:50，指数 1:20，金属 1:30，能源 1:10，加密货币 1:2。"],
+                    "name": "Leverage",
+                    "info": ["Trade with up to 1:50 leverage with RAW Spreads. There is a different leverage applied for different types of financial instruments.FX 1:50, Indices 1:20, Metals 1:30, Energies 1:10 & Crypto 1:2."],
                     "data": [
                         "1:50",
                         ""
                     ]
                 },
                 {
-                    "name": "非活跃期",
+                    "name": "Inactivity Period",
                     "data": [
-                        "30天",
-                        "必须进行交易（严重违规）"
+                        "30 Days",
+                        "Must place trade (Hard Breach)"
                     ]
                 },
                 
                 {
-                    "name": "周末清仓",
+                    "name": "Flat for Weekend",
                     "data": [
-                        "是的",
-                        "除非购买了周末持仓附加功能，否则所有持仓将在星期五下午3:45关闭。"
+                        "Yes",
+                        "All positions close on friday 3:45pm unless Weekend Hold and-on purchased"
                     ]
                 },
                 {
-                    "name": "最长时间",
+                    "name": "Max Time",
                     "data": [
                         "-",
-                        "无最长时间要求"
+                        "No Max Time requirements"
                     ]
                 },
                 {
-                    "name": "利润分成",
+                    "name": "Profit Split",
                     "data": [
                         "80%",
-                        "通过购买附加组件可提高至90%"
+                        "Can increase to 90% with purchase of add-on"
                     ]
                 }
             ]

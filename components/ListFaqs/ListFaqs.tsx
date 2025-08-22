@@ -132,7 +132,7 @@ const ListFaqs = () => {
                                             {type.name}
                                         </Button>
                                     )
-                                })};
+                                })}
                             </div>
                         </div>
 
